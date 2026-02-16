@@ -2,257 +2,278 @@
   {
     "code": "af",
     "country": "Afghanistan",
-    "intro": "This page outlines the entry requirements for students who normally live in Afghanistan and wish to study at the University of St Andrews.",
-    "process_details": {
-      "medicine_note": "Applicants to Medicine should refer directly to the medicine course pages.",
-      "general_note": "Undergraduate and postgraduate academic requirements are for general guidance."
-    },
+    "intro": "Entry requirements for students from Afghanistan.",
     "undergraduate": {
       "qualifications": [
-        {
-          "name": "Foundation Programme",
-          "detail": "Required if you hold a national High School leaving certificate."
-        },
-        {
-          "name": "International Baccalaureate (IB)",
-          "detail": "36 (HL 6,6,5) to 38 (HL 6,6,6 plus SL 6,6,6)."
-        },
-        {
-          "name": "A-levels",
-          "detail": "AAB to A*A*A"
-        }
+        { "name": "Foundation Programme", "detail": "Required alongside national school leaving certificate." },
+        { "name": "IB Diploma", "detail": "36 (HL 6,6,5) to 38 (HL 6,6,6)." },
+        { "name": "A-Levels", "detail": "AAB to A*A*A" }
       ]
     },
-    "postgraduate": {
+    "postgraduate": { "qualifications": [{ "name": "Master's Degree", "detail": "Minimum grade of 85% or GPA 3.5/4.0." }] },
+    "english_language": "Evidence of English proficiency is required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
+  },
+  {
+    "code": "au-act",
+    "country": "Australia (ACT)",
+    "intro": "Entry requirements for Australian Capital Territory.",
+    "undergraduate": {
       "qualifications": [
-        {
-          "name": "Master's degree",
-          "detail": "Must be from an accredited institution with a minimum grade of 85%, or a GPA of 3.5/4.0."
-        }
+        { "name": "ACT SSC", "detail": "ATAR score of 94.3 (for AAB equiv) or 96 (for AAAA equiv)." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
       ]
     },
-    "english_language": "You must provide evidence of English proficiency. Pre-sessional courses (10-week or 4-week) are available.",
-    "visa_info": "Overseas students typically need a visa. You must pass a SELT (Secure English Language Test) approved by UKVI.",
-    "fees": {
-      "status": "Overseas",
-      "info": "Tuition fees are set at the Overseas rate. Financial assistance information is available on the scholarships page."
-    }
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "3-year degree with Distinction or Honours H2A." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
+  },
+  {
+    "code": "au-nsw",
+    "country": "Australia (NSW)",
+    "intro": "Entry requirements for New South Wales.",
+    "undergraduate": {
+      "qualifications": [
+        { "name": "HSC", "detail": "ATAR score of 94.3 (for AAB equiv) or 96 (for AAAA equiv)." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
+      ]
+    },
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "3-year degree with Distinction or Honours H2A." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
+  },
+  {
+    "code": "br",
+    "country": "Brazil",
+    "intro": "Entry requirements for students from Brazil.",
+    "undergraduate": {
+      "qualifications": [
+        { "name": "Foundation Programme", "detail": "Required alongside Certificado de Ensino Medio." },
+        { "name": "IB Diploma", "detail": "36 (HL 6,6,5) to 38 (HL 6,6,6)." }
+      ]
+    },
+    "postgraduate": { "qualifications": [{ "name": "Bacharelado", "detail": "Minimum GPA of 7.50/10." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
+  },
+  {
+    "code": "ca-on",
+    "country": "Canada (Ontario)",
+    "intro": "Entry requirements for students from Ontario.",
+    "undergraduate": {
+      "qualifications": [
+        { "name": "OSSD", "detail": "Average of 85% in top six Grade 12 subjects (4U/4M)." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
+      ]
+    },
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's (Honours)", "detail": "Minimum GPA 3.3/4.0, B+, or 76%." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
   },
   {
     "code": "cn",
     "country": "China",
-    "intro": "If you are a student living in China, there are specific entry requirements depending on which qualifications you are studying.",
-    "process_details": {
-      "medicine_note": "Applicants to Medicine should refer directly to the medicine course pages.",
-      "general_note": "Undergraduate and postgraduate academic requirements are for general guidance."
-    },
+    "intro": "Specific entry requirements for students from China.",
     "undergraduate": {
       "qualifications": [
-        {
-          "name": "Foundation Programme",
-          "detail": "Excellent preparation for undergraduate study if you hold a national school leaving certificate."
-        },
-        {
-          "name": "US Curriculum",
-          "detail": "High School Transcript (Grades A to B+) PLUS one standardized test: AP (3 subjects at 4+), ACT (28+), or SAT (1320+)."
-        },
-        {
-          "name": "International Baccalaureate (IB)",
-          "detail": "36 (HL 6,6,5) to 38 (HL 6,6,6 plus SL 6,6,6)."
-        },
-        {
-          "name": "A-levels",
-          "detail": "AAB to A*A*A"
-        },
-        {
-          "name": "SQA Highers",
-          "detail": "AAAB to AAAAB"
-        }
+        { "name": "Foundation Programme", "detail": "Required if holding High School Leaving Certificate." },
+        { "name": "AST / AP / A-Level", "detail": "Standardized tests are required alongside high school transcripts." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
       ]
     },
-    "postgraduate": {
-      "qualifications": [
-        {
-          "name": "Bachelor's degree",
-          "detail": "Must be from an accredited institution with a minimum grade of 78%."
-        }
-      ]
-    },
-    "english_language": "We accept a wide range of language tests. Pre-sessional courses are available to help prepare you for academic study.",
-    "visa_info": "Overseas students typically need a visa. You must take an approved SELT (Secure English Language Test) to obtain your visa.",
-    "fees": {
-      "status": "Overseas",
-      "info": "Tuition fees are set at the Overseas rate. Information on funding and scholarships is available."
-    }
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "Minimum grade of 78% from an accredited institution." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
   },
   {
     "code": "eng",
     "country": "England",
-    "intro": "Entry requirements for students from England. A-levels and other UK qualifications are accepted.",
-    "process_details": {
-      "medicine_note": "Applicants to Medicine should refer directly to the medicine course pages.",
-      "general_note": "Undergraduate and postgraduate academic requirements are for general guidance."
-    },
+    "intro": "Entry requirements for students from England.",
     "undergraduate": {
       "qualifications": [
-        {
-          "name": "A-Levels",
-          "detail": "ABB to A*A*A"
-        },
-        {
-          "name": "BTEC National Diploma (Level 3)",
-          "detail": "Two Distinctions and one Distinction* (D, D, D*) where AAA is required."
-        },
-        {
-          "name": "International Baccalaureate (IB)",
-          "detail": "36 (HL 6,6,5) to 38 (HL 6,6,6 plus SL 6,6,6)."
-        },
-        {
-          "name": "Cambridge Pre-U",
-          "detail": "D2 (for A*), D3 (for A), M1 (for B)."
-        },
-        {
-          "name": "Access to Higher Education Diploma",
-          "detail": "Minimum 45 credits at Level 3 at Distinction and Merit."
-        },
-        {
-          "name": "T Levels",
-          "detail": "Not currently accepted for degree entry."
-        }
+        { "name": "A-Levels", "detail": "ABB to A*A*A." },
+        { "name": "BTEC Level 3", "detail": "DDD to D*DD." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
       ]
     },
-    "postgraduate": {
-      "qualifications": [
-        {
-          "name": "Bachelor's Degree",
-          "detail": "Minimum of an upper second-class (2.1) honours degree from a UK university."
-        }
-      ]
-    },
-    "english_language": "None required for native speakers.",
-    "visa_info": "None required for UK citizens.",
-    "fees": {
-      "status": "RUK (Rest of UK)",
-      "info": "Tuition fees apply. See undergraduate fees page for details."
-    }
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "2.1 Honours degree or equivalent." }] },
+    "english_language": "Not required for native speakers.",
+    "visa_info": "None required.",
+    "fees": { "status": "RUK", "info": "Rest of UK tuition fees apply." }
   },
   {
-    "code": "jm",
-    "country": "Jamaica",
-    "intro": "Entry requirements for students from Jamaica.",
+    "code": "fr",
+    "country": "France",
+    "intro": "Entry requirements for students from France.",
     "undergraduate": {
       "qualifications": [
-        { "name": "CAPE", "detail": "Grade I in at least three two-unit courses." },
-        { "name": "IB Diploma", "detail": "36 (HL 6,6,5) to 38 (HL 6,6,6)." }
+        { "name": "French Baccalaureate", "detail": "Overall score of 16 with 17 in required subjects." },
+        { "name": "OIB", "detail": "Overall score of 15 with 16 in required subjects." }
       ]
     },
-    "postgraduate": {
+    "postgraduate": { "qualifications": [{ "name": "Grade de Licence", "detail": "Minimum grade 12 (Assez Bien)." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
+  },
+  {
+    "code": "de",
+    "country": "Germany",
+    "intro": "Entry requirements for students from Germany.",
+    "undergraduate": {
       "qualifications": [
-        { "name": "Bachelor degree", "detail": "Upper Second Class Honours from UWI or UTech." },
-        { "name": "Master's degree", "detail": "Considered for PhD entry." }
+        { "name": "Abitur", "detail": "1.5 overall with 13+ in Higher Level subjects." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
       ]
     },
-    "english_language": "PG candidates need an Upper Second Class Honours.",
-    "visa_info": "Student Visa required.",
-    "fees": { "status": "Overseas", "info": "Scholarships available." }
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "Minimum grade of 2.5 or Gut." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
+  },
+  {
+    "code": "in",
+    "country": "India",
+    "intro": "Entry requirements for students from India.",
+    "undergraduate": {
+      "qualifications": [
+        { "name": "Standard XII (ISC/CBSE)", "detail": "90% - 93% average depending on the course." },
+        { "name": "JEE", "detail": "Rank < 2000 with 75% in subjects." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
+      ]
+    },
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "60% - 80% or 7.0-9.0 CGPA depending on institution." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
+  },
+  {
+    "code": "ie",
+    "country": "Ireland",
+    "intro": "Entry requirements for students from Ireland.",
+    "undergraduate": {
+      "qualifications": [
+        { "name": "Irish Leaving Certificate", "detail": "560 - 580 points overall, including H1 in required subjects." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
+      ]
+    },
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "Second Class Honours Grade I or 60%." }] },
+    "english_language": "Not required for native speakers.",
+    "visa_info": "None required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
+  },
+  {
+    "code": "nl",
+    "country": "Netherlands",
+    "intro": "Entry requirements for students from the Netherlands.",
+    "undergraduate": {
+      "qualifications": [
+        { "name": "VWO Diploma", "detail": "Overall grade of 8, with 8 in required subjects." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
+      ]
+    },
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "Minimum grade of 7/10 (Ruim voldoende)." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
   },
   {
     "code": "ni",
     "country": "Northern Ireland",
     "intro": "Entry requirements for students from Northern Ireland.",
-    "process_details": {
-      "medicine_note": "Applicants to Medicine should refer directly to the medicine course pages.",
-      "general_note": "Undergraduate and postgraduate academic requirements are for general guidance."
-    },
     "undergraduate": {
       "qualifications": [
-        {
-          "name": "A-Levels",
-          "detail": "AAB to A*A*A"
-        },
-        {
-          "name": "International Baccalaureate (IB)",
-          "detail": "36 (HL 6,6,5) to 38 (HL 6,6,6 plus SL 6,6,6)."
-        },
-        {
-          "name": "SQA Highers",
-          "detail": "AAAB to AAAAB"
-        },
-        {
-          "name": "Open University",
-          "detail": "60 Credits of Access Modules with high pass grade."
-        }
+        { "name": "A-Levels", "detail": "AAB to A*A*A." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
       ]
     },
-    "postgraduate": {
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "2.1 Honours degree or equivalent." }] },
+    "english_language": "Not required for native speakers.",
+    "visa_info": "None required.",
+    "fees": { "status": "RUK", "info": "Rest of UK tuition fees apply." }
+  },
+  {
+    "code": "pk",
+    "country": "Pakistan",
+    "intro": "Entry requirements for students from Pakistan.",
+    "undergraduate": {
       "qualifications": [
-        {
-          "name": "Bachelor's Degree",
-          "detail": "Minimum of an upper second-class (2.1) honours degree from a UK university."
-        }
+        { "name": "Foundation Programme", "detail": "Required if holding High School Certificate." },
+        { "name": "A-Levels", "detail": "AAB to A*A*A." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
       ]
     },
-    "english_language": "None required for native speakers.",
-    "visa_info": "None required for UK citizens.",
-    "fees": {
-      "status": "RUK (Rest of UK)",
-      "info": "Tuition fees apply. See undergraduate fees page for details."
-    }
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree (4 year)", "detail": "Minimum GPA 3.5 or 75%." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
+  },
+  {
+    "code": "sa",
+    "country": "Saudi Arabia",
+    "intro": "Entry requirements for students from Saudi Arabia.",
+    "undergraduate": {
+      "qualifications": [
+        { "name": "Foundation Programme", "detail": "Required if holding High School Certificate." },
+        { "name": "US Curriculum", "detail": "AP/SAT/ACT scores required." }
+      ]
+    },
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "Minimum GPA 4.0/5.0, 80%, or Very Good." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
   },
   {
     "code": "scot",
     "country": "Scotland",
     "intro": "Entry requirements for students from Scotland.",
-    "process_details": {
-      "medicine_note": "Applicants to Medicine should refer directly to the medicine course pages.",
-      "general_note": "Undergraduate and postgraduate academic requirements are for general guidance."
-    },
     "undergraduate": {
       "qualifications": [
-        {
-          "name": "SQA Highers",
-          "detail": "AABB to AAAAB"
-        },
-        {
-          "name": "A-Levels",
-          "detail": "ABB to A*A*A"
-        },
-        {
-          "name": "International Baccalaureate (IB)",
-          "detail": "36 (HL 6,5,5) to 38 (HL 6,6,6 plus SL 6,6,6)."
-        },
-        {
-          "name": "SWAP Access",
-          "detail": "Profile of AAA."
-        },
-        {
-          "name": "HNC/HND",
-          "detail": "HNC: 'A' Graded Unit (Year 1). HND: 'AA' Graded Units."
-        },
-        {
-          "name": "Foundation Apprenticeships",
-          "detail": "Accepted as one additional Higher (except Medicine)."
-        },
-        {
-          "name": "BTEC National Diploma",
-          "detail": "Distinctions (D,D,D) to (D,D,D*) depending on A-level equivalent."
-        }
+        { "name": "SQA Highers", "detail": "AABB to AAAAB." },
+        { "name": "Advanced Highers", "detail": "Recommended for competitive courses." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
       ]
     },
-    "postgraduate": {
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "2.1 Honours degree or equivalent." }] },
+    "english_language": "Not required for native speakers.",
+    "visa_info": "None required.",
+    "fees": { "status": "Home", "info": "Funded by SAAS (eligible students)." }
+  },
+  {
+    "code": "es",
+    "country": "Spain",
+    "intro": "Entry requirements for students from Spain.",
+    "undergraduate": {
       "qualifications": [
-        {
-          "name": "Bachelor's Degree",
-          "detail": "Minimum of an upper second-class (2.1) honours degree from a UK university."
-        }
+        { "name": "Titulo de Bachiller", "detail": "9 overall, including 9 in required subjects." },
+        { "name": "IB Diploma", "detail": "36 to 38 points." }
       ]
     },
-    "english_language": "None required for native speakers.",
-    "visa_info": "None required for UK citizens.",
-    "fees": {
-      "status": "Home (Scotland)",
-      "info": "Tuition fees apply. Check SAAS for funding eligibility."
-    }
+    "postgraduate": { "qualifications": [{ "name": "Título de Grado", "detail": "Minimum grade 7.0/10 or Notable." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
+  },
+  {
+    "code": "uae",
+    "country": "United Arab Emirates",
+    "intro": "Entry requirements for students from the UAE.",
+    "undergraduate": {
+      "qualifications": [
+        { "name": "Foundation Programme", "detail": "Required if holding High School Certificate." },
+        { "name": "US Curriculum", "detail": "AP/SAT/ACT scores required." }
+      ]
+    },
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "Minimum GPA 3.3/4.0, B+, or 85%." }] },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
   },
   {
     "code": "us",
@@ -260,69 +281,29 @@
     "intro": "Entry requirements for students from the USA.",
     "undergraduate": {
       "qualifications": [
-        { "name": "High School Diploma", "detail": "Grades of A or B in honours level courses." },
-        { "name": "AP Tests", "detail": "Three AP subjects with scores of 4+." },
-        { "name": "Standardized Tests", "detail": "Optional for 2025-2026. If submitted: ACT 28+ or SAT 1320+." },
-        { "name": "International Baccalaureate (IB)", "detail": "36 (HL 6,5,5) to 38 (HL 6,6,6 plus SL 6,6,6)." }
+        { "name": "High School Diploma", "detail": "Grades of A/B in Honors/AP classes." },
+        { "name": "AP Tests", "detail": "3 exams with scores of 4+." },
+        { "name": "ACT / SAT", "detail": "ACT 28+ or SAT 1320+ (Optional 2025/26)." }
       ]
     },
-    "postgraduate": {
-      "qualifications": [
-        {
-          "name": "Bachelor's Degree",
-          "detail": "BA or BS with a minimum GPA of 3.3, B+, or 76%. GMAT/GRE not required."
-        }
-      ]
-    },
-    "english_language": "All students must provide evidence of English proficiency. See English language requirements page.",
-    "visa_info": "Overseas students typically need a visa. UKVI requires a Secure English Language Test (SELT).",
-    "fees": { "status": "Overseas", "info": "Classed as Overseas. Federal Loans available." }
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "BA/BS with minimum GPA 3.3 or B+." }] },
+    "english_language": "Not required for native speakers.",
+    "visa_info": "Student visa required.",
+    "fees": { "status": "Overseas", "info": "International tuition rates apply." }
   },
   {
     "code": "wales",
     "country": "Wales",
     "intro": "Entry requirements for students from Wales.",
-    "process_details": {
-      "medicine_note": "Applicants to Medicine should refer directly to the medicine course pages.",
-      "general_note": "Undergraduate and postgraduate academic requirements are for general guidance."
-    },
     "undergraduate": {
       "qualifications": [
-        {
-          "name": "A-Levels",
-          "detail": "AAB to A*A*A"
-        },
-        {
-          "name": "Welsh Baccalaureate",
-          "detail": "Advanced Skills Baccalaureate Wales grade A can replace one A-level grade (except subject prerequisites)."
-        },
-        {
-          "name": "WJEC Level 3 Applied Diploma",
-          "detail": "Accepted in combination with two A-Levels."
-        },
-        {
-          "name": "International Baccalaureate (IB)",
-          "detail": "36 (HL 6,5,5) to 38 (HL 6,6,6 plus SL 6,6,6)."
-        },
-        {
-          "name": "SQA Highers",
-          "detail": "AABB to AAAAB"
-        }
+        { "name": "A-Levels", "detail": "AAB to A*A*A." },
+        { "name": "Welsh Baccalaureate", "detail": "Advanced Skills Challenge Certificate accepted as one A-level." }
       ]
     },
-    "postgraduate": {
-      "qualifications": [
-        {
-          "name": "Bachelor's Degree",
-          "detail": "Minimum of an upper second-class (2.1) honours degree from a UK university."
-        }
-      ]
-    },
-    "english_language": "None required for native speakers.",
-    "visa_info": "None required for UK citizens.",
-    "fees": {
-      "status": "RUK (Rest of UK)",
-      "info": "Tuition fees apply. See undergraduate fees page for details."
-    }
+    "postgraduate": { "qualifications": [{ "name": "Bachelor's Degree", "detail": "2.1 Honours degree or equivalent." }] },
+    "english_language": "Not required for native speakers.",
+    "visa_info": "None required.",
+    "fees": { "status": "RUK", "info": "Rest of UK tuition fees apply." }
   }
 ]
