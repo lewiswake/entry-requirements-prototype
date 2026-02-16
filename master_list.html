@@ -6,28 +6,135 @@
     <title>Master List | Entry Requirements</title>
     <link rel="stylesheet" href="screen.css" />
     <style>
-      .controls {
-        background: #eef5fa;
-        padding: 30px;
-        border-radius: 4px;
-        margin-bottom: 30px;
-        border: 1px solid #d1e3f0;
+      /* --- 2026 THEME VARIABLES --- */
+      :root {
+        --primary: #00539b;
+        --primary-dark: #003e7e;
+        --accent: #00aeef;
+        --text-main: #2b2b2b;
+        --text-light: #555;
+        --bg-body: #f4f7f9;
+        --card-radius: 12px;
+        --transition: all 0.3s ease;
       }
+
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        background-color: var(--bg-body);
+        color: var(--text-main);
+      }
+
+      /* --- HERO --- */
+      .modern-hero {
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-dark) 100%
+        );
+        color: white;
+        padding: 80px 0 100px;
+        margin-bottom: -40px;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        position: relative;
+      }
+      .modern-hero h1 {
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        margin-bottom: 10px;
+      }
+      .modern-hero .lead {
+        font-weight: 300;
+        opacity: 0.9;
+        font-size: 1.3rem;
+      }
+
+      /* --- CONTROLS CARD --- */
+      .controls-card {
+        background: white;
+        border-radius: var(--card-radius);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+        padding: 35px;
+        margin-bottom: 40px;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        position: relative;
+        z-index: 10;
+      }
+
+      .modern-select {
+        height: 55px;
+        border: 2px solid #e0e6ed;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        background-color: #f8fafc;
+        box-shadow: none;
+        transition: var(--transition);
+        color: var(--text-main);
+      }
+      .modern-select:focus {
+        border-color: var(--primary);
+        background-color: white;
+        box-shadow: 0 0 0 4px rgba(0, 83, 155, 0.1);
+      }
+
+      /* --- RESULT CARDS --- */
       .req-card {
-        border-left: 4px solid #00aeef;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        border-left: 5px solid var(--accent);
         margin-bottom: 20px;
+        padding: 20px;
+        transition: transform 0.2s;
       }
-      .hero-banner.sta-blue-print {
-        color: white;
-        margin-bottom: 30px;
+      .req-card:hover {
+        transform: translateY(-2px);
       }
-      .hero-banner h1 {
-        color: white;
+
+      .flag-header {
+        height: 40px;
+        width: auto;
+        margin-right: 15px;
+        vertical-align: middle;
+        border-radius: 4px;
+        box-shadow: none; /* No shadow */
+      }
+
+      .info-panel {
+        background: white;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        border-top: 4px solid #ddd;
+      }
+      .info-panel h3 {
+        margin-top: 0;
+        font-size: 1.1rem;
+        color: #444;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .pg-guide {
+        background: #fdf2f8; /* Light pink/purple tint */
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px dashed #d1c4e9;
       }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-static-top">
+    <nav
+      class="navbar navbar-inverse navbar-static-top"
+      style="margin-bottom: 0; border: none; background: #1a1a1a"
+    >
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html">← Back to Hub</a>
@@ -35,32 +142,53 @@
       </div>
     </nav>
 
-    <div class="hero-banner sta-blue-print">
+    <div class="modern-hero">
       <div class="container">
         <h1>International Entry Requirements</h1>
         <p class="lead">Complete database of academic and visa information.</p>
       </div>
     </div>
 
-    <div class="container">
-      <div class="controls">
+    <div class="container" style="position: relative; z-index: 10">
+      <div class="controls-card">
         <div class="form-group">
-          <label for="country-selector" class="h3" style="margin-top: 0"
-            >Select your country:</label
+          <label
+            for="country-selector"
+            class="h3"
+            style="
+              margin-top: 0;
+              margin-bottom: 15px;
+              display: block;
+              font-weight: 600;
+              color: var(--primary);
+            "
+            >Select a country to view requirements:</label
           >
-          <select id="country-selector" class="form-control input-lg">
+          <select id="country-selector" class="form-control modern-select">
             <option value="" disabled selected>Choose a region...</option>
           </select>
         </div>
-        <p id="loading" class="text-muted">
+        <p id="loading" class="text-muted" style="margin-bottom: 0">
           <span class="glyphicon glyphicon-refresh"></span> Loading database...
         </p>
       </div>
 
       <div id="dynamic-content">
-        <div class="well text-center text-muted">
+        <div
+          class="well text-center text-muted"
+          style="
+            background: transparent;
+            border: none;
+            box-shadow: none;
+            padding: 60px;
+          "
+        >
+          <span
+            class="glyphicon glyphicon-globe"
+            style="font-size: 4em; color: #ddd; margin-bottom: 20px"
+          ></span>
           <p class="lead" style="margin-bottom: 0">
-            Please select a country above to view requirements.
+            Please select a country above.
           </p>
         </div>
       </div>
@@ -72,12 +200,33 @@
       const loading = document.getElementById("loading");
       let db = [];
 
+      // Flag Helper
+      function getFlagPath(code) {
+        if (!code) return "";
+        const special = {
+          scot: "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f",
+          wales: "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f",
+          eng: "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f",
+          ni: "1f1ec-1f1e7",
+          uk: "1f1ec-1f1e7",
+        };
+        if (special[code.toLowerCase()])
+          return `flags/${special[code.toLowerCase()]}.svg`;
+        const main = code.split("-")[0].toUpperCase();
+        if (main.length === 2)
+          return `flags/${main
+            .split("")
+            .map((c) => (c.charCodeAt(0) + 127397).toString(16))
+            .join("-")}.svg`;
+        return null;
+      }
+
       fetch("requirements.json")
         .then((res) => res.json())
         .then((data) => {
-          db = data;
+          db = data.sort((a, b) => a.country.localeCompare(b.country));
           loading.style.display = "none";
-          data.forEach((c) => {
+          db.forEach((c) => {
             const opt = document.createElement("option");
             opt.value = c.code;
             opt.textContent = c.country;
@@ -93,43 +242,71 @@
         const data = db.find((c) => c.code === e.target.value);
         if (!data) return;
 
-        const quals = data.undergraduate.qualifications
-          .map(
-            (q) => `
-                <div class="panel panel-default req-card">
-                    <div class="panel-body">
-                        <h4 class="text-primary" style="margin-top:0;">${q.name}</h4>
-                        <p>${q.detail}</p>
-                    </div>
-                </div>
-            `,
-          )
-          .join("");
+        const flagPath = getFlagPath(data.code);
+        const imgHtml = flagPath
+          ? `<img src="${flagPath}" class="flag-header" alt="">`
+          : "";
+
+        const quals =
+          data.undergraduate && data.undergraduate.qualifications
+            ? data.undergraduate.qualifications
+                .map(
+                  (q) => `
+                    <div class="req-card">
+                        <h4 class="text-primary" style="margin-top:0; font-weight:700;">${q.name}</h4>
+                        <p style="margin-bottom:0; color:#444;">${q.detail}</p>
+                    </div>`,
+                )
+                .join("")
+            : '<div class="alert alert-warning">No specific undergraduate data listed.</div>';
+
+        const pgQuals =
+          data.postgraduate && data.postgraduate.qualifications
+            ? data.postgraduate.qualifications
+                .map((q) => `<li><strong>${q.name}:</strong> ${q.detail}</li>`)
+                .join("")
+            : "<li>Contact Admissions for details.</li>";
+
+        const englishText =
+          data.english_language ||
+          "See standard English language requirements.";
+        const visaText = data.visa_info || "Standard visa rules apply.";
+        const feeStatus = data.fees ? data.fees.status : "Check status";
+        const feeInfo = data.fees ? data.fees.info : "See fees page";
 
         display.innerHTML = `
-                <h2 class="page-header" style="margin-top:0;">${data.country}</h2>
-                <p class="lead">${data.intro}</p>
+                <div style="display:flex; align-items:center; margin-bottom:20px; border-bottom:1px solid #eee; padding-bottom:20px;">
+                    ${imgHtml}
+                    <h2 style="margin:0; color:var(--text-main); font-weight:700;">${data.country}</h2>
+                </div>
+                
+                <p class="lead" style="margin-bottom:30px;">${data.intro || ""}</p>
                 
                 <div class="row">
                     <div class="col-md-8">
-                        <h3 class="text-primary">Undergraduate Qualifications</h3>
+                        <h3 class="text-primary" style="margin-top:0; margin-bottom:20px;">Undergraduate Qualifications</h3>
                         ${quals}
                         
-                        <hr>
-                        <h3>English Language</h3>
-                        <p>${data.english_language}</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="panel panel-info">
-                            <div class="panel-heading"><h3 class="panel-title">Visa & Immigration</h3></div>
-                            <div class="panel-body">${data.visa_info}</div>
+                        <div class="pg-guide" style="margin-top:40px;">
+                            <h4 style="margin-top:0; color:#4b0082;">Postgraduate Guidelines</h4>
+                            <ul style="margin-bottom:0; padding-left:20px;">${pgQuals}</ul>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading"><h3 class="panel-title">Fees & Funding</h3></div>
-                            <div class="panel-body">
-                                <p><strong>Status:</strong> ${data.fees.status}</p>
-                                <p>${data.fees.info}</p>
-                            </div>
+
+                        <hr style="margin: 40px 0;">
+                        
+                        <h3>English Language</h3>
+                        <p>${englishText}</p>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="info-panel" style="border-top-color: #5bc0de;">
+                            <h3>Visa & Immigration</h3>
+                            <p>${visaText}</p>
+                        </div>
+                        <div class="info-panel" style="border-top-color: #f0ad4e;">
+                            <h3>Fees & Funding</h3>
+                            <p><strong>Status:</strong> ${feeStatus}</p>
+                            <p>${feeInfo}</p>
                         </div>
                     </div>
                 </div>
