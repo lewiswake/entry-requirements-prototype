@@ -2,38 +2,181 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>English BA (International Honours) - St Andrews</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English BA (International Honours) | St Andrews</title>
     <link rel="stylesheet" href="screen.css" />
     <style>
-      .hero-banner.sta-blue-print {
-        color: white;
-        margin-bottom: 30px;
-      }
-      .hero-banner h1 {
-        color: white;
-      }
-      .req-widget {
-        border-top: 4px solid #00539b;
-      }
-      .grade-box {
-        background: #f9f9f9;
-        border-left: 4px solid #00aeef;
-        padding: 15px;
-        margin: 10px 0;
+      /* --- 2026 THEME VARIABLES --- */
+      :root {
+        --primary: #00539b;
+        --primary-dark: #003e7e;
+        --accent: #00aeef;
+        --text-main: #2b2b2b;
+        --text-light: #555;
+        --bg-body: #f4f7f9;
+        --card-radius: 12px;
+        --transition: all 0.3s ease;
       }
 
-      /* Toggle Switch */
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        background-color: var(--bg-body);
+        color: var(--text-main);
+      }
+
+      /* --- MODERN HERO --- */
+      .modern-hero {
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-dark) 100%
+        );
+        color: white;
+        padding: 80px 0 100px;
+        margin-bottom: -40px;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        position: relative;
+      }
+      .modern-hero h1 {
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        margin-bottom: 10px;
+      }
+      .modern-hero .lead {
+        font-weight: 300;
+        opacity: 0.9;
+        font-size: 1.3rem;
+      }
+
+      /* --- WIDGET CARD --- */
+      .req-widget-card {
+        background: white;
+        border-radius: var(--card-radius);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+        padding: 35px;
+        margin: 40px 0;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .req-widget-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 6px;
+        height: 100%;
+        background: var(--accent);
+      }
+
+      .widget-title {
+        font-weight: 700;
+        color: var(--primary);
+        margin-top: 0;
+      }
+
+      /* Modern Select Inputs */
+      .modern-select {
+        height: 55px;
+        border: 2px solid #e0e6ed;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        background-color: #f8fafc;
+        box-shadow: none;
+        transition: var(--transition);
+        color: var(--text-main);
+      }
+      .modern-select:focus {
+        border-color: var(--primary);
+        background-color: white;
+        box-shadow: 0 0 0 4px rgba(0, 83, 155, 0.1);
+      }
+
+      .step-label {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: var(--text-light);
+        font-weight: 600;
+        margin-bottom: 8px;
+        display: block;
+      }
+
+      /* Result Animation */
+      .result-box {
+        background: #eef6fc;
+        border-radius: 8px;
+        padding: 25px;
+        margin-top: 25px;
+        animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        border: 1px solid #dbeafe;
+      }
+
+      .flag-result {
+        height: 28px;
+        width: auto;
+        vertical-align: middle;
+        margin-right: 12px;
+        border-radius: 4px;
+        /* No shadow as requested */
+        box-shadow: none;
+      }
+
+      /* --- SIDEBAR CARD --- */
+      .sidebar-card {
+        background: white;
+        border-radius: var(--card-radius);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+        padding: 0;
+        overflow: hidden;
+        border: none;
+      }
+      .sidebar-header {
+        background: var(--primary);
+        color: white;
+        padding: 20px;
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+      .sidebar-body {
+        padding: 25px;
+      }
+      .key-fact {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #f0f0f0;
+        padding-bottom: 15px;
+      }
+      .key-fact:last-child {
+        border: none;
+      }
+      .key-fact strong {
+        display: block;
+        color: var(--primary);
+        font-size: 0.9rem;
+        margin-bottom: 4px;
+      }
+
+      /* --- TOGGLE SWITCH --- */
       .toggle-wrapper {
         display: flex;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 20px;
+        font-size: 0.9rem;
+        color: #666;
       }
       .switch {
         position: relative;
         display: inline-block;
-        width: 40px;
-        height: 20px;
-        margin-right: 10px;
+        width: 42px;
+        height: 24px;
+        margin-right: 12px;
       }
       .switch input {
         opacity: 0;
@@ -47,31 +190,46 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #ccc;
-        transition: 0.4s;
+        background-color: #cbd5e1;
+        transition: 0.3s;
         border-radius: 34px;
       }
       .slider:before {
         position: absolute;
         content: "";
-        height: 16px;
-        width: 16px;
-        left: 2px;
-        bottom: 2px;
+        height: 18px;
+        width: 18px;
+        left: 3px;
+        bottom: 3px;
         background-color: white;
-        transition: 0.4s;
+        transition: 0.3s;
         border-radius: 50%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
       input:checked + .slider {
-        background-color: #00853f;
+        background-color: var(--primary);
       }
       input:checked + .slider:before {
-        transform: translateX(20px);
+        transform: translateX(18px);
+      }
+
+      @keyframes slideUp {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
       }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-static-top">
+    <nav
+      class="navbar navbar-inverse navbar-static-top"
+      style="margin-bottom: 0; border: none; background: #1a1a1a"
+    >
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html">← Back to Hub</a>
@@ -82,112 +240,148 @@
       </div>
     </nav>
 
-    <div class="hero-banner sta-blue-print">
+    <div class="modern-hero">
       <div class="container">
-        <h1>English BA (Int. Honours)</h1>
+        <h1>English BA (International Honours)</h1>
         <p class="lead">
           Joint Degree with William & Mary (USA) | 4 Years Full-time
         </p>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" style="position: relative; z-index: 10">
       <div class="row">
         <div class="col-sm-8">
-          <p class="lead">
-            The BA (International Honours) in English provides the opportunity
-            to explore a range of historical periods and critical approaches to
-            literature. This joint degree allows you to spend two years at St
-            Andrews and two years at William & Mary in Virginia, USA.
-          </p>
+          <div
+            style="
+              background: white;
+              padding: 40px;
+              border-radius: 12px;
+              box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+            "
+          >
+            <p class="lead" style="color: #444">
+              The BA (International Honours) in English provides the opportunity
+              to explore a range of historical periods and critical approaches
+              to literature. This joint degree allows you to spend two years at
+              St Andrews and two years at William & Mary in Virginia, USA.
+            </p>
 
-          <section id="entry-reqs" style="margin: 40px 0">
-            <h2 class="page-header">Entry Requirements</h2>
-            <p>Select your country to view specific academic qualifications.</p>
+            <div class="req-widget-card" id="entry-reqs">
+              <h2 class="widget-title">Check Entry Requirements</h2>
+              <p class="text-muted">
+                Select your region and qualification to see what grades you
+                need.
+              </p>
 
-            <div class="panel panel-default req-widget">
-              <div class="panel-heading">
-                <div class="row">
-                  <div class="col-md-8">
-                    <label for="widget-selector" class="sr-only"
-                      >Select Country</label
+              <div class="row" style="margin-top: 25px">
+                <div class="col-md-6">
+                  <label for="country-selector" class="step-label"
+                    >1. I am studying in</label
+                  >
+                  <select
+                    id="country-selector"
+                    class="form-control modern-select"
+                  >
+                    <option value="" disabled selected>
+                      Select Country...
+                    </option>
+                  </select>
+                </div>
+
+                <div class="col-md-6">
+                  <div
+                    id="qual-wrapper"
+                    style="
+                      opacity: 0.5;
+                      pointer-events: none;
+                      transition: opacity 0.3s;
+                    "
+                  >
+                    <label for="qual-selector" class="step-label"
+                      >2. My Qualification is</label
                     >
-                    <select id="widget-selector" class="form-control input-lg">
+                    <select
+                      id="qual-selector"
+                      class="form-control modern-select"
+                      disabled
+                    >
                       <option value="" disabled selected>
-                        Select Region...
+                        Select Qualification...
                       </option>
                     </select>
                   </div>
-                  <div class="col-md-4">
-                    <div class="toggle-wrapper">
-                      <label class="switch">
-                        <input type="checkbox" id="remember-toggle" />
-                        <span class="slider"></span>
-                      </label>
-                      <small class="text-muted">Remember me</small>
-                    </div>
-                  </div>
                 </div>
               </div>
-              <div id="widget-content" class="panel-body">
-                <p class="text-muted text-center" style="padding: 20px">
-                  Please select a country above.
-                </p>
+
+              <div id="result-area"></div>
+
+              <div class="toggle-wrapper">
+                <label class="switch">
+                  <input type="checkbox" id="remember-toggle" />
+                  <span class="slider"></span>
+                </label>
+                <span>Remember my location for next time</span>
               </div>
             </div>
-
-            <div class="alert alert-warning">
-              <strong>Prerequisite:</strong> Students must have studied English
-              or English Literature at SQA Higher, GCE A-Level or equivalent.
-            </div>
-          </section>
-
-          <section>
-            <h2>Module Structure</h2>
-            <blockquote>
-              <p>
-                "The programme is obviously an incredible academic experience...
-                it is a practice in personal development."
-              </p>
-              <footer>Aubrey, Colorado USA</footer>
-            </blockquote>
-            <h3>Year 1 (St Andrews)</h3>
-            <ul class="list-unstyled">
-              <li>
-                <span class="glyphicon glyphicon-book text-primary"></span>
-                <strong>Culture and Conflict:</strong> 19th & 20th Century
-                Literature.
+            <h3>Module Structure</h3>
+            <p>
+              In your first year, you will take modules that introduce texts in
+              prose and verse from the nineteenth and twentieth centuries.
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <span class="text-primary glyphicon glyphicon-book"></span>
+                &nbsp; <strong>Culture and Conflict</strong>
               </li>
-              <li>
-                <span class="glyphicon glyphicon-globe text-primary"></span>
-                <strong>WaMStA Studies:</strong> Special joint degree module.
+              <li class="list-group-item">
+                <span class="text-primary glyphicon glyphicon-globe"></span>
+                &nbsp; <strong>WaMStA Studies</strong> (Joint Degree)
               </li>
             </ul>
-          </section>
+          </div>
         </div>
 
         <div class="col-sm-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Key Facts</h3>
-            </div>
-            <ul class="list-group">
-              <li class="list-group-item">
-                <strong>UCAS Code</strong> <span class="pull-right">Q300</span>
-              </li>
-              <li class="list-group-item">
+          <div class="sidebar-card">
+            <div class="sidebar-header">Key Information</div>
+            <div class="sidebar-body">
+              <div class="key-fact">
+                <strong>UCAS Code</strong>
+                Q300
+              </div>
+              <div class="key-fact">
                 <strong>Start Date</strong>
-                <span class="pull-right">Sept 2026</span>
-              </li>
-              <li class="list-group-item">
+                September 2026
+              </div>
+              <div class="key-fact">
                 <strong>Duration</strong>
-                <span class="pull-right">4 Years</span>
-              </li>
-            </ul>
-            <div class="panel-body">
-              <button class="btn btn-primary btn-block btn-lg">
-                How to Apply
+                4 Years Full-time
+              </div>
+              <div class="key-fact">
+                <strong>School</strong>
+                School of English
+              </div>
+              <button
+                class="btn btn-primary btn-lg btn-block"
+                style="
+                  border-radius: 8px;
+                  font-weight: 600;
+                  box-shadow: 0 4px 12px rgba(0, 83, 155, 0.3);
+                "
+              >
+                Apply Now
               </button>
+            </div>
+          </div>
+
+          <div class="sidebar-card" style="margin-top: 30px">
+            <div class="sidebar-body">
+              <h4 class="text-primary" style="margin-top: 0">Ask a Student</h4>
+              <p class="text-muted">
+                Chat with current students to learn about life at St Andrews.
+              </p>
+              <a href="#" class="btn btn-default btn-block">Chat Now</a>
             </div>
           </div>
         </div>
@@ -195,55 +389,145 @@
     </div>
 
     <script>
-      const wSelector = document.getElementById("widget-selector");
-      const wContent = document.getElementById("widget-content");
+      // DOM Elements
+      const countrySel = document.getElementById("country-selector");
+      const qualSel = document.getElementById("qual-selector");
+      const qualWrapper = document.getElementById("qual-wrapper");
+      const resultArea = document.getElementById("result-area");
       const rememberToggle = document.getElementById("remember-toggle");
-      let courseDB = [];
 
+      let db = [];
+      let currentCountry = null;
+
+      // Flag Helper
+      function getFlagPath(code) {
+        if (!code) return "";
+        const special = {
+          scot: "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f",
+          wales: "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f",
+          eng: "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f",
+          ni: "1f1ec-1f1e7",
+          uk: "1f1ec-1f1e7",
+        };
+        if (special[code.toLowerCase()])
+          return `flags/${special[code.toLowerCase()]}.svg`;
+        const main = code.split("-")[0].toUpperCase();
+        if (main.length === 2)
+          return `flags/${main
+            .split("")
+            .map((c) => (c.charCodeAt(0) + 127397).toString(16))
+            .join("-")}.svg`;
+        return null;
+      }
+
+      // Init
       fetch("requirements.json")
         .then((res) => res.json())
         .then((data) => {
-          courseDB = data;
-          data.forEach((c) => {
+          db = data.sort((a, b) => a.country.localeCompare(b.country));
+
+          // Populate Country Dropdown
+          db.forEach((c) => {
             const opt = document.createElement("option");
             opt.value = c.code;
             opt.textContent = c.country;
-            wSelector.appendChild(opt);
+            countrySel.appendChild(opt);
           });
+
+          // Check Storage
           const saved = localStorage.getItem("user_country_preference");
           if (saved) {
-            wSelector.value = saved;
+            countrySel.value = saved;
             rememberToggle.checked = true;
-            renderRequirements(saved);
+            loadQualifications(saved);
           }
         });
 
-      wSelector.addEventListener("change", (e) => {
-        renderRequirements(e.target.value);
+      // Event: Country Changed
+      countrySel.addEventListener("change", (e) => {
+        loadQualifications(e.target.value);
         if (rememberToggle.checked)
           localStorage.setItem("user_country_preference", e.target.value);
       });
 
+      // Event: Qualification Changed
+      qualSel.addEventListener("change", (e) => {
+        const index = e.target.value;
+        const qual = currentCountry.undergraduate.qualifications[index];
+        showResult(qual);
+      });
+
+      // Event: Toggle Changed
       rememberToggle.addEventListener("change", (e) => {
-        if (e.target.checked && wSelector.value)
-          localStorage.setItem("user_country_preference", wSelector.value);
+        if (e.target.checked && countrySel.value)
+          localStorage.setItem("user_country_preference", countrySel.value);
         else localStorage.removeItem("user_country_preference");
       });
 
-      function renderRequirements(code) {
-        const data = courseDB.find((c) => c.code === code);
-        if (!data) return;
-        const quals = data.undergraduate.qualifications
-          .map(
-            (q) => `
-                <div class="grade-box">
-                    <strong class="text-primary" style="display:block;">${q.name}</strong>
-                    ${q.detail}
-                </div>`,
-          )
-          .join("");
-        wContent.innerHTML = `<h3 style="margin-top:0;">${data.country}</h3>${quals}
-            <div style="margin-top:15px; border-top:1px solid #eee; padding-top:10px;"><small class="text-muted"><strong>English:</strong> ${data.english_language}</small></div>`;
+      // Logic: Load Quals for Country
+      function loadQualifications(code) {
+        currentCountry = db.find((c) => c.code === code);
+        if (!currentCountry) return;
+
+        // Unlock Step 2
+        qualWrapper.style.opacity = "1";
+        qualWrapper.style.pointerEvents = "auto";
+        qualSel.disabled = false;
+
+        // Clear previous
+        qualSel.innerHTML =
+          '<option value="" disabled selected>Select Qualification...</option>';
+        resultArea.innerHTML = "";
+
+        const quals = currentCountry.undergraduate
+          ? currentCountry.undergraduate.qualifications
+          : [];
+
+        if (quals.length > 0) {
+          quals.forEach((q, index) => {
+            const opt = document.createElement("option");
+            opt.value = index;
+            opt.textContent = q.name;
+            qualSel.appendChild(opt);
+          });
+
+          // If only one option, auto-select it
+          if (quals.length === 1) {
+            qualSel.value = 0;
+            showResult(quals[0]);
+          }
+        } else {
+          qualSel.innerHTML =
+            "<option disabled>No specific qualifications listed</option>";
+        }
+      }
+
+      // Logic: Show Result Card
+      function showResult(qual) {
+        const flag = getFlagPath(currentCountry.code);
+        const imgHtml = flag
+          ? `<img src="${flag}" class="flag-result" alt="">`
+          : "";
+
+        resultArea.innerHTML = `
+                <div class="result-box">
+                    <h3 style="margin-top:0; color:#00539b; display:flex; align-items:center;">
+                        ${imgHtml} ${qual.name}
+                    </h3>
+                    <p class="lead" style="font-weight:500; color:#333;">${qual.detail}</p>
+                    
+                    <div style="margin-top:15px; padding-top:15px; border-top:1px dashed #cbd5e1; font-size:0.9rem; color:#666;">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <strong>English:</strong> ${currentCountry.english_language || "Standard requirements"}
+                            </div>
+                            <div class="col-sm-6">
+                                <strong>Visa:</strong> ${currentCountry.visa_info || "Standard visa rules"}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
       }
     </script>
   </body>
