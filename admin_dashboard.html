@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Admin Dashboard - Entry Requirements</title>
+    <link rel="stylesheet" href="screen.css" />
+    <style>
+      body {
+        background-color: #f4f4f4;
+      }
+      .editor-panel {
+        min-height: 600px;
+      }
+      .list-group-item.active {
+        background-color: #00539b;
+        border-color: #00539b;
+      }
+      .qual-card {
+        background: #fff;
+        border-left: 4px solid #00aeef;
+        padding: 15px;
+        margin-bottom: 15px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        position: relative;
+      }
+      .btn-remove-qual {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      #notification {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        display: none;
+        width: 300px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="notification" class="alert alert-success">
+      <strong>Success!</strong> File saved. Replace 'requirements.json'.
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">← Back to Hub</a>
+        </div>
+        <p class="navbar-text">Content Management System</p>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row" style="margin-bottom: 20px">
+        <div class="col-md-8">
+          <h1>CMS Dashboard</h1>
+          <p class="lead">Manage entry requirements database</p>
+        </div>
+        <div class="col-md-4 text-right" style="padding-top: 20px">
+          <button class="btn btn-success btn-lg" onclick="saveJSON()">
+            <span class="glyphicon glyphicon-floppy-disk"></span> Save JSON
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Countries</h3>
+            </div>
+            <div class="list-group" id="sidebar-list"></div>
+          </div>
+        </div>
+
+        <div class="col-sm-9">
+          <div class="panel panel-default editor-panel">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="editor-title">
+                Select a country to edit
+              </h3>
+            </div>
+
+            <div class="panel-body" id="editor-area" style="display: none">
+              <div class="form-group">
+                <label>Country Name</label>
+                <input type="text" class="form-control" id="field-country" />
+              </div>
+              <div class="form-group">
+                <label>Intro Text</label>
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  id="field-intro"
+                ></textarea>
+              </div>
+              <hr />
+              <h3>Undergraduate Qualifications</h3>
+              <div id="quals-container"></div>
+              <button class="btn btn-primary" onclick="addQualification()">
+                <span class="glyphicon glyphicon-plus"></span> Add Qualification
+              </button>
+            </div>
+
+            <div class="panel-body text-center text-muted" id="empty-state">
+              <p style="padding: 100px">
+                Please select a country from the list.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let db = [];
+      let activeIndex = -1;
+
+      fetch("requirements.json")
+        .then((res) => res.json())
+        .then((data) => {
+          db = data;
+          renderSidebar();
+        });
+
+      function renderSidebar() {
+        const list = document.getElementById("sidebar-list");
+        list.innerHTML = "";
+        db.forEach((item, index) => {
+          const a = document.createElement("a");
+          a.href = "#";
+          a.className = `list-group-item ${index === activeIndex ? "active" : ""}`;
+          a.textContent = item.country;
+          a.onclick = (e) => {
+            e.preventDefault();
+            loadEditor(index);
+          };
+          list.appendChild(a);
+        });
+      }
+
+      function loadEditor(index) {
+        activeIndex = index;
+        renderSidebar();
+        document.getElementById("editor-area").style.display = "block";
+        document.getElementById("empty-state").style.display = "none";
+        document.getElementById("editor-title").textContent =
+          `Editing: ${db[index].country}`;
+
+        document.getElementById("field-country").value = db[index].country;
+        document.getElementById("field-intro").value = db[index].intro;
+        renderQualifications();
+      }
+
+      function renderQualifications() {
+        const container = document.getElementById("quals-container");
+        container.innerHTML = "";
+        if (!db[activeIndex].undergraduate)
+          db[activeIndex].undergraduate = { qualifications: [] };
+
+        db[activeIndex].undergraduate.qualifications.forEach((q, qIndex) => {
+          const card = document.createElement("div");
+          card.className = "qual-card";
+          card.innerHTML = `
+                    <button class="btn btn-danger btn-xs btn-remove-qual" onclick="removeQual(${qIndex})"><span class="glyphicon glyphicon-trash"></span></button>
+                    <div class="row">
+                        <div class="col-sm-4"><div class="form-group"><label>Name</label><input type="text" class="form-control" value="${q.name}" onchange="updateQual(${qIndex}, 'name', this.value)"></div></div>
+                        <div class="col-sm-8"><div class="form-group"><label>Detail</label><input type="text" class="form-control" value="${q.detail}" onchange="updateQual(${qIndex}, 'detail', this.value)"></div></div>
+                    </div>`;
+          container.appendChild(card);
+        });
+      }
+
+      document
+        .getElementById("field-country")
+        .addEventListener("input", (e) => {
+          db[activeIndex].country = e.target.value;
+          renderSidebar();
+        });
+      document
+        .getElementById("field-intro")
+        .addEventListener(
+          "input",
+          (e) => (db[activeIndex].intro = e.target.value),
+        );
+
+      function updateQual(qIndex, field, value) {
+        db[activeIndex].undergraduate.qualifications[qIndex][field] = value;
+      }
+      function addQualification() {
+        db[activeIndex].undergraduate.qualifications.push({
+          name: "New Exam",
+          detail: "",
+        });
+        renderQualifications();
+      }
+      function removeQual(qIndex) {
+        if (confirm("Delete?")) {
+          db[activeIndex].undergraduate.qualifications.splice(qIndex, 1);
+          renderQualifications();
+        }
+      }
+
+      function saveJSON() {
+        const blob = new Blob([JSON.stringify(db, null, 2)], {
+          type: "application/json",
+        });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "requirements.json";
+        a.click();
+        URL.revokeObjectURL(url);
+        const note = document.getElementById("notification");
+        note.style.display = "block";
+        setTimeout(() => {
+          note.style.display = "none";
+        }, 3000);
+      }
+    </script>
+  </body>
+</html>

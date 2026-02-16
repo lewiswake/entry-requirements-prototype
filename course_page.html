@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>English BA (International Honours) - St Andrews</title>
+    <link rel="stylesheet" href="screen.css" />
+    <style>
+      .hero-banner.sta-blue-print {
+        color: white;
+        margin-bottom: 30px;
+      }
+      .hero-banner h1 {
+        color: white;
+      }
+      .req-widget {
+        border-top: 4px solid #00539b;
+      }
+      .grade-box {
+        background: #f9f9f9;
+        border-left: 4px solid #00aeef;
+        padding: 15px;
+        margin: 10px 0;
+      }
+
+      /* Toggle Switch */
+      .toggle-wrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 20px;
+        margin-right: 10px;
+      }
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: 0.4s;
+        border-radius: 34px;
+      }
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 16px;
+        width: 16px;
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
+      }
+      input:checked + .slider {
+        background-color: #00853f;
+      }
+      input:checked + .slider:before {
+        transform: translateX(20px);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">← Back to Hub</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="master_list.html">Master List</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero-banner sta-blue-print">
+      <div class="container">
+        <h1>English BA (Int. Honours)</h1>
+        <p class="lead">
+          Joint Degree with William & Mary (USA) | 4 Years Full-time
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <p class="lead">
+            The BA (International Honours) in English provides the opportunity
+            to explore a range of historical periods and critical approaches to
+            literature. This joint degree allows you to spend two years at St
+            Andrews and two years at William & Mary in Virginia, USA.
+          </p>
+
+          <section id="entry-reqs" style="margin: 40px 0">
+            <h2 class="page-header">Entry Requirements</h2>
+            <p>Select your country to view specific academic qualifications.</p>
+
+            <div class="panel panel-default req-widget">
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col-md-8">
+                    <label for="widget-selector" class="sr-only"
+                      >Select Country</label
+                    >
+                    <select id="widget-selector" class="form-control input-lg">
+                      <option value="" disabled selected>
+                        Select Region...
+                      </option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="toggle-wrapper">
+                      <label class="switch">
+                        <input type="checkbox" id="remember-toggle" />
+                        <span class="slider"></span>
+                      </label>
+                      <small class="text-muted">Remember me</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="widget-content" class="panel-body">
+                <p class="text-muted text-center" style="padding: 20px">
+                  Please select a country above.
+                </p>
+              </div>
+            </div>
+
+            <div class="alert alert-warning">
+              <strong>Prerequisite:</strong> Students must have studied English
+              or English Literature at SQA Higher, GCE A-Level or equivalent.
+            </div>
+          </section>
+
+          <section>
+            <h2>Module Structure</h2>
+            <blockquote>
+              <p>
+                "The programme is obviously an incredible academic experience...
+                it is a practice in personal development."
+              </p>
+              <footer>Aubrey, Colorado USA</footer>
+            </blockquote>
+            <h3>Year 1 (St Andrews)</h3>
+            <ul class="list-unstyled">
+              <li>
+                <span class="glyphicon glyphicon-book text-primary"></span>
+                <strong>Culture and Conflict:</strong> 19th & 20th Century
+                Literature.
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-globe text-primary"></span>
+                <strong>WaMStA Studies:</strong> Special joint degree module.
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Key Facts</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <strong>UCAS Code</strong> <span class="pull-right">Q300</span>
+              </li>
+              <li class="list-group-item">
+                <strong>Start Date</strong>
+                <span class="pull-right">Sept 2026</span>
+              </li>
+              <li class="list-group-item">
+                <strong>Duration</strong>
+                <span class="pull-right">4 Years</span>
+              </li>
+            </ul>
+            <div class="panel-body">
+              <button class="btn btn-primary btn-block btn-lg">
+                How to Apply
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const wSelector = document.getElementById("widget-selector");
+      const wContent = document.getElementById("widget-content");
+      const rememberToggle = document.getElementById("remember-toggle");
+      let courseDB = [];
+
+      fetch("requirements.json")
+        .then((res) => res.json())
+        .then((data) => {
+          courseDB = data;
+          data.forEach((c) => {
+            const opt = document.createElement("option");
+            opt.value = c.code;
+            opt.textContent = c.country;
+            wSelector.appendChild(opt);
+          });
+          const saved = localStorage.getItem("user_country_preference");
+          if (saved) {
+            wSelector.value = saved;
+            rememberToggle.checked = true;
+            renderRequirements(saved);
+          }
+        });
+
+      wSelector.addEventListener("change", (e) => {
+        renderRequirements(e.target.value);
+        if (rememberToggle.checked)
+          localStorage.setItem("user_country_preference", e.target.value);
+      });
+
+      rememberToggle.addEventListener("change", (e) => {
+        if (e.target.checked && wSelector.value)
+          localStorage.setItem("user_country_preference", wSelector.value);
+        else localStorage.removeItem("user_country_preference");
+      });
+
+      function renderRequirements(code) {
+        const data = courseDB.find((c) => c.code === code);
+        if (!data) return;
+        const quals = data.undergraduate.qualifications
+          .map(
+            (q) => `
+                <div class="grade-box">
+                    <strong class="text-primary" style="display:block;">${q.name}</strong>
+                    ${q.detail}
+                </div>`,
+          )
+          .join("");
+        wContent.innerHTML = `<h3 style="margin-top:0;">${data.country}</h3>${quals}
+            <div style="margin-top:15px; border-top:1px solid #eee; padding-top:10px;"><small class="text-muted"><strong>English:</strong> ${data.english_language}</small></div>`;
+      }
+    </script>
+  </body>
+</html>

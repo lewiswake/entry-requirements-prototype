@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master List | Entry Requirements</title>
+    <link rel="stylesheet" href="screen.css" />
+    <style>
+      .controls {
+        background: #eef5fa;
+        padding: 30px;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        border: 1px solid #d1e3f0;
+      }
+      .req-card {
+        border-left: 4px solid #00aeef;
+        margin-bottom: 20px;
+      }
+      .hero-banner.sta-blue-print {
+        color: white;
+        margin-bottom: 30px;
+      }
+      .hero-banner h1 {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">← Back to Hub</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-banner sta-blue-print">
+      <div class="container">
+        <h1>International Entry Requirements</h1>
+        <p class="lead">Complete database of academic and visa information.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="controls">
+        <div class="form-group">
+          <label for="country-selector" class="h3" style="margin-top: 0"
+            >Select your country:</label
+          >
+          <select id="country-selector" class="form-control input-lg">
+            <option value="" disabled selected>Choose a region...</option>
+          </select>
+        </div>
+        <p id="loading" class="text-muted">
+          <span class="glyphicon glyphicon-refresh"></span> Loading database...
+        </p>
+      </div>
+
+      <div id="dynamic-content">
+        <div class="well text-center text-muted">
+          <p class="lead" style="margin-bottom: 0">
+            Please select a country above to view requirements.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const selector = document.getElementById("country-selector");
+      const display = document.getElementById("dynamic-content");
+      const loading = document.getElementById("loading");
+      let db = [];
+
+      fetch("requirements.json")
+        .then((res) => res.json())
+        .then((data) => {
+          db = data;
+          loading.style.display = "none";
+          data.forEach((c) => {
+            const opt = document.createElement("option");
+            opt.value = c.code;
+            opt.textContent = c.country;
+            selector.appendChild(opt);
+          });
+        })
+        .catch((err) => {
+          loading.innerHTML =
+            '<span class="text-danger">Error loading database. Ensure you are using a Local Server.</span>';
+        });
+
+      selector.addEventListener("change", (e) => {
+        const data = db.find((c) => c.code === e.target.value);
+        if (!data) return;
+
+        const quals = data.undergraduate.qualifications
+          .map(
+            (q) => `
+                <div class="panel panel-default req-card">
+                    <div class="panel-body">
+                        <h4 class="text-primary" style="margin-top:0;">${q.name}</h4>
+                        <p>${q.detail}</p>
+                    </div>
+                </div>
+            `,
+          )
+          .join("");
+
+        display.innerHTML = `
+                <h2 class="page-header" style="margin-top:0;">${data.country}</h2>
+                <p class="lead">${data.intro}</p>
+                
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3 class="text-primary">Undergraduate Qualifications</h3>
+                        ${quals}
+                        
+                        <hr>
+                        <h3>English Language</h3>
+                        <p>${data.english_language}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-info">
+                            <div class="panel-heading"><h3 class="panel-title">Visa & Immigration</h3></div>
+                            <div class="panel-body">${data.visa_info}</div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading"><h3 class="panel-title">Fees & Funding</h3></div>
+                            <div class="panel-body">
+                                <p><strong>Status:</strong> ${data.fees.status}</p>
+                                <p>${data.fees.info}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+      });
+    </script>
+  </body>
+</html>

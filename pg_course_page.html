@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>English Literature (MLitt) - St Andrews</title>
+    <link rel="stylesheet" href="screen.css" />
+    <style>
+      .pg-theme .hero-banner {
+        background-color: #4b0082;
+        color: white;
+        margin-bottom: 30px;
+      }
+      .pg-theme .hero-banner h1 {
+        color: white;
+      }
+      .req-widget {
+        border-top: 4px solid #4b0082;
+      }
+      .text-pg {
+        color: #4b0082;
+      }
+      .grade-box {
+        background: #f9f9f9;
+        border-left: 4px solid #9370db;
+        padding: 15px;
+        margin: 10px 0;
+      }
+
+      /* Toggle Switch */
+      .toggle-wrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 20px;
+        margin-right: 10px;
+      }
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: 0.4s;
+        border-radius: 34px;
+      }
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 16px;
+        width: 16px;
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
+      }
+      input:checked + .slider {
+        background-color: #4b0082;
+      }
+      input:checked + .slider:before {
+        transform: translateX(20px);
+      }
+    </style>
+  </head>
+  <body class="pg-theme">
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">← Back to Hub</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="master_list.html">Master List</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero-banner">
+      <div class="container">
+        <h1>English Literature (MLitt)</h1>
+        <p class="lead">1 Year Full-time | School of English</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <p class="lead">
+            The MLitt in English Literature is an intensive one-year taught
+            programme. It develops well-rounded expertise in the literature of
+            the period through a mix of core and option choice modules.
+          </p>
+
+          <section id="entry-reqs" style="margin: 40px 0">
+            <h2 class="page-header text-pg">Entry Requirements</h2>
+            <p>
+              <strong>General Requirement:</strong> A 2.1 Honours undergraduate
+              degree.
+            </p>
+
+            <div class="panel panel-default req-widget">
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col-md-8">
+                    <select id="pg-selector" class="form-control input-lg">
+                      <option value="" disabled selected>
+                        Select Region...
+                      </option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="toggle-wrapper">
+                      <label class="switch">
+                        <input type="checkbox" id="remember-toggle" />
+                        <span class="slider"></span>
+                      </label>
+                      <small class="text-muted">Remember me</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="pg-content" class="panel-body">
+                <p class="text-muted text-center" style="padding: 20px">
+                  Select a country to view PG requirements.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2 class="text-pg">Pathways</h2>
+            <ul class="list-unstyled">
+              <li>
+                <span class="glyphicon glyphicon-chevron-right text-pg"></span>
+                Medieval Literature
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-chevron-right text-pg"></span>
+                Shakespeare and Renaissance
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-chevron-right text-pg"></span>
+                Romantic and Victorian
+              </li>
+              <li>
+                <span class="glyphicon glyphicon-chevron-right text-pg"></span>
+                Modern and Contemporary
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Key Facts</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <strong>Start Date</strong>
+                <span class="pull-right">Sept 2026</span>
+              </li>
+              <li class="list-group-item">
+                <strong>Tuition (UK)</strong>
+                <span class="pull-right">£12,630</span>
+              </li>
+              <li class="list-group-item">
+                <strong>Tuition (Overseas)</strong>
+                <span class="pull-right">£27,200</span>
+              </li>
+            </ul>
+            <div class="panel-body">
+              <button
+                class="btn btn-primary btn-block btn-lg"
+                style="background-color: #4b0082; border-color: #4b0082"
+              >
+                Apply Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const selector = document.getElementById("pg-selector");
+      const content = document.getElementById("pg-content");
+      const rememberToggle = document.getElementById("remember-toggle");
+      let db = [];
+
+      fetch("requirements.json")
+        .then((res) => res.json())
+        .then((data) => {
+          db = data;
+          data.forEach((c) => {
+            const opt = document.createElement("option");
+            opt.value = c.code;
+            opt.textContent = c.country;
+            selector.appendChild(opt);
+          });
+          const saved = localStorage.getItem("user_country_preference");
+          if (saved) {
+            selector.value = saved;
+            rememberToggle.checked = true;
+            renderPG(saved);
+          }
+        });
+
+      selector.addEventListener("change", (e) => {
+        renderPG(e.target.value);
+        if (rememberToggle.checked)
+          localStorage.setItem("user_country_preference", e.target.value);
+      });
+
+      rememberToggle.addEventListener("change", (e) => {
+        if (e.target.checked && selector.value)
+          localStorage.setItem("user_country_preference", selector.value);
+        else localStorage.removeItem("user_country_preference");
+      });
+
+      function renderPG(code) {
+        const data = db.find((c) => c.code === code);
+        if (!data) return;
+        const quals = data.postgraduate.qualifications
+          .map(
+            (q) => `
+                <div class="grade-box">
+                    <strong class="text-pg" style="display:block;">${q.name}</strong>
+                    ${q.detail}
+                </div>`,
+          )
+          .join("");
+        content.innerHTML = `<h3 style="margin-top:0;" class="text-pg">${data.country} Equivalencies</h3>${quals}
+            <div style="margin-top:15px; border-top:1px solid #eee; padding-top:10px;"><small class="text-muted"><strong>English:</strong> ${data.english_language}</small></div>`;
+      }
+    </script>
+  </body>
+</html>
