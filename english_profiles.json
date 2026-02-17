@@ -1,0 +1,1136 @@
+[
+  {
+    "id": "1-d",
+    "label": "School of English / Profile 1-D",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "8.0",
+        "reading": "8.0",
+        "writing": "8.0",
+        "listening": "8.0",
+        "speaking": "8.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "110",
+        "reading": "29",
+        "writing": "30",
+        "listening": "28",
+        "speaking": "30"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "79",
+        "reading": "79",
+        "writing": "79",
+        "listening": "79",
+        "speaking": "79"
+      },
+      {
+        "name": "Cambridge C2 Proficiency",
+        "overall": "200",
+        "reading": "200",
+        "writing": "200",
+        "listening": "200",
+        "speaking": "200"
+      }
+    ]
+  },
+  {
+    "id": "2-m",
+    "label": "Faculty of Medicine (Profile 2-M)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "7.0",
+        "reading": "7.0",
+        "writing": "7.0",
+        "listening": "7.0",
+        "speaking": "7.0"
+      }
+    ]
+  },
+  {
+    "id": "3-d",
+    "label": "Profile 3-D (Direct Entry)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "reading": "19",
+        "writing": "23",
+        "listening": "19",
+        "speaking": "22"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "76",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "185",
+        "reading": "176",
+        "writing": "176",
+        "listening": "176",
+        "speaking": "176"
+      }
+    ]
+  },
+  {
+    "id": "4-d",
+    "label": "Profile 4-D (Writing Focused)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "reading": "16",
+        "writing": "26",
+        "listening": "16",
+        "speaking": "19"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "76",
+        "reading": "64",
+        "writing": "76",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "185",
+        "reading": "169",
+        "writing": "185",
+        "listening": "169",
+        "speaking": "169"
+      }
+    ]
+  },
+  {
+    "id": "5-d",
+    "label": "Profile 5-D (Standard)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "reading": "16",
+        "writing": "19",
+        "listening": "16",
+        "speaking": "19"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "185",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      }
+    ]
+  },
+  {
+    "id": "6-d",
+    "label": "Profile 6-D",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.5",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "81",
+        "reading": "16",
+        "writing": "23",
+        "listening": "16",
+        "speaking": "19"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "70",
+        "reading": "64",
+        "writing": "70",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "176",
+        "reading": "169",
+        "writing": "176",
+        "listening": "169",
+        "speaking": "169"
+      }
+    ]
+  },
+  {
+    "id": "7-d",
+    "label": "Profile 7-D (Standard Lower)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "81",
+        "reading": "16",
+        "writing": "19",
+        "listening": "16",
+        "speaking": "19"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "176",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      }
+    ]
+  },
+  {
+    "id": "3-s",
+    "label": "Profile 3-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "75",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "76",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "PSI Skills for English UKVI",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      }
+    ]
+  },
+  {
+    "id": "4-s",
+    "label": "Profile 4-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "75",
+        "reading": "65",
+        "writing": "75",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "76",
+        "reading": "64",
+        "writing": "76",
+        "listening": "64",
+        "speaking": "64"
+      }
+    ]
+  },
+  {
+    "id": "5-s",
+    "label": "Profile 5-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "75",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      }
+    ]
+  },
+  {
+    "id": "6-s",
+    "label": "Profile 6-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.5",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "70",
+        "reading": "65",
+        "writing": "70",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "70",
+        "reading": "64",
+        "writing": "70",
+        "listening": "64",
+        "speaking": "64"
+      }
+    ]
+  },
+  {
+    "id": "7-s",
+    "label": "Profile 7-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "70",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      }
+    ]
+  },
+  {
+    "id": "8-s",
+    "label": "Profile 8-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "6.5",
+        "reading": "5.5",
+        "writing": "6.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "70",
+        "reading": "60",
+        "writing": "70",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "70",
+        "reading": "59",
+        "writing": "70",
+        "listening": "59",
+        "speaking": "59"
+      }
+    ]
+  },
+  {
+    "id": "9-s",
+    "label": "Profile 9-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "6.5",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "70",
+        "reading": "60",
+        "writing": "60",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "70",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      }
+    ]
+  },
+  {
+    "id": "10-s",
+    "label": "Profile 10-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "6.0",
+        "reading": "5.5",
+        "writing": "6.0",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "65",
+        "reading": "60",
+        "writing": "65",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "64",
+        "reading": "59",
+        "writing": "64",
+        "listening": "59",
+        "speaking": "59"
+      }
+    ]
+  },
+  {
+    "id": "11-s",
+    "label": "Profile 11-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "6.0",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "65",
+        "reading": "60",
+        "writing": "60",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "64",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      }
+    ]
+  },
+  {
+    "id": "12-s",
+    "label": "Profile 12-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "6.0",
+        "reading": "5.0",
+        "writing": "6.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "65",
+        "reading": "54",
+        "writing": "65",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "64",
+        "reading": "53",
+        "writing": "64",
+        "listening": "53",
+        "speaking": "53"
+      }
+    ]
+  },
+  {
+    "id": "13-s",
+    "label": "Profile 13-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "6.0",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "65",
+        "reading": "54",
+        "writing": "54",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "64",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      }
+    ]
+  },
+  {
+    "id": "14-s",
+    "label": "Profile 14-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "5.5",
+        "reading": "5.0",
+        "writing": "5.5",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "60",
+        "reading": "54",
+        "writing": "60",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "59",
+        "reading": "53",
+        "writing": "59",
+        "listening": "53",
+        "speaking": "53"
+      }
+    ]
+  },
+  {
+    "id": "15-s",
+    "label": "Profile 15-S (SELT)",
+    "tests": [
+      {
+        "name": "IELTS for UKVI",
+        "overall": "5.5",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "60",
+        "reading": "54",
+        "writing": "54",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "59",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      }
+    ]
+  },
+  {
+    "id": "3-o",
+    "label": "Profile 3-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "reading": "19",
+        "writing": "23",
+        "listening": "19",
+        "speaking": "22"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "76",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "185",
+        "reading": "176",
+        "writing": "176",
+        "listening": "176",
+        "speaking": "176"
+      }
+    ]
+  },
+  {
+    "id": "4-o",
+    "label": "Profile 4-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "reading": "16",
+        "writing": "26",
+        "listening": "16",
+        "speaking": "19"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "76",
+        "reading": "64",
+        "writing": "76",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "185",
+        "reading": "169",
+        "writing": "185",
+        "listening": "169",
+        "speaking": "169"
+      }
+    ]
+  },
+  {
+    "id": "5-o",
+    "label": "Profile 5-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "reading": "16",
+        "writing": "19",
+        "listening": "16",
+        "speaking": "19"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "185",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      }
+    ]
+  },
+  {
+    "id": "6-o",
+    "label": "Profile 6-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.5",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "81",
+        "reading": "16",
+        "writing": "23",
+        "listening": "16",
+        "speaking": "19"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "70",
+        "reading": "64",
+        "writing": "70",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "176",
+        "reading": "169",
+        "writing": "176",
+        "listening": "169",
+        "speaking": "169"
+      }
+    ]
+  },
+  {
+    "id": "7-o",
+    "label": "Profile 7-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "81",
+        "reading": "16",
+        "writing": "19",
+        "listening": "16",
+        "speaking": "19"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "176",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      }
+    ]
+  },
+  {
+    "id": "8-o",
+    "label": "Profile 8-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "6.5",
+        "reading": "5.5",
+        "writing": "6.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "81",
+        "reading": "12",
+        "writing": "23",
+        "listening": "12",
+        "speaking": "17"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "70",
+        "reading": "59",
+        "writing": "70",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "176",
+        "reading": "162",
+        "writing": "176",
+        "listening": "162",
+        "speaking": "162"
+      }
+    ]
+  },
+  {
+    "id": "9-o",
+    "label": "Profile 9-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "6.5",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "81",
+        "reading": "12",
+        "writing": "14",
+        "listening": "12",
+        "speaking": "17"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "70",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "176",
+        "reading": "162",
+        "writing": "162",
+        "listening": "162",
+        "speaking": "162"
+      }
+    ]
+  },
+  {
+    "id": "10-o",
+    "label": "Profile 10-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "6.0",
+        "reading": "5.5",
+        "writing": "6.0",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "67",
+        "reading": "12",
+        "writing": "19",
+        "listening": "12",
+        "speaking": "17"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "64",
+        "reading": "59",
+        "writing": "64",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "169",
+        "reading": "162",
+        "writing": "169",
+        "listening": "162",
+        "speaking": "162"
+      }
+    ]
+  },
+  {
+    "id": "11-o",
+    "label": "Profile 11-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "6.0",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "67",
+        "reading": "12",
+        "writing": "14",
+        "listening": "12",
+        "speaking": "17"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "64",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "169",
+        "reading": "162",
+        "writing": "162",
+        "listening": "162",
+        "speaking": "162"
+      }
+    ]
+  },
+  {
+    "id": "12-o",
+    "label": "Profile 12-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "6.0",
+        "reading": "5.0",
+        "writing": "6.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "67",
+        "reading": "8",
+        "writing": "19",
+        "listening": "8",
+        "speaking": "14"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "64",
+        "reading": "53",
+        "writing": "64",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "169",
+        "reading": "154",
+        "writing": "169",
+        "listening": "154",
+        "speaking": "154"
+      }
+    ]
+  },
+  {
+    "id": "13-o",
+    "label": "Profile 13-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "6.0",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "67",
+        "reading": "8",
+        "writing": "9",
+        "listening": "8",
+        "speaking": "14"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "64",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "169",
+        "reading": "154",
+        "writing": "154",
+        "listening": "154",
+        "speaking": "154"
+      }
+    ]
+  },
+  {
+    "id": "14-o",
+    "label": "Profile 14-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "5.5",
+        "reading": "5.0",
+        "writing": "6.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "51",
+        "reading": "8",
+        "writing": "14",
+        "listening": "8",
+        "speaking": "14"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "59",
+        "reading": "53",
+        "writing": "59",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "162",
+        "reading": "154",
+        "writing": "162",
+        "listening": "154",
+        "speaking": "154"
+      }
+    ]
+  },
+  {
+    "id": "15-o",
+    "label": "Profile 15-O (Online)",
+    "tests": [
+      {
+        "name": "IELTS Academic",
+        "overall": "5.5",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "51",
+        "reading": "8",
+        "writing": "9",
+        "listening": "8",
+        "speaking": "14"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "59",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "Cambridge English",
+        "overall": "162",
+        "reading": "154",
+        "writing": "154",
+        "listening": "154",
+        "speaking": "154"
+      }
+    ]
+  }
+]
