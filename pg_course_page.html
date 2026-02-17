@@ -128,6 +128,36 @@
         box-shadow: none;
       }
 
+      /* English Score Grid (PG Theme) */
+      .eng-score-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        gap: 15px;
+        margin-top: 20px;
+      }
+
+      .eng-score-item {
+        background: white;
+        border: 1px solid #e1bee7;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .eng-score-item span {
+        display: block;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        color: #666;
+        margin-bottom: 5px;
+      }
+
+      .eng-score-item strong {
+        font-size: 1.4rem;
+        color: var(--primary);
+        display: block;
+      }
+
       /* --- SIDEBAR CARD --- */
       .sidebar-card {
         background: white;
@@ -312,7 +342,42 @@
 
               <div id="result-area"></div>
 
-              <div class="toggle-wrapper">
+              <div
+                style="
+                  margin-top: 40px;
+                  padding-top: 30px;
+                  border-top: 1px dashed #e1bee7;
+                "
+              >
+                <h3
+                  class="h4"
+                  style="
+                    color: var(--primary);
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                  "
+                >
+                  English Language Requirements
+                </h3>
+
+                <div class="form-group">
+                  <label for="english-selector" class="step-label"
+                    >Select your English Qualification</label
+                  >
+                  <select
+                    id="english-selector"
+                    class="form-control modern-select"
+                  >
+                    <option value="" disabled selected>
+                      Select English Test...
+                    </option>
+                  </select>
+                </div>
+
+                <div id="english-result"></div>
+              </div>
+
+              <div class="toggle-wrapper" style="margin-top: 30px">
                 <label class="switch">
                   <input type="checkbox" id="remember-toggle" />
                   <span class="slider"></span>
@@ -394,15 +459,20 @@
     </div>
 
     <script>
-      // DOM Elements
+      // DOM Elements - Academic
       const countrySel = document.getElementById("country-selector");
       const qualSel = document.getElementById("qual-selector");
       const qualWrapper = document.getElementById("qual-wrapper");
       const resultArea = document.getElementById("result-area");
       const rememberToggle = document.getElementById("remember-toggle");
 
+      // DOM Elements - English
+      const engSel = document.getElementById("english-selector");
+      const engResult = document.getElementById("english-result");
+
       let db = [];
       let currentCountry = null;
+      let englishData = [];
 
       // Flag Helper
       function getFlagPath(code) {
@@ -425,21 +495,17 @@
         return null;
       }
 
-      // Init
+      // --- INIT ACADEMIC DATA ---
       fetch("requirements.json")
         .then((res) => res.json())
         .then((data) => {
           db = data.sort((a, b) => a.country.localeCompare(b.country));
-
-          // Populate Country Dropdown
           db.forEach((c) => {
             const opt = document.createElement("option");
             opt.value = c.code;
             opt.textContent = c.country;
             countrySel.appendChild(opt);
           });
-
-          // Check Storage
           const saved = localStorage.getItem("user_country_preference");
           if (saved) {
             countrySel.value = saved;
@@ -448,39 +514,63 @@
           }
         });
 
-      // Event: Country Changed
+      // --- INIT ENGLISH DATA (PG) ---
+      // Assuming PG Course uses Profile 3-D
+      const COURSE_PROFILE_ID = "3-d";
+
+      fetch("english_profiles.json")
+        .then((res) => res.json())
+        .then((profiles) => {
+          const profile = profiles.find((p) => p.id === COURSE_PROFILE_ID);
+          if (profile && profile.tests) {
+            englishData = profile.tests;
+            profile.tests.forEach((t, index) => {
+              const opt = document.createElement("option");
+              opt.value = index;
+              opt.textContent = t.name;
+              engSel.appendChild(opt);
+            });
+          } else {
+            engSel.innerHTML =
+              "<option disabled>Standard PG Requirements Apply</option>";
+          }
+        });
+
+      // --- EVENTS ---
       countrySel.addEventListener("change", (e) => {
         loadQualifications(e.target.value);
         if (rememberToggle.checked)
           localStorage.setItem("user_country_preference", e.target.value);
       });
 
-      // Event: Qualification Changed
       qualSel.addEventListener("change", (e) => {
         const index = e.target.value;
-        // NOTE: Accessing POSTGRADUATE data
+        // Access PG data
         const qual = currentCountry.postgraduate.qualifications[index];
         showResult(qual);
       });
 
-      // Event: Toggle Changed
       rememberToggle.addEventListener("change", (e) => {
         if (e.target.checked && countrySel.value)
           localStorage.setItem("user_country_preference", countrySel.value);
         else localStorage.removeItem("user_country_preference");
       });
 
-      // Logic: Load Quals for Country (PG)
+      // English Selection Event
+      engSel.addEventListener("change", (e) => {
+        const testIndex = e.target.value;
+        const test = englishData[testIndex];
+        renderEnglishScores(test);
+      });
+
+      // --- LOGIC ---
       function loadQualifications(code) {
         currentCountry = db.find((c) => c.code === code);
         if (!currentCountry) return;
 
-        // Unlock Step 2
         qualWrapper.style.opacity = "1";
         qualWrapper.style.pointerEvents = "auto";
         qualSel.disabled = false;
-
-        // Clear previous
         qualSel.innerHTML =
           '<option value="" disabled selected>Select Qualification...</option>';
         resultArea.innerHTML = "";
@@ -496,8 +586,6 @@
             opt.textContent = q.name;
             qualSel.appendChild(opt);
           });
-
-          // If only one option, auto-select it
           if (quals.length === 1) {
             qualSel.value = 0;
             showResult(quals[0]);
@@ -508,7 +596,6 @@
         }
       }
 
-      // Logic: Show Result Card
       function showResult(qual) {
         const flag = getFlagPath(currentCountry.code);
         const imgHtml = flag
@@ -521,13 +608,23 @@
                         ${imgHtml} ${qual.name}
                     </h3>
                     <p class="lead" style="font-weight:500; color:#333;">${qual.detail}</p>
-                    
                     <div style="margin-top:15px; padding-top:15px; border-top:1px dashed #d1c4e9; font-size:0.9rem; color:#666;">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <strong>English:</strong> ${currentCountry.english_language || "Standard PG requirements"}
-                            </div>
-                        </div>
+                        <strong>Note:</strong> Postgraduate visa requirements may vary.
+                    </div>
+                </div>
+            `;
+      }
+
+      function renderEnglishScores(test) {
+        engResult.innerHTML = `
+                <div class="result-box" style="background:#f3e5f5; border-color:#d1c4e9;">
+                    <h4 style="margin-top:0; color:var(--primary);">${test.name} Minimum Scores</h4>
+                    <div class="eng-score-grid">
+                        <div class="eng-score-item"><span>Overall</span><strong>${test.overall}</strong></div>
+                        <div class="eng-score-item"><span>Listening</span><strong>${test.listening}</strong></div>
+                        <div class="eng-score-item"><span>Reading</span><strong>${test.reading}</strong></div>
+                        <div class="eng-score-item"><span>Writing</span><strong>${test.writing}</strong></div>
+                        <div class="eng-score-item"><span>Speaking</span><strong>${test.speaking}</strong></div>
                     </div>
                 </div>
             `;
