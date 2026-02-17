@@ -222,7 +222,7 @@
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
       }
 
-      /* --- NEW REMOVE BUTTON STYLING --- */
+      /* --- DELETE BUTTON STYLING --- */
       .btn-remove-qual {
         position: absolute;
         bottom: 15px;
@@ -353,27 +353,10 @@
             </div>
 
             <div class="panel-body" style="padding: 40px">
-              <div class="row">
-                <div class="col-md-3">
-                  <div class="form-group">
-                    <label class="text-muted small">Code</label>
-                    <input type="text" class="form-control" id="field-code" />
-                  </div>
-                </div>
-                <div class="col-md-9">
-                  <div class="form-group">
-                    <label class="text-muted small">Country Name</label>
-                    <input
-                      type="text"
-                      class="form-control input-lg"
-                      id="field-country"
-                      style="font-weight: 700"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <h4 class="section-header" style="color: var(--accent)">
+              <h4
+                class="section-header"
+                style="color: var(--accent); margin-top: 0"
+              >
                 Undergraduate Qualifications
               </h4>
               <div id="ug-container"></div>
@@ -558,9 +541,6 @@
         document.getElementById("editor-title").innerHTML =
           `${getFlagPath(data.code) ? `<img src="${getFlagPath(data.code)}" class="flag-icon">` : ""} ${data.country}`;
 
-        document.getElementById("field-code").value = data.code || "";
-        document.getElementById("field-country").value = data.country || "";
-
         renderQuals("undergraduate");
         renderQuals("postgraduate");
         window.scrollTo(0, 0);
@@ -576,6 +556,9 @@
           div.className = `qual-card ${type === "postgraduate" ? "pg-card" : ""}`;
 
           div.innerHTML = `
+                    <button class="btn btn-remove-qual" onclick="remQual('${type}',${i})" title="Delete Qualification">
+                        Remove
+                    </button>
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="form-group">
@@ -589,23 +572,10 @@
                                 <input type="text" class="form-control" value="${q.detail}" onchange="upQual('${type}',${i},'detail',this.value)">
                             </div>
                         </div>
-                    </div>
-                    <button class="btn-remove-qual" onclick="remQual('${type}',${i})">
-                        Remove
-                    </button>
-                `;
+                    </div>`;
           c.appendChild(div);
         });
       }
-
-      // Binding
-      const map = { "field-code": "code", "field-country": "country" };
-      Object.keys(map).forEach((id) =>
-        document.getElementById(id).addEventListener("input", (e) => {
-          db[activeIndex][map[id]] = e.target.value;
-          if (id === "field-country" || id === "field-code") renderSidebar();
-        }),
-      );
 
       function upQual(t, i, f, v) {
         db[activeIndex][t].qualifications[i][f] = v;
@@ -626,6 +596,7 @@
         db.unshift({
           code: "new",
           country: "New Country",
+          fees: {},
           undergraduate: { qualifications: [] },
           postgraduate: { qualifications: [] },
         });
