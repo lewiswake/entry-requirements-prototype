@@ -1,0 +1,129 @@
+[
+  {
+    "id": "profile_1",
+    "title": "Standard Arts Divinity (AAAB)",
+    "qualifications": [
+      {
+        "name": "SQA Highers",
+        "grades": "AAAB",
+        "countries": "af,al,dz,ad,ao,ar,am,au,at,az,bs,bh,bd,by,be,bz,bm,bo,ba,bw,br,vg,bn,bg,bi,cm,kh,ca,cl,cn,co,ck,cr,ci,hr,cu,cy,cz,dk,do,cd,ec,eg,sv,gb,er,ee,et,fj,fi,fr,gm,ge,de,gh,gr,gd,gt,gy,hn,hk,hu,is,in,id,ir,iq,ie,il,it,jm,jp,jo,kz,ke,ki,xk,kw,kg,lv,la,lb,ls,lr,ly,li,lt,lu,mo,mk,mg,mw,my,mv,mt,mr,mu,mx,md,mc,mn,me,ma,mz,mm,na,np,nl,nc,nz,ni,ne,ng,no,om,pk,ps,pa,pg,py,pe,ph,pl,pt,pr,qa,ro,ru,rw,sa,sn,rs,sl,sg,sk,si,za,kr,es,lk,kn,sd,se,ch,sy,tw,tj,tz,th,tg,to,tt,tn,tr,tm,ug,ua,ae,uy,uz,ve,vn,wf,ye,zm,zw"
+      },
+      {
+        "name": "A-levels",
+        "grades": "AAA",
+        "countries": "af,al,dz,ad,ao,ar,am,au,at,az,bs,bh,bd,by,be,bz,bm,bo,ba,bw,br,vg,bn,bg,bi,cm,kh,ca,cl,cn,co,ck,cr,ci,hr,cu,cy,cz,dk,do,cd,ec,eg,sv,gb,er,ee,et,fj,fi,fr,gm,ge,de,gh,gr,gd,gt,gy,hn,hk,hu,is,in,id,ir,iq,ie,il,it,jm,jp,jo,kz,ke,ki,xk,kw,kg,lv,la,lb,ls,lr,ly,li,lt,lu,mo,mk,mg,mw,my,mv,mt,mr,mu,mx,md,mc,mn,me,ma,mz,mm,na,np,nl,nc,nz,ni,ne,ng,no,om,pk,ps,pa,pg,py,pe,ph,pl,pt,pr,qa,ro,ru,rw,sa,sn,rs,sl,sg,sk,si,za,kr,es,lk,kn,sd,se,ch,sy,tw,tj,tz,th,tg,to,tt,tn,tr,tm,ug,ua,ae,uy,uz,ve,vn,wf,ye,zm,zw"
+      },
+      {
+        "name": "International Baccalaureate (IB)",
+        "grades": "36 (HL 6,6,5)",
+        "countries": "af,al,dz,ad,ao,ar,am,au,at,az,bs,bh,bd,by,be,bz,bm,bo,ba,bw,br,vg,bn,bg,bi,cm,kh,ca,cl,cn,co,ck,cr,ci,hr,cu,cy,cz,dk,do,cd,ec,eg,sv,gb,er,ee,et,fj,fi,fr,gm,ge,de,gh,gr,gd,gt,gy,hn,hk,hu,is,in,id,ir,iq,ie,il,it,jm,jp,jo,kz,ke,ki,xk,kw,kg,lv,la,lb,ls,lr,ly,li,lt,lu,mo,mk,mg,mw,my,mv,mt,mr,mu,mx,md,mc,mn,me,ma,mz,mm,na,np,nl,nc,nz,ni,ne,ng,no,om,pk,ps,pa,pg,py,pe,ph,pl,pt,pr,qa,ro,ru,rw,sa,sn,rs,sl,sg,sk,si,za,kr,es,lk,kn,sd,se,ch,sy,tw,tj,tz,th,tg,to,tt,tn,tr,tm,ug,ua,ae,uy,us,uz,ve,vn,wf,ye,zm,zw"
+      },
+      {
+        "name": "Foundation programme certificate",
+        "grades": "Our International Foundation programmes offer a range of programmes providing excellent preparation for undergraduate academic study at the University of St Andrews.",
+        "countries": "af,al,dz,ao,ar,am,az,bs,bh,bd,by,bz,bo,ba,bw,br,vg,bn,bi,cm,kh,cl,cn,co,cr,ci,cu,cy,do,cd,ec,eg,sv,er,et,fj,gm,ge,gh,gr,gd,gt,gy,hn,hk,id,ir,iq,jp,jo,kz,ke,xk,kw,kg,la,lb,ls,lr,ly,mo,mg,mw,my,mv,mr,mx,mn,ma,mz,mm,na,np,ni,ne,ng,om,pk,ps,pa,pg,py,pe,ph,pr,qa,ru,rw,sa,sn,sl,sd,sy,tw,tj,tz,th,tg,tn,tr,tm,ug,ua,ae,uy,uz,ve,vn,ye,zm,zw"
+      },
+      {
+        "name": "European Baccalaureate",
+        "grades": "80% overall including 8.5 or above in required subjects.",
+        "countries": "ad,at,be,bg,hr,cy,cz,dk,ee,fi,fr,de,gr,ie,it,lv,li,lt,lu,mt,mc,nl,nc,pl,pt,ro,sk,si,es,se,ch,wf"
+      },
+      {
+        "name": "US Curriculum (AP)",
+        "grades": "Three subjects with scores of 4+ and 5 in required subjects.",
+        "countries": "cn,hk,ir,jp,lb,my,pe,sa,kr,tw,ae,us"
+      },
+      {
+        "name": "US Curriculum (SAT Subject Tests)",
+        "grades": "Three subject tests with minimum scores of 650 with 700 and above in required subjects.",
+        "countries": "cn,hk,ir,jp,lb,my,pe,sa,kr,tw,ae,us"
+      },
+      {
+        "name": "US Curriculum (ACT)",
+        "grades": "Score of 28+ (writing optional).",
+        "countries": "cn,hk,ir,jp,lb,my,pe,sa,kr,tw,ae,us"
+      },
+      {
+        "name": "French Baccalaureate",
+        "grades": "Overall score of 16 with scores of 17 in required subjects. Where a degree programme has specific required subjects, you will need to study these subjects as a specialism in your premiere and terminale years.",
+        "countries": "fr,lb,mc,nc,wf"
+      }
+    ]
+  },
+  {
+    "id": "profile_2",
+    "title": "Standard Science/Languages (AAAB)",
+    "qualifications": [
+      {
+        "name": "IB Points",
+        "grades": "36 (HL 6,6,5)",
+        "countries": ""
+      },
+      {
+        "name": "SQA (Standard Entry Grades)",
+        "grades": "AAAB",
+        "countries": "uk"
+      },
+      {
+        "name": "GCE A-Levels (Standard Entry Grades)",
+        "grades": "AAB",
+        "countries": "uk,ie"
+      }
+    ]
+  },
+  {
+    "id": "profile_3",
+    "title": "High SQA/A-Level (Competitive/Arts/Sciences)",
+    "qualifications": [
+      {
+        "name": "SQA (Standard Entry Grades)",
+        "grades": "AAAAB",
+        "countries": "uk"
+      }
+    ]
+  },
+  {
+    "id": "profile_4",
+    "title": "Physics Tier",
+    "qualifications": [
+      {
+        "name": "SQA (Standard Entry Grades)",
+        "grades": "AAAA",
+        "countries": "uk"
+      }
+    ]
+  },
+  {
+    "id": "profile_5",
+    "title": "Mathematics Tier (BSc/MA)",
+    "qualifications": [
+      {
+        "name": "SQA (Standard Entry Grades)",
+        "grades": "AAAAB",
+        "countries": "uk"
+      }
+    ]
+  },
+  {
+    "id": "profile_6",
+    "title": "Mathematics Tier (MMath)",
+    "qualifications": [
+      {
+        "name": "SQA (Standard Entry Grades)",
+        "grades": "AAAAB",
+        "countries": "uk"
+      }
+    ]
+  },
+  {
+    "id": "profile_7",
+    "title": "Geography/Sustainable Development Tier",
+    "qualifications": [
+      {
+        "name": "SQA (Standard Entry Grades)",
+        "grades": "AAAB",
+        "countries": "uk"
+      }
+    ]
+  }
+]
