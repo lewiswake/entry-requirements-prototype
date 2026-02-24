@@ -16,6 +16,7 @@ const engResult = document.getElementById("english-result");
 let db = [];
 let currentCountry = null;
 let englishData = []; // Store English profile data
+let currentCourseReqs = []; // Store specific course requirements
 
 // --- FLAG HELPER ---
 function getFlagPath(code) {
@@ -50,9 +51,26 @@ function getFlagPath(code) {
 
 // --- BOOTSTRAP APP ---
 async function initApp() {
-  // 1. Fetch Academic Requirements
+  // Read current course URL from the body tag
+  const courseUrl = document.body.dataset.courseUrl;
+
+  // 1. Fetch Specific Course Requirements Context
   try {
-    const reqRes = await fetch("data/requirements.json");
+    const courseRes = await fetch("data/cleaned_st_andrews_courses.json");
+    const courseJson = await courseRes.json();
+
+    // Find the current course by matching the URL
+    const course = courseJson.courses.find((c) => c.url === courseUrl);
+    if (course && course.entry_requirements) {
+      currentCourseReqs = course.entry_requirements;
+    }
+  } catch (err) {
+    console.error("Error loading course requirements context:", err);
+  }
+
+  // 2. Fetch Global Academic Equivalent Requirements
+  try {
+    const reqRes = await fetch("data/pg_requirements.json");
     const data = await reqRes.json();
     db = data.sort((a, b) => a.country.localeCompare(b.country));
 
@@ -74,7 +92,7 @@ async function initApp() {
     console.error("Error loading Academic Requirements:", err);
   }
 
-  // 2. Fetch English Language Profiles
+  // 3. Fetch English Language Profiles
   try {
     const engRes = await fetch("data/english-profiles.json");
     const profiles = await engRes.json();
@@ -183,13 +201,29 @@ function showResult(qual) {
     ? `<img src="${flagPath}" class="flag-result" alt="" onerror="this.style.display='none';">`
     : "";
 
+  // Build the HTML for the course specific requirements
+  let courseReqsHtml = "";
+  if (currentCourseReqs.length > 0) {
+    courseReqsHtml = `
+      <div style="margin-top:20px; padding-top:20px; border-top:1px solid var(--border-color);">
+        <h4 style="margin-top:0; color:var(--primary); font-weight:700; font-size:1.1rem;">Course-Specific Requirements</h4>
+        <ul style="padding-left: 20px; color: var(--text-main); font-size: 0.95rem; line-height: 1.5; margin-bottom: 0;">
+          ${currentCourseReqs.map((req) => `<li style="margin-bottom: 8px;">${req}</li>`).join("")}
+        </ul>
+      </div>
+    `;
+  }
+
   resultArea.innerHTML = `
     <div class="result-box">
         <h3 style="margin-top:0; color:var(--primary); display:flex; align-items:center; font-weight:800; font-size:1.3rem;">
             ${imgHtml} ${qual.name}
         </h3>
         <p style="font-weight:500; color:var(--text-main); font-size:1.05rem; line-height:1.5;">${qual.detail}</p>
-        <div style="margin-top:15px; padding-top:15px; border-top:1px dashed var(--border-color); font-size:0.9rem; color:var(--text-light);">
+        
+        ${courseReqsHtml}
+
+        <div style="margin-top:20px; padding-top:15px; border-top:1px dashed var(--border-color); font-size:0.9rem; color:var(--text-light);">
             <strong>Note:</strong> Postgraduate visa requirements may vary.
         </div>
     </div>
