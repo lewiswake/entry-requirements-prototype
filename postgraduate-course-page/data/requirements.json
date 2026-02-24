@@ -1,0 +1,4461 @@
+[
+  {
+    "code": "af",
+    "country": "Afghanistan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36 (HL 6,6,5) to 38 (HL 6,6,6)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade 85% or GPA 3.5/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "al",
+    "country": "Albania",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diplomë e Nivelit të Pare",
+          "detail": "Min GPA 7.40/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "dz",
+    "country": "Algeria",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licence",
+          "detail": "Min GPA 12.00 (Assez bien)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ad",
+    "country": "Andorra",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Titol de Batxiller",
+          "detail": "Overall scores of 9."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bàtxelor (Notable)",
+          "detail": "Min grade 8/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ao",
+    "country": "Angola",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Grau de Mestre",
+          "detail": "Min grade 14/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ar",
+    "country": "Argentina",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Título de Licenciado",
+          "detail": "Min GPA 7.50/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "am",
+    "country": "Armenia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Araratian Baccalaureate",
+          "detail": "18 or A in three extended subjects (not accepted for Medicine)."
+        },
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with national High School Leaving Certificate if direct entry not met."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 (HL 6,6,5 to 6,6,6)."
+        },
+        {
+          "name": "A-Levels",
+          "detail": "AAB to A*A*A."
+        },
+        {
+          "name": "SQA Highers",
+          "detail": "AAAB to AAAAB."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bakalavri Astichan",
+          "detail": "Excellence; min GPA 3.3, B+, or 75%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "au-act",
+    "country": "Australia (ACT)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "ACT SSC",
+          "detail": "ATAR 94.3 (AAB equiv) or 96 (AAAA equiv)."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "3-year with Distinction or Honours H2A."
+        }
+      ]
+    }
+  },
+  {
+    "code": "au-nsw",
+    "country": "Australia (NSW)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "HSC",
+          "detail": "ATAR 94.3 (AAB equiv) or 96 (AAAA equiv)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "3-year with Distinction or Honours H2A."
+        }
+      ]
+    }
+  },
+  {
+    "code": "au-qld",
+    "country": "Australia (Queensland)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "ATAR",
+          "detail": "94.3 (AAB equiv) or 96 (AAAA equiv)."
+        },
+        {
+          "name": "Overall Position (OP)",
+          "detail": "OP 4 (AAB) or OP 3 (AAAA)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "3-year with Distinction or Honours H2A."
+        }
+      ]
+    }
+  },
+  {
+    "code": "au-sa",
+    "country": "Australia (South Australia)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "SACE",
+          "detail": "ATAR 94.3 (AAB equiv) or 96 (AAAA equiv)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "3-year with Distinction or Honours H2A."
+        }
+      ]
+    }
+  },
+  {
+    "code": "au-tas",
+    "country": "Australia (Tasmania)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "TCE",
+          "detail": "ATAR 94.3 (AAB equiv) or 96 (AAAA equiv)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "3-year with Distinction or Honours H2A."
+        }
+      ]
+    }
+  },
+  {
+    "code": "au-vic",
+    "country": "Australia (Victoria)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "VCE",
+          "detail": "ATAR 94.3 (AAB equiv) or 96 (AAAA equiv)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "3-year with Distinction or Honours H2A."
+        }
+      ]
+    }
+  },
+  {
+    "code": "au-wa",
+    "country": "Australia (Western Australia)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "WACE",
+          "detail": "ATAR 94.3 (AAB equiv) or 96 (AAAA equiv)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "3-year with Distinction or Honours H2A."
+        }
+      ]
+    }
+  },
+  {
+    "code": "at",
+    "country": "Austria",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Matura",
+          "detail": "Pass with high distinction (1 in majority of subjects)."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 2.2 or Gut."
+        }
+      ]
+    }
+  },
+  {
+    "code": "az",
+    "country": "Azerbaijan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bakalavr Diplomu",
+          "detail": "Min GPA 81% (very good)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "bs",
+    "country": "Bahamas",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "bh",
+    "country": "Bahrain",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.3/4, 84%, B+, or 'very good'."
+        }
+      ]
+    }
+  },
+  {
+    "code": "bd",
+    "country": "Bangladesh",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade 75% or GPA 3.5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "by",
+    "country": "Belarus",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Specialist Diploma",
+          "detail": "Min GPA 8 ('almost excellent')."
+        }
+      ]
+    }
+  },
+  {
+    "code": "be",
+    "country": "Belgium",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "CESS / Diploma",
+          "detail": "80% overall or 16/20."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelier",
+          "detail": "Min grade 14 or 70%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "bz",
+    "country": "Belize",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "bm",
+    "country": "Bermuda",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "A-Levels",
+          "detail": "AAB to A*A*A."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.3 (US Accredited)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "bo",
+    "country": "Bolivia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachillerato Universitario",
+          "detail": "Min GPA 77% or Distinguido."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ba",
+    "country": "Bosnia and Herzegovina",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diploma/Diplomirani",
+          "detail": "Min grade 9/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "bw",
+    "country": "Botswana",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min 2nd Class Upper (post-2021) or Merit."
+        }
+      ]
+    }
+  },
+  {
+    "code": "br",
+    "country": "Brazil",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with Certificado de Ensino Medio."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bacharelado",
+          "detail": "Min GPA 7.50/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "vg",
+    "country": "British Virgin Isles",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "bn",
+    "country": "Brunei",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Brunei/Cambridge A Level",
+          "detail": "AAB to A*A*A."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "2.1 or GPA 4.0/5.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "bg",
+    "country": "Bulgaria",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Diploma za sredno obrazovanie",
+          "detail": "5.5 overall (AAB equiv) or 5.7 overall (AAAA equiv)."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 5 (Very good)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "bi",
+    "country": "Burundi",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diploma of Advanced Studies",
+          "detail": "Grade of Excellent."
+        }
+      ]
+    }
+  },
+  {
+    "code": "kh",
+    "country": "Cambodia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min GPA 3.0/4.0, 70% or Good."
+        }
+      ]
+    }
+  },
+  {
+    "code": "cm",
+    "country": "Cameroon",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Cameroon GCE A-Levels",
+          "detail": "Min A in three subjects (except Medicine)."
+        },
+        {
+          "name": "Foundation Programme",
+          "detail": "Required if qualification not met."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master 1 (M1)",
+          "detail": "Min GPA 3.5/4.0, 70%, or Very Good."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-ab",
+    "country": "Canada (Alberta)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Alberta High School Diploma",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-bc",
+    "country": "Canada (British Columbia)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Dogwood Diploma",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-mb",
+    "country": "Canada (Manitoba)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Manitoba High School Diploma",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-nb",
+    "country": "Canada (New Brunswick)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "High School Diploma",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-nl",
+    "country": "Canada (Newfoundland and Labrador)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Graduation Diploma",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-nt",
+    "country": "Canada (Northwest Territories)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "High School Diploma",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-ns",
+    "country": "Canada (Nova Scotia)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Graduation Diploma",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-nu",
+    "country": "Canada (Nunavut)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Graduation Diploma",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-on",
+    "country": "Canada (Ontario)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "OSSD",
+          "detail": "85% avg in top 6 (4U/4M). 90% required science / 85% arts."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-pe",
+    "country": "Canada (Prince Edward Island)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Graduation Diploma",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-qc",
+    "country": "Canada (Quebec)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "DEC",
+          "detail": "Overall average of 85% (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-sk",
+    "country": "Canada (Saskatchewan)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Secondary Level Achievement",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ca-yt",
+    "country": "Canada (Yukon)",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Certificate of Graduation",
+          "detail": "85% overall in grade 12 (90% required science / 85% arts)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "cl",
+    "country": "Chile",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Grado de Licenciado",
+          "detail": "Min GPA 5.5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "cn",
+    "country": "China",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Excellent preparation."
+        },
+        {
+          "name": "US Curriculum",
+          "detail": "High School Transcript (A/B+) PLUS AP (3x4+), ACT (28+) or SAT (1320+)."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min 78%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "co",
+    "country": "Colombia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licenciado/Título",
+          "detail": "Min GPA 4.0/5.0 or Excellent."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ck",
+    "country": "Cook Islands",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "NCEA Level 3",
+          "detail": "Merit overall with Excellent in required subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min 2.1 Honours or equivalent."
+        }
+      ]
+    }
+  },
+  {
+    "code": "cr",
+    "country": "Costa Rica",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licenciatura",
+          "detail": "Min GPA 8.5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "hr",
+    "country": "Croatia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Matura",
+          "detail": "5 in at least three Higher (A) exams."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Baccalaureus",
+          "detail": "Min GPA 4.0/5.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "cu",
+    "country": "Cuba",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Título de Licenciado",
+          "detail": "Min GPA 4/5 (Muy Bien)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "cy",
+    "country": "Cyprus",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Apolytirion + A-Levels",
+          "detail": "18-19 in Apolytirion AND AA in A-Levels."
+        },
+        {
+          "name": "Foundation Programme",
+          "detail": "Required if Apolytirion only."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Ptychio",
+          "detail": "Min GPA 7.0/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "cz",
+    "country": "Czechia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Maturita",
+          "detail": "Grade 1 in 3 exams."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bakalář",
+          "detail": "Min grade 1.5/B (Velmi dobre)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "dk",
+    "country": "Denmark",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Studentereksamen",
+          "detail": "Average 10 overall with 10 in four Level A subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 7/12."
+        }
+      ]
+    }
+  },
+  {
+    "code": "do",
+    "country": "Dominican Republic",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licenciado",
+          "detail": "Min grade 80%, B, Muy Bueno."
+        }
+      ]
+    }
+  },
+  {
+    "code": "cd",
+    "country": "DR Congo",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade 15/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ec",
+    "country": "Ecuador",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Título de Licenciado",
+          "detail": "Min GPA 80%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "eg",
+    "country": "Egypt",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 75% or Very Good."
+        }
+      ]
+    }
+  },
+  {
+    "code": "sv",
+    "country": "El Salvador",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Título de Maestro",
+          "detail": "Min grade 8/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "eng",
+    "country": "England",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "A-Levels",
+          "detail": "ABB to A*A*A."
+        },
+        {
+          "name": "BTEC Level 3",
+          "detail": "DDD to D*DD."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "2.1 Honours degree or equivalent."
+        }
+      ]
+    }
+  },
+  {
+    "code": "er",
+    "country": "Eritrea",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min GPA 3.3/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ee",
+    "country": "Estonia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Gümnaasiumi Iõputunnistus",
+          "detail": "Avg 5 overall with 90% in 3 State Exams."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bakalaurusekraad",
+          "detail": "Min GPA 4/5, B, or Very Good."
+        }
+      ]
+    }
+  },
+  {
+    "code": "et",
+    "country": "Ethiopia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Overall mark B+ or GPA 3.5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "fj",
+    "country": "Fiji",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min 2.1 Honours or equivalent."
+        }
+      ]
+    }
+  },
+  {
+    "code": "fi",
+    "country": "Finland",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Ylioppilastutkinto",
+          "detail": "Min 4 subjects. Laudatur (L) in one, Eximia (E) in three."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Kandidaattii",
+          "detail": "Min grade 3/5 or 2/3."
+        }
+      ]
+    }
+  },
+  {
+    "code": "fr",
+    "country": "France",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "French Baccalaureate",
+          "detail": "Overall 16 with 17 in required subjects."
+        },
+        {
+          "name": "OIB",
+          "detail": "Overall 15 with 16 in required subjects."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Grade de Licence",
+          "detail": "Min grade 12 (Assez Bien)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "gm",
+    "country": "Gambia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min GPA 3.7/4.3 or 70%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ge",
+    "country": "Georgia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bakalavris Khariskhi",
+          "detail": "Min GPA B, Very Good, or 81%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "de",
+    "country": "Germany",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Abitur",
+          "detail": "1.5 overall with 13+ in Higher Level subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 2.5 or Gut."
+        }
+      ]
+    }
+  },
+  {
+    "code": "gh",
+    "country": "Ghana",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.5/4.0 or 65%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "gr",
+    "country": "Greece",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Apolytirion + A-Levels",
+          "detail": "18-19 in Apolytirion AND AA in A-Levels."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Ptychio",
+          "detail": "Min grade 7.5/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "gd",
+    "country": "Grenada",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "gt",
+    "country": "Guatemala",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licenciatura",
+          "detail": "Min grade 80% (Muy Bueno)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "gy",
+    "country": "Guyana",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade B or 65%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "hn",
+    "country": "Honduras",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licenciatura",
+          "detail": "Min grade 86% (Muy Bueno)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "hk",
+    "country": "Hong Kong",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "HKDSE",
+          "detail": "555 to 5*55 in Category A subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "2.1 or GPA 3.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "hu",
+    "country": "Hungary",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Matura",
+          "detail": "Average 5 in five subjects (3 advanced exams at 80%+)."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 4/5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "is",
+    "country": "Iceland",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Stúdentspróf",
+          "detail": "Overall grade 8 (Academic Track)."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Baccalaureus",
+          "detail": "Min GPA 7.25/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "in",
+    "country": "India",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Standard XII (ISC/CBSE)",
+          "detail": "90% - 93% average depending on course."
+        },
+        {
+          "name": "JEE",
+          "detail": "Rank < 2000 with 75% subject scores."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "60% - 80% or 7.0-9.0 CGPA depending on institution."
+        }
+      ]
+    }
+  },
+  {
+    "code": "id",
+    "country": "Indonesia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree (S1)",
+          "detail": "Min GPA 3.0/4."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ir",
+    "country": "Iran",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "High School Diploma",
+          "detail": "17 overall with 16 in two subjects."
+        },
+        {
+          "name": "US Curriculum",
+          "detail": "AP/SAT/ACT scores required."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Kārshenāsi",
+          "detail": "Min overall grade 16/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "iq",
+    "country": "Iraq",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade 80% (Very Good)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ie",
+    "country": "Ireland",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Irish Leaving Certificate",
+          "detail": "560-580 points (inc H1 in required)."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "2nd Class Honours Grade I or 60%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "il",
+    "country": "Israel",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Bagrut",
+          "detail": "Overall 90% with 90% in unit 5 subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min overall grade 80%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "it",
+    "country": "Italy",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Esame di Stato",
+          "detail": "Overall 95% with 9 in required subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Laurea",
+          "detail": "Min grade 104/110."
+        }
+      ]
+    }
+  },
+  {
+    "code": "jm",
+    "country": "Jamaica",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "CAPE",
+          "detail": "Grade I in three two-unit courses."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "jp",
+    "country": "Japan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "US Curriculum",
+          "detail": "AP/SAT/ACT scores required."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.0 (Ryō/Good)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "jo",
+    "country": "Jordan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.5 (Very Good)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "kz",
+    "country": "Kazakhstan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "NIS Grade 12",
+          "detail": "AAA in three higher level subjects."
+        },
+        {
+          "name": "Foundation Programme",
+          "detail": "Required for non-NIS applicants."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.33 (B+)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ke",
+    "country": "Kenya",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class Honours (60%)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ki",
+    "country": "Kiribati",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "NCEA Level 3",
+          "detail": "Merit overall with Excellent in required subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 4.0/5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "xk",
+    "country": "Kosovo",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min overall grade 8."
+        }
+      ]
+    }
+  },
+  {
+    "code": "kw",
+    "country": "Kuwait",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.33/4 or B+."
+        }
+      ]
+    }
+  },
+  {
+    "code": "kg",
+    "country": "Kyrgyzstan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min overall grade 4/5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "la",
+    "country": "Lao PDR",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min GPA 3.5 (B+)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "lv",
+    "country": "Latvia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Atestats",
+          "detail": "9.0 overall with 90% in 4 State Exams."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bakalaura Diploms",
+          "detail": "Min grade 8/10 (Very Good)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "lb",
+    "country": "Lebanon",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "French Baccalaureate",
+          "detail": "Overall 16 with 17 in required subjects."
+        },
+        {
+          "name": "US Curriculum",
+          "detail": "AP/SAT/ACT scores required."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.2/4, 80%, or 16/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ls",
+    "country": "Lesotho",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade 75%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "lr",
+    "country": "Liberia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade 85% or GPA 3.5/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ly",
+    "country": "Libya",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade 75% or GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "li",
+    "country": "Liechtenstein",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Matura",
+          "detail": "Average 5.5 overall with 6 in required."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 5/6."
+        }
+      ]
+    }
+  },
+  {
+    "code": "lt",
+    "country": "Lithuania",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Brandos Atestatas",
+          "detail": "9 overall with 90% in 3 State Exams."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bakalauro Diplomas",
+          "detail": "Min grade 8/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "lu",
+    "country": "Luxembourg",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Diplôme de Fin d'Études",
+          "detail": "50 points overall."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 14/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mo",
+    "country": "Macau",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.2/4.0 or 83%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mg",
+    "country": "Madagascar",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Maîtrise / Master",
+          "detail": "Min grade 14/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mw",
+    "country": "Malawi",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade 70% or 5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "my",
+    "country": "Malaysia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "STPM",
+          "detail": "AAB to AAA."
+        },
+        {
+          "name": "Matrikulasi",
+          "detail": "GPA 3.67 to 4.0."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "2.1 or GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mv",
+    "country": "Maldives",
+    "intro": "Entry requirements for students from Maldives.",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required if you hold a national High School Leaving Certificate."
+        },
+        {
+          "name": "A-Levels",
+          "detail": "AAB to A*A*A."
+        },
+        {
+          "name": "SQA Highers",
+          "detail": "AAAB to AAAAB."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36 (HL 6,6,5) to 38 (HL 6,6,6)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.5/4.0 from The Maldives National University."
+        }
+      ]
+    },
+    "english_language": "English proficiency required.",
+    "visa_info": "Student visa required.",
+    "fees": {
+      "status": "Overseas",
+      "info": "International tuition rates apply."
+    }
+  },
+  {
+    "code": "mt",
+    "country": "Malta",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Matriculation Certificate",
+          "detail": "AA (Advanced) and AABB (Intermediate)."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class or 70%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mr",
+    "country": "Mauritania",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade 14/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mu",
+    "country": "Mauritius",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Cambridge HSC",
+          "detail": "AAB to A*A*A."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Class II, Div I or 60%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mx",
+    "country": "Mexico",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Título de Licenciado",
+          "detail": "Min GPA 8.0/10 or 80%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "md",
+    "country": "Moldova",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        },
+        {
+          "name": "A-Levels",
+          "detail": "AAB to A*A*A."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diplomă de Licență",
+          "detail": "Min grade 9.0/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mc",
+    "country": "Monaco",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "French Baccalaureate",
+          "detail": "Overall 16 with 17 in required subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.3/4.0 or B+."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mn",
+    "country": "Mongolia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min grade B or 80%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "me",
+    "country": "Montenegro",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Maturski ispit",
+          "detail": "Average 4.0 with 5.0 in required subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diploma Visoko",
+          "detail": "Min grade 9/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ma",
+    "country": "Morocco",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licence",
+          "detail": "Min GPA 14.0 (Bien)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mz",
+    "country": "Mozambique",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Grau de Mestre",
+          "detail": "Min grade 14/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mm",
+    "country": "Myanmar",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master’s Degree",
+          "detail": "Min grade A or 70%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "na",
+    "country": "Namibia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min grade 70%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "np",
+    "country": "Nepal",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master's Degree",
+          "detail": "Min GPA 3.7 or 80%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "nl",
+    "country": "Netherlands",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "VWO Diploma",
+          "detail": "Overall grade 8."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 7/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "nc",
+    "country": "New Caledonia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "French Baccalaureate",
+          "detail": "Overall 16 with 17 in required subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Honours Degree",
+          "detail": "Equiv to UK 2.1."
+        }
+      ]
+    }
+  },
+  {
+    "code": "nz",
+    "country": "New Zealand",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "NCEA Level 3",
+          "detail": "Merit overall with Excellent in required subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Honours 2nd Class Div I or GPA 6.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ni",
+    "country": "Nicaragua",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licenciatura",
+          "detail": "Min grade 90%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ne",
+    "country": "Niger",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diplôme d'Études",
+          "detail": "Min grade 14/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ng",
+    "country": "Nigeria",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class or GPA 3.5/5.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "mk",
+    "country": "North Macedonia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        },
+        {
+          "name": "A-Levels",
+          "detail": "AAB to A*A*A."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 9/10 or 81%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ni-uk",
+    "country": "Northern Ireland",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "A-Levels",
+          "detail": "AAB to A*A*A."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "2.1 Honours degree or equivalent."
+        }
+      ]
+    }
+  },
+  {
+    "code": "no",
+    "country": "Norway",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Vitnemål",
+          "detail": "Average 4.5 or better."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelorgrad",
+          "detail": "Min grade B."
+        }
+      ]
+    }
+  },
+  {
+    "code": "om",
+    "country": "Oman",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.7."
+        }
+      ]
+    }
+  },
+  {
+    "code": "pk",
+    "country": "Pakistan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "4-year degree (post-2015) with GPA 3.5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ps",
+    "country": "Palestine",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.5 or 85%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "pa",
+    "country": "Panama",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licenciado",
+          "detail": "Min grade 81%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "pg",
+    "country": "Papua New Guinea",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Honours Class II Division A."
+        }
+      ]
+    }
+  },
+  {
+    "code": "py",
+    "country": "Paraguay",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licenciatura",
+          "detail": "Min grade 4/5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "pe",
+    "country": "Peru",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "US Curriculum",
+          "detail": "AP/SAT/ACT scores required."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Grado de Bachiller",
+          "detail": "Min grade 14."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ph",
+    "country": "Philippines",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "pl",
+    "country": "Poland",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Matura",
+          "detail": "85% in three advanced subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Lincencjat",
+          "detail": "Min grade 4.5/5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "pt",
+    "country": "Portugal",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Diploma Nível Secundário",
+          "detail": "Overall 18 with 19 in three subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licenciado",
+          "detail": "Min GPA 15/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "pr",
+    "country": "Puerto Rico",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.5/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "qa",
+    "country": "Qatar",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.3."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ro",
+    "country": "Romania",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Bacalaureat",
+          "detail": "9.5 overall."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diplomă de Licență",
+          "detail": "Min grade 9.0/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ru",
+    "country": "Russia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diplom bakalavra",
+          "detail": "Min GPA 4.0/5.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "rw",
+    "country": "Rwanda",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class Honours."
+        }
+      ]
+    }
+  },
+  {
+    "code": "sa",
+    "country": "Saudi Arabia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "US Curriculum",
+          "detail": "AP/SAT/ACT scores required."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 4.0/5.0 or 80%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "scot",
+    "country": "Scotland",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "SQA Highers",
+          "detail": "AABB to AAAAB."
+        },
+        {
+          "name": "Advanced Highers",
+          "detail": "Recommended for competitive courses."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "2.1 Honours degree or equivalent."
+        }
+      ]
+    }
+  },
+  {
+    "code": "sn",
+    "country": "Senegal",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diplôme d'Études",
+          "detail": "Min grade 14/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "rs",
+    "country": "Serbia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Matura",
+          "detail": "Average 4.5."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diplomirani",
+          "detail": "Min GPA 8.00/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "sl",
+    "country": "Sierra Leone",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.75/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "sg",
+    "country": "Singapore",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "SIPCAL (A-Level)",
+          "detail": "AAB to AAA."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.6/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "sk",
+    "country": "Slovakia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Maturita",
+          "detail": "Grade 1 in three subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bakalár",
+          "detail": "Min grade 1.5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "si",
+    "country": "Slovenia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Maturitetno Spricevalo",
+          "detail": "28 points overall."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Univerzitetni Diplomant",
+          "detail": "Min GPA 8.5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "za",
+    "country": "South Africa",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "NSC",
+          "detail": "80% average with 80% in 5 subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's (Honours)",
+          "detail": "Min grade 70%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "kr",
+    "country": "South Korea",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "US Curriculum",
+          "detail": "AP/SAT/ACT scores required."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Haksa",
+          "detail": "Min grade 85% or GPA 3.5/4.5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "es",
+    "country": "Spain",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Titulo de Bachiller",
+          "detail": "9 overall."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Título de Grado",
+          "detail": "Min grade 7.0/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "lk",
+    "country": "Sri Lanka",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "GCE A Levels",
+          "detail": "AAB to AAA."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class or GPA 3.3/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "kn",
+    "country": "St Kitts and Nevis",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "CAPE",
+          "detail": "Grade I in three two-unit courses."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "sd",
+    "country": "Sudan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 80%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "se",
+    "country": "Sweden",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Slutbetyg",
+          "detail": "2500 credits with overall 18.0."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Kandidatexamen",
+          "detail": "Min grade VG or B."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ch",
+    "country": "Switzerland",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Maturité",
+          "detail": "5.0 overall."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 5/6 or 8/10."
+        }
+      ]
+    }
+  },
+  {
+    "code": "sy",
+    "country": "Syria",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 70%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "tw",
+    "country": "Taiwan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "US Curriculum",
+          "detail": "AP/SAT/ACT scores required."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.3/4.0 or 80%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "tj",
+    "country": "Tajikistan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Specialist Diploma",
+          "detail": "Min GPA 4/5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "tz",
+    "country": "Tanzania",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "ASCEE",
+          "detail": "Division I with AAA."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class or GPA 3.5/5.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "th",
+    "country": "Thailand",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "tg",
+    "country": "Togo",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diplôme",
+          "detail": "Min grade 14/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "to",
+    "country": "Tonga",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required if no A-Levels/IB."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 4.0/5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "tt",
+    "country": "Trinidad and Tobago",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "CAPE",
+          "detail": "Grade I in three two-unit courses."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "tn",
+    "country": "Tunisia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Licence",
+          "detail": "Min grade 14/20."
+        }
+      ]
+    }
+  },
+  {
+    "code": "tr",
+    "country": "Turkey",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Lisans Diplomasi",
+          "detail": "Min GPA 3.0/4.0 or 70%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "tm",
+    "country": "Turkmenistan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Specialist Diploma",
+          "detail": "Min grade 4/5."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ug",
+    "country": "Uganda",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "UACE",
+          "detail": "AAB to AAA."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Upper 2nd Class or GPA 4.0/5.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ua",
+    "country": "Ukraine",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.3/4.0 or 80%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ae",
+    "country": "United Arab Emirates",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "US Curriculum",
+          "detail": "AP/SAT/ACT scores required."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.3/4.0 or 85%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "us",
+    "country": "United States",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "High School Diploma",
+          "detail": "Grades of A/B in Honors/AP classes."
+        },
+        {
+          "name": "AP Tests",
+          "detail": "3 exams with scores of 4+."
+        },
+        {
+          "name": "ACT / SAT",
+          "detail": "ACT 28+ or SAT 1320+ (Optional 2025/26)."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "BA/BS with min GPA 3.3 or B+."
+        }
+      ]
+    }
+  },
+  {
+    "code": "uy",
+    "country": "Uruguay",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Título de Licenciado",
+          "detail": "Min GPA 8/12."
+        }
+      ]
+    }
+  },
+  {
+    "code": "uz",
+    "country": "Uzbekistan",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Magistr diplomi",
+          "detail": "Min GPA 4.5/5.0 or 80%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ve",
+    "country": "Venezuela",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Título de Licenciado",
+          "detail": "Min GPA 4.0/5.0 or 75%."
+        }
+      ]
+    }
+  },
+  {
+    "code": "vn",
+    "country": "Vietnam",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min GPA 3.0/4.0 or 7.0/10.0."
+        }
+      ]
+    }
+  },
+  {
+    "code": "wales",
+    "country": "Wales",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "A-Levels",
+          "detail": "AAB to A*A*A."
+        },
+        {
+          "name": "Welsh Baccalaureate",
+          "detail": "Advanced Skills accepted as one A-level."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "2.1 Honours degree or equivalent."
+        }
+      ]
+    }
+  },
+  {
+    "code": "wf",
+    "country": "Wallis and Futuna",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "French Baccalaureate",
+          "detail": "Overall 16 with 17 in required subjects."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Honours Degree",
+          "detail": "Equiv to UK 2.1."
+        }
+      ]
+    }
+  },
+  {
+    "code": "ye",
+    "country": "Yemen",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Majister",
+          "detail": "Min grade 88% (Excellent)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "zm",
+    "country": "Zambia",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Foundation Programme",
+          "detail": "Required with High School Certificate."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Master’s Degree",
+          "detail": "Min grade 76% (Distinction)."
+        }
+      ]
+    }
+  },
+  {
+    "code": "zw",
+    "country": "Zimbabwe",
+    "undergraduate": {
+      "qualifications": [
+        {
+          "name": "Zimbabwe GCE A Level",
+          "detail": "AAB to A*A*A."
+        },
+        {
+          "name": "IB Diploma",
+          "detail": "36-38 points."
+        }
+      ]
+    },
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Bachelor's Degree",
+          "detail": "Min grade 65% or B++."
+        }
+      ]
+    }
+  }
+]

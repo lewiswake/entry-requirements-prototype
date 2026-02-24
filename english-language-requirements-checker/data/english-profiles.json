@@ -1,0 +1,4640 @@
+[
+  {
+    "id": "1-d",
+    "label": "Profile 1-D (Direct entry)",
+    "variant": "d",
+    "tests_undergraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "191",
+        "reading": "185",
+        "writing": "185",
+        "listening": "185",
+        "speaking": "185"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "7.5",
+        "reading": "7.0",
+        "writing": "7.0",
+        "listening": "7.0",
+        "speaking": "7.0"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "80",
+        "reading": "75",
+        "writing": "75",
+        "listening": "75",
+        "speaking": "75"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC2",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "80",
+        "reading": "76",
+        "writing": "76",
+        "listening": "76",
+        "speaking": "76"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "100",
+        "listening": "22",
+        "reading": "22",
+        "writing": "26",
+        "speaking": "24"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III",
+        "overall": "Distinction",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      }
+    ],
+    "tests_postgraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "191",
+        "reading": "185",
+        "writing": "185",
+        "listening": "185",
+        "speaking": "185"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "7.5",
+        "reading": "7.0",
+        "writing": "7.0",
+        "listening": "7.0",
+        "speaking": "7.0"
+      },
+      {
+        "name": "IELTS Academic Online",
+        "overall": "7.5",
+        "reading": "7.0",
+        "writing": "7.0",
+        "listening": "7.0",
+        "speaking": "7.0"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "80",
+        "reading": "75",
+        "writing": "75",
+        "listening": "75",
+        "speaking": "75"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC2",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "80",
+        "reading": "76",
+        "writing": "76",
+        "listening": "76",
+        "speaking": "76"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "100",
+        "listening": "22",
+        "reading": "22",
+        "writing": "26",
+        "speaking": "24"
+      },
+      {
+        "name": "TOEFL iBT Home Edition",
+        "overall": "100",
+        "listening": "22",
+        "reading": "22",
+        "writing": "26",
+        "speaking": "24"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III",
+        "overall": "Distinction",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-undergraduate",
+        "overall": "191",
+        "reading": "185",
+        "writing": "185",
+        "listening": "185",
+        "speaking": "185"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-undergraduate",
+        "overall": "7.5",
+        "reading": "7.0",
+        "writing": "7.0",
+        "listening": "7.0",
+        "speaking": "7.0"
+      },
+      {
+        "name": "LanguageCert Academic-undergraduate",
+        "overall": "80",
+        "reading": "75",
+        "writing": "75",
+        "listening": "75",
+        "speaking": "75"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC2-undergraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-undergraduate",
+        "overall": "80",
+        "reading": "76",
+        "writing": "76",
+        "listening": "76",
+        "speaking": "76"
+      },
+      {
+        "name": "TOEFL iBT-undergraduate",
+        "overall": "100",
+        "listening": "22",
+        "reading": "22",
+        "writing": "26",
+        "speaking": "24"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III-undergraduate",
+        "overall": "Distinction",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Cambridge English Qualifications-postgraduate",
+        "overall": "191",
+        "reading": "185",
+        "writing": "185",
+        "listening": "185",
+        "speaking": "185"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-postgraduate",
+        "overall": "7.5",
+        "reading": "7.0",
+        "writing": "7.0",
+        "listening": "7.0",
+        "speaking": "7.0"
+      },
+      {
+        "name": "IELTS Academic Online-postgraduate",
+        "overall": "7.5",
+        "reading": "7.0",
+        "writing": "7.0",
+        "listening": "7.0",
+        "speaking": "7.0"
+      },
+      {
+        "name": "LanguageCert Academic-postgraduate",
+        "overall": "80",
+        "reading": "75",
+        "writing": "75",
+        "listening": "75",
+        "speaking": "75"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC2-postgraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-postgraduate",
+        "overall": "80",
+        "reading": "76",
+        "writing": "76",
+        "listening": "76",
+        "speaking": "76"
+      },
+      {
+        "name": "TOEFL iBT-postgraduate",
+        "overall": "100",
+        "listening": "22",
+        "reading": "22",
+        "writing": "26",
+        "speaking": "24"
+      },
+      {
+        "name": "TOEFL iBT Home Edition-postgraduate",
+        "overall": "100",
+        "listening": "22",
+        "reading": "22",
+        "writing": "26",
+        "speaking": "24"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III-postgraduate",
+        "overall": "Distinction",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      }
+    ]
+  },
+  {
+    "id": "10-o",
+    "label": "Profile 10-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "169",
+        "listening": "162",
+        "reading": "162",
+        "writing": "169",
+        "speaking": "162"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "6.0",
+        "listening": "5.5",
+        "reading": "5.5",
+        "writing": "6.0",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "65",
+        "listening": "60",
+        "reading": "60",
+        "writing": "65",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1- Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "64",
+        "listening": "59",
+        "reading": "59",
+        "writing": "64",
+        "speaking": "59"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "67",
+        "listening": "12",
+        "reading": "12",
+        "writing": "19",
+        "speaking": "17"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Merit II or Pass at level III",
+        "reading": "Merit II or Pass at level III",
+        "writing": "Merit II or Pass at level III",
+        "listening": "Merit II or Pass at level III",
+        "speaking": "Merit II or Pass at level III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "169",
+        "listening": "162",
+        "reading": "162",
+        "writing": "169",
+        "speaking": "162"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "6.0",
+        "listening": "5.5",
+        "reading": "5.5",
+        "writing": "6.0",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "65",
+        "listening": "60",
+        "reading": "60",
+        "writing": "65",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1- Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "64",
+        "listening": "59",
+        "reading": "59",
+        "writing": "64",
+        "speaking": "59"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "67",
+        "listening": "12",
+        "reading": "12",
+        "writing": "19",
+        "speaking": "17"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Merit II or Pass at level III",
+        "reading": "Merit II or Pass at level III",
+        "writing": "Merit II or Pass at level III",
+        "listening": "Merit II or Pass at level III",
+        "speaking": "Merit II or Pass at level III"
+      }
+    ]
+  },
+  {
+    "id": "10-s",
+    "label": "Profile 10-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "6.0",
+        "listening": "5.5",
+        "reading": "5.5",
+        "writing": "6.0",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "65",
+        "listening": "60",
+        "reading": "60",
+        "writing": "65",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "64",
+        "listening": "59",
+        "reading": "59",
+        "writing": "64",
+        "speaking": "59"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II",
+        "overall": "Merit (or Pass at level III SELT)",
+        "reading": "Merit (or Pass at level III SELT)",
+        "writing": "Merit (or Pass at level III SELT)",
+        "listening": "Merit (or Pass at level III SELT)",
+        "speaking": "Merit (or Pass at level III SELT)"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "6.0",
+        "listening": "5.5",
+        "reading": "5.5",
+        "writing": "6.0",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "65",
+        "listening": "60",
+        "reading": "60",
+        "writing": "65",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "64",
+        "listening": "59",
+        "reading": "59",
+        "writing": "64",
+        "speaking": "59"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II-general",
+        "overall": "Merit (or Pass at level III SELT)",
+        "reading": "Merit (or Pass at level III SELT)",
+        "writing": "Merit (or Pass at level III SELT)",
+        "listening": "Merit (or Pass at level III SELT)",
+        "speaking": "Merit (or Pass at level III SELT)"
+      }
+    ]
+  },
+  {
+    "id": "11-o",
+    "label": "Profile 11-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "169",
+        "reading": "162",
+        "writing": "162",
+        "listening": "162",
+        "speaking": "162"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "6.0",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "65",
+        "reading": "60",
+        "writing": "60",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "64",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "67",
+        "listening": "12",
+        "reading": "12",
+        "writing": "14",
+        "speaking": "17"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Merit II or Pass III",
+        "reading": "Pass II or Pass III",
+        "writing": "Pass II or Pass III",
+        "listening": "Pass II or Pass III",
+        "speaking": "Pass II or Pass III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "169",
+        "reading": "162",
+        "writing": "162",
+        "listening": "162",
+        "speaking": "162"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "6.0",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "65",
+        "reading": "60",
+        "writing": "60",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "64",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "67",
+        "listening": "12",
+        "reading": "12",
+        "writing": "14",
+        "speaking": "17"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Merit II or Pass III",
+        "reading": "Pass II or Pass III",
+        "writing": "Pass II or Pass III",
+        "listening": "Pass II or Pass III",
+        "speaking": "Pass II or Pass III"
+      }
+    ]
+  },
+  {
+    "id": "11-s",
+    "label": "Profile 11-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "6.0",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "65",
+        "reading": "60",
+        "writing": "60",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "64",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II",
+        "overall": "Merit (or Pass at level III SELT)",
+        "reading": "Pass (or Pass at level III SELT)",
+        "writing": "Pass (or Pass at level III SELT)",
+        "listening": "Pass (or Pass at level III SELT)",
+        "speaking": "Pass (or Pass at level III SELT)"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "6.0",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "65",
+        "reading": "60",
+        "writing": "60",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "64",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II-general",
+        "overall": "Merit (or Pass at level III SELT)",
+        "reading": "Pass (or Pass at level III SELT)",
+        "writing": "Pass (or Pass at level III SELT)",
+        "listening": "Pass (or Pass at level III SELT)",
+        "speaking": "Pass (or Pass at level III SELT)"
+      }
+    ]
+  },
+  {
+    "id": "12-o",
+    "label": "Profile 12-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "169",
+        "listening": "154",
+        "reading": "154",
+        "writing": "169",
+        "speaking": "154"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "6.0",
+        "listening": "5.0",
+        "reading": "5.0",
+        "writing": "6.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "65",
+        "listening": "54",
+        "reading": "54",
+        "writing": "65",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "64",
+        "listening": "53",
+        "reading": "53",
+        "writing": "64",
+        "speaking": "53"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "67",
+        "listening": "8",
+        "reading": "8",
+        "writing": "19",
+        "speaking": "14"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Merit II or Pass III",
+        "reading": "Merit II or Pass III",
+        "writing": "Merit II or Pass III",
+        "listening": "Merit II or Pass III",
+        "speaking": "Merit II or Pass III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "169",
+        "listening": "154",
+        "reading": "154",
+        "writing": "169",
+        "speaking": "154"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "6.0",
+        "listening": "5.0",
+        "reading": "5.0",
+        "writing": "6.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "65",
+        "listening": "54",
+        "reading": "54",
+        "writing": "65",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "64",
+        "listening": "53",
+        "reading": "53",
+        "writing": "64",
+        "speaking": "53"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "67",
+        "listening": "8",
+        "reading": "8",
+        "writing": "19",
+        "speaking": "14"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Merit II or Pass III",
+        "reading": "Merit II or Pass III",
+        "writing": "Merit II or Pass III",
+        "listening": "Merit II or Pass III",
+        "speaking": "Merit II or Pass III"
+      }
+    ]
+  },
+  {
+    "id": "12-s",
+    "label": "Profile 12-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "6.0",
+        "listening": "5.0",
+        "reading": "5.0",
+        "writing": "6.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "65",
+        "listening": "54",
+        "reading": "54",
+        "writing": "65",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "64",
+        "listening": "53",
+        "reading": "53",
+        "writing": "64",
+        "speaking": "53"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II",
+        "overall": "Merit (or Pass at level III SELT)",
+        "reading": "Merit (or Pass at level III SELT)",
+        "writing": "Merit (or Pass at level III SELT)",
+        "listening": "Merit (or Pass at level III SELT)",
+        "speaking": "Merit (or Pass at level III SELT)"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "6.0",
+        "listening": "5.0",
+        "reading": "5.0",
+        "writing": "6.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "65",
+        "listening": "54",
+        "reading": "54",
+        "writing": "65",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "64",
+        "listening": "53",
+        "reading": "53",
+        "writing": "64",
+        "speaking": "53"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II-general",
+        "overall": "Merit (or Pass at level III SELT)",
+        "reading": "Merit (or Pass at level III SELT)",
+        "writing": "Merit (or Pass at level III SELT)",
+        "listening": "Merit (or Pass at level III SELT)",
+        "speaking": "Merit (or Pass at level III SELT)"
+      }
+    ]
+  },
+  {
+    "id": "13-o",
+    "label": "Profile 13-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "169",
+        "reading": "154",
+        "writing": "154",
+        "listening": "154",
+        "speaking": "154"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "6.0",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "65",
+        "reading": "54",
+        "writing": "54",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "64",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "67",
+        "listening": "8",
+        "reading": "8",
+        "writing": "9",
+        "speaking": "14"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Merit II or Pass III",
+        "reading": "Pass II or Pass III",
+        "writing": "Pass II or Pass III",
+        "listening": "Pass II or Pass III",
+        "speaking": "Pass II or Pass III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "169",
+        "reading": "154",
+        "writing": "154",
+        "listening": "154",
+        "speaking": "154"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "6.0",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "65",
+        "reading": "54",
+        "writing": "54",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "64",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "67",
+        "listening": "8",
+        "reading": "8",
+        "writing": "9",
+        "speaking": "14"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Merit II or Pass III",
+        "reading": "Pass II or Pass III",
+        "writing": "Pass II or Pass III",
+        "listening": "Pass II or Pass III",
+        "speaking": "Pass II or Pass III"
+      }
+    ]
+  },
+  {
+    "id": "13-s",
+    "label": "Profile 13-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "6.0",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "65",
+        "reading": "54",
+        "writing": "54",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "64",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II",
+        "overall": "Merit (or Pass at level III SELT)",
+        "reading": "Pass (or Pass at level III SELT)",
+        "writing": "Pass (or Pass at level III SELT)",
+        "listening": "Pass (or Pass at level III SELT)",
+        "speaking": "Pass (or Pass at level III SELT)"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "6.0",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "65",
+        "reading": "54",
+        "writing": "54",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "64",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II-general",
+        "overall": "Merit (or Pass at level III SELT)",
+        "reading": "Pass (or Pass at level III SELT)",
+        "writing": "Pass (or Pass at level III SELT)",
+        "listening": "Pass (or Pass at level III SELT)",
+        "speaking": "Pass (or Pass at level III SELT)"
+      }
+    ]
+  },
+  {
+    "id": "14-o",
+    "label": "Profile 14-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "162",
+        "listening": "154",
+        "reading": "154",
+        "writing": "162",
+        "speaking": "154"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "5.5",
+        "listening": "5.0",
+        "reading": "5.0",
+        "writing": "5.5",
+        "speaking": "5.0"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SB2 - Pass",
+        "reading": "4SB2 - Pass",
+        "writing": "4SB2 - Pass",
+        "listening": "4SB2 - Pass",
+        "speaking": "4SB2 - Pass"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "60",
+        "listening": "54",
+        "reading": "54",
+        "writing": "60",
+        "speaking": "54"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "59",
+        "listening": "53",
+        "reading": "53",
+        "writing": "59",
+        "speaking": "53"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "51",
+        "listening": "8",
+        "reading": "8",
+        "writing": "14",
+        "speaking": "14"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Pass II or Pass III",
+        "reading": "Pass II or Pass III",
+        "writing": "Pass II or Pass III",
+        "listening": "Pass II or Pass III",
+        "speaking": "Pass II or Pass III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "162",
+        "listening": "154",
+        "reading": "154",
+        "writing": "162",
+        "speaking": "154"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "5.5",
+        "listening": "5.0",
+        "reading": "5.0",
+        "writing": "5.5",
+        "speaking": "5.0"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SB2 - Pass",
+        "reading": "4SB2 - Pass",
+        "writing": "4SB2 - Pass",
+        "listening": "4SB2 - Pass",
+        "speaking": "4SB2 - Pass"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "60",
+        "listening": "54",
+        "reading": "54",
+        "writing": "60",
+        "speaking": "54"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "59",
+        "listening": "53",
+        "reading": "53",
+        "writing": "59",
+        "speaking": "53"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "51",
+        "listening": "8",
+        "reading": "8",
+        "writing": "14",
+        "speaking": "14"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Pass II or Pass III",
+        "reading": "Pass II or Pass III",
+        "writing": "Pass II or Pass III",
+        "listening": "Pass II or Pass III",
+        "speaking": "Pass II or Pass III"
+      }
+    ]
+  },
+  {
+    "id": "14-s",
+    "label": "Profile 14-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "5.5",
+        "listening": "5.0",
+        "reading": "5.0",
+        "writing": "5.5",
+        "speaking": "5.0"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SB2",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "60",
+        "listening": "54",
+        "reading": "54",
+        "writing": "60",
+        "speaking": "54"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "59",
+        "listening": "53",
+        "reading": "53",
+        "writing": "59",
+        "speaking": "53"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II",
+        "overall": "Pass (or Pass at level III SELT)",
+        "reading": "Pass (or Pass at level III SELT)",
+        "writing": "Pass (or Pass at level III SELT)",
+        "listening": "Pass (or Pass at level III SELT)",
+        "speaking": "Pass (or Pass at level III SELT)"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "5.5",
+        "listening": "5.0",
+        "reading": "5.0",
+        "writing": "5.5",
+        "speaking": "5.0"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SB2-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "60",
+        "listening": "54",
+        "reading": "54",
+        "writing": "60",
+        "speaking": "54"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "59",
+        "listening": "53",
+        "reading": "53",
+        "writing": "59",
+        "speaking": "53"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II-general",
+        "overall": "Pass (or Pass at level III SELT)",
+        "reading": "Pass (or Pass at level III SELT)",
+        "writing": "Pass (or Pass at level III SELT)",
+        "listening": "Pass (or Pass at level III SELT)",
+        "speaking": "Pass (or Pass at level III SELT)"
+      }
+    ]
+  },
+  {
+    "id": "15-o",
+    "label": "Profile 15-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "162",
+        "reading": "154",
+        "writing": "154",
+        "listening": "154",
+        "speaking": "154"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "5.5",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "60",
+        "reading": "54",
+        "writing": "54",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SB2 - Pass",
+        "reading": "4SB2 - Pass",
+        "writing": "4SB2 - Pass",
+        "listening": "4SB2 - Pass",
+        "speaking": "4SB2 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "59",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "51",
+        "listening": "8",
+        "reading": "8",
+        "writing": "9",
+        "speaking": "14"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Pass II or Pass III",
+        "reading": "Pass II or Pass III",
+        "writing": "Pass II or Pass III",
+        "listening": "Pass II or Pass III",
+        "speaking": "Pass II or Pass III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "162",
+        "reading": "154",
+        "writing": "154",
+        "listening": "154",
+        "speaking": "154"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "5.5",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "60",
+        "reading": "54",
+        "writing": "54",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SB2 - Pass",
+        "reading": "4SB2 - Pass",
+        "writing": "4SB2 - Pass",
+        "listening": "4SB2 - Pass",
+        "speaking": "4SB2 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "59",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "51",
+        "listening": "8",
+        "reading": "8",
+        "writing": "9",
+        "speaking": "14"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Pass II or Pass III",
+        "reading": "Pass II or Pass III",
+        "writing": "Pass II or Pass III",
+        "listening": "Pass II or Pass III",
+        "speaking": "Pass II or Pass III"
+      }
+    ]
+  },
+  {
+    "id": "15-s",
+    "label": "Profile 15-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "5.5",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "60",
+        "reading": "54",
+        "writing": "54",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SB2",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "59",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II",
+        "overall": "Pass (or Pass at level III SELT)",
+        "reading": "Pass (or Pass at level III SELT)",
+        "writing": "Pass (or Pass at level III SELT)",
+        "listening": "Pass (or Pass at level III SELT)",
+        "speaking": "Pass (or Pass at level III SELT)"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "5.5",
+        "reading": "5.0",
+        "writing": "5.0",
+        "listening": "5.0",
+        "speaking": "5.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "60",
+        "reading": "54",
+        "writing": "54",
+        "listening": "54",
+        "speaking": "54"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SB2-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "59",
+        "reading": "53",
+        "writing": "53",
+        "listening": "53",
+        "speaking": "53"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II-general",
+        "overall": "Pass (or Pass at level III SELT)",
+        "reading": "Pass (or Pass at level III SELT)",
+        "writing": "Pass (or Pass at level III SELT)",
+        "listening": "Pass (or Pass at level III SELT)",
+        "speaking": "Pass (or Pass at level III SELT)"
+      }
+    ]
+  },
+  {
+    "id": "2-m",
+    "label": "Profile 2-M (Faculty of Medicine)",
+    "variant": "m",
+    "tests_general": [
+      {
+        "name": "IELTS Academic",
+        "overall": "7.0",
+        "reading": "7.0",
+        "writing": "7.0",
+        "listening": "7.0",
+        "speaking": "7.0"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS Academic-general",
+        "overall": "7.0",
+        "reading": "7.0",
+        "writing": "7.0",
+        "listening": "7.0",
+        "speaking": "7.0"
+      }
+    ]
+  },
+  {
+    "id": "3-d",
+    "label": "Profile 3-D (Direct entry)",
+    "variant": "d",
+    "tests_undergraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "185",
+        "reading": "176",
+        "writing": "176",
+        "listening": "176",
+        "speaking": "176"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "75",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "76",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "listening": "19",
+        "reading": "19",
+        "writing": "23",
+        "speaking": "22"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC",
+        "overall": "14",
+        "reading": "11",
+        "writing": "11",
+        "listening": "11",
+        "speaking": "11"
+      }
+    ],
+    "tests_postgraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "185",
+        "reading": "176",
+        "writing": "176",
+        "listening": "176",
+        "speaking": "176"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "IELTS Academic Online",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "75",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "79",
+        "reading": "76",
+        "writing": "76",
+        "listening": "76",
+        "speaking": "76"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "listening": "19",
+        "reading": "19",
+        "writing": "23",
+        "speaking": "22"
+      },
+      {
+        "name": "TOEFL iBT Home Edition",
+        "overall": "91",
+        "listening": "19",
+        "reading": "19",
+        "writing": "23",
+        "speaking": "22"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC",
+        "overall": "14",
+        "reading": "11",
+        "writing": "11",
+        "listening": "11",
+        "speaking": "11"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-undergraduate",
+        "overall": "185",
+        "reading": "176",
+        "writing": "176",
+        "listening": "176",
+        "speaking": "176"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-undergraduate",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "LanguageCert Academic-undergraduate",
+        "overall": "75",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-undergraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-undergraduate",
+        "overall": "76",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "TOEFL iBT-undergraduate",
+        "overall": "91",
+        "listening": "19",
+        "reading": "19",
+        "writing": "23",
+        "speaking": "22"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III-undergraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC-undergraduate",
+        "overall": "14",
+        "reading": "11",
+        "writing": "11",
+        "listening": "11",
+        "speaking": "11"
+      },
+      {
+        "name": "Cambridge English Qualifications-postgraduate",
+        "overall": "185",
+        "reading": "176",
+        "writing": "176",
+        "listening": "176",
+        "speaking": "176"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-postgraduate",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "IELTS Academic Online-postgraduate",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "LanguageCert Academic-postgraduate",
+        "overall": "75",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-postgraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-postgraduate",
+        "overall": "79",
+        "reading": "76",
+        "writing": "76",
+        "listening": "76",
+        "speaking": "76"
+      },
+      {
+        "name": "TOEFL iBT-postgraduate",
+        "overall": "91",
+        "listening": "19",
+        "reading": "19",
+        "writing": "23",
+        "speaking": "22"
+      },
+      {
+        "name": "TOEFL iBT Home Edition-postgraduate",
+        "overall": "91",
+        "listening": "19",
+        "reading": "19",
+        "writing": "23",
+        "speaking": "22"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III-postgraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC-postgraduate",
+        "overall": "14",
+        "reading": "11",
+        "writing": "11",
+        "listening": "11",
+        "speaking": "11"
+      }
+    ]
+  },
+  {
+    "id": "3-o",
+    "label": "Profile 3-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "185",
+        "reading": "176",
+        "writing": "176",
+        "listening": "176",
+        "speaking": "176"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "75",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "76",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "91",
+        "listening": "19",
+        "reading": "19",
+        "writing": "23",
+        "speaking": "22"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Pass III",
+        "reading": "Pass III",
+        "writing": "Pass III",
+        "listening": "Pass III",
+        "speaking": "Pass III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "185",
+        "reading": "176",
+        "writing": "176",
+        "listening": "176",
+        "speaking": "176"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "75",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "76",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "91",
+        "listening": "19",
+        "reading": "19",
+        "writing": "23",
+        "speaking": "22"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Pass III",
+        "reading": "Pass III",
+        "writing": "Pass III",
+        "listening": "Pass III",
+        "speaking": "Pass III"
+      }
+    ]
+  },
+  {
+    "id": "3-s",
+    "label": "Profile 3-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "75",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "76",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT III",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "7.0",
+        "reading": "6.5",
+        "writing": "6.5",
+        "listening": "6.5",
+        "speaking": "6.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "75",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "76",
+        "reading": "70",
+        "writing": "70",
+        "listening": "70",
+        "speaking": "70"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT III-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      }
+    ]
+  },
+  {
+    "id": "4-d",
+    "label": "Profile 4-D (Direct entry)",
+    "variant": "d",
+    "tests_undergraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "185",
+        "listening": "169",
+        "reading": "169",
+        "writing": "185",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "7.0",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "75",
+        "listening": "65",
+        "reading": "65",
+        "writing": "65",
+        "speaking": "75"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "76",
+        "listening": "64",
+        "reading": "64",
+        "writing": "76",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "26",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC",
+        "overall": "14",
+        "listening": "7",
+        "reading": "7",
+        "writing": "14",
+        "speaking": "7"
+      }
+    ],
+    "tests_postgraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "185",
+        "listening": "169",
+        "reading": "169",
+        "writing": "185",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "7.0",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "IELTS Academic Online",
+        "overall": "7.0",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "75",
+        "listening": "65",
+        "reading": "65",
+        "writing": "65",
+        "speaking": "75"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "76",
+        "listening": "64",
+        "reading": "64",
+        "writing": "76",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "26",
+        "speaking": "19"
+      },
+      {
+        "name": "TOEFL iBT Home Edition",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "26",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC",
+        "overall": "14",
+        "listening": "7",
+        "reading": "7",
+        "writing": "14",
+        "speaking": "7"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-undergraduate",
+        "overall": "185",
+        "listening": "169",
+        "reading": "169",
+        "writing": "185",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-undergraduate",
+        "overall": "7.0",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic-undergraduate",
+        "overall": "75",
+        "listening": "65",
+        "reading": "65",
+        "writing": "65",
+        "speaking": "75"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-undergraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-undergraduate",
+        "overall": "76",
+        "listening": "64",
+        "reading": "64",
+        "writing": "76",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT-undergraduate",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "26",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III-undergraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC-undergraduate",
+        "overall": "14",
+        "listening": "7",
+        "reading": "7",
+        "writing": "14",
+        "speaking": "7"
+      },
+      {
+        "name": "Cambridge English Qualifications-postgraduate",
+        "overall": "185",
+        "listening": "169",
+        "reading": "169",
+        "writing": "185",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-postgraduate",
+        "overall": "7.0",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "IELTS Academic Online-postgraduate",
+        "overall": "7.0",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic-postgraduate",
+        "overall": "75",
+        "listening": "65",
+        "reading": "65",
+        "writing": "65",
+        "speaking": "75"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-postgraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-postgraduate",
+        "overall": "76",
+        "listening": "64",
+        "reading": "64",
+        "writing": "76",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT-postgraduate",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "26",
+        "speaking": "19"
+      },
+      {
+        "name": "TOEFL iBT Home Edition-postgraduate",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "26",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III-postgraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC-postgraduate",
+        "overall": "14",
+        "listening": "7",
+        "reading": "7",
+        "writing": "14",
+        "speaking": "7"
+      }
+    ]
+  },
+  {
+    "id": "4-o",
+    "label": "Profile 4-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "185",
+        "listening": "169",
+        "reading": "169",
+        "writing": "185",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "7.0",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "75",
+        "listening": "65",
+        "reading": "65",
+        "writing": "75",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "76",
+        "listening": "64",
+        "reading": "64",
+        "writing": "76",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "26",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Pass III",
+        "reading": "Pass III",
+        "writing": "Pass III",
+        "listening": "Pass III",
+        "speaking": "Pass III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "185",
+        "listening": "169",
+        "reading": "169",
+        "writing": "185",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "7.0",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "75",
+        "listening": "65",
+        "reading": "65",
+        "writing": "75",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "76",
+        "listening": "64",
+        "reading": "64",
+        "writing": "76",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "26",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Pass III",
+        "reading": "Pass III",
+        "writing": "Pass III",
+        "listening": "Pass III",
+        "speaking": "Pass III"
+      }
+    ]
+  },
+  {
+    "id": "4-s",
+    "label": "Profile 4-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "7.0",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "75",
+        "listening": "65",
+        "reading": "65",
+        "writing": "75",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "76",
+        "listening": "64",
+        "reading": "64",
+        "writing": "76",
+        "speaking": "64"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT III",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "7.0",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "7.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "75",
+        "listening": "65",
+        "reading": "65",
+        "writing": "75",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "76",
+        "listening": "64",
+        "reading": "64",
+        "writing": "76",
+        "speaking": "64"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT III-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      }
+    ]
+  },
+  {
+    "id": "5-d",
+    "label": "Profile 5-D (Direct entry)",
+    "variant": "d",
+    "tests_undergraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "185",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "75",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC",
+        "overall": "14",
+        "reading": "7",
+        "writing": "7",
+        "listening": "7",
+        "speaking": "7"
+      }
+    ],
+    "tests_postgraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "185",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "IELTS Academic Online",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "75",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic (September 2025 entry)",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "TOEFL iBT Home Edition",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC",
+        "overall": "14",
+        "reading": "7",
+        "writing": "7",
+        "listening": "7",
+        "speaking": "7"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-undergraduate",
+        "overall": "185",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-undergraduate",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic-undergraduate",
+        "overall": "75",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-undergraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-undergraduate",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT-undergraduate",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III-undergraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC-undergraduate",
+        "overall": "14",
+        "reading": "7",
+        "writing": "7",
+        "listening": "7",
+        "speaking": "7"
+      },
+      {
+        "name": "Cambridge English Qualifications-postgraduate",
+        "overall": "185",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-postgraduate",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "IELTS Academic Online-postgraduate",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic-postgraduate",
+        "overall": "75",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-postgraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic (September 2025 entry)-postgraduate",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT-postgraduate",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "TOEFL iBT Home Edition-postgraduate",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) III-postgraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "Pre-sessional or AEQC-postgraduate",
+        "overall": "14",
+        "reading": "7",
+        "writing": "7",
+        "listening": "7",
+        "speaking": "7"
+      }
+    ]
+  },
+  {
+    "id": "5-o",
+    "label": "Profile 5-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "185",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "75",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Pass III",
+        "reading": "Pass III",
+        "writing": "Pass III",
+        "listening": "Pass III",
+        "speaking": "Pass III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "185",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "75",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "91",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Pass III",
+        "reading": "Pass III",
+        "writing": "Pass III",
+        "listening": "Pass III",
+        "speaking": "Pass III"
+      }
+    ]
+  },
+  {
+    "id": "5-s",
+    "label": "Profile 5-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "75",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT III",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "7.0",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "75",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "76",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT III-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      }
+    ]
+  },
+  {
+    "id": "6-d",
+    "label": "Profile 6-D (Direct entry)",
+    "variant": "d",
+    "tests_undergraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "176",
+        "listening": "169",
+        "reading": "169",
+        "writing": "176",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "6.5",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "6.5",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "70",
+        "listening": "65",
+        "reading": "65",
+        "writing": "70",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "70",
+        "listening": "64",
+        "reading": "64",
+        "writing": "70",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "23",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) II",
+        "overall": "Distinction (or Pass at level III)",
+        "reading": "Distinction (or Pass at level III)",
+        "writing": "Distinction (or Pass at level III)",
+        "listening": "Distinction (or Pass at level III)",
+        "speaking": "Distinction (or Pass at level III)"
+      },
+      {
+        "name": "Pre-sessional or AEQC",
+        "overall": "11",
+        "listening": "7",
+        "reading": "7",
+        "writing": "11",
+        "speaking": "7"
+      }
+    ],
+    "tests_postgraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "176",
+        "listening": "169",
+        "reading": "169",
+        "writing": "176",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "6.5",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "6.5",
+        "speaking": "6.0"
+      },
+      {
+        "name": "IELTS Academic Online",
+        "overall": "6.5",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "6.5",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "70",
+        "listening": "65",
+        "reading": "65",
+        "writing": "70",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "70",
+        "listening": "64",
+        "reading": "64",
+        "writing": "70",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "23",
+        "speaking": "19"
+      },
+      {
+        "name": "TOEFL iBT Home Edition",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "23",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) II",
+        "overall": "Distinction (or Pass at level III)",
+        "reading": "Distinction (or Pass at level III)",
+        "writing": "Distinction (or Pass at level III)",
+        "listening": "Distinction (or Pass at level III)",
+        "speaking": "Distinction (or Pass at level III)"
+      },
+      {
+        "name": "Pre-sessional or AEQC",
+        "overall": "11",
+        "listening": "7",
+        "reading": "7",
+        "writing": "11",
+        "speaking": "7"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-undergraduate",
+        "overall": "176",
+        "listening": "169",
+        "reading": "169",
+        "writing": "176",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-undergraduate",
+        "overall": "6.5",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "6.5",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic-undergraduate",
+        "overall": "70",
+        "listening": "65",
+        "reading": "65",
+        "writing": "70",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-undergraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-undergraduate",
+        "overall": "70",
+        "listening": "64",
+        "reading": "64",
+        "writing": "70",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT-undergraduate",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "23",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) II-undergraduate",
+        "overall": "Distinction (or Pass at level III)",
+        "reading": "Distinction (or Pass at level III)",
+        "writing": "Distinction (or Pass at level III)",
+        "listening": "Distinction (or Pass at level III)",
+        "speaking": "Distinction (or Pass at level III)"
+      },
+      {
+        "name": "Pre-sessional or AEQC-undergraduate",
+        "overall": "11",
+        "listening": "7",
+        "reading": "7",
+        "writing": "11",
+        "speaking": "7"
+      },
+      {
+        "name": "Cambridge English Qualifications-postgraduate",
+        "overall": "176",
+        "listening": "169",
+        "reading": "169",
+        "writing": "176",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-postgraduate",
+        "overall": "6.5",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "6.5",
+        "speaking": "6.0"
+      },
+      {
+        "name": "IELTS Academic Online-postgraduate",
+        "overall": "6.5",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "6.5",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic-postgraduate",
+        "overall": "70",
+        "listening": "65",
+        "reading": "65",
+        "writing": "70",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-postgraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-postgraduate",
+        "overall": "70",
+        "listening": "64",
+        "reading": "64",
+        "writing": "70",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT-postgraduate",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "23",
+        "speaking": "19"
+      },
+      {
+        "name": "TOEFL iBT Home Edition-postgraduate",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "23",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) II-postgraduate",
+        "overall": "Distinction (or Pass at level III)",
+        "reading": "Distinction (or Pass at level III)",
+        "writing": "Distinction (or Pass at level III)",
+        "listening": "Distinction (or Pass at level III)",
+        "speaking": "Distinction (or Pass at level III)"
+      },
+      {
+        "name": "Pre-sessional or AEQC-postgraduate",
+        "overall": "11",
+        "listening": "7",
+        "reading": "7",
+        "writing": "11",
+        "speaking": "7"
+      }
+    ]
+  },
+  {
+    "id": "6-o",
+    "label": "Profile 6-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "176",
+        "listening": "169",
+        "reading": "169",
+        "writing": "176",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "6.5",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "6.5",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "70",
+        "listening": "65",
+        "reading": "65",
+        "writing": "70",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "70",
+        "listening": "64",
+        "reading": "64",
+        "writing": "70",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "23",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Distinction II or Pass at level III",
+        "reading": "Distinction II or Pass at level III",
+        "writing": "Distinction II or Pass at level III",
+        "listening": "Distinction II or Pass at level III",
+        "speaking": "Distinction II or Pass at level III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "176",
+        "listening": "169",
+        "reading": "169",
+        "writing": "176",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "6.5",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "6.5",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "70",
+        "listening": "65",
+        "reading": "65",
+        "writing": "70",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "70",
+        "listening": "64",
+        "reading": "64",
+        "writing": "70",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "23",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Distinction II or Pass at level III",
+        "reading": "Distinction II or Pass at level III",
+        "writing": "Distinction II or Pass at level III",
+        "listening": "Distinction II or Pass at level III",
+        "speaking": "Distinction II or Pass at level III"
+      }
+    ]
+  },
+  {
+    "id": "6-s",
+    "label": "Profile 6-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "6.5",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "6.5",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "70",
+        "listening": "65",
+        "reading": "65",
+        "writing": "70",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "70",
+        "listening": "64",
+        "reading": "64",
+        "writing": "70",
+        "speaking": "64"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II",
+        "overall": "Distinction (or Pass at level III SELT)",
+        "reading": "Distinction (or Pass at level III SELT)",
+        "writing": "Distinction (or Pass at level III SELT)",
+        "listening": "Distinction (or Pass at level III SELT)",
+        "speaking": "Distinction (or Pass at level III SELT)"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "6.5",
+        "listening": "6.0",
+        "reading": "6.0",
+        "writing": "6.5",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "70",
+        "listening": "65",
+        "reading": "65",
+        "writing": "70",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "70",
+        "listening": "64",
+        "reading": "64",
+        "writing": "70",
+        "speaking": "64"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II-general",
+        "overall": "Distinction (or Pass at level III SELT)",
+        "reading": "Distinction (or Pass at level III SELT)",
+        "writing": "Distinction (or Pass at level III SELT)",
+        "listening": "Distinction (or Pass at level III SELT)",
+        "speaking": "Distinction (or Pass at level III SELT)"
+      }
+    ]
+  },
+  {
+    "id": "7-d",
+    "label": "Profile 7-D (Direct entry)",
+    "variant": "d",
+    "tests_undergraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "176",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "70",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) II",
+        "overall": "Distinction (or Pass at level III)",
+        "reading": "Merit (or Pass at level III)",
+        "writing": "Merit (or Pass at level III)",
+        "listening": "Merit (or Pass at level III)",
+        "speaking": "Merit (or Pass at level III)"
+      },
+      {
+        "name": "Pre-sessional or AEQC",
+        "overall": "11",
+        "reading": "7",
+        "writing": "7",
+        "listening": "7",
+        "speaking": "7"
+      }
+    ],
+    "tests_postgraduate": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "176",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "IELTS Academic Online",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic",
+        "overall": "70",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "TOEFL iBT Home Edition",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) II",
+        "overall": "Distinction (or Pass at level III)",
+        "reading": "Merit (or Pass at level III)",
+        "writing": "Merit (or Pass at level III)",
+        "listening": "Merit (or Pass at level III)",
+        "speaking": "Merit (or Pass at level III)"
+      },
+      {
+        "name": "Pre-sessional or AEQC",
+        "overall": "11",
+        "reading": "7",
+        "writing": "7",
+        "listening": "7",
+        "speaking": "7"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-undergraduate",
+        "overall": "176",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-undergraduate",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic-undergraduate",
+        "overall": "70",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-undergraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-undergraduate",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT-undergraduate",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) II-undergraduate",
+        "overall": "Distinction (or Pass at level III)",
+        "reading": "Merit (or Pass at level III)",
+        "writing": "Merit (or Pass at level III)",
+        "listening": "Merit (or Pass at level III)",
+        "speaking": "Merit (or Pass at level III)"
+      },
+      {
+        "name": "Pre-sessional or AEQC-undergraduate",
+        "overall": "11",
+        "reading": "7",
+        "writing": "7",
+        "listening": "7",
+        "speaking": "7"
+      },
+      {
+        "name": "Cambridge English Qualifications-postgraduate",
+        "overall": "176",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic (including IELTS One Skill retake)-postgraduate",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "IELTS Academic Online-postgraduate",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic-postgraduate",
+        "overall": "70",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-postgraduate",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic-postgraduate",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT-postgraduate",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "TOEFL iBT Home Edition-postgraduate",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) II-postgraduate",
+        "overall": "Distinction (or Pass at level III)",
+        "reading": "Merit (or Pass at level III)",
+        "writing": "Merit (or Pass at level III)",
+        "listening": "Merit (or Pass at level III)",
+        "speaking": "Merit (or Pass at level III)"
+      },
+      {
+        "name": "Pre-sessional or AEQC-postgraduate",
+        "overall": "11",
+        "reading": "7",
+        "writing": "7",
+        "listening": "7",
+        "speaking": "7"
+      }
+    ]
+  },
+  {
+    "id": "7-o",
+    "label": "Profile 7-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "176",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "70",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Distinction II or Pass at level III",
+        "reading": "Merit II or Pass at level III",
+        "writing": "Merit II or Pass at level III",
+        "listening": "Merit II or Pass at level III",
+        "speaking": "Merit II or Pass at level III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "176",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "70",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "81",
+        "listening": "16",
+        "reading": "16",
+        "writing": "19",
+        "speaking": "19"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Distinction II or Pass at level III",
+        "reading": "Merit II or Pass at level III",
+        "writing": "Merit II or Pass at level III",
+        "listening": "Merit II or Pass at level III",
+        "speaking": "Merit II or Pass at level III"
+      }
+    ]
+  },
+  {
+    "id": "7-s",
+    "label": "Profile 7-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "70",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II",
+        "overall": "Distinction (or Pass at level III SELT)",
+        "reading": "Merit (or Pass at level III SELT)",
+        "writing": "Merit (or Pass at level III SELT)",
+        "listening": "Merit (or Pass at level III SELT)",
+        "speaking": "Merit (or Pass at level III SELT)"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "6.5",
+        "reading": "6.0",
+        "writing": "6.0",
+        "listening": "6.0",
+        "speaking": "6.0"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "70",
+        "reading": "65",
+        "writing": "65",
+        "listening": "65",
+        "speaking": "65"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "70",
+        "reading": "64",
+        "writing": "64",
+        "listening": "64",
+        "speaking": "64"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II-general",
+        "overall": "Distinction (or Pass at level III SELT)",
+        "reading": "Merit (or Pass at level III SELT)",
+        "writing": "Merit (or Pass at level III SELT)",
+        "listening": "Merit (or Pass at level III SELT)",
+        "speaking": "Merit (or Pass at level III SELT)"
+      }
+    ]
+  },
+  {
+    "id": "8-o",
+    "label": "Profile 8-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "176",
+        "listening": "162",
+        "reading": "162",
+        "writing": "176",
+        "speaking": "162"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "6.5",
+        "listening": "5.5",
+        "reading": "5.5",
+        "writing": "6.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "70",
+        "listening": "60",
+        "reading": "60",
+        "writing": "70",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "70",
+        "listening": "59",
+        "reading": "59",
+        "writing": "70",
+        "speaking": "59"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "81",
+        "listening": "12",
+        "reading": "12",
+        "writing": "23",
+        "speaking": "17"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Distinction II or Pass at level III",
+        "reading": "Distinction II or Pass at level III",
+        "writing": "Distinction II or Pass at level III",
+        "listening": "Distinction II or Pass at level III",
+        "speaking": "Distinction II or Pass at level III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "176",
+        "listening": "162",
+        "reading": "162",
+        "writing": "176",
+        "speaking": "162"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "6.5",
+        "listening": "5.5",
+        "reading": "5.5",
+        "writing": "6.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "70",
+        "listening": "60",
+        "reading": "60",
+        "writing": "70",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "70",
+        "listening": "59",
+        "reading": "59",
+        "writing": "70",
+        "speaking": "59"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "81",
+        "listening": "12",
+        "reading": "12",
+        "writing": "23",
+        "speaking": "17"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Distinction II or Pass at level III",
+        "reading": "Distinction II or Pass at level III",
+        "writing": "Distinction II or Pass at level III",
+        "listening": "Distinction II or Pass at level III",
+        "speaking": "Distinction II or Pass at level III"
+      }
+    ]
+  },
+  {
+    "id": "8-s",
+    "label": "Profile 8-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "6.5",
+        "listening": "5.5",
+        "reading": "5.5",
+        "writing": "6.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "70",
+        "listening": "60",
+        "reading": "60",
+        "writing": "70",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "70",
+        "listening": "59",
+        "reading": "59",
+        "writing": "70",
+        "speaking": "59"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II",
+        "overall": "Distinction (or Pass at level III SELT)",
+        "reading": "Distinction (or Pass at level III SELT)",
+        "writing": "Distinction (or Pass at level III SELT)",
+        "listening": "Distinction (or Pass at level III SELT)",
+        "speaking": "Distinction (or Pass at level III SELT)"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "6.5",
+        "listening": "5.5",
+        "reading": "5.5",
+        "writing": "6.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "70",
+        "listening": "60",
+        "reading": "60",
+        "writing": "70",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "70",
+        "listening": "59",
+        "reading": "59",
+        "writing": "70",
+        "speaking": "59"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II-general",
+        "overall": "Distinction (or Pass at level III SELT)",
+        "reading": "Distinction (or Pass at level III SELT)",
+        "writing": "Distinction (or Pass at level III SELT)",
+        "listening": "Distinction (or Pass at level III SELT)",
+        "speaking": "Distinction (or Pass at level III SELT)"
+      }
+    ]
+  },
+  {
+    "id": "9-o",
+    "label": "Profile 9-O (Online)",
+    "variant": "o",
+    "tests_general": [
+      {
+        "name": "Cambridge English Qualifications",
+        "overall": "176",
+        "reading": "162",
+        "writing": "162",
+        "listening": "162",
+        "speaking": "162"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online",
+        "overall": "6.5",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT",
+        "overall": "70",
+        "reading": "60",
+        "writing": "60",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI",
+        "overall": "70",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition",
+        "overall": "81",
+        "listening": "12",
+        "reading": "12",
+        "writing": "14",
+        "speaking": "17"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT",
+        "overall": "Distinction II or Pass at level III",
+        "reading": "Pass II or Pass III",
+        "writing": "Pass II or Pass III",
+        "listening": "Pass II or Pass III",
+        "speaking": "Pass II or Pass III"
+      }
+    ],
+    "tests": [
+      {
+        "name": "Cambridge English Qualifications-general",
+        "overall": "176",
+        "reading": "162",
+        "writing": "162",
+        "listening": "162",
+        "speaking": "162"
+      },
+      {
+        "name": "IELTS Academic, including UKVI, One Skill Retake, and Online-general",
+        "overall": "6.5",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic, including SELT-general",
+        "overall": "70",
+        "reading": "60",
+        "writing": "60",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English, including UKVI-general",
+        "overall": "4SC1 - Pass",
+        "reading": "4SC1 - Pass",
+        "writing": "4SC1 - Pass",
+        "listening": "4SC1 - Pass",
+        "speaking": "4SC1 - Pass"
+      },
+      {
+        "name": "PTE Academic, including UKVI-general",
+        "overall": "70",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "TOEFL iBT, including Home Edition-general",
+        "overall": "81",
+        "listening": "12",
+        "reading": "12",
+        "writing": "14",
+        "speaking": "17"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE), including SELT-general",
+        "overall": "Distinction II or Pass at level III",
+        "reading": "Pass II or Pass III",
+        "writing": "Pass II or Pass III",
+        "listening": "Pass II or Pass III",
+        "speaking": "Pass II or Pass III"
+      }
+    ]
+  },
+  {
+    "id": "9-s",
+    "label": "Profile 9-S (SELT)",
+    "variant": "s",
+    "tests_general": [
+      {
+        "name": "IELTS for UKVI (Academic)",
+        "overall": "6.5",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT",
+        "overall": "70",
+        "reading": "60",
+        "writing": "60",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI",
+        "overall": "70",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II",
+        "overall": "Distinction (or Pass at level III SELT)",
+        "reading": "Pass (or Pass at level III SELT)",
+        "writing": "Pass (or Pass at level III SELT)",
+        "listening": "Pass (or Pass at level III SELT)",
+        "speaking": "Pass (or Pass at level III SELT)"
+      }
+    ],
+    "tests": [
+      {
+        "name": "IELTS for UKVI (Academic)-general",
+        "overall": "6.5",
+        "reading": "5.5",
+        "writing": "5.5",
+        "listening": "5.5",
+        "speaking": "5.5"
+      },
+      {
+        "name": "LanguageCert Academic SELT-general",
+        "overall": "70",
+        "reading": "60",
+        "writing": "60",
+        "listening": "60",
+        "speaking": "60"
+      },
+      {
+        "name": "PSI Skills for English UKVI 4SC1-general",
+        "overall": "Pass",
+        "reading": "Pass",
+        "writing": "Pass",
+        "listening": "Pass",
+        "speaking": "Pass"
+      },
+      {
+        "name": "PTE Academic UKVI-general",
+        "overall": "70",
+        "reading": "59",
+        "writing": "59",
+        "listening": "59",
+        "speaking": "59"
+      },
+      {
+        "name": "Trinity Integrated Skills in English (ISE) SELT II-general",
+        "overall": "Distinction (or Pass at level III SELT)",
+        "reading": "Pass (or Pass at level III SELT)",
+        "writing": "Pass (or Pass at level III SELT)",
+        "listening": "Pass (or Pass at level III SELT)",
+        "speaking": "Pass (or Pass at level III SELT)"
+      }
+    ]
+  },
+  {
+    "id": "reference-tables",
+    "label": "Reference tables for English language test profiles",
+    "variant": "tables",
+    "tests_general": [
+      {
+        "name": "C1+",
+        "overall": "8.0",
+        "reading": "200",
+        "writing": "200",
+        "listening": "200",
+        "speaking": "200"
+      },
+      {
+        "name": "C1",
+        "overall": "7.5",
+        "reading": "191",
+        "writing": "191",
+        "listening": "191",
+        "speaking": "191"
+      },
+      {
+        "name": "C1-",
+        "overall": "7.0",
+        "reading": "185",
+        "writing": "185",
+        "listening": "185",
+        "speaking": "185"
+      },
+      {
+        "name": "B2+",
+        "overall": "6.5",
+        "reading": "176",
+        "writing": "176",
+        "listening": "176",
+        "speaking": "176"
+      },
+      {
+        "name": "B2",
+        "overall": "6.0",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "B2-",
+        "overall": "5.5",
+        "reading": "162",
+        "writing": "162",
+        "listening": "162",
+        "speaking": "162"
+      },
+      {
+        "name": "B1+",
+        "overall": "5.0",
+        "reading": "154",
+        "writing": "154",
+        "listening": "154",
+        "speaking": "154"
+      }
+    ],
+    "tests": [
+      {
+        "name": "C1+-general",
+        "overall": "8.0",
+        "reading": "200",
+        "writing": "200",
+        "listening": "200",
+        "speaking": "200"
+      },
+      {
+        "name": "C1-general",
+        "overall": "7.5",
+        "reading": "191",
+        "writing": "191",
+        "listening": "191",
+        "speaking": "191"
+      },
+      {
+        "name": "C1--general",
+        "overall": "7.0",
+        "reading": "185",
+        "writing": "185",
+        "listening": "185",
+        "speaking": "185"
+      },
+      {
+        "name": "B2+-general",
+        "overall": "6.5",
+        "reading": "176",
+        "writing": "176",
+        "listening": "176",
+        "speaking": "176"
+      },
+      {
+        "name": "B2-general",
+        "overall": "6.0",
+        "reading": "169",
+        "writing": "169",
+        "listening": "169",
+        "speaking": "169"
+      },
+      {
+        "name": "B2--general",
+        "overall": "5.5",
+        "reading": "162",
+        "writing": "162",
+        "listening": "162",
+        "speaking": "162"
+      },
+      {
+        "name": "B1+-general",
+        "overall": "5.0",
+        "reading": "154",
+        "writing": "154",
+        "listening": "154",
+        "speaking": "154"
+      }
+    ]
+  }
+]

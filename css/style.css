@@ -1,0 +1,252 @@
+/* ==========================================================================
+   ST ANDREWS 2026 PROTOTYPE HUB - STYLESHEET
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+/* --- 1. VARIABLES & BASE --- */
+:root {
+  /* DPL Core Colours */
+  --dpl-blue: #00539b;
+  --dpl-blue-shade: #003e74;
+  --dpl-light-blue: #0071b3;
+  --dpl-light-blue-shade: #005586;
+  --dpl-red: #ea1a13;
+  --dpl-dark-grey: #202024;
+  --dpl-grey: #6a6a6b;
+  --dpl-mid-grey: #949494;
+  --dpl-mid-grey-2: #dedede;
+  --dpl-light-grey: #f0f0f0;
+  --dpl-light-grey-2: #fafafa;
+  --dpl-orange: #ffb400;
+  --dpl-dark-orange: #bf5909;
+  --dpl-green: #00853f;
+  --dpl-purple: #7b439a;
+
+  /* Semantic UI Mapping */
+  --primary: var(--dpl-blue);
+  --primary-dark: var(--dpl-blue-shade);
+  --accent: var(--dpl-light-blue);
+  --pg-color: var(--dpl-purple);
+  --admin-color: var(--dpl-dark-orange);
+  --success: var(--dpl-green);
+
+  --bg-body: var(--dpl-light-grey-2);
+  --card-bg: #ffffff;
+  --text-main: var(--dpl-dark-grey);
+  --text-light: var(--dpl-grey);
+  --border-light: var(--dpl-light-grey);
+
+  /* Layout Variables */
+  --card-radius: 16px;
+  --transition: cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 80px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- 2. HERO SECTION --- */
+.modern-hero {
+  background: linear-gradient(
+    135deg,
+    var(--primary) 0%,
+    var(--primary-dark) 100%
+  );
+  color: white;
+  padding: 80px 0; /* Balanced top and bottom padding */
+  margin-bottom: 40px; /* Pushes the content below down safely */
+  position: relative;
+  text-align: center;
+}
+
+.modern-hero h1 {
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 2.8rem;
+}
+
+.modern-hero .lead {
+  font-weight: 300;
+  opacity: 0.9;
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* --- 3. HUB LAYOUT & SECTIONS --- */
+.hub-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-top: 20px;
+}
+
+.hub-section-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--border-light);
+}
+
+/* --- 4. CARDS --- */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  position: relative;
+  z-index: 10;
+  padding: 0 10px;
+}
+
+.hub-card {
+  background: var(--card-bg);
+  border: none;
+  border-radius: var(--card-radius);
+  padding: 40px 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.4s var(--transition);
+  text-decoration: none !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid transparent;
+}
+
+.hub-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 25px 50px rgba(0, 83, 155, 0.15);
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  transition: transform 0.4s ease;
+}
+
+.hub-card:hover .icon-circle {
+  transform: scale(1.15) rotate(8deg);
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0 0 12px 0;
+  color: var(--text-main);
+}
+
+.card-text {
+  font-size: 1rem;
+  color: var(--text-light);
+  line-height: 1.6;
+  margin: 0 0 25px 0;
+}
+
+/* --- 5. CARD VARIANTS & BADGES --- */
+.status-badge {
+  margin-top: auto;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Public Variant */
+.card-public .icon-circle {
+  background: #e0f7fa;
+  color: #006064;
+}
+.card-public:hover {
+  border-top-color: #00bcd4;
+}
+.badge-public {
+  background: #e0f7fa;
+  color: #006064;
+}
+
+/* Undergraduate Variant */
+.card-ug .icon-circle {
+  background: #e3f2fd;
+  color: var(--primary);
+}
+.card-ug:hover {
+  border-top-color: var(--primary);
+}
+.badge-ug {
+  background: #e3f2fd;
+  color: var(--primary);
+}
+
+/* Postgraduate Variant */
+.card-pg .icon-circle {
+  background: #f3e5f5;
+  color: var(--pg-color);
+}
+.card-pg:hover {
+  border-top-color: var(--pg-color);
+}
+.badge-pg {
+  background: #f3e5f5;
+  color: var(--pg-color);
+}
+
+/* Admin Variant */
+.card-admin .icon-circle {
+  background: #fff8e1;
+  color: var(--admin-color);
+}
+.card-admin:hover {
+  border-top-color: var(--admin-color);
+}
+.badge-admin {
+  background: #fff8e1;
+  color: var(--admin-color);
+}
+
+/* --- 6. FOOTER --- */
+.site-footer {
+  margin-top: 40px;
+  text-align: center;
+  color: var(--dpl-mid-grey);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--border-light);
+  padding-top: 30px;
+}

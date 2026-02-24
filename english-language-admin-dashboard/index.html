@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Profiles Manager</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="mobile-nav">
+      <div class="mobile-nav-title">English Profiles Manager</div>
+      <button class="menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
+    </div>
+
+    <div id="notification" class="toast-notification">
+      <span class="toast-icon">✓</span> Profiles saved successfully
+    </div>
+
+    <div class="modern-hero">
+      <div class="container">
+        <h1>English Language Profiles</h1>
+        <p class="lead">
+          Manage global testing requirements across undergraduate and
+          postgraduate variants.
+        </p>
+      </div>
+    </div>
+
+    <div class="container app-layout">
+      <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+      <aside class="sidebar" id="app-sidebar">
+        <div class="sidebar-header">
+          <span
+            style="font-size: 1.1rem; font-weight: 800; color: var(--text-dark)"
+            >Profiles</span
+          >
+          <button class="btn-new-profile" onclick="addProfile()">
+            + New Profile
+          </button>
+        </div>
+        <div class="profile-list" id="sidebar-list"></div>
+      </aside>
+
+      <main class="main-editor">
+        <div id="empty-state" class="empty-state">
+          <div class="empty-icon">📝</div>
+          <h2>Select a Profile</h2>
+          <p>
+            Choose a profile from the sidebar to view and edit its testing
+            requirements.
+          </p>
+        </div>
+
+        <div id="editor-panel" style="display: none">
+          <div class="editor-header-card">
+            <input
+              type="text"
+              class="cms-title-input"
+              id="field-label"
+              placeholder="Profile Title (e.g. School of English)"
+            />
+
+            <div class="cms-meta-row">
+              <div class="cms-meta-group">
+                <label>Profile ID</label>
+                <input
+                  type="text"
+                  class="cms-meta-input"
+                  id="field-id"
+                  placeholder="e.g. 1-d"
+                  style="width: 120px"
+                />
+              </div>
+
+              <div class="cms-meta-group">
+                <label>Variant / Type</label>
+                <select class="cms-meta-select" id="field-variant">
+                  <option value="d">Direct Entry (d)</option>
+                  <option value="o">Online (o)</option>
+                  <option value="s">SELT (s)</option>
+                  <option value="m">Medicine (m)</option>
+                  <option value="tables">Tables</option>
+                </select>
+              </div>
+
+              <div style="margin-left: auto">
+                <button
+                  class="btn-danger"
+                  onclick="deleteProfile()"
+                  title="Delete Profile"
+                >
+                  🗑️ Delete
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div id="tests-container"></div>
+        </div>
+      </main>
+    </div>
+
+    <button class="fab-save" onclick="saveJSON()">
+      <span style="font-size: 1.2rem">💾</span> Save JSON
+    </button>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

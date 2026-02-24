@@ -1,0 +1,314 @@
+/* --- ST ANDREWS 2026 DIGITAL PATTERN LIBRARY --- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  /* DPL Core Colours */
+  --dpl-blue: #00539b;
+  --dpl-blue-shade: #003e74;
+  --dpl-light-blue: #0071b3;
+  --dpl-light-blue-shade: #005586;
+  --dpl-dark-grey: #202024;
+  --dpl-grey: #6a6a6b;
+  --dpl-mid-grey: #949494;
+  --dpl-mid-grey-2: #dedede;
+  --dpl-light-grey: #f0f0f0;
+  --dpl-light-grey-2: #fafafa;
+  --dpl-orange: #ffb400;
+  --dpl-green: #00853f;
+  --dpl-green-shade: #00642f;
+
+  /* Semantic Mappings */
+  --primary: var(--dpl-blue);
+  --primary-dark: var(--dpl-blue-shade);
+  --accent: var(--dpl-light-blue);
+  --accent-hover: var(--dpl-light-blue-shade);
+  --success: var(--dpl-green);
+  --bg-body: var(--dpl-light-grey-2);
+  --card-bg: #ffffff;
+  --text-main: var(--dpl-dark-grey);
+  --text-light: var(--dpl-grey);
+  --border-color: var(--dpl-mid-grey-2);
+  --focus-ring: var(--dpl-orange);
+
+  --card-radius: 12px;
+  --transition: cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  margin: 0;
+  padding-bottom: 80px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar */
+.navbar-inverse {
+  background: #1a1a1a;
+  padding: 15px 0;
+  color: #fff;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar-brand {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.navbar-text {
+  color: #999;
+  font-size: 0.95rem;
+}
+
+/* Hero */
+.modern-hero {
+  background: linear-gradient(
+    135deg,
+    var(--primary) 0%,
+    var(--primary-dark) 100%
+  );
+  color: white;
+  padding: 60px 0 100px;
+  margin-bottom: -50px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+.modern-hero h1 {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 2.2rem;
+}
+.modern-hero .lead {
+  font-weight: 300;
+  opacity: 0.9;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0;
+}
+
+/* Layout */
+.app-layout {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  z-index: 10;
+  align-items: flex-start;
+}
+@media (max-width: 850px) {
+  .app-layout {
+    flex-direction: column;
+  }
+}
+
+.main-content {
+  flex-grow: 1;
+  min-width: 0;
+  width: 100%;
+}
+
+/* Widget Card */
+.req-widget-card {
+  background: var(--card-bg);
+  border-radius: var(--card-radius);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  border: 1px solid var(--border-color);
+  border-top: 6px solid var(--accent);
+}
+
+.step-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.3s ease;
+}
+.disabled-group {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.modern-label {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.modern-select {
+  height: 55px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1.05rem;
+  background-color: var(--dpl-light-grey-2);
+  color: var(--text-main);
+  padding: 0 15px;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+}
+.modern-select:focus {
+  border-color: var(--focus-ring);
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(255, 180, 0, 0.2);
+}
+.modern-select:disabled {
+  background-color: var(--dpl-light-grey);
+  cursor: not-allowed;
+}
+
+/* Result Output */
+.result-box {
+  background: #f0f7fd;
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 35px;
+  border: 1px solid #cce5ff;
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.result-title {
+  margin-top: 0;
+  color: var(--primary);
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.eng-score-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 15px;
+}
+.eng-score-item {
+  background: white;
+  border: 1px solid #d1e3f0;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+}
+.eng-score-item span {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-light);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.eng-score-item strong {
+  font-size: 1.5rem;
+  color: var(--primary);
+  display: block;
+  font-weight: 800;
+}
+
+/* Share Area */
+.share-area {
+  margin-top: 30px;
+  padding-top: 25px;
+  border-top: 1px dashed var(--border-color);
+  animation: slideUp 0.4s ease-out;
+}
+.share-input-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.share-input {
+  flex-grow: 1;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background: var(--dpl-light-grey-2);
+  color: var(--text-light);
+  font-family: monospace;
+  font-size: 0.9rem;
+  outline: none;
+}
+.share-input:focus {
+  border-color: var(--focus-ring);
+}
+
+.btn-copy {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 0 20px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+  white-space: nowrap;
+}
+.btn-copy:hover {
+  background: var(--accent-hover);
+}
+.btn-copy.copied {
+  background: var(--success);
+}
+
+/* Sidebar Info */
+.sidebar-info {
+  width: 320px;
+  flex-shrink: 0;
+}
+@media (max-width: 850px) {
+  .sidebar-info {
+    width: 100%;
+  }
+}
+.info-card {
+  background: white;
+  border-radius: var(--card-radius);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  border: 1px solid var(--border-color);
+}
+.info-card h3 {
+  margin-top: 0;
+  color: var(--primary);
+  font-weight: 800;
+}
+.info-card p {
+  color: var(--text-light);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

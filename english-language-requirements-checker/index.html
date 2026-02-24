@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Language Requirements | St Andrews</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar-inverse">
+      <div class="container nav-container">
+        <a class="navbar-brand" href="#">University of St Andrews</a>
+        <span class="navbar-text">English Language Requirements</span>
+      </div>
+    </nav>
+
+    <div class="modern-hero">
+      <div class="container">
+        <h1>Check your English requirements</h1>
+        <p class="lead">
+          Select your study type, profile, and preferred test to see the exact
+          grades you need to join us.
+        </p>
+      </div>
+    </div>
+
+    <div class="container app-layout">
+      <main class="main-content">
+        <div class="req-widget-card">
+          <div class="step-container">
+            <div class="input-group">
+              <label class="modern-label">1. Study Type</label>
+              <select class="modern-select" id="select-category">
+                <option value="" disabled selected>Select study type...</option>
+              </select>
+            </div>
+
+            <div class="input-group disabled-group" id="group-profile">
+              <label class="modern-label">2. Assigned Profile</label>
+              <select class="modern-select" id="select-profile" disabled>
+                <option value="" disabled selected>
+                  Awaiting study type...
+                </option>
+              </select>
+            </div>
+
+            <div class="input-group disabled-group" id="group-test">
+              <label class="modern-label">3. Language Test</label>
+              <select class="modern-select" id="select-test" disabled>
+                <option value="" disabled selected>Awaiting profile...</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="result-area" style="display: none"></div>
+
+          <div id="share-area" class="share-area" style="display: none">
+            <label class="modern-label">🔗 Share this requirement</label>
+            <div class="share-input-wrapper">
+              <input
+                type="text"
+                id="share-url-input"
+                class="modern-input share-input"
+                readonly
+              />
+              <button class="btn-copy" onclick="copyShareLink()" id="btn-copy">
+                Copy Link
+              </button>
+            </div>
+            <p
+              style="
+                font-size: 0.8rem;
+                color: var(--text-light);
+                margin-top: 8px;
+              "
+            >
+              Copy this link to share these exact requirements with a student or
+              colleague.
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <aside class="sidebar-info">
+        <div class="info-card">
+          <h3>Information</h3>
+          <p>
+            If you require a visa to study in the UK, you may need to prove your
+            knowledge of the English language when you apply.
+          </p>
+          <p>
+            Make sure you select the exact profile listed on your chosen St
+            Andrews course page to ensure you are viewing the correct
+            requirements.
+          </p>
+          <a
+            href="#"
+            style="
+              color: var(--primary);
+              font-weight: 700;
+              text-decoration: none;
+            "
+          >
+            Read visa guidance &rarr;
+          </a>
+        </div>
+      </aside>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
