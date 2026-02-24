@@ -4,206 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prototype Hub | 2026 Edition</title>
-    <link rel="stylesheet" href="screen.css" />
-    <style>
-      /* --- 2026 DESIGN SYSTEM --- */
-      :root {
-        --primary: #00539b;
-        --primary-dark: #003e7e;
-        --accent: #00aeef;
-        --pg-color: #693196; /* Deep Purple */
-        --admin-color: #e88d14; /* Warm Orange */
-        --bg-body: #f4f7f9;
-        --card-bg: #ffffff;
-        --text-main: #2b2b2b;
-        --text-light: #666;
-        --card-radius: 16px;
-        --transition: cubic-bezier(0.25, 0.8, 0.25, 1);
-      }
-
-      body {
-        font-family:
-          "Inter",
-          -apple-system,
-          BlinkMacSystemFont,
-          "Segoe UI",
-          Roboto,
-          sans-serif;
-        background-color: var(--bg-body);
-        color: var(--text-main);
-        -webkit-font-smoothing: antialiased;
-      }
-
-      /* --- MODERN HERO SECTION --- */
-      .modern-hero {
-        background: linear-gradient(
-          135deg,
-          var(--primary) 0%,
-          var(--primary-dark) 100%
-        );
-        color: white;
-        padding: 80px 0 120px; /* Extra padding for overlap */
-        margin-bottom: -60px; /* Pull cards up */
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-        position: relative;
-        text-align: center;
-      }
-
-      .modern-hero h1 {
-        font-weight: 800;
-        letter-spacing: -1px;
-        margin-bottom: 15px;
-        font-size: 3.5rem;
-      }
-
-      .modern-hero .lead {
-        font-weight: 300;
-        opacity: 0.9;
-        font-size: 1.5rem;
-        max-width: 600px;
-        margin: 0 auto;
-      }
-
-      /* --- CARD GRID --- */
-      .card-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: 30px;
-        position: relative;
-        z-index: 10;
-        padding: 0 15px;
-      }
-
-      /* --- HUB CARD STYLING --- */
-      .hub-card {
-        background: var(--card-bg);
-        border: none;
-        border-radius: var(--card-radius);
-        padding: 40px 30px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-        transition: all 0.4s var(--transition);
-        text-decoration: none !important;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        height: 100%;
-        position: relative;
-        overflow: hidden;
-        border-top: 4px solid transparent;
-      }
-
-      .hub-card:hover {
-        transform: translateY(-12px);
-        box-shadow: 0 25px 50px rgba(0, 83, 155, 0.15);
-      }
-
-      /* Icon styling */
-      .icon-circle {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 2.5rem;
-        margin-bottom: 25px;
-        transition: transform 0.4s ease;
-      }
-
-      .hub-card:hover .icon-circle {
-        transform: scale(1.15) rotate(8deg);
-      }
-
-      /* Card Text */
-      .card-title {
-        font-weight: 700;
-        font-size: 1.4rem;
-        margin-bottom: 12px;
-        color: var(--text-main);
-      }
-
-      .card-text {
-        font-size: 1rem;
-        color: var(--text-light);
-        line-height: 1.6;
-        margin-bottom: 25px;
-      }
-
-      /* --- VARIANTS --- */
-      /* Public / Master */
-      .card-public .icon-circle {
-        background: #e0f7fa;
-        color: #006064;
-      }
-      .card-public:hover {
-        border-top-color: #00bcd4;
-      }
-      .badge-public {
-        background: #e0f7fa;
-        color: #006064;
-      }
-
-      /* Undergraduate */
-      .card-ug .icon-circle {
-        background: #e3f2fd;
-        color: var(--primary);
-      }
-      .card-ug:hover {
-        border-top-color: var(--primary);
-      }
-      .badge-ug {
-        background: #e3f2fd;
-        color: var(--primary);
-      }
-
-      /* Postgraduate */
-      .card-pg .icon-circle {
-        background: #f3e5f5;
-        color: var(--pg-color);
-      }
-      .card-pg:hover {
-        border-top-color: var(--pg-color);
-      }
-      .badge-pg {
-        background: #f3e5f5;
-        color: var(--pg-color);
-      }
-
-      /* Admin */
-      .card-admin .icon-circle {
-        background: #fff8e1;
-        color: var(--admin-color);
-      }
-      .card-admin:hover {
-        border-top-color: var(--admin-color);
-      }
-      .badge-admin {
-        background: #fff8e1;
-        color: var(--admin-color);
-      }
-
-      /* Badges */
-      .status-badge {
-        margin-top: auto;
-        padding: 6px 14px;
-        border-radius: 50px;
-        font-size: 0.8rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-      }
-
-      /* Footer */
-      .site-footer {
-        margin-top: 80px;
-        text-align: center;
-        color: #999;
-        font-size: 0.9rem;
-        border-top: 1px solid #e0e0e0;
-        padding-top: 30px;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="modern-hero">
@@ -213,63 +14,76 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="card-container">
-        <a href="master_list.html" class="hub-card card-public">
-          <div class="icon-circle">🌍</div>
-          <h3 class="card-title">Master List</h3>
-          <p class="card-text">
-            Complete database view. Browse generic entry requirements for any
-            country.
-          </p>
-          <span class="status-badge badge-public">Public View</span>
-        </a>
+    <div class="container hub-layout">
+      <div class="hub-section">
+        <h2 class="hub-section-title">Course page examples</h2>
 
-        <a href="course_page.html" class="hub-card card-ug">
-          <div class="icon-circle">🎓</div>
-          <h3 class="card-title">UG Course</h3>
-          <p class="card-text">
-            English BA (Int. Honours) page with the dynamic requirements widget.
-          </p>
-          <span class="status-badge badge-ug">Undergraduate</span>
-        </a>
+        <div class="card-container">
+          <a
+            href="undergraduate-course-page/index.html"
+            class="hub-card card-ug"
+          >
+            <div class="icon-circle">🎓</div>
+            <h3 class="card-title">UG Course Page</h3>
+            <p class="card-text">
+              Example BA page with the dynamic academic entry requirements
+              widget.
+            </p>
+            <span class="status-badge badge-ug">Undergraduate</span>
+          </a>
 
-        <a href="pg_course_page.html" class="hub-card card-pg">
-          <div class="icon-circle">📜</div>
-          <h3 class="card-title">PG Course</h3>
-          <p class="card-text">
-            English Literature (MLitt) page showing postgraduate specific data.
-          </p>
-          <span class="status-badge badge-pg">Postgraduate</span>
-        </a>
+          <a
+            href="postgraduate-course-page/index.html"
+            class="hub-card card-pg"
+          >
+            <div class="icon-circle">📜</div>
+            <h3 class="card-title">PG Course Page</h3>
+            <p class="card-text">
+              Example MLitt page showing postgraduate specific data and
+              formatting.
+            </p>
+            <span class="status-badge badge-pg">Postgraduate</span>
+          </a>
+        </div>
+      </div>
 
-        <a href="admin_dashboard.html" class="hub-card card-admin">
-          <div class="icon-circle">⚙️</div>
-          <h3 class="card-title">Admin Dashboard</h3>
-          <p class="card-text">
-            CMS Interface. Edit country data, add qualifications, and save the
-            JSON.
-          </p>
-          <span class="status-badge badge-admin">Internal Only</span>
-        </a>
+      <div class="hub-section">
+        <h2 class="hub-section-title">English Language Requirements</h2>
 
-        <a href="admin_english.html" class="hub-card card-admin">
-          <div class="icon-circle">🗣️</div>
-          <h3 class="card-title">English Requirements</h3>
-          <p class="card-text">
-            Manage accepted English language tests (IELTS, TOEFL) and score
-            grades.
-          </p>
-          <span class="status-badge badge-admin">Internal Only</span>
-        </a>
+        <div class="card-container">
+          <a
+            href="english-language-admin-dashboard/index.html"
+            class="hub-card card-admin"
+          >
+            <div class="icon-circle">🗣️</div>
+            <h3 class="card-title">English Language Profiles CMS</h3>
+            <p class="card-text">
+              Manage accepted English language tests (IELTS, TOEFL), variant
+              profiles, and score grades.
+            </p>
+            <span class="status-badge badge-admin">Internal CMS</span>
+          </a>
+
+          <a
+            href="english-language-requirements-checker/index.html"
+            class="hub-card card-public"
+          >
+            <div class="icon-circle">✅</div>
+            <h3 class="card-title">Student Checker Tool</h3>
+            <p class="card-text">
+              Standalone tool for prospective students to check exact English
+              language requirements needed.
+            </p>
+            <span class="status-badge badge-public">Public Tool</span>
+          </a>
+        </div>
       </div>
 
       <footer class="site-footer">
         <p>
           <strong>System Status:</strong>
-          <span style="color: #2e7d32">● Active</span><br />
-          Ensure all files (HTML + JSON) are in the same folder and served via a
-          Local Server.
+          <span style="color: var(--success)">● Active</span><br />
+          Ensure all files (HTML + JSON) are served via a Local Server.
         </p>
       </footer>
     </div>
