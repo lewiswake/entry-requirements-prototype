@@ -1,0 +1,1595 @@
+{
+    "global_requirements": {
+        "standard_entry_disclaimer": "The qualifications listed are indicative minimum requirements for entry. Some academic Schools will ask applicants to achieve significantly higher marks than the minimum. Obtaining the listed entry requirements will not guarantee you a place, as the University considers all aspects of every application including, where applicable, the writing sample, personal statement, and supporting documents.",
+        "standard_transcript_rules": "academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned.",
+        "standard_application_link": "For more guidance, see supporting documents and references for postgraduate taught programmes."
+    },
+    "courses": [
+        {
+            "course_name": "Accounting and Finance (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/finance/accounting-finance-msc/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree in a quantitative subject such as economics, mathematics or any science subject from the UK or the equivalent international qualification .",
+                "Business/management graduates whose studies included quantitative subjects, as well as applicants from other disciplines may also be considered. Please note this programme is not suitable for applicants who have an undergraduate qualification in accountancy, other courses offered in the Business School may be more suitable.",
+                "Applicants with relevant professional experience are welcome to apply. The University may take this experience into account when evaluating applications."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews in particular (500 words)",
+                "one original signed academic reference",
+                "A sample of academic writing is not required for this programme."
+            ]
+        },
+        {
+            "course_name": "Animal Behaviour (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/biology/animal-behaviour-msc/",
+            "entry_requirements": [
+                "A first or 2.1 (Honours) undergraduate degree in a biological science. Other science or mathematics degrees may be acceptable. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Evidence of training in advanced mathematics and statistics (at least to UK school SQA Higher, GCE AS or A-Level, International Baccalaureate or equivalent).",
+                "Very good baseline IT skills including word-processing, spreadsheet use, email and internet."
+            ],
+            "application_requirements": [
+                "CV",
+                "completed Research Skills Section (Word)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Applied Environmental Sciences MSc 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/earth-environmental-sciences/applied-environmental-sciences-msc/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree in a biological, environmental or physical science, geography, or other subject-related area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": []
+        },
+        {
+            "course_name": "Applied Statistics and Datamining (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/statistics/applied-statistics-datamining-msc/",
+            "entry_requirements": [
+                "A  2:1 undergraduate Honours degree in a STEM subject or equivalent professional experience. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Demonstrable interest or experience in statistical data analysis in an academic or professional setting"
+            ],
+            "application_requirements": [
+                "a one-page personal statement directly addressing entry requirements, including relevance of previous degree or experience and your interests in statistical analysis",
+                "a CV with a history of your education and employment to date",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Artificial Intelligence (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/computer-science/artificial-intelligence-msc/",
+            "entry_requirements": [
+                "a 2.1 Honours undergraduate degree in Computer Science. If you studied your first degree outside the UK, see the international entry requirements",
+                "applicants to this programme are expected to be competent programmers with prior practical experience in a programming language such as Java, C, Python, C++ or JavaScript"
+            ],
+            "application_requirements": [
+                "CV, which should include your personal details with a history of your education and employment to date",
+                "Personal statement (optional)",
+                "One original signed academic reference",
+                "academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned. Please only provide certified copies with official English translations if applicable. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "Artificial Intelligence (MSc) - conversion 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/computer-science/artificial-intelligence-msc-conversion/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements"
+            ],
+            "application_requirements": [
+                "CV, which should include your personal details with a history of your education and employment to date",
+                "Personal statement (optional)",
+                "One original signed academic reference",
+                "Academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "Astrophysics (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/physics/astrophysics-msc/",
+            "entry_requirements": [
+                "A  2.1 undergraduate Honours degree in physics, mathematics or a related topic. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "completed Research Skills Section (Word)",
+                "one original signed academic reference",
+                "Astrophysics applicants should not submit a cover letter, CV or writing sample with their applications.",
+                "Applicants will be required to successfully complete an interview for this programme. In the interview, you will meet with members of teaching staff from the Astrophysics programme and will be asked to demonstrate your knowledge and experiences in the field to date. The interview will also provide the opportunity to meet and ask questions of staff teaching on this programme.",
+                "An assessment of applicants’ programming skills will be required for admission to this programme. You will be sent a task to be completed in a Python Notebook and will have one week to complete it. This assessment will ensure that applicants have sufficient skills from the outset to complete the MSc Astrophysics and take full advantage of the opportunities available on this programme."
+            ]
+        },
+        {
+            "course_name": "Banking and Finance (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/finance/banking-finance-msc/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree in a closely related discipline such as finance, accounting and economics from the UK or the equivalent international qualification.Applicants with relevant work experience are welcome, and the University maytake work experience into account when evaluating applications.",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews in particular (500 words)",
+                "one original signed academic reference",
+                "A sample of academic writing is not required for this programme."
+            ]
+        },
+        {
+            "course_name": "Bible and the Contemporary World – online (MLitt, PGDip, modular) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/divinity/bible-contemporary-world-online/",
+            "entry_requirements": [
+                "The School of Divinity encourages applications from those who have an undergraduate degree in any subject, and recognises that in some cases this may have been attained a number of years ago.",
+                "A 2.1 Honours undergraduate degree is normally expected, but if your degree classification is lower, you should indicate more recent, perhaps informal, learning in your letter of intent. You do not need to have a degree in Theology or Biblical Studies in order to apply for a place on this programme; however, all applicants will be expected to have sufficient knowledge to equip them for postgraduate level of study in this area. Prospective applicants who are unable to offer a 2.1 Honours degree are invited to have discussions in advance with the course director: email divinitydistance@st-andrews.ac.uk .",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "personal statement of 200 to 300 words",
+                "2,000-word sample of your own, single-authored academic written",
+                "one original signed academic or professional reference",
+                "academic transcripts and degree certificates"
+            ]
+        },
+        {
+            "course_name": "Biblical Languages and Literature (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/divinity/biblical-languages-literature-mlitt/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree in Biblical Studies or a closely related discipline. If you studied your first degree outside the UK, see the international entry requirements .",
+                "You must have taken at least two semesters (or equivalent) of either Hebrew or Greek at undergraduate level."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "personal statement (optional)",
+                "sample of your own, single-authored academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Catalysis (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/chemistry/catalysis-msc/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree in chemistry or a closely related subject area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "completed Research Skills Section (Word)",
+                "one original signed academic reference",
+                "personal statement (optional)."
+            ]
+        },
+        {
+            "course_name": "Christian Theology (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/divinity/christian-theology-mlitt/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree in Theology or a closely related discipline. If you studied your first degree outside the UK, see the international entry requirements .",
+                "English language proficiency. See English language tests and qualifications ."
+            ],
+            "application_requirements": [
+                "CV that includes a history of your education and employment to date",
+                "optional personal statement",
+                "sample of your own, single-authored academic work of 2,000 words in English",
+                "one original signed academic reference",
+                "academic transcripts and degree certificates"
+            ]
+        },
+        {
+            "course_name": "Classics (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/classics-greek-latin/classics-mlitt/",
+            "entry_requirements": [
+                "The minimum requirements for entry to the MLitt in Classics are a first-class or 2.1 degree or equivalent. If you studied your first degree outside the UK, see the international entry requirements .",
+                "In reviewing applications for the MLitt, the School of Classics looks especially at:",
+                "your statement of your plans for the MLitt and for future study or careers",
+                "your academic background and level of performance (especially in courses relevant to the MLitt, and in any research projects or dissertations that you may have completed)",
+                "evidence of your ability to complete a high-level MLitt dissertation and of potential to progress to further research degrees (particularly evidenced by your sample of written work)",
+                "whether St Andrews is a good match for your specialist interests. The MLitt Convenor is happy to be contacted and, if necessary, to set up a meeting in person or virtually so that you can discuss your plans and to ensure that St Andrews is the best place for you to pursue a Masters degree.",
+                "If you have any queries concerning the programme or your suitability for it, you are encouraged to make contact in advance of your application."
+            ],
+            "application_requirements": [
+                "CV",
+                "letter of intent, including:",
+                "why you wish to study for an MLitt in Classics at St Andrews",
+                "your suitability for the programme",
+                "the areas that you are keen to specialise in",
+                "possible areas for dissertation study (the School does not expect clearly worked-out proposals, or even that you have identified a single area for your research project, just an indication of your particular areas of interest)",
+                "any future plans for further research or careers beyond the MLitt (not essential, but you may wish to include some detail on that if it explains your motivation for applying).",
+                "sample of your own, single-authored academic written work (between 2,500 and 5,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Comparative Literature (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/comparative-literature/comparative-literature-mlitt/",
+            "entry_requirements": [
+                "A  2.1 Honours undergraduate degree in a relevant discipline. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement (optional)",
+                "sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Computer Science (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/computer-science/computer-science-msc/",
+            "entry_requirements": [
+                "a 2.1 Honours undergraduate degree in Computer Science. If you studied your first degree outside the UK, see the international entry requirements",
+                "applicants to this programme are expected to be competent programmers with prior practical experience in a programming language such as Java, C, Python, C++ or JavaScript"
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "Personal statement (optional).",
+                "One original signed academic reference.",
+                "academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned. Please only provide certified copies with official English translations if applicable. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "Computer Science (MSc) - conversion 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/computer-science/computer-science-msc-conversion/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements"
+            ],
+            "application_requirements": [
+                "CV, which should include your personal details with a history of your education and employment to date",
+                "Personal statement (optional)",
+                "One original signed academic reference",
+                "Academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "Computing and Information Technology (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/computer-science/computing-information-technology-msc/",
+            "entry_requirements": [
+                "A good 2.1 Honours undergraduate degree."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "Personal statement (optional).",
+                "One original signed academic reference.",
+                "academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned. Please only provide certified copies with official English translations if applicable. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "Conflict and Security in Policy and Practice (MSc, PGCert, PGDip) - online 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/international-relations/conflict-security-policy-practice/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree in any subject from the UK or the equivalent international qualification. If you studied your first degree outside the UK, see the international entry requirements.",
+                "We will also consider applicants who do not have an undergraduate degree. In these circumstances we expect candidates to have at least five years of relevant professional learning.",
+                "The Admissions team will holistically assess your application and determine the best route of entry for you. In some cases, this may be onto the PGCert in the first instance, from which students who attain a certain level in their modules will have the opportunity to progress to a full Masters degree."
+            ],
+            "application_requirements": [
+                "CV that includes a history of your education and employment to date",
+                "personal statement indicating your knowledge of the programme and how it will benefit you (500 words)",
+                "sample of your own, single-authored academic written work (2,000 words). If you have been out of education for some time and cannot provide this, please provide a 2,000 word essay on the following topic: with examples, discuss the most pressing drivers of conflict in contemporary international relations.",
+                "one original signed reference"
+            ]
+        },
+        {
+            "course_name": "Contemporary Global Issues in Health Professions Education – stand-alone module 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/medicine/stand-alone-modules/contemporary-global-issues-in-health-professions-education/",
+            "entry_requirements": [
+                "All candidates must have an existing teaching role in their workplace, with an interest in pursuing an academic career in healthcare education or healthcare education research.",
+                "Candidates should have either a relevant degree or work experience, specifically:",
+                "A 2.1 Honours undergraduate degree in a health profession or in a relevant field, including but not limited to Health Sciences. (If you studied your degree outside the UK, see the international entry requirements .)",
+                "OR",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning, such as professional qualifications or certifications.",
+                "In reviewing applications for the programme, the School of Medicine looks especially at whether St Andrews is a good match for your specialist interests. The Programme Convenor is happy to be contacted and, if necessary, to set up a meeting in person or online so that you can discuss your plans and to ensure that St Andrews is the best place for you to pursue your educational pathway.",
+                "If you have any queries concerning the stand-alone module or your suitability for it, you are encouraged to make contact in advance of your application.",
+                "The qualifications listed are indicative minimum requirements for entry. Obtaining the listed entry requirements will not guarantee you a place as the University considers all aspects of every application including, where applicable, the writing sample, personal statement, and supporting documents."
+            ],
+            "application_requirements": [
+                "You will need to supply the following with your online application:",
+                "CV that includes specific details of your current role and a history of your education and employment to date",
+                "Degree Certificate and Academic Transcripts",
+                "One original signed employment reference from your current line manager",
+                "Candidates will attend a 30-minute online interview and must achieve a satisfactory score"
+            ]
+        },
+        {
+            "course_name": "Creative Writing (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/english/creative-writing-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. However, a candidate who demonstrates outstanding writing abilities may be accepted on the basis of an equivalent qualification (for example, a body of published work or a relevant professional qualification), but such cases are entirely at the discretion of staff and require decanal approval.",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "Academic critical essay of approximately 2,000 words on an English literature topic",
+                "Poetry applicants should supply a portfolio of at least 10 poems of original verse",
+                "Prose applicants should supply 10 to 15 pages of original fiction or non-fiction writing",
+                "One original signed academic reference on university headed paper from your most recent degree awarding institution",
+                "Academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "Data Literacy for Justice - online 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/geography/data-for-justice/",
+            "entry_requirements": [
+                "For entry onto the MSc: A 2.1 undergraduate Honours degree in any subject from the UK or the equivalent international qualification. If you studied your first degree outside the UK, see the international entry requirements .",
+                "We will also consider applicants who do not have an undergraduate degree. In these circumstances we expect candidates to have at least five years of relevant professional learning. The Admissions team will holistically assess your application and determine the best route of entry for you. In some cases, this may be onto the PGCert in the first instance, from which students who attain a certain level in their modules will have the opportunity to progress to a full Masters degree."
+            ],
+            "application_requirements": [
+                "A CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "A personal statement explaining:",
+                "why you have applied for this course",
+                "how it relates to your personal or professional ambitions",
+                "how your academic and professional background show you have the skills needed to work effectively at postgraduate level.",
+                "One original signed academic reference."
+            ]
+        },
+        {
+            "course_name": "Data Science - online Next start: September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/computer-science/data-science/",
+            "entry_requirements": [
+                "For entry onto the MSc: A 2.1 undergraduate Honours degree in any subject from the UK or the equivalent international qualification. If you studied your first degree outside the UK, see the international entry requirements .",
+                "We will also consider applicants who do not have an undergraduate degree. In these circumstances we expect candidates to have at least five years of relevant professional learning. The Admissions team will holistically assess your application and determine the best route of entry for you. In some cases, this may be onto the PGCert in the first instance, from which students who attain a certain level in their modules will have the opportunity to progress to a full Masters degree.",
+                "Students are also required to have a desired level of English language proficiency. See English language tests and qualifications ."
+            ],
+            "application_requirements": [
+                "A CV that includes your personal details with a history of your education and employment to date.",
+                "A personal statement explaining why you have applied for this course, how it relates to your personal or professional ambitions, and how your academic and professional background show you have the skills needed to work effectively at postgraduate level.",
+                "One original signed academic reference, or an employment reference if you are unable to provide an academic reference.",
+                "Academic transcripts and degree certificates."
+            ]
+        },
+        {
+            "course_name": "Digital Art History – online Next start: September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/art-history/digital-art-history-online/",
+            "entry_requirements": [
+                "For entry onto the MSc: A 2.1 undergraduate Honours degree in any subject from the UK or the equivalent international qualification. If you studied your first degree outside the UK, see the international entry requirements .",
+                "We will also consider applicants who do not have an undergraduate degree. In these circumstances we expect candidates to have at least five years of relevant professional learning. The Admissions team will holistically assess your application and determine the best route of entry for you. In some cases, this may be onto the PGCert in the first instance, from which students who attain a certain level in their modules will have the opportunity to progress to a full Masters degree."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "personal statement of 500 words",
+                "sample of your own, single-authored academic written of 2,000 words",
+                "one original signed academic reference",
+                "academic transcripts and degree certificates"
+            ]
+        },
+        {
+            "course_name": "Digital Education (MSc, PGDip, PGCert) September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/digital-education/digital-education-september/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree or 3.3 out of 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning such as professional qualifications or certifications.",
+                "If you require further information about our academic entrance requirements in relation to your education system, please email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment (paid or voluntary) to date",
+                "personal statement: see personal statement guidance for IELLI courses",
+                "one original signed reference (professional or academic)",
+                "academic transcripts and degree certificates",
+                "evidence of English language proficiency if English is not your first language",
+                "If you have not yet taken an English language test, this can be submitted at a later date. Any offer of a place would then be conditional on attaining evidence of your English language competence."
+            ]
+        },
+        {
+            "course_name": "Digital Education (MSc, PGDip, PGCert, modular) - online September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/digital-education/digital-education-september-online/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree or 3.3 out of 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning such as professional qualifications or certifications.",
+                "If you require further information about our academic entrance requirements in relation to your education system, please email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment (paid or voluntary) to date",
+                "personal statement: see personal statement guidance for IELLI courses",
+                "one original signed reference (professional or academic)",
+                "academic transcripts and degree certificates",
+                "evidence of English language proficiency if English is not your first language",
+                "If you have not yet taken an English language test, this can be submitted at a later date. Any offer of a place would then be conditional on attaining evidence of your English language competence."
+            ]
+        },
+        {
+            "course_name": "Digital Education MSc, PGDip, PGCert January 2027",
+            "url": "https://www.st-andrews.ac.uk/subjects/digital-education/digital-education-january/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree or 3.3 out of 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning such as professional qualifications or certifications.",
+                "If you require further information about our academic entrance requirements in relation to your education system, please email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": []
+        },
+        {
+            "course_name": "Digital Education MSc, PGDip, PGCert, single module - online January 2027",
+            "url": "https://www.st-andrews.ac.uk/subjects/digital-education/digital-education-january-online/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree or 3.3 out of 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning such as professional qualifications or certifications.",
+                "If you require further information about our academic entrance requirements in relation to your education system, please email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": []
+        },
+        {
+            "course_name": "Doctor of Professional Practice in Teaching English to Speakers of Other Languages (DProf TESOL) – Online January and September entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/tesol/tesol-dprof-september-and-january/",
+            "entry_requirements": [
+                "Good performance on a postgraduate degree in TESOL, for example, MSc, MA or MEd) or a related subject such as education, educational research. The Institute also considers applicants who do not have a Master’s degree but can evidence significant professional experience combined with alternative qualifications at postgraduate level.",
+                "Evidence of relevant professional experience, as presented in application documents.",
+                "English language proficiency. See English language requirements for postgraduate students . Applicants who need to provide an English test score should refer to profile 7-D for details of acceptable tests and scores.",
+                "You do not need to provide a full research proposal to apply for this programme. The initial stage of the DProf TESOL will guide you through developing a proposal.",
+                "This is a six-year programme that allows for entry into either first year or second year. Entry to second year will be considered for applicants who can evidence excellent performance on a relevant Masters programme in addition to significant professional experience. To enquire about eligibility for second year entry, please send a transcript and description of your professional experience to ielli-dprof@st-andrews.ac.uk .",
+                "The qualifications listed are indicative minimum requirements for entry. If you require further information about entrance requirements for this programme, please email ielli-dprof@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "a CV containing your personal details with a history of your education and employment, paid or voluntary, to date, as well as any publications or conference presentations delivered",
+                "a personal statement  of 500 to 1000 words that describes your professional context, your reasons for applying to the programme, and possible areas of focus for your research, with an explanation of why these are relevant to your professional context",
+                "two references, at least one of which must be academic",
+                "academic transcripts and degree certificates",
+                "a sample of your academic writing, for example, an assignment from a previous degree programme or a published academic article or report",
+                "Evidence of English language proficiency is required if English is not your first language. If you have not yet taken an English language test, this can be submitted at a later date. Any offer of a place would then be conditional on attaining evidence of your English language competence. Applicants who need to provide an English test score should refer to profile 7-D for details of acceptable tests and scores."
+            ]
+        },
+        {
+            "course_name": "Early Modern and Reformation History (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/history/early-modern-reformation-history-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree in a subject-related area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "a personal statement",
+                "a sample of your own, single-authored academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Economics (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/economics/economics-msc/",
+            "entry_requirements": [
+                "A 2.1 Honours degree from a recognised UK university in Economics or Finance with a significant Economics component; or a 2.1 joint Honours in Economics and another subject that includes substantial training in microeconomics, macroeconometrics and econometrics. We will also consider applications from students without any training in Economics but who have a degree in a highly quantitative subject such as Mathematics, Physics and Statistics. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "a detailed personal statement which includes an explanation of why you want to study the programme, why you want to enrol at St Andrews, and future career plans.",
+                "an original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Energy Policy and Finance (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/interdisciplinary/energy-policy-finance-msc/",
+            "entry_requirements": [
+                "We encourage applicants from a diverse range of academic and professional backgrounds to apply, creating an excellent environment for interdisciplinary shared learning.",
+                "We welcome both recent graduates, and applicants at different stages of their professional careers.",
+                "A 2.1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements.",
+                "Applicants disciplinary backgrounds may include but are not limited to:Politics, Public Policy, Sociology, Geography, Management, Engineering, Economics & Finance, Business, International Relations and Anthropology.",
+                "Quantitative computation and analysis are some of the key components of the programme. Students are expected to have good numerical skills. Pre-sessional online training will be provided to support skills development with a focus on quantitative computational methods."
+            ],
+            "application_requirements": [
+                "A CV, which should include your personal details with a history of your education and employment to date.",
+                "A personal statement of purpose. This should be typed, double-spaced, and no more than 1,000 words, addressing the following questions:",
+                "What key experiences (academic, professional, and/or other) have contributed to your commitment to work on energy issues?",
+                "What are your personal and/or professional goals?",
+                "Why is enrolment in the MSc in Energy, Policy and Finance critical in helping you achieve your goals?",
+                "One original signed academic reference",
+                "Academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "English and Digital Education MSc September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/digital-education/english-digital-education-msc-september/",
+            "entry_requirements": [
+                "Typically, you should have:",
+                "A 2.1 Honours degree in literature-related subject area. If you studied your first degree outside the UK, see the international entry requirements .",
+                "The qualifications listed are indicative minimum requirements for entry. Some academic Schools will ask applicants to achieve significantly higher marks than the minimum. Obtaining the listed entry requirements will not guarantee you a place, as the University considers all aspects of every application including, where applicable, the writing sample, personal statement, and supporting documents. For more information about our academic entrance requirements in relation to the education system you studied in, email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "A CV that includes your personal details with a history of your education and employment to date.",
+                "A personal statement of 500 words explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews. Please also specify if you would like to follow  a specific pathway for your English Literature credits, specifically Medieval, Shakespeare and Renaissance, Romantic and Victorian, or Modern and Contemporary.",
+                "A sample of your own, single-authored academic writing of approximately 2,000 words on a topic relevant to your chosen pathway in English literature.",
+                "One original signed academic reference.",
+                "Academic transcripts and degree certificates.",
+                "evidence of English language proficiency if English is not your first language. If you have not yet taken an English language test, you can submit it at a later date. Any offer of a place would then be conditional on attaining evidence of your English language competence."
+            ]
+        },
+        {
+            "course_name": "English and International Education (MSc) September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/international-education/english-international-education-msc-september/",
+            "entry_requirements": [
+                "Typically, you should have:",
+                "A 2.1 Honours degree in literature-related subject area. If you studied your first degree outside the UK, see the international entry requirements .",
+                "The qualifications listed are indicative minimum requirements for entry. Some academic Schools will ask applicants to achieve significantly higher marks than the minimum. Obtaining the listed entry requirements will not guarantee you a place, as the University considers all aspects of every application including, where applicable, the writing sample, personal statement, and supporting documents. For more information about our academic entrance requirements in relation to the education system you studied in, email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "A CV that includes your personal details with a history of your education and employment to date.",
+                "A personal statement of 500 words explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews. Please also specify if you would like to follow  a specific pathway for your English Literature credits, specifically Medieval, Shakespeare and Renaissance, Romantic and Victorian, or Modern and Contemporary.",
+                "A sample of your own, single-authored academic writing of approximately 2,000 words on a topic relevant to your chosen pathway.",
+                "One original signed academic reference.",
+                "Academic transcripts and degree certificates.",
+                "evidence of English language proficiency if English is not your first language. If you have not yet taken an English language test, you can submit it at a later date. Any offer of a place would then be conditional on attaining evidence of your English language competence."
+            ]
+        },
+        {
+            "course_name": "English and Teaching English to Speakers of Other Languages (TESOL) MSc September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/tesol/english-tesol-msc-september/",
+            "entry_requirements": [
+                "A 2.1 honours degree or equivalent in a Literature-related subject. If you studied your first degree outside the UK, see the international entry requirements .",
+                "The qualifications listed are indicative minimum requirements for entry. Some academic Schools will ask applicants to achieve significantly higher marks than the minimum. Obtaining the listed entry requirements will not guarantee you a place as the University considers all aspects of every application including, where applicable, the writing sample, personal statement and supporting documents.",
+                "CV that includes your personal details with a history of your education and employment to date",
+                "a personal statement of 500 words explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews, and please also specify if you would like to follow a specific pathway for your English Literature credits from Medieval, Shakespeare and Renaissance, Romantic and Victorian, and Modern and Contemporary",
+                "sample of your own, single-authored academic writing of approximately 2,000 words on a topic relevant to your chosen pathway in English literature",
+                "one original signed academic reference",
+                "academic transcripts and degree certificates",
+                "For more guidance, see supporting documents and references for postgraduate taught programmes.",
+                "If English is not your first language, you may need to provide an English language test score to evidence your English language ability. See approved English language tests and scores for this course."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "a personal statement of 500 words explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews, and please also specify if you would like to follow a specific pathway for your English Literature credits from Medieval, Shakespeare and Renaissance, Romantic and Victorian, and Modern and Contemporary",
+                "sample of your own, single-authored academic writing of approximately 2,000 words on a topic relevant to your chosen pathway in English literature",
+                "one original signed academic reference",
+                "academic transcripts and degree certificates"
+            ]
+        },
+        {
+            "course_name": "English Literature (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/english/english-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree in a subject-related area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "a personal statement of 500 words explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews, and please also specify which pathway you would like to follow",
+                "sample of your own, single-authored academic writing of approximately 2,000 words on a topic relevant to your chosen pathway",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "English Literature MLitt: Flexible Pathway",
+            "url": "https://www.st-andrews.ac.uk/subjects/english/english-mlitt/flexible-pathway/",
+            "entry_requirements": [],
+            "application_requirements": []
+        },
+        {
+            "course_name": "English Literature MLitt: Pathway in Medieval Literature",
+            "url": "https://www.st-andrews.ac.uk/subjects/english/english-mlitt/medieval-literature/",
+            "entry_requirements": [],
+            "application_requirements": []
+        },
+        {
+            "course_name": "English Literature MLitt: Pathway in Modern and Contemporary Literature and Culture",
+            "url": "https://www.st-andrews.ac.uk/subjects/english/english-mlitt/modern-contemporary-literature-culture/",
+            "entry_requirements": [],
+            "application_requirements": []
+        },
+        {
+            "course_name": "English Literature MLitt: Pathway in Romantic and Victorian Studies",
+            "url": "https://www.st-andrews.ac.uk/subjects/english/english-mlitt/romantic-victorian/",
+            "entry_requirements": [],
+            "application_requirements": []
+        },
+        {
+            "course_name": "English Literature MLitt: Pathway in Shakespeare and Renaissance Literary Culture",
+            "url": "https://www.st-andrews.ac.uk/subjects/english/english-mlitt/shakespeare-renaissance-culture/",
+            "entry_requirements": [],
+            "application_requirements": []
+        },
+        {
+            "course_name": "Entrepreneurship (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/management/entrepreneurship-msc/",
+            "entry_requirements": [
+                "For entry onto the MSc: A 2.1 undergraduate Honours degree in any subject other than Business or Management from the UK or the equivalent international qualification.",
+                "If you studied your first degree outside the UK, see the international entry requirements .",
+                "We may also consider applicants who do not have an undergraduate degree. In these circumstances we expect candidates to have at least five years of relevant professional learning.",
+                "Students with a background in business or management are advised to consider the International Business (MSc) or the Marketing (MSc)"
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews in particular (500 words)",
+                "one original signed academic reference",
+                "A sample of academic writing is not required for this programme."
+            ]
+        },
+        {
+            "course_name": "Applied Environmental Sciences MSc 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/earth-environmental-sciences/environmental-science-msc/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree in a biological, environmental or physical science, geography, or other subject-related area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": []
+        },
+        {
+            "course_name": "Film Studies (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/film-studies/film-studies-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree in a relevant discipline. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé - this should include your personal details with a history of your education and employment to date",
+                "covering letter",
+                "sample of your own, single-authored academic written work in English (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Finance (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/finance/finance-msc/",
+            "entry_requirements": [
+                "A 2.1 Honours degree from a recognised UK university in Economics or Finance with a significant Economics component; or a 2.1 joint Honours in Economics and another subject that includes substantial training in microeconomics, macroeconometrics and econometrics. We will also consider applications from students without any training in Economics but who have a degree in a highly quantitative subject such as Mathematics, Physics and Statistics. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV that includes a history of your education and employment to date",
+                "a detailed personal statement which includes an explanation of why you want to study the programme, why you want to enrol at St Andrews, and future career plans",
+                "an original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Finance and Economics (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/finance/finance-economics-msc/",
+            "entry_requirements": [
+                "A 2.1 Honours degree from a recognised UK university in Economics or Finance with a significant Economics component; or a 2.1 joint Honours in Economics and another subject that includes substantial training in microeconomics, macroeconometrics and econometrics. We will also consider applications from students without any training in Economics but who have a degree in a highly quantitative subject such as Mathematics, Physics and Statistics. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "a detailed personal statement which includes an explanation of why you want to study the programme, why you want to enrol at St Andrews, and future career plans.",
+                "an original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Finance and Management (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/finance/finance-management-msc/",
+            "entry_requirements": [
+                "A  2.1 undergraduate Honours degree in a quantitative subject such as economics, finance, mathematics, etc. from the UK or the equivalent international qualification. Business/management graduates whose studies included quantitative subjects, as well as applicants from other disciplines may also be considered. Applicants with relevant work experience are welcome, and the University may take this into account when evaluating applications.",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews in particular (500 words)",
+                "one original signed academic reference",
+                "A sample of academic writing is not required for this programme."
+            ]
+        },
+        {
+            "course_name": "Gender Studies (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/interdisciplinary/gender-studies-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements .",
+                "The MLitt in Gender Studies welcomes applicants from a range of disciplinary backgrounds including, but not limited to:",
+                "anthropology",
+                "cultural studies",
+                "history",
+                "liberal arts",
+                "literary studies",
+                "media studies",
+                "philosophy",
+                "politics."
+            ],
+            "application_requirements": [
+                "A CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "A personal statement explaining: why you have applied for this course how it relates to your personal or professional ambitions how your academic and professional background show you have the skills needed to work effectively at postgraduate level.",
+                "why you have applied for this course",
+                "how it relates to your personal or professional ambitions",
+                "how your academic and professional background show you have the skills needed to work effectively at postgraduate level.",
+                "One original signed academic reference on headed paper."
+            ]
+        },
+        {
+            "course_name": "German and Comparative Literature (MLitt) September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/german/german-comparative-literature-mlitt/",
+            "entry_requirements": [
+                "Entry requirements for admission are governed by the University of Bonn. Please see the programme website at Bonn for full details.",
+                "A 2.1 Honours undergraduate degree in German Studies, Comparative Literature or a related subject. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Proficiency in written and spoken German and English (Level C1, TOEFL, IELTS or equivalent). See English language tests and qualifications for the University of St Andrews and the University of Bonn website for German language tests and qualifications.",
+                "Basic knowledge (B2) of another modern language."
+            ],
+            "application_requirements": [
+                "CV",
+                "certificates showing appropriate competence in English and German"
+            ]
+        },
+        {
+            "course_name": "Global Digital Humanities – online Next start: September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/digital-humanities/global-digital-humanities/",
+            "entry_requirements": [
+                "For entry onto the MSc: A 2.1 undergraduate Honours degree in any subject from the UK or the equivalent international qualification. If you studied your first degree outside the UK, see the international entry requirements .",
+                "We will also consider applicants who do not have an undergraduate degree. In these circumstances we expect candidates to have at least five years of relevant professional learning. The Admissions team will holistically assess your application and determine the best route of entry for you. In some cases, this may be onto the PGCert in the first instance, from which students who attain a certain level in their modules will have the opportunity to progress to a full Masters degree."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "personal statement (500 words)",
+                "sample of your own, single-authored academic written work (2000 words)",
+                "one original signed academic reference",
+                "academic transcripts and degree certificates"
+            ]
+        },
+        {
+            "course_name": "Global Social and Political Thought (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/interdisciplinary/global-thought-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements .",
+                "The MLitt in Global Social and Political Thought welcomes applicants from a range of disciplinary backgrounds including, but not limited to:",
+                "classics",
+                "cultural studies",
+                "divinity",
+                "economics",
+                "history",
+                "international relations",
+                "management",
+                "media studies",
+                "politics",
+                "philosophy."
+            ],
+            "application_requirements": [
+                "A CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "A personal statement explaining: why you have applied for this course how it relates to your personal or professional ambitions how your academic and professional background show you have the skills needed to work effectively at postgraduate level.",
+                "why you have applied for this course",
+                "how it relates to your personal or professional ambitions",
+                "how your academic and professional background show you have the skills needed to work effectively at postgraduate level.",
+                "A sample of academic written work such as an extract from a previous project, essay, or undergraduate dissertation.",
+                "One original signed academic reference on headed paper.",
+                "Academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "Health Data Science (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/interdisciplinary/health-data-science-msc/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements .",
+                "You should some have experience in statistical data analysis and some familiarity with methods such as sampling and regression. This might be through one of the following: an advanced secondary school or high school level qualification in statistics or another quantitative scientific subject undergraduate-level modules in a quantitative scientific subject relevant professional experience.",
+                "an advanced secondary school or high school level qualification in statistics or another quantitative scientific subject",
+                "undergraduate-level modules in a quantitative scientific subject",
+                "relevant professional experience.",
+                "Experience in computer programming is useful but is not essential.",
+                "The MSc in Health Data Science welcomes applicants from a range of disciplinary backgrounds including, but not limited to:",
+                "Computer Science",
+                "Mathematics",
+                "Medicine",
+                "Public Health",
+                "Software Engineering",
+                "Statistics."
+            ],
+            "application_requirements": [
+                "A CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "A personal statement explaining: why you have applied for this course how it relates to your personal or professional ambitions how your academic and professional background show you have the skills needed to work effectively at postgraduate level.",
+                "why you have applied for this course",
+                "how it relates to your personal or professional ambitions",
+                "how your academic and professional background show you have the skills needed to work effectively at postgraduate level.",
+                "One original signed academic reference."
+            ]
+        },
+        {
+            "course_name": "Health Humanities Approaches within Health Professions Education – online stand-alone module 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/medicine/stand-alone-modules/health-humanities-approaches-within-health-professions-education/",
+            "entry_requirements": [
+                "All candidates must have an existing teaching role in their workplace, with an interest in pursuing an academic career in healthcare education or healthcare education research.",
+                "Candidates should have either a relevant degree or work experience, specifically:",
+                "A 2.1 Honours undergraduate degree in a health profession or in a relevant field, including but not limited to Health Sciences. (If you studied your degree outside the UK, see the international entry requirements .)",
+                "OR",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning, such as professional qualifications or certifications.",
+                "In reviewing applications for the programme, the School of Medicine looks especially at whether St Andrews is a good match for your specialist interests. The Programme Convenor is happy to be contacted and, if necessary, to set up a meeting in person or online so that you can discuss your plans and to ensure that St Andrews is the best place for you to pursue your educational pathway.",
+                "If you have any queries concerning the stand-alone module or your suitability for it, you are encouraged to make contact in advance of your application.",
+                "The qualifications listed are indicative minimum requirements for entry. Obtaining the listed entry requirements will not guarantee you a place as the University considers all aspects of every application including, where applicable, the writing sample, personal statement, and supporting documents."
+            ],
+            "application_requirements": [
+                "You will need to supply the following with your online application:",
+                "CV that includes specific details of your current role and a history of your education and employment to date",
+                "Degree Certificate and Academic Transcripts",
+                "One original signed employment reference from your current line manager",
+                "Candidates will attend a 30-minute online interview and must achieve a satisfactory score"
+            ]
+        },
+        {
+            "course_name": "Health Professions Education (PGCert, PGDip, MSc) – online 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/medicine/health-professions-education/",
+            "entry_requirements": [
+                "All candidates must have an existing teaching role in their workplace, with an interest in pursuing an academic career in healthcare education or heathcare education research.",
+                "A 2.1 Honours undergraduate degree in a health profession or in a relevant field (including but not limited to Health Sciences). If you studied your first degree outside the UK, see the international entry requirements.",
+                "Or",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning such as professional qualifications or certifications.",
+                "Evidence of having completed at least one 30 credit module at a minimum of SCQF level 9 (or equivalent) within five years of the programme start date.",
+                "And",
+                "Completion and award of our PGCert Health Professions Education within five years of the programme start date",
+                "In reviewing applications for the programme, the School of Medicine looks especially at whether St Andrews is a good match for your specialist interests. The Programme Convenor is happy to be contacted and, if necessary, to set up a meeting in person or virtually so that you can discuss your plans and to ensure that St-Andrews is the best place for you to pursue a Masters degree.",
+                "If you have any queries concerning the programme or your suitability for it, you are encouraged to make contact in advance of your application."
+            ],
+            "application_requirements": [
+                "A CV that includes specific details of your current role and a history of your education and employment to date",
+                "A personal statement explaining why you have applied for this course, how it relates to your personal or professional ambitions, and how your academic and professional background show you have the skills needed to work effectively at postgraduate level",
+                "One original signed employment reference from your current line manager",
+                "Academic transcripts and degree certificates",
+                "Candidates will attend a 30-minute online interview and must achieve a satisfactory score"
+            ]
+        },
+        {
+            "course_name": "Human Computer Interaction (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/computer-science/human-computer-interaction-msc/",
+            "entry_requirements": [
+                "A good 2.1 Honours undergraduate degree."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "personal statement (optional)",
+                "one original signed academic reference",
+                "academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned.. Please only provide certified copies with official English translations if applicable. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "IMACS: International Master in Audiovisual and Cinema Studies (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/film-studies/imacs-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree in a relevant discipline. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Proficiency in at least one relevant language beyond English (Class C1 on European Framework)."
+            ],
+            "application_requirements": [
+                "CV or résumé - this should include your personal details with a history of your education and employment to date",
+                "covering letter",
+                "sample of your own, single-authored academic written work in English (1,000 - 3,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Intellectual History (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/history/intellectual-history-mlitt/",
+            "entry_requirements": [
+                "A  2.1 Honours undergraduate degree in a subject-related area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "a personal statement",
+                "a sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "International Business (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/management/international-business-mlitt/",
+            "entry_requirements": [
+                "A  2.1 undergraduate Honours degree in a management or business-related subject from the UK or the equivalent international qualification. Applicants with business experience are welcome, and work experience may be taken into account in the evaluation of applications.",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews in particular (500 words)",
+                "one original signed academic reference",
+                "A sample of academic writing is not required for this programme."
+            ]
+        },
+        {
+            "course_name": "International Business (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/management/international-business-msc/",
+            "entry_requirements": [
+                "A  2.1 undergraduate Honours degree in a management or business-related subject from the UK or the equivalent international qualification. Applicants with business experience are welcome, and work experience may be taken into account in the evaluation of applications.",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews in particular (500 words)",
+                "one original signed academic reference",
+                "A sample of academic writing is not required for this programme."
+            ]
+        },
+        {
+            "course_name": "International Education (MSc, PGDip, PGCert) January 2027",
+            "url": "https://www.st-andrews.ac.uk/subjects/international-education/international-education-january/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree between 3.3 and 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning such as professional qualifications or certifications.",
+                "If you require further information about our academic entrance requirements in relation to the education system you studied in, please email iepostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": []
+        },
+        {
+            "course_name": "International Education (MSc, PGDip, PGCert) September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/international-education/international-education-september/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree or 3.3 out of 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning (such as professional qualifications or certifications).",
+                "For more information about our academic entrance requirements in relation to the education system you studied in, email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment (paid or voluntary) to date",
+                "personal statement",
+                "one original signed reference (this may be professional or academic)",
+                "academic transcripts and degree certificates",
+                "evidence of English language proficiency (required if English is not your first language). If you have not yet taken an English language test, you can submit it at a later date. Any offer of a place would then be conditional on attaining evidence of your English language competence"
+            ]
+        },
+        {
+            "course_name": "International Education (MSc, PGDip, PGCert, modular) - Online September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/international-education/international-education-distance-september/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree or 3.3 out of 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning (such as professional qualifications or certifications).",
+                "For more information about our academic entrance requirements in relation to the education system you studied in, email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment (paid or voluntary) to date",
+                "personal statement",
+                "one original signed reference (this may be professional or academic)",
+                "academic transcripts and degree certificates",
+                "evidence of English language proficiency (required if English is not your first language). If you have not yet taken an English language test, you can submit it at a later date. Any offer of a place would then be conditional on attaining evidence of your English language competence"
+            ]
+        },
+        {
+            "course_name": "International Education (MSc, PGDip, PGCert, single module) - online January 2027",
+            "url": "https://www.st-andrews.ac.uk/subjects/international-education/international-education-january-online/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree between 3.3 and 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning such as professional qualifications or certifications.",
+                "If you require further information about our academic entrance requirements in relation to the education system you studied in, please email iepostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": []
+        },
+        {
+            "course_name": "International Security Studies (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/international-relations/international-security-studies-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours degree. A background in political science and international relations is strongly encouraged. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé",
+                "personal statement indicating your knowledge of the programme and how it will benefit you (500 words)",
+                "sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Interprofessional Education: Design, Delivery and Assessment – stand-alone online module 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/medicine/stand-alone-modules/interprofessional-education-design-delivery-and-assessment/",
+            "entry_requirements": [
+                "All candidates must have an existing teaching role in their workplace, with an interest in pursuing an academic career in healthcare education or healthcare education research.",
+                "Candidates should have either a relevant degree or work experience, specifically:",
+                "A 2.1 Honours undergraduate degree in a health profession or in a relevant field, including but not limited to Health Sciences. (If you studied your degree outside the UK, see the international entry requirements .)",
+                "OR",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning, such as professional qualifications or certifications.",
+                "In reviewing applications for the programme, the School of Medicine looks especially at whether St Andrews is a good match for your specialist interests. The Programme Convenor is happy to be contacted and, if necessary, to set up a meeting in person or online so that you can discuss your plans and to ensure that St Andrews is the best place for you to pursue your educational pathway.",
+                "If you have any queries concerning the stand-alone module or your suitability for it, you are encouraged to make contact in advance of your application.",
+                "The qualifications listed are indicative minimum requirements for entry. Obtaining the listed entry requirements will not guarantee you a place as the University considers all aspects of every application including, where applicable, the writing sample, personal statement, and supporting documents."
+            ],
+            "application_requirements": [
+                "You will need to supply the following with your online application:",
+                "CV that includes specific details of your current role and a history of your education and employment to date",
+                "Degree Certificate and Academic Transcripts",
+                "One original signed employment reference from your current line manager",
+                "Candidates will attend a 30-minute online interview and must achieve a satisfactory score"
+            ]
+        },
+        {
+            "course_name": "Iranian Studies (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/middle-east-studies/iranian-studies-mlitt/",
+            "entry_requirements": [
+                "A  2.1 Honours undergraduate degree in a subject-related area. Students do not need knowledge of the Persian language for admission. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "a personal statement",
+                "a sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Iranian Studies (MLitt) - online 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/middle-east-studies/iranian-studies-mlitt-online/",
+            "entry_requirements": [
+                "An 2.1 Honours undergraduate degree in History or a subject-related area. Students do not need knowledge of the Persian language for admission. If you studied your first degree outside the UK, see the international entry requirements .",
+                "A 2.1 Honours degree in any other discipline; successful applicants from other disciplines will likely receive a conditional offer should they be unable to provide evidence of relevant professional experience or prior knowledge.",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning such as professional qualifications or certifications."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "a personal statement",
+                "a sample of academic written work (2,000 words)",
+                "one original signed academic references or most recent employer reference"
+            ]
+        },
+        {
+            "course_name": "Leading and Designing Teaching Programmes in Health Professions Education – stand-alone module 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/medicine/stand-alone-modules/leading-and-designing-teaching-programmes-in-health-professions-education/",
+            "entry_requirements": [
+                "All candidates must have an existing teaching role in their workplace, with an interest in pursuing an academic career in healthcare education or healthcare education research.",
+                "Candidates should have either a relevant degree or work experience, specifically:",
+                "A 2.1 Honours undergraduate degree in a health profession or in a relevant field, including but not limited to Health Sciences. (If you studied your degree outside the UK, see the international entry requirements .)",
+                "OR",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning, such as professional qualifications or certifications.",
+                "In reviewing applications for the programme, the School of Medicine looks especially at whether St Andrews is a good match for your specialist interests. The Programme Convenor is happy to be contacted and, if necessary, to set up a meeting in person or online so that you can discuss your plans and to ensure that St Andrews is the best place for you to pursue your educational pathway.",
+                "If you have any queries concerning the stand-alone module or your suitability for it, you are encouraged to make contact in advance of your application.",
+                "The qualifications listed are indicative minimum requirements for entry. Obtaining the listed entry requirements will not guarantee you a place as the University considers all aspects of every application including, where applicable, the writing sample, personal statement, and supporting documents."
+            ],
+            "application_requirements": [
+                "You will need to supply the following with your online application:",
+                "CV that includes specific details of your current role and a history of your education and employment to date",
+                "Degree Certificate and Academic Transcripts",
+                "One original signed employment reference from your current line manager",
+                "Candidates will attend a 30-minute online interview and must achieve a satisfactory score"
+            ]
+        },
+        {
+            "course_name": "Legal and Constitutional Studies (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/history/legal-constitutional-studies-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree in a subject-related area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "a personal statement",
+                "a sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Machine Learning (MSc) - conversion 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/computer-science/machine-learning-msc-conversion/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements"
+            ],
+            "application_requirements": [
+                "CV, which should include your personal details with a history of your education and employment to date",
+                "Personal statement (optional)",
+                "One original signed academic reference",
+                "Academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "Management (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/management/management-mlitt/",
+            "entry_requirements": [
+                "A  2.1 undergraduate Honours degree in a subject other than business or management from the UK or the equivalent international qualification. Students with a background in business or management are advised to consider the International Business (MSc) or the Marketing (MSc)",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews in particular (500 words)",
+                "one original signed academic reference",
+                "A sample of academic writing is not required for this programme."
+            ]
+        },
+        {
+            "course_name": "Management (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/management/management-msc/",
+            "entry_requirements": [
+                "A  2.1 undergraduate Honours degree in a subject other than business or management from the UK or the equivalent international qualification. Students with a background in business or management are advised to consider the International Business (MSc) or the Marketing (MSc)",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews in particular (500 words)",
+                "one original signed academic reference",
+                "A sample of academic writing is not required for this programme."
+            ]
+        },
+        {
+            "course_name": "Marine Ecosystem Management (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/marine-biology/marine-ecosystem-management-msc/",
+            "entry_requirements": [
+                "A first or 2.1 (Honours) undergraduate degree in a relevant natural science. Other scientific, engineering or mathematics degrees may be acceptable. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Training in advanced mathematics and statistics (at least to UK school AS/A-level, Higher, International Baccalaureate or equivalent).",
+                "Very good baseline IT skills including word-processing, spreadsheet use, email and internet.",
+                "Please contact the School if you are unsure about your qualifications.",
+                "In addition to the above minimum requirements, it is highly desirable for applicants to have:",
+                "relevant field or lab experience from previous employment, project or volunteer work",
+                "further IT skills, e.g. programming, database software and statistical packages for analysing (such as MATLAB, SPSS, SAS or R)",
+                "dedicated calculus or statistics modules at university level."
+            ],
+            "application_requirements": [
+                "CV",
+                "completed Research Skills Section (Word)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Marine Mammal Science (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/marine-biology/marine-mammal-science-msc/",
+            "entry_requirements": [
+                "A first or 2.1 (Honours) undergraduate degree or equivalent in a biological science. Other scientific, engineering or mathematics degrees may be acceptable. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Training in advanced mathematics and statistics (at least to UK school SQA Higher, GCE AS or A-Level, International Baccalaureate or equivalent).",
+                "Very good baseline IT skills including word-processing, spreadsheet use, email and internet.",
+                "Please contact the School if you are unsure about your qualifications.",
+                "In addition to the above minimum requirements, it is highly desirable for applicants to have:",
+                "relevant field or lab experience from previous employment, project or volunteer work",
+                "further IT skills, e.g. programming, database software and statistical packages for analysing (such as MATLAB, SPSS, SAS or R)",
+                "dedicated calculus or statistics modules at university level."
+            ],
+            "application_requirements": [
+                "CV",
+                "completed Research Skills Section (Word)",
+                "one original signed academic reference",
+                "Marine Mammal Science applicants should not submit a cover letter or writing sample with their applications."
+            ]
+        },
+        {
+            "course_name": "Marketing (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/management/marketing-mlitt/",
+            "entry_requirements": [
+                "A  2.1 undergraduate Honours degree in business, marketing or a related subject from the UK or the equivalent international qualification. Applications are also considered from applicants who have majored in another subject but have a business or marketing minor. Applicants with business experience are welcome, and work experience may be taken into account in the evaluation of applications.",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews in particular (500 words)",
+                "one original signed academic reference",
+                "A sample of academic writing is not required for this programme."
+            ]
+        },
+        {
+            "course_name": "Marketing (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/management/marketing-msc/",
+            "entry_requirements": [
+                "A  2.1 undergraduate Honours degree in business, marketing or a related subject from the UK or the equivalent international qualification. Applications are also considered from applicants who have majored in another subject but have a business or marketing minor. Applicants with business experience are welcome, and work experience may be taken into account in the evaluation of applications.",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement explaining why you have chosen the programme, why this subject is important to you and why you have applied to study at the University of St Andrews in particular (500 words)",
+                "one original signed academic reference",
+                "A sample of academic writing is not required for this programme."
+            ]
+        },
+        {
+            "course_name": "Master of Public Policy (MPP) August 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/economics/master-public-policy/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree in any subject. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "a detailed personal statement which includes an explanation of why you want to study the programme, why you want to enrol at St Andrews, and future career plans",
+                "an original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Mathematical Biology (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/mathematics/mathematical-biology-msc/",
+            "entry_requirements": [
+                "A  2.1 undergraduate Honours degree in Mathematics, Statistics or a closely related subject area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé",
+                "personal statement (optional)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Mathematics (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/mathematics/mathematics-msc/",
+            "entry_requirements": [
+                "A  2.1 undergraduate Honours degree in Mathematics, Statistics or a closely related subject area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement (optional)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Medieval History (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/history/medieval-history-mlitt/",
+            "entry_requirements": [
+                "A  2.1 Honours undergraduate degree in a subject-related area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "a personal statement",
+                "a sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Medieval Studies (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/history/medieval-studies-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "a personal statement",
+                "a sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Middle East, Caucasus and Central Asian Security Studies (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/international-relations/meccass-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours degree. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé",
+                "personal statement indicating your knowledge of the programme and how it will benefit you (500 words)",
+                "sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Middle Eastern History (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/history/middle-eastern-history-mlitt/",
+            "entry_requirements": [
+                "A  2.1 Honours undergraduate degree in History or Middle Eastern Studies. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "a personal statement",
+                "a sample of your own, single-authored academic written work of 2,000 words",
+                "one original signed academic references",
+                "academic transcripts and degree certificates"
+            ]
+        },
+        {
+            "course_name": "Modern History (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/history/modern-history-mlitt/",
+            "entry_requirements": [
+                "A  2.1 Honours undergraduate degree in History or a related subject. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "a personal statement",
+                "a sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Museum and Heritage Studies (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/interdisciplinary/museum-and-heritage-studies-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Museum work or voluntary experience is welcome, as are transferable skills gained in other roles",
+                "The MLitt in Museum and Heritage Studies welcomes applications from students from all disciplines relevant to museum work, such as:",
+                "History",
+                "Archaeology",
+                "Anthropology",
+                "Languages",
+                "Media and Communications",
+                "Physical and Natural Sciences."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement (500 words)",
+                "sample of your own, single-authored academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Museums, Heritage and Society (MLitt, PGDip, PGCert) – online 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/interdisciplinary/museums-heritage-and-society-pg-online/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Museum work or voluntary experience is welcome, as are transferable skills gained in other roles",
+                "The MLitt in Museums, Heritage and Society welcomes applications from students from all disciplines relevant to museum work, such as:",
+                "History",
+                "Archaeology",
+                "Anthropology",
+                "Languages",
+                "Media and Communications",
+                "Physical and Natural Sciences."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "personal statement of 500 words",
+                "sample of your own, single-authored academic written work of 2,000 words",
+                "one original signed reference, either academic or professional",
+                "academic transcripts and degree certificates"
+            ]
+        },
+        {
+            "course_name": "Neuroscience (MRes) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/neuroscience/neuroscience-mres/",
+            "entry_requirements": [
+                "Undergraduate degree (typically 2.1 or higher) in a science-related subject (e.g. neuroscience, chemistry, physics, biology, psychology or computer science). If you studied your first degree outside the UK, see the international entry requirements .",
+                "Candidates with other suitable and equivalent qualifications such as relevant work experience or research accomplishments will also be considered."
+            ],
+            "application_requirements": [
+                "CV that includes a history of your education and employment to date",
+                "personal statement of 500 words maximum that includes the names of three potential supervisors from the Cellular and Behavioural Neuroscience group",
+                "one letter of recommendation",
+                "Potential supervisors may vary from year to year. MRes neuroscience students are typically supervised by academic staff within the Cellular and Developmental Research Group . However, academic staff in other research groups may supervise students in certain instances. Questions about suitability of potential supervisors should be directed in the first instance to the programme coordinator, Anna Smith ( aes29@st-andrews.ac.uk )."
+            ]
+        },
+        {
+            "course_name": "Origins of Mind: Evolutionary and Developmental Perspectives (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/psychology/evolutionary-psychology-msc/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree in Psychology or a cognate discipline. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "personal statement (500 words)",
+                "sample of your own, single-authored academic written work (2,000 words)",
+                "one original signed reference"
+            ]
+        },
+        {
+            "course_name": "Peacebuilding and Mediation (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/international-relations/peacebuilding-and-mediation-mlitt/",
+            "entry_requirements": [
+                "A 2:1 Honours degree in Political Science, International Relations, Social Sciences, Anthropology, Geography, History, Sociology, English, Comparative Literature, or other relevant disciplines. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé",
+                "personal statement indicating your knowledge of the programme and how it will benefit you (500 words)",
+                "sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Philosophy (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/philosophy/philosophy-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours degree in or including philosophy. If you do not have an undergraduate degree in philosophy, you may be interested in the Conversion in Philosophy .",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement (optional)",
+                "sample of academic written work (2,500 words maximum)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Playwriting and Screenwriting (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/english/playwriting-screenwriting-mlitt/",
+            "entry_requirements": [
+                "A 2.1 Honours undergraduate degree. However a candidate who demonstrates outstanding writing abilities may be accepted on the basis of an equivalent qualification (e.g. a body of published work or a relevant professional qualification), but such cases are entirely at the discretion of staff and require decanal approval.",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé - this should include your personal details with a history of your education and employment to date",
+                "academic critical essay on an English literature topic (approximately 2,000 words)",
+                "portfolio of original playwriting or screenwriting (10 to 15 pages)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Psychology Conversion (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/psychology/psychology-conversion-msc/",
+            "entry_requirements": [
+                "A  2.1 Honours undergraduate degree in a subject other than psychology. If you already possess an undergraduate degree in Psychology, there is a range of other psychology postgraduate programmes . If you studied your first degree outside the UK, see the international entry requirements .",
+                "Some knowledge of very basic mathematics is required for understanding the statistical techniques introduced in the programme. In most cases, secondary school algebra is sufficient."
+            ],
+            "application_requirements": [
+                "CV or résumé",
+                "personal statement (500 words)",
+                "sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Research Methods in Psychology (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/psychology/research-psychology-msc/",
+            "entry_requirements": [
+                "A  2.1 Honours undergraduate degree in Psychology or a related discipline. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé",
+                "personal statement (500 words)",
+                "sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Sacred Music (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/divinity/sacred-music-mlitt/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree and relevant experience in theology or music. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement (300 to 500 words)",
+                "sample of your own, single-authored academic work in English (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Sacred Music (PGCert) - online Next start: September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/divinity/sacred-music-pgcert-online/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree and relevant experience in theology or music. Applications are also considered from applicants who have majored in another subject but who have significant practical or professional experience in music or theology.",
+                "We will also consider applicants who do not have an undergraduate degree. In these circumstances we expect candidates to have significant relevant practical or professional experience alongside evidence of prior alternative learning."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "personal statement (300 to 500 words)",
+                "one original signed academic references"
+            ]
+        },
+        {
+            "course_name": "Software Engineering (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/computer-science/software-engineering-msc/",
+            "entry_requirements": [
+                "a 2.1 Honours undergraduate degree in Computer Science. If you studied your first degree outside the UK, see the international entry requirements",
+                "applicants to this programme are expected to be competent programmers with prior practical experience in a programming language such as Java, C, Python, C++ or JavaScript"
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "personal statement (optional)",
+                "one original signed academic reference",
+                "academic transcripts and degree certificates that confirm your current or final marks. If your transcripts are not in English, please provide certified translations. Do not send original documents as they cannot be returned.. Please only provide certified copies with official English translations if applicable. Do not send original documents as they cannot be returned."
+            ]
+        },
+        {
+            "course_name": "Statistical Ecology (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/statistics/statistical-ecology-msc/",
+            "entry_requirements": [
+                "a  2:1 undergraduate Honours degree in a STEM subject or equivalent professional experience.",
+                "demonstrable interest or experience in statistical data analysis in an academic or professional setting"
+            ],
+            "application_requirements": [
+                "a one-page personal statement directly addressing entry requirements and including relevance of previous degree or experience, your interests in statistical analysis, and your object-oriented programming experience",
+                "a CV with a history of your education and employment to date",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Statistics (MSc) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/statistics/statistics-msc/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree in mathematics, statistics or a closely related subject area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "personal statement (optional)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Strategic Studies (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/international-relations/strategic-studies-mlitt/",
+            "entry_requirements": [
+                "A 2:1 Honours undergraduate degree. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé",
+                "personal statement indicating your knowledge of the programme and how it will benefit you (500 words)",
+                "sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Sustainable Aquaculture - online Next start: September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/marine-biology/sustainable-aquaculture/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree in a relevant biological science. Entry will also be offered following successful completion of the Undergraduate Certificate in Sustainable Aquaculture in conjunction with additional evidence of relevant professional experiential learning. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "two original signed references (at least one academic)",
+                "academic transcripts and degree certificates",
+                "personal statement",
+                "If you do not have a degree",
+                "We will consider applicants who do not have an undergraduate degree. In these circumstances we expect candidates to have at least five years of relevant professional learning. The Admissions team will holistically assess your application and determine the best route of entry for you. In some cases, this may be onto the PGCert in the first instance where students will have the opportunity to progress and graduate with a full Masters degree."
+            ]
+        },
+        {
+            "course_name": "Teaching English to Speakers of Other Language TESOL (MSc, PGDip, PGCert, modular) - online September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/tesol/tesol-msc-distance-learning-september/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree or 3.3 out of 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the Academic English pre-sessional courses .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning (such as professional qualifications or certifications).",
+                "For more information about our academic entrance requirements in relation to the education system you studied in, email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment (paid or voluntary) to date",
+                "personal statement, see personal statement guidance for TESOL courses",
+                "one original signed reference (professional or academic)",
+                "academic transcripts and degree certificates",
+                "evidence of English language proficiency (required if English is not your first language). If you have not yet taken an English language test, you can submit it at a later date. Any offer of a place would then be conditional on attaining evidence of your English language competence."
+            ]
+        },
+        {
+            "course_name": "Teaching English to Speakers of Other Languages (TESOL) - online with optional specialism (MSc, PGDip, PGCert, single module) January 2027",
+            "url": "https://www.st-andrews.ac.uk/subjects/tesol/tesol-msc-distance-learning-january/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree or 3.3 out of 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning (such as professional qualifications or certifications).",
+                "The qualifications listed are indicative minimum requirements for entry. Obtaining the listed entry requirements will not guarantee you a place, as the University considers all aspects of every application including, where applicable, the personal statement, and supporting documents.",
+                "For more information about our academic entrance requirements in relation to the education system you studied in, please email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details and a history of your education and paid or voluntary employment to date",
+                "personal statement, see personal statement guidance for TESOL courses",
+                "one original signed reference (professional or academic)",
+                "academic transcripts and degree certificates"
+            ]
+        },
+        {
+            "course_name": "Teaching English to Speakers of Other Languages (TESOL) - with optional specialism (MSc, PGDip, PGCert) January 2027",
+            "url": "https://www.st-andrews.ac.uk/subjects/tesol/tesol-msc-january/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree or 3.3 out of 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning (such as professional qualifications or certifications).",
+                "The qualifications listed are indicative minimum requirements for entry. Obtaining the listed entry requirements will not guarantee you a place, as the University considers all aspects of every application including, where applicable, the personal statement, and supporting documents.",
+                "For more information about our academic entrance requirements in relation to the education system you studied in, please email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details and a history of your education and paid or voluntary employment to date",
+                "personal statement, see personal statement guidance for TESOL courses",
+                "one original signed reference (professional or academic)",
+                "academic transcripts and degree certificates"
+            ]
+        },
+        {
+            "course_name": "Teaching English to Speakers of Other Languages (TESOL) - with optional specialism (MSc, PGDip, PGCert) September 2026",
+            "url": "https://www.st-andrews.ac.uk/subjects/tesol/tesol-msc-september/",
+            "entry_requirements": [
+                "Typically, you should have one of the following:",
+                "A 2.1 Honours degree or 3.3 out of 4.0 Grade Point Average (GPA) in any discipline. Applications are welcomed from all education systems. If you studied your first degree outside the UK, see the international entry requirements .",
+                "Significant professional or other relevant experience alongside evidence of prior alternative learning (such as professional qualifications or certifications).",
+                "For more information about our academic entrance requirements in relation to the education system you studied in, email iellipostgrad@st-andrews.ac.uk ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment (paid or voluntary) to date",
+                "personal statement, see personal statement guidance for TESOL courses",
+                "one original signed reference (professional or academic)",
+                "academic transcripts and degree certificates",
+                "evidence of English language proficiency (required if English is not your first language). If you have not yet taken an English language test, you can submit it at a later date. Any offer of a place would then be conditional on attaining evidence of your English language competence."
+            ]
+        },
+        {
+            "course_name": "The Book. History and Techniques of Analysis (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/history/book-history-mlitt/",
+            "entry_requirements": [
+                "A  2.1 Honours undergraduate degree in a subject-related area. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "personal statement (optional)",
+                "sample of academic written work (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "The Psychology of Dementia Care – online (PGCert) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/psychology/dementia-care-pgcert/",
+            "entry_requirements": [
+                "The School will accept one of the following as appropriate entry qualifications:",
+                "A 2:1 Honours undergraduate degree in a cognate discipline.",
+                "Accredited prior learning: a professional qualification in social work, nursing, occupational therapy or similar.",
+                "Experiential prior learning: substantial relevant work experience in a related discipline and at least three year's practical experience in the field.",
+                "If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV or résumé",
+                "personal statement (500 words) - only applicable if applying for Scottish Funding Council funding",
+                "sample of academic written work (2,000 words)",
+                "one original signed academic references"
+            ]
+        },
+        {
+            "course_name": "The Study of Judaism and Christianity (MLitt) To be confirmed.",
+            "url": "https://www.st-andrews.ac.uk/subjects/divinity/judaism-and-christianity-mlitt/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree in Theology, Religion, Jewish Studies, Biblical Studies, or a closely related discipline. If you studied your first degree outside the UK, see the international entry requirements .",
+                "English language proficiency. See English language tests and qualifications ."
+            ],
+            "application_requirements": [
+                "CV that includes your personal details with a history of your education and employment to date",
+                "personal statement (optional)",
+                "2,000-word sample of your own, single-authored academic written work",
+                "two original signed academic references",
+                "academic transcripts and degree certificates",
+                "Successful applicants will need to submit some further documentation to the Hebrew University of Jerusalem when accepting their offer. Details will follow once an offer is issued."
+            ]
+        },
+        {
+            "course_name": "Theology and the Arts (MLitt) 2026 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/divinity/theology-arts-mlitt/",
+            "entry_requirements": [
+                "A 2.1 undergraduate Honours degree in theology or an Arts subject. If you studied your first degree outside the UK, see the international entry requirements ."
+            ],
+            "application_requirements": [
+                "CV",
+                "statement of purpose (300 to 500 words)",
+                "sample of your own, single-authored academic work in English (2,000 words)",
+                "one original signed academic reference"
+            ]
+        },
+        {
+            "course_name": "Transnational, Global and Spatial History (MLitt) 2025 entry",
+            "url": "https://www.st-andrews.ac.uk/subjects/history/transnational-history-mlitt/",
+            "entry_requirements": [],
+            "application_requirements": [
+                "CV or résumé. This should include your personal details with a history of your education and employment to date.",
+                "a personal statement",
+                "a sample of your own, single-authored academic written work (2,000 words)",
+                "two original signed academic references",
+                "academic transcripts and degree certificates"
+            ]
+        }
+    ]
+}
