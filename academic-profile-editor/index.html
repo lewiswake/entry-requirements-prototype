@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Profile Editor | Admissions CMS</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="mobile-nav">
+      <div class="mobile-nav-title">Academic Profile Editor</div>
+      <button class="menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
+    </div>
+
+    <div id="notification" class="toast-notification">
+      <span class="toast-icon">✓</span> Profiles saved successfully
+    </div>
+
+    <div class="modern-hero">
+      <div class="container">
+        <h1>Undergraduate Grade Profiles</h1>
+        <p class="lead">
+          Manage academic entry requirements and geographic coverage across
+          global profiles.
+        </p>
+      </div>
+    </div>
+
+    <div class="container app-layout">
+      <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+      <aside class="sidebar" id="app-sidebar">
+        <div class="sidebar-header">
+          <span
+            style="font-size: 1.1rem; font-weight: 800; color: var(--text-dark)"
+            >Profiles</span
+          >
+          <button class="btn-new-profile" onclick="addProfile()">
+            + New Profile
+          </button>
+        </div>
+        <div class="profile-list" id="sidebar-list"></div>
+      </aside>
+
+      <main class="main-editor">
+        <div id="empty-state" class="empty-state">
+          <div class="empty-icon">🌍</div>
+          <h2>Select a Profile</h2>
+          <p>
+            Choose an academic profile from the sidebar to view and edit its
+            qualifications.
+          </p>
+        </div>
+
+        <div id="editor-panel" style="display: none">
+          <div class="editor-header-card">
+            <input
+              type="text"
+              class="cms-title-input"
+              id="field-profile-title"
+              placeholder="Profile Title (e.g. SQA: AAAA / A-Level: AAA)"
+            />
+
+            <div class="cms-meta-row">
+              <div class="cms-meta-group">
+                <label>Profile ID</label>
+                <input
+                  type="text"
+                  class="cms-meta-input"
+                  id="field-profile-id"
+                  placeholder="e.g. profile_1"
+                  style="width: 140px"
+                />
+              </div>
+
+              <div style="margin-left: auto">
+                <button
+                  class="btn-danger"
+                  onclick="deleteProfile()"
+                  title="Delete Profile"
+                >
+                  🗑️ Delete Profile
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-title">
+            <span>🎓 Qualifications within Profile</span>
+            <button class="btn-add-sm" onclick="addQualification()">
+              + Add Qualification
+            </button>
+          </div>
+
+          <div id="qualifications-container"></div>
+        </div>
+      </main>
+    </div>
+
+    <button class="fab-save" onclick="saveJSON()">
+      <span style="font-size: 1.2rem">💾</span> Save JSON
+    </button>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
