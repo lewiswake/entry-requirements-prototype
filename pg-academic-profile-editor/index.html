@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PG Academic Editor | Admissions CMS</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="mobile-nav">
+      <div class="mobile-nav-title">PG Academic Editor</div>
+      <button class="menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
+    </div>
+
+    <div id="notification" class="toast-notification">
+      <span class="toast-icon">✓</span> Database saved successfully
+    </div>
+
+    <div class="modern-hero">
+      <div class="container">
+        <h1>Postgraduate Entry Requirements</h1>
+        <p class="lead">
+          Manage country-specific postgraduate academic qualifications and
+          grading tiers.
+        </p>
+      </div>
+    </div>
+
+    <div class="container app-layout">
+      <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+      <aside class="sidebar" id="app-sidebar">
+        <div class="sidebar-header">
+          <span
+            style="font-size: 1.1rem; font-weight: 800; color: var(--text-dark)"
+            >Countries</span
+          >
+          <button class="btn-new-profile" onclick="addCountry()">
+            + Add Country
+          </button>
+        </div>
+        <div class="profile-list" id="sidebar-list"></div>
+      </aside>
+
+      <main class="main-editor">
+        <div id="empty-state" class="empty-state">
+          <div class="empty-icon">🌍</div>
+          <h2>Select a Country</h2>
+          <p>
+            Choose a country from the sidebar to view and edit its postgraduate
+            qualifications.
+          </p>
+        </div>
+
+        <div id="editor-panel" style="display: none">
+          <div class="editor-header-card">
+            <input
+              type="text"
+              class="cms-title-input"
+              id="field-country-name"
+              placeholder="Country Name (e.g. India)"
+            />
+
+            <div class="cms-meta-row">
+              <div class="cms-meta-group">
+                <label>ISO Code</label>
+                <input
+                  type="text"
+                  class="cms-meta-input"
+                  id="field-country-code"
+                  placeholder="e.g. in"
+                  style="width: 100px"
+                />
+              </div>
+
+              <div style="margin-left: auto">
+                <button
+                  class="btn-danger"
+                  onclick="deleteCountry()"
+                  title="Delete Country"
+                >
+                  🗑️ Delete Country
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-title">
+            <span>🎓 Qualifications for this Country</span>
+            <button class="btn-add-sm" onclick="addQualification()">
+              + Add Qualification
+            </button>
+          </div>
+
+          <div id="qualifications-container"></div>
+        </div>
+      </main>
+    </div>
+
+    <button class="fab-save" onclick="saveJSON()">
+      <span style="font-size: 1.2rem">💾</span> Save JSON
+    </button>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
