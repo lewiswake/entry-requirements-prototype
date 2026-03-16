@@ -6,7 +6,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min grade 85% or GPA 3.5/4.0."
+          "detail": "Minimum grade of 85%, or a GPA of 3.5/4.0"
         }
       ]
     }
@@ -18,7 +18,7 @@
       "qualifications": [
         {
           "name": "Diplomë e Nivelit të Pare",
-          "detail": "Min GPA 7.40/10."
+          "detail": "Minimum GPA 7.40/10"
         }
       ]
     }
@@ -30,7 +30,7 @@
       "qualifications": [
         {
           "name": "Licence",
-          "detail": "Min GPA 12.00 (Assez bien)."
+          "detail": "Minimum GPA of 12.00 (Assez bien)"
         }
       ]
     }
@@ -42,7 +42,7 @@
       "qualifications": [
         {
           "name": "Bàtxelor (Notable)",
-          "detail": "Min grade 8/10."
+          "detail": "Minimum grade of 8/10"
         }
       ]
     }
@@ -54,7 +54,7 @@
       "qualifications": [
         {
           "name": "Grau de Mestre",
-          "detail": "Min grade 14/20."
+          "detail": "Minimum grade of 14/20"
         }
       ]
     }
@@ -66,7 +66,7 @@
       "qualifications": [
         {
           "name": "Título de Licenciado",
-          "detail": "Min GPA 7.50/10."
+          "detail": "Minimum GPA of 7.50/10"
         }
       ]
     }
@@ -78,7 +78,7 @@
       "qualifications": [
         {
           "name": "Bakalavri Astichan",
-          "detail": "Excellence; min GPA 3.3, B+, or 75%."
+          "detail": "Excellence, with a minimum GPA of 3.3, B+, or 75%"
         }
       ]
     }
@@ -89,8 +89,16 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "3-year with Distinction or Honours H2A."
+          "name": "Degrees with a GPA",
+          "detail": "Minimum grade of 3.0/4.0 or 6.0/7.0"
+        },
+        {
+          "name": "Honour's Degree",
+          "detail": "Minimum of second-class upper division (H2A)"
+        },
+        {
+          "name": "Three-Year Bachelor's Degree",
+          "detail": "Minimum grade of Distinction"
         }
       ]
     }
@@ -101,8 +109,36 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "3-year with Distinction or Honours H2A."
+          "name": "Degrees with a GPA",
+          "detail": "Minimum grade of 3.0/4.0 or 6.0/7.0"
+        },
+        {
+          "name": "Honour's Degree",
+          "detail": "Minimum of second-class upper division (H2A)"
+        },
+        {
+          "name": "Three-Year Bachelor's Degree",
+          "detail": "Minimum grade of Distinction"
+        }
+      ]
+    }
+  },
+  {
+    "code": "au-nt",
+    "country": "Australia (NT)",
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Degrees with a GPA",
+          "detail": "Minimum grade of 3.0/4.0 or 6.0/7.0"
+        },
+        {
+          "name": "Honour's Degree",
+          "detail": "Minimum of second-class upper division (H2A)"
+        },
+        {
+          "name": "Three-Year Bachelor's Degree",
+          "detail": "Minimum grade of Distinction"
         }
       ]
     }
@@ -113,8 +149,16 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "3-year with Distinction or Honours H2A."
+          "name": "Degrees with a GPA",
+          "detail": "Minimum grade of 3.0/4.0 or 6.0/7.0"
+        },
+        {
+          "name": "Honour's Degree",
+          "detail": "Minimum of second-class upper division (H2A)"
+        },
+        {
+          "name": "Three-Year Bachelor's Degree",
+          "detail": "Minimum grade of Distinction"
         }
       ]
     }
@@ -125,8 +169,16 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "3-year with Distinction or Honours H2A."
+          "name": "Degrees with a GPA",
+          "detail": "Minimum grade of 3.0/4.0 or 6.0/7.0"
+        },
+        {
+          "name": "Honour's Degree",
+          "detail": "Minimum of second-class upper division (H2A)"
+        },
+        {
+          "name": "Three-Year Bachelor's Degree",
+          "detail": "Minimum grade of Distinction"
         }
       ]
     }
@@ -137,8 +189,16 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "3-year with Distinction or Honours H2A."
+          "name": "Degrees with a GPA",
+          "detail": "Minimum grade of 3.0/4.0 or 6.0/7.0"
+        },
+        {
+          "name": "Honour's Degree",
+          "detail": "Minimum of second-class upper division (H2A)"
+        },
+        {
+          "name": "Three-Year Bachelor's Degree",
+          "detail": "Minimum grade of Distinction"
         }
       ]
     }
@@ -149,8 +209,16 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "3-year with Distinction or Honours H2A."
+          "name": "Degrees with a GPA",
+          "detail": "Minimum grade of 3.0/4.0 or 6.0/7.0"
+        },
+        {
+          "name": "Honour's Degree",
+          "detail": "Minimum of second-class upper division (H2A)"
+        },
+        {
+          "name": "Three-Year Bachelor's Degree",
+          "detail": "Minimum grade of Distinction"
         }
       ]
     }
@@ -161,8 +229,16 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "3-year with Distinction or Honours H2A."
+          "name": "Degrees with a GPA",
+          "detail": "Minimum grade of 3.0/4.0 or 6.0/7.0"
+        },
+        {
+          "name": "Honour's Degree",
+          "detail": "Minimum of second-class upper division (H2A)"
+        },
+        {
+          "name": "Three-Year Bachelor's Degree",
+          "detail": "Minimum grade of Distinction"
         }
       ]
     }
@@ -174,7 +250,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min grade 2.2 or Gut."
+          "detail": "Gut or a minimum grade of 2,2"
         }
       ]
     }
@@ -186,7 +262,7 @@
       "qualifications": [
         {
           "name": "Bakalavr Diplomu",
-          "detail": "Min GPA 81% (very good)."
+          "detail": "Minimum GPA of 81%, 'çox yaxşi/very good'"
         }
       ]
     }
@@ -198,7 +274,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+          "detail": "From the University of the West Indies with upper second-class honours, with a minimum GPA of 3.0/4.0, B, or 65%"
         }
       ]
     }
@@ -210,7 +286,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.3/4, 84%, B+, or 'very good'."
+          "detail": "Minimum GPA of 3.3/4, 84%, B+, or 'very good'"
         }
       ]
     }
@@ -221,8 +297,12 @@
     "postgraduate": {
       "qualifications": [
         {
+          "name": "Bachelor's Degree",
+          "detail": "Some bachelor's degrees may be considered depending on institution and programme accreditation. Please get in touch with Admissions for more information."
+        },
+        {
           "name": "Master's Degree",
-          "detail": "Min grade 75% or GPA 3.5."
+          "detail": "Minimum grade of 75% or GPA 3.5"
         }
       ]
     }
@@ -233,8 +313,12 @@
     "postgraduate": {
       "qualifications": [
         {
+          "name": "Master's Degree",
+          "detail": "Minimum GPA of 8, or 'almost excellent'"
+        },
+        {
           "name": "Specialist Diploma",
-          "detail": "Min GPA 8 ('almost excellent')."
+          "detail": "Minimum GPA of 8, or 'almost excellent'"
         }
       ]
     }
@@ -246,7 +330,7 @@
       "qualifications": [
         {
           "name": "Bachelier",
-          "detail": "Min grade 14 or 70%."
+          "detail": "Minimum grade 14, or 70%"
         }
       ]
     }
@@ -258,7 +342,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+          "detail": "From the University of the West Indies with upper second-class honours, with a minimum GPA of 3.0/4.0, B, or 65%."
         }
       ]
     }
@@ -270,7 +354,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.3 (US Accredited)."
+          "detail": "From an accredited US institution with a minimum GPA of 3.3"
         }
       ]
     }
@@ -282,7 +366,7 @@
       "qualifications": [
         {
           "name": "Bachillerato Universitario",
-          "detail": "Min GPA 77% or Distinguido."
+          "detail": "Minimum GPA 77%, or Distinguido"
         }
       ]
     }
@@ -293,8 +377,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Diploma/Diplomirani",
-          "detail": "Min grade 9/10."
+          "name": "Diploma/Diplomirani (Bachelor's Degree)",
+          "detail": "Minimum grade of 9/10"
         }
       ]
     }
@@ -305,8 +389,12 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's (Honours)",
-          "detail": "Min 2nd Class Upper (post-2021) or Merit."
+          "name": "Master's Degree",
+          "detail": "Award from 2021 onwards from an accredited institution with a minimum of Merit"
+        },
+        {
+          "name": "Bachelor's (Honours) Degree",
+          "detail": "Awarded from 2021 onwards from an accredited institution with a minimum of Second Class, Upper Division"
         }
       ]
     }
@@ -318,7 +406,7 @@
       "qualifications": [
         {
           "name": "Bacharelado",
-          "detail": "Min GPA 7.50/10."
+          "detail": "Minimum GPA of 7,50/10"
         }
       ]
     }
@@ -330,7 +418,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+          "detail": "From the University of the West Indies with upper second-class honours, with a minimum GPA of 3.0/4.0, B, or 65%"
         }
       ]
     }
@@ -341,8 +429,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "2.1 or GPA 4.0/5.0."
+          "name": "Bachelor's Degree with Honours",
+          "detail": "2.1, or a GPA of 4.0/5.0."
         }
       ]
     }
@@ -354,7 +442,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 5 (Very good)."
+          "detail": "Minimum GPA of 5, Mnogo Dobur (Very good)"
         }
       ]
     }
@@ -366,7 +454,7 @@
       "qualifications": [
         {
           "name": "Diploma of Advanced Studies",
-          "detail": "Grade of Excellent."
+          "detail": "Grade of Excellent"
         }
       ]
     }
@@ -378,7 +466,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min GPA 3.0/4.0, 70% or Good."
+          "detail": "Minimum GPA of 3.0 on a 4-point scale, 70%, or graduating category 'Good'"
         }
       ]
     }
@@ -390,7 +478,7 @@
       "qualifications": [
         {
           "name": "Master 1 (M1)",
-          "detail": "Min GPA 3.5/4.0, 70%, or Very Good."
+          "detail": "Minimum GPA of 3.5/4.0, 70% or Very Good"
         }
       ]
     }
@@ -402,7 +490,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -414,7 +502,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -426,7 +514,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -438,7 +526,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -450,7 +538,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -462,7 +550,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -474,7 +562,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -486,7 +574,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -498,7 +586,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -510,7 +598,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -522,7 +610,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -546,7 +634,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min GPA 3.3/4.0, B+, or 76%."
+          "detail": "Mininimum GPA of 3.3/4.0, B+, or 76%"
         }
       ]
     }
@@ -558,7 +646,7 @@
       "qualifications": [
         {
           "name": "Grado de Licenciado",
-          "detail": "Min GPA 5.5."
+          "detail": "Minimum GPA of 5,5"
         }
       ]
     }
@@ -570,7 +658,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min 78%."
+          "detail": "Minimum requirement of 78%"
         }
       ]
     }
@@ -582,7 +670,19 @@
       "qualifications": [
         {
           "name": "Licenciado/Título",
-          "detail": "Min GPA 4.0/5.0 or Excellent."
+          "detail": "Minimum GPA of 4.0/5.0, or Excellent"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ci",
+    "country": "Côte d'Ivoire",
+    "postgraduate": {
+      "qualifications": [
+        {
+          "name": "Diplôme d'Études Supérieures, Diplôme d'Études Approfondies, Maîtrise, Master II",
+          "detail": "Minimum grade of 14/20, Bien"
         }
       ]
     }
@@ -594,7 +694,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min 2.1 Honours or equivalent."
+          "detail": "Minimum of upper second-class (2.1) honours degree from a UK university or equivalent"
         }
       ]
     }
@@ -606,7 +706,7 @@
       "qualifications": [
         {
           "name": "Licenciatura",
-          "detail": "Min GPA 8.5."
+          "detail": "Minimum GPA of 8.5"
         }
       ]
     }
@@ -618,7 +718,7 @@
       "qualifications": [
         {
           "name": "Baccalaureus",
-          "detail": "Min GPA 4.0/5.0."
+          "detail": "Minimum GPA of 4.0/5.0"
         }
       ]
     }
@@ -630,7 +730,7 @@
       "qualifications": [
         {
           "name": "Título de Licenciado",
-          "detail": "Min GPA 4/5 (Muy Bien)."
+          "detail": "Minimum GPA of 4/5, Muy Bien"
         }
       ]
     }
@@ -641,8 +741,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Ptychio",
-          "detail": "Min GPA 7.0/10."
+          "name": "Ptychio or bachelor's degree",
+          "detail": "Minimum GPA of 7.0/10"
         }
       ]
     }
@@ -654,7 +754,7 @@
       "qualifications": [
         {
           "name": "Bakalář",
-          "detail": "Min grade 1.5/B (Velmi dobre)."
+          "detail": "Minimum grade of 1.5/B, Velmi dobre (very good)"
         }
       ]
     }
@@ -666,7 +766,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min grade 7/12."
+          "detail": "Minimum grade of 7/12"
         }
       ]
     }
@@ -678,7 +778,7 @@
       "qualifications": [
         {
           "name": "Licenciado",
-          "detail": "Min grade 80%, B, Muy Bueno."
+          "detail": "Minimum grade of 80%, B, Muy Bueno"
         }
       ]
     }
@@ -690,7 +790,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min grade 15/20."
+          "detail": "Minimum grade of 15/20"
         }
       ]
     }
@@ -702,7 +802,7 @@
       "qualifications": [
         {
           "name": "Título de Licenciado",
-          "detail": "Min GPA 80%."
+          "detail": "Minimum GPA of 80%"
         }
       ]
     }
@@ -714,7 +814,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 75% or Very Good."
+          "detail": "Minimum GPA of 75%, or Very Good"
         }
       ]
     }
@@ -725,8 +825,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Título de Maestro",
-          "detail": "Min grade 8/10."
+          "name": "Título de Maestro/Maestría",
+          "detail": "Minimum grade of 8/10"
         }
       ]
     }
@@ -738,7 +838,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "2.1 Honours degree or equivalent."
+          "detail": "Minimum of an upper second class (2.1) honours degree from a UK university, or equivalent"
         }
       ]
     }
@@ -750,7 +850,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min GPA 3.3/4.0."
+          "detail": "Minimum GPA of 3.3/4.0"
         }
       ]
     }
@@ -762,7 +862,7 @@
       "qualifications": [
         {
           "name": "Bakalaurusekraad",
-          "detail": "Min GPA 4/5, B, or Very Good."
+          "detail": "Minimum GPA of 4/5, B, or Very Good"
         }
       ]
     }
@@ -774,7 +874,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Overall mark B+ or GPA 3.5."
+          "detail": "Overall mark B+ or GPA of 3.5."
         }
       ]
     }
@@ -786,7 +886,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min 2.1 Honours or equivalent."
+          "detail": "Minimum of upper second-class (2.1) honours degree from a UK university, or equivalent"
         }
       ]
     }
@@ -797,8 +897,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Kandidaattii",
-          "detail": "Min grade 3/5 or 2/3."
+          "name": "Kandidaattii/Kandidat",
+          "detail": "Minimum grade of 3/5 or 2/3"
         }
       ]
     }
@@ -810,7 +910,7 @@
       "qualifications": [
         {
           "name": "Grade de Licence",
-          "detail": "Min grade 12 (Assez Bien)."
+          "detail": "Minimum grade of 12, or Assez Bien"
         }
       ]
     }
@@ -822,7 +922,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min GPA 3.7/4.3 or 70%."
+          "detail": "Minimum cumulative QPA of 3.7/4.3, or 70% from the University of the Gambia"
         }
       ]
     }
@@ -834,7 +934,7 @@
       "qualifications": [
         {
           "name": "Bakalavris Khariskhi",
-          "detail": "Min GPA B, Very Good, or 81%."
+          "detail": "Minimum GPA of B, Very Good, or 81%"
         }
       ]
     }
@@ -846,7 +946,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min grade 2.5 or Gut."
+          "detail": "Minimum grade of 2,5 or Gut"
         }
       ]
     }
@@ -858,7 +958,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.5/4.0 or 65%."
+          "detail": "Minimum GPA of 3.5/4.0, or 65%"
         }
       ]
     }
@@ -870,7 +970,7 @@
       "qualifications": [
         {
           "name": "Ptychio",
-          "detail": "Min grade 7.5/10."
+          "detail": "Minimum grade of 7.5/10"
         }
       ]
     }
@@ -882,7 +982,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+          "detail": "Upper Second-Class Honours from the University of the West Indies, with a minimum GPA of 3.0/4.0, B, or 65%"
         }
       ]
     }
@@ -894,7 +994,7 @@
       "qualifications": [
         {
           "name": "Licenciatura",
-          "detail": "Min grade 80% (Muy Bueno)."
+          "detail": "Minimum grade of 80%, Muy Bueno"
         }
       ]
     }
@@ -906,7 +1006,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min grade B or 65%."
+          "detail": "Minimum grade of B, or 65% from the University of Guyana"
         }
       ]
     }
@@ -918,7 +1018,7 @@
       "qualifications": [
         {
           "name": "Licenciatura",
-          "detail": "Min grade 86% (Muy Bueno)."
+          "detail": "Minimum grade of 86%, Muy Bueno"
         }
       ]
     }
@@ -930,7 +1030,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "2.1 or GPA 3.0."
+          "detail": "Minimum of an upper second-class (2.1) honours degree or a minimum GPA of 3.0"
         }
       ]
     }
@@ -942,7 +1042,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 4/5."
+          "detail": "Minimum GPA of 4/5"
         }
       ]
     }
@@ -954,7 +1054,7 @@
       "qualifications": [
         {
           "name": "Baccalaureus",
-          "detail": "Min GPA 7.25/10."
+          "detail": "Minimum GPA of 7,25/10"
         }
       ]
     }
@@ -966,7 +1066,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "60% - 80% or 7.0-9.0 CGPA depending on institution."
+          "detail": "60% to 80%, or 7.0-9.0 CGPA, depending on the institution attended"
         }
       ]
     }
@@ -977,8 +1077,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree (S1)",
-          "detail": "Min GPA 3.0/4."
+          "name": "Bachelor's Degree (Sarjana 1 or S1)",
+          "detail": "Minimum GPA of 3.0/4"
         }
       ]
     }
@@ -989,8 +1089,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Kārshenāsi",
-          "detail": "Min overall grade 16/20."
+          "name": "Kārshenāsi/bachelor's degree",
+          "detail": "Minimum overall grade 16/20"
         }
       ]
     }
@@ -1001,8 +1101,12 @@
     "postgraduate": {
       "qualifications": [
         {
+          "name": "Bachelor's Degree",
+          "detail": "Minimum grade of 80%, Very Good"
+        },
+        {
           "name": "Master's Degree",
-          "detail": "Min grade 80% (Very Good)."
+          "detail": "Minimum grade of 80%, Very Good"
         }
       ]
     }
@@ -1014,7 +1118,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "2nd Class Honours Grade I or 60%."
+          "detail": "Second Class Honours Grade I, or a minimum of 60%"
         }
       ]
     }
@@ -1026,7 +1130,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min overall grade 80%."
+          "detail": "Minimum overall grade of 80%"
         }
       ]
     }
@@ -1037,8 +1141,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Laurea",
-          "detail": "Min grade 104/110."
+          "name": "Laurea (Nuovo Ordinamento)",
+          "detail": "Minimum overall grade of 104/110"
         }
       ]
     }
@@ -1050,7 +1154,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+          "detail": "Upper second class honours, with a minimum GPA of 3.0/4.0, B, or 65%, from the University of Technology or the University of the West Indies"
         }
       ]
     }
@@ -1061,8 +1165,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.0 (Ryō/Good)."
+          "name": "Gakushi/Bachelor's Degree",
+          "detail": "Minimum GPA of 3.0, Ryō (Good)"
         }
       ]
     }
@@ -1074,7 +1178,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.5 (Very Good)."
+          "detail": "Minimum GPA of 3.5, or Very Good"
         }
       ]
     }
@@ -1085,8 +1189,12 @@
     "postgraduate": {
       "qualifications": [
         {
+          "name": "Specialist Diploma",
+          "detail": "Minimum GPA of 3.33, B+, Good"
+        },
+        {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.33 (B+)."
+          "detail": "Minimum GPA of 3.33, B+, Good"
         }
       ]
     }
@@ -1098,7 +1206,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class Honours (60%)."
+          "detail": "Upper second-class honours with a minimum grade of 60%"
         }
       ]
     }
@@ -1110,7 +1218,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 4.0/5."
+          "detail": "Minimum GPA of 4.0/5, or A, from the University of the South Pacific or equivalent accredited institution"
         }
       ]
     }
@@ -1121,8 +1229,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Min overall grade 8."
+          "name": "Baҫelor/Bachelor's Degree",
+          "detail": "Minimum overall grade of 8"
         }
       ]
     }
@@ -1134,7 +1242,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.33/4 or B+."
+          "detail": "Minimum GPA of 3.33/4 or B+"
         }
       ]
     }
@@ -1145,8 +1253,12 @@
     "postgraduate": {
       "qualifications": [
         {
+          "name": "Specialist Diploma",
+          "detail": "Minimum overall grade of 4/5"
+        },
+        {
           "name": "Bachelor's Degree",
-          "detail": "Min overall grade 4/5."
+          "detail": "Minimum overall grade of 4/5"
         }
       ]
     }
@@ -1158,7 +1270,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min GPA 3.5 (B+)."
+          "detail": "Minimum GPA 3.5, B+, Very Good"
         }
       ]
     }
@@ -1170,7 +1282,7 @@
       "qualifications": [
         {
           "name": "Bakalaura Diploms",
-          "detail": "Min grade 8/10 (Very Good)."
+          "detail": "Minimum grade of 8/10 or Very Good"
         }
       ]
     }
@@ -1181,8 +1293,16 @@
     "postgraduate": {
       "qualifications": [
         {
+          "name": "Maîtrise",
+          "detail": "Minimum GPA of 3.2/4, 80%, or 16/20"
+        },
+        {
+          "name": "Licence",
+          "detail": "Minimum GPA of 3.2/4, 80%, or 16/20"
+        },
+        {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.2/4, 80%, or 16/20."
+          "detail": "Minimum GPA of 3.2/4, 80%, or 16/20"
         }
       ]
     }
@@ -1194,7 +1314,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min grade 75%."
+          "detail": "Minimum grade of 75% from the University of Lesotho"
         }
       ]
     }
@@ -1206,7 +1326,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min grade 85% or GPA 3.5/4.0."
+          "detail": "Minimum grade of 85%, or a GPA of 3.5/4.0, from the University of Liberia or Cuttington University"
         }
       ]
     }
@@ -1218,7 +1338,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min grade 75% or GPA 3.0/4.0."
+          "detail": "Minimum grade of 75%, Very Good, or a GPA of 3.0/4.0"
         }
       ]
     }
@@ -1230,7 +1350,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min grade 5/6."
+          "detail": "Minimum grade of 5/6"
         }
       ]
     }
@@ -1242,7 +1362,7 @@
       "qualifications": [
         {
           "name": "Bakalauro Diplomas",
-          "detail": "Min grade 8/10."
+          "detail": "Minimum grade of 8/10"
         }
       ]
     }
@@ -1254,7 +1374,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min grade 14/20."
+          "detail": "Minimum grade of 14/20, Bien, from the University of Luxembourg, or an accredited programme"
         }
       ]
     }
@@ -1265,8 +1385,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.2/4.0 or 83%."
+          "name": "Licenciatura/Bachelor's Degree",
+          "detail": "Upper second-class honours, a minimum GPA or 3.2/4.0, or 83%"
         }
       ]
     }
@@ -1277,8 +1397,20 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Maîtrise / Master",
-          "detail": "Min grade 14/20."
+          "name": "Diplôme d’Études Approfondies",
+          "detail": "Minimum grade of 14/20, Bien"
+        },
+        {
+          "name": "Master 2",
+          "detail": "Minimum grade of 14/20, Bien"
+        },
+        {
+          "name": "Master 1",
+          "detail": "Minimum grade of 14/20, Bien"
+        },
+        {
+          "name": "Maîtrise",
+          "detail": "Minimum grade of 14/20, Bien"
         }
       ]
     }
@@ -1290,7 +1422,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min grade 70% or 5."
+          "detail": "Minimum grade 70%, 5, or a Pass with Marginal Distinction"
         }
       ]
     }
@@ -1302,7 +1434,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "2.1 or GPA 3.0/4.0."
+          "detail": "Upper second-class honours, an overall grade of B, or a minimum GPA of 3.0/4.0"
         }
       ]
     }
@@ -1314,7 +1446,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.5/4.0 from The Maldives National University."
+          "detail": "Minimum GPA of 3.5/4.0 from The Maldives National University"
         }
       ]
     }
@@ -1326,7 +1458,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class or 70%."
+          "detail": "Upper second-class honours, or a minimum overall grade of 70% from the University of Malta or MCAST"
         }
       ]
     }
@@ -1338,7 +1470,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min grade 14/20."
+          "detail": "Minimum grade of 14/20, Bien"
         }
       ]
     }
@@ -1350,7 +1482,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Class II, Div I or 60%."
+          "detail": "Class II, Division I, or minimum overall grade of 60%"
         }
       ]
     }
@@ -1362,7 +1494,7 @@
       "qualifications": [
         {
           "name": "Título de Licenciado",
-          "detail": "Min GPA 8.0/10 or 80%."
+          "detail": "Minimum GPA of 8.0/10, or 80%"
         }
       ]
     }
@@ -1374,7 +1506,7 @@
       "qualifications": [
         {
           "name": "Diplomă de Licență",
-          "detail": "Min grade 9.0/10."
+          "detail": "Minimum grade of 9.0/10"
         }
       ]
     }
@@ -1386,7 +1518,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.3/4.0 or B+."
+          "detail": "Minimum GPA of 3.3/4.0, or an overall grade of B+"
         }
       ]
     }
@@ -1398,7 +1530,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min grade B or 80%."
+          "detail": "Minimum grade of B, or 80%"
         }
       ]
     }
@@ -1409,8 +1541,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Diploma Visoko",
-          "detail": "Min grade 9/10."
+          "name": "Diploma Visoko Obrazovanje / Diplomirani or Master’s degree",
+          "detail": "Minimum grade of 9/10, Very Good"
         }
       ]
     }
@@ -1422,7 +1554,7 @@
       "qualifications": [
         {
           "name": "Licence",
-          "detail": "Min GPA 14.0 (Bien)."
+          "detail": "Minimum GPA of 14.0, 'Bien'"
         }
       ]
     }
@@ -1434,7 +1566,7 @@
       "qualifications": [
         {
           "name": "Grau de Mestre",
-          "detail": "Min grade 14/20."
+          "detail": "Minimum grade of 14/20"
         }
       ]
     }
@@ -1446,7 +1578,7 @@
       "qualifications": [
         {
           "name": "Master’s Degree",
-          "detail": "Min grade A or 70%."
+          "detail": "Minimum grade of A, or 70%"
         }
       ]
     }
@@ -1458,7 +1590,7 @@
       "qualifications": [
         {
           "name": "Bachelor's (Honours)",
-          "detail": "Min grade 70%."
+          "detail": "Minimum grade of 70%"
         }
       ]
     }
@@ -1470,7 +1602,7 @@
       "qualifications": [
         {
           "name": "Master's Degree",
-          "detail": "Min GPA 3.7 or 80%."
+          "detail": "Minimum GPA of 3.7, 80%, or Very Good"
         }
       ]
     }
@@ -1482,7 +1614,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min grade 7/10."
+          "detail": "Minimum grade of 7/10, Ruim voldoende"
         }
       ]
     }
@@ -1494,7 +1626,7 @@
       "qualifications": [
         {
           "name": "Honours Degree",
-          "detail": "Equiv to UK 2.1."
+          "detail": "Upper second-class honours degree from a UK university"
         }
       ]
     }
@@ -1505,8 +1637,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Honours 2nd Class Div I or GPA 6.0."
+          "name": "Bachelor's Degree with Honours",
+          "detail": "Second Class (Division I), or a minimum GPA of 6.0, or an overall grade of 75%"
         }
       ]
     }
@@ -1517,8 +1649,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Licenciatura",
-          "detail": "Min grade 90%."
+          "name": "Licenciatura or Maestría degree",
+          "detail": "Minimum grade of 90%"
         }
       ]
     }
@@ -1529,8 +1661,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Diplôme d'Études",
-          "detail": "Min grade 14/20."
+          "name": "Diplôme d’Études Approfondies/Diplôme d'Études Supérieures Spécialisées",
+          "detail": "Minimum grade of 14/20, Bien"
         }
       ]
     }
@@ -1542,7 +1674,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class or GPA 3.5/5.0."
+          "detail": "Upper second-class honours, with a minimum GPA of 3.5/5.0, or an overall grade of 60%"
         }
       ]
     }
@@ -1554,7 +1686,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min grade 9/10 or 81%."
+          "detail": "Minimum grade of 9/10, or 81%"
         }
       ]
     }
@@ -1566,7 +1698,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "2.1 Honours degree or equivalent."
+          "detail": "Upper second-class honours degree from a UK university or equivalent"
         }
       ]
     }
@@ -1578,7 +1710,7 @@
       "qualifications": [
         {
           "name": "Bachelorgrad",
-          "detail": "Min grade B."
+          "detail": "Minimum grade of B, Very Good"
         }
       ]
     }
@@ -1590,7 +1722,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.7."
+          "detail": "Minimum GPA of 3.7, or an overall grade of A-"
         }
       ]
     }
@@ -1601,8 +1733,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "4-year degree (post-2015) with GPA 3.5."
+          "name": "Four-Year Bachelor's Degree (Post-2015)",
+          "detail": "Minimum GPA of 3.5, or an overall grade of 75%"
         }
       ]
     }
@@ -1614,7 +1746,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.5 or 85%."
+          "detail": "Minimum GPA of 3.5, or an overall grade of 8%, or B+"
         }
       ]
     }
@@ -1625,8 +1757,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Licenciado",
-          "detail": "Min grade 81%."
+          "name": "Licenciado (Minimum four years)",
+          "detail": "Minimum grade of 81%, Bueno"
         }
       ]
     }
@@ -1637,8 +1769,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Honours Class II Division A."
+          "name": "Bachelor's Degree with Honours",
+          "detail": "Class II Division A"
         }
       ]
     }
@@ -1650,7 +1782,7 @@
       "qualifications": [
         {
           "name": "Licenciatura",
-          "detail": "Min grade 4/5."
+          "detail": "Minimum grade of 4/5, Distinguido"
         }
       ]
     }
@@ -1661,8 +1793,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Grado de Bachiller",
-          "detail": "Min grade 14."
+          "name": "Grado Académico de Bachiller",
+          "detail": "Minimum grade of 14"
         }
       ]
     }
@@ -1673,8 +1805,12 @@
     "postgraduate": {
       "qualifications": [
         {
+          "name": "Master's Degree",
+          "detail": "Minimum GPA of 3.0/4.0 or 1.99/5"
+        },
+        {
           "name": "Bachelor's Degree",
-          "detail": "GPA 3.0/4.0."
+          "detail": "GPA of 3.0/4.0 from a Centre of Excellence or a Prestigious University, or 1.99/5 for degrees awarded from 2022"
         }
       ]
     }
@@ -1685,8 +1821,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Lincencjat",
-          "detail": "Min grade 4.5/5."
+          "name": "Lincencjat or Inżynier",
+          "detail": "Minimum grade of 4.5/5 or B"
         }
       ]
     }
@@ -1698,7 +1834,7 @@
       "qualifications": [
         {
           "name": "Licenciado",
-          "detail": "Min GPA 15/20."
+          "detail": "Minimum GPA of 15/20"
         }
       ]
     }
@@ -1710,7 +1846,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.5/4.0."
+          "detail": "Minimum GPA of 3.5/4.0"
         }
       ]
     }
@@ -1722,7 +1858,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.3."
+          "detail": "Minimum GPA of 3.3"
         }
       ]
     }
@@ -1734,7 +1870,7 @@
       "qualifications": [
         {
           "name": "Diplomă de Licență",
-          "detail": "Min grade 9.0/10."
+          "detail": "Minimum grade 9,0/10,0"
         }
       ]
     }
@@ -1746,7 +1882,7 @@
       "qualifications": [
         {
           "name": "Diplom bakalavra",
-          "detail": "Min GPA 4.0/5.0."
+          "detail": "Minimum GPA of 4.0/5.0"
         }
       ]
     }
@@ -1758,7 +1894,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class Honours."
+          "detail": "Upper second-class honours"
         }
       ]
     }
@@ -1770,7 +1906,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 4.0/5.0 or 80%."
+          "detail": "Minimum GPA of 4.0/5.0, 80%, or Very Good"
         }
       ]
     }
@@ -1782,7 +1918,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "2.1 Honours degree or equivalent."
+          "detail": "Minimum of upper second-class honours degree from a UK university, or equivalent"
         }
       ]
     }
@@ -1793,8 +1929,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Diplôme d'Études",
-          "detail": "Min grade 14/20."
+          "name": "Diplôme d'Études Supérieures, Diplôme d'Études Approfondies, Maîtrise, Master II",
+          "detail": "Minimum grade of 14/20, Bien"
         }
       ]
     }
@@ -1806,7 +1942,7 @@
       "qualifications": [
         {
           "name": "Diplomirani",
-          "detail": "Min GPA 8.00/10."
+          "detail": "Minimum GPA of 8.00/10"
         }
       ]
     }
@@ -1817,8 +1953,12 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.75/4.0."
+          "name": "Master's Degree",
+          "detail": "Minimum GPA of 3.75/4.0, 4.0/5.0, A-, or 70%"
+        },
+        {
+          "name": "Bachelor's Degree with Honours",
+          "detail": "Minimum GPA of 3.75/4.0, 4.0/5.0, A-, or 70%"
         }
       ]
     }
@@ -1830,7 +1970,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.6/4.0."
+          "detail": "Minimum CGPA of 3.6/4.0 or 4.0/5.0 depending on the institution"
         }
       ]
     }
@@ -1842,7 +1982,7 @@
       "qualifications": [
         {
           "name": "Bakalár",
-          "detail": "Min grade 1.5."
+          "detail": "Minimum 'Very Good', 1.5, or B"
         }
       ]
     }
@@ -1854,7 +1994,7 @@
       "qualifications": [
         {
           "name": "Univerzitetni Diplomant",
-          "detail": "Min GPA 8.5."
+          "detail": "Minimum GPA of 8.5"
         }
       ]
     }
@@ -1865,8 +2005,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's (Honours)",
-          "detail": "Min grade 70%."
+          "name": "Bachelor's Degree with Honours",
+          "detail": "Minimum of 70%"
         }
       ]
     }
@@ -1878,7 +2018,7 @@
       "qualifications": [
         {
           "name": "Haksa",
-          "detail": "Min grade 85% or GPA 3.5/4.5."
+          "detail": "Minimum grade of 85%, B+, or a GPA 3.5/4.5 or 3.0/4.3"
         }
       ]
     }
@@ -1890,7 +2030,7 @@
       "qualifications": [
         {
           "name": "Título de Grado",
-          "detail": "Min grade 7.0/10."
+          "detail": "Minimum grade of 7.0/10, 2/4, or Notable"
         }
       ]
     }
@@ -1901,8 +2041,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class or GPA 3.3/4.0."
+          "name": "Bachelor's (Special, Honours, or Professional) Degree",
+          "detail": "Second Class (Upper Division), a minimum of B+, or a GPA of 3.3/4.0"
         }
       ]
     }
@@ -1914,7 +2054,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+          "detail": "Upper second-class honours, with a minimum GPA of 3.0/4.0, B, or 65% from the University of the West Indies"
         }
       ]
     }
@@ -1925,8 +2065,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Min grade 80%."
+          "name": "Bachelor's Degree with Honours",
+          "detail": "Minimum grade of A, 80%"
         }
       ]
     }
@@ -1938,7 +2078,7 @@
       "qualifications": [
         {
           "name": "Kandidatexamen",
-          "detail": "Min grade VG or B."
+          "detail": "Minimum grade of VG, G, or B, depending on the grading scale"
         }
       ]
     }
@@ -1949,8 +2089,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Min grade 5/6 or 8/10."
+          "name": "Bachelor's Degree, Diplom, Lizentiat, or Staatsdiplom/Diplome d'Etat",
+          "detail": "Minimum grades of 5/6, 2.2/5, 8 out of 10, or 'gut', 'bien', 'bene', or 'good', depending on the grading scale"
         }
       ]
     }
@@ -1962,7 +2102,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min grade 70%."
+          "detail": "Minimum grade of 70%"
         }
       ]
     }
@@ -1974,7 +2114,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.3/4.0 or 80%."
+          "detail": "Minimum GPA of 3.3/4.0, 3.7/4.3, or 80%"
         }
       ]
     }
@@ -1985,8 +2125,12 @@
     "postgraduate": {
       "qualifications": [
         {
+          "name": "Master's Degree",
+          "detail": "Minimum GPA of 4/5, Good"
+        },
+        {
           "name": "Specialist Diploma",
-          "detail": "Min GPA 4/5."
+          "detail": "Minimum GPA of 4/5, Good"
         }
       ]
     }
@@ -1998,7 +2142,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class or GPA 3.5/5.0."
+          "detail": "Upper second-class honours, or a minimum GPA 3.5/5.0"
         }
       ]
     }
@@ -2010,7 +2154,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.0/4.0."
+          "detail": "Minimum GPA of 3.0/4.0, B, or Good"
         }
       ]
     }
@@ -2021,8 +2165,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Diplôme",
-          "detail": "Min grade 14/20."
+          "name": "Diplôme d'Études Supérieures, Diplôme d'Études Approfondies, or Diplôme de Master",
+          "detail": "Minimum grade of 14/20, Bien"
         }
       ]
     }
@@ -2034,7 +2178,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 4.0/5."
+          "detail": "Minimum GPA of 4.0/5, or A, from the University of the South Pacific"
         }
       ]
     }
@@ -2046,7 +2190,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class (UWI) or GPA 3.0/4.0."
+          "detail": "Upper second-class honours, with a minimum GPA of 3.0/4.0, B, or 65% from the University of the West Indies"
         }
       ]
     }
@@ -2058,7 +2202,7 @@
       "qualifications": [
         {
           "name": "Licence",
-          "detail": "Min grade 14/20."
+          "detail": "Minimum grade of 14/20, Bien"
         }
       ]
     }
@@ -2070,7 +2214,7 @@
       "qualifications": [
         {
           "name": "Lisans Diplomasi",
-          "detail": "Min GPA 3.0/4.0 or 70%."
+          "detail": "Minimum GPA of 3.0/4.0 or 70%"
         }
       ]
     }
@@ -2082,7 +2226,7 @@
       "qualifications": [
         {
           "name": "Specialist Diploma",
-          "detail": "Min grade 4/5."
+          "detail": "Minimum grade of 4/5"
         }
       ]
     }
@@ -2094,7 +2238,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Upper 2nd Class or GPA 4.0/5.0."
+          "detail": "Upper second-class, or a GPA of 4.0/5.0"
         }
       ]
     }
@@ -2105,8 +2249,12 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.3/4.0 or 80%."
+          "name": "Specialist Diploma",
+          "detail": "Minimum GPA of 3.3/4.0, 4.0/5.0, 80%, or 'Good'"
+        },
+        {
+          "name": "Bachelor's Degree (after 2007)",
+          "detail": "Minimum GPA of 3.3/4.0, 4.0/5.0, 80%, or 'Good'"
         }
       ]
     }
@@ -2118,7 +2266,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.3/4.0 or 85%."
+          "detail": "Minimum GPA of 3.3/4.0, B+, or 85%"
         }
       ]
     }
@@ -2130,7 +2278,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "BA/BS with min GPA 3.3 or B+."
+          "detail": "Minimum GPA of 3.3, B+, or 76%. We do not require the GMAT/GRE."
         }
       ]
     }
@@ -2142,7 +2290,7 @@
       "qualifications": [
         {
           "name": "Título de Licenciado",
-          "detail": "Min GPA 8/12."
+          "detail": "Minimum GPA of 8/12"
         }
       ]
     }
@@ -2153,8 +2301,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Magistr diplomi",
-          "detail": "Min GPA 4.5/5.0 or 80%."
+          "name": "Magistr diplomi or Specialist Diploma",
+          "detail": "Minimum GPA 4.5/5.0, or 80%"
         }
       ]
     }
@@ -2166,7 +2314,7 @@
       "qualifications": [
         {
           "name": "Título de Licenciado",
-          "detail": "Min GPA 4.0/5.0 or 75%."
+          "detail": "Minimum GPA of 4.0/5.0, 14/20, 75%, or equivalent"
         }
       ]
     }
@@ -2178,7 +2326,7 @@
       "qualifications": [
         {
           "name": "Bachelor's Degree",
-          "detail": "Min GPA 3.0/4.0 or 7.0/10.0."
+          "detail": "Minimum GPA of 3.0/4.0 or 7.0/10.0"
         }
       ]
     }
@@ -2189,8 +2337,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "2.1 Honours degree or equivalent."
+          "name": "Bachelor's Degree with Honours",
+          "detail": "Upper second-class (2.1) from a UK university, or equivalent"
         }
       ]
     }
@@ -2201,8 +2349,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Honours Degree",
-          "detail": "Equiv to UK 2.1."
+          "name": "Bachelor's Degree with Honours",
+          "detail": "Upper second-class (2.1) from a UK university, or equivalent"
         }
       ]
     }
@@ -2214,7 +2362,7 @@
       "qualifications": [
         {
           "name": "Majister",
-          "detail": "Min grade 88% (Excellent)."
+          "detail": "Minimum grade of 88%, Excellent"
         }
       ]
     }
@@ -2226,7 +2374,7 @@
       "qualifications": [
         {
           "name": "Master’s Degree",
-          "detail": "Min grade 76% (Distinction)."
+          "detail": "Minimum grade of 76%, A, or Distinction"
         }
       ]
     }
@@ -2237,8 +2385,8 @@
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Bachelor's Degree",
-          "detail": "Min grade 65% or B++."
+          "name": "Bachelor's Degree with Honours",
+          "detail": "Upper second-class, or a minimum grade of 65%, or B++"
         }
       ]
     }
