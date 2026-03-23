@@ -1,225 +1,321 @@
-let db = [];
-let activeIndex = -1;
+/* ==========================================================================
+   ENGLISH PROFILES EDITOR | CORE LOGIC
+   ========================================================================== */
 
-const variantCategories = {
-  d: "Direct Entry",
-  o: "Online",
-  s: "SELT (UKVI)",
-  m: "Medicine",
-  tables: "Reference Tables",
+// --- 1. STATE & CONFIG ---
+const State = {
+  db: [],
+  activeIndex: -1,
+  hasUnsavedChanges: false,
 };
 
-fetch("data/english-profiles.json")
-  .then((res) => {
-    if (!res.ok) throw new Error("Could not find json file.");
-    return res.json();
-  })
-  .then((data) => {
-    db = data;
-    renderSidebar();
-  })
-  .catch((err) => {
-    console.error("Error loading JSON", err);
-    document.getElementById("empty-state").innerHTML =
-      `<div class="empty-icon" style="color:red;">⚠️</div><h2>Error Loading Data</h2><p>Could not load data/english-profiles.json. Check console.</p>`;
-  });
+const CONFIG = {
+  variantCategories: {
+    d: "Direct Entry",
+    o: "Online",
+    s: "SELT (UKVI)",
+    m: "Medicine",
+    tables: "Reference Tables",
+  },
+  variantOrder: ["d", "o", "s", "m", "tables"],
+};
 
-function toggleSidebar() {
-  const sidebar = document.getElementById("app-sidebar");
-  const overlay = document.querySelector(".sidebar-overlay");
-  sidebar.classList.toggle("open");
-  overlay.classList.toggle("open");
+// --- 2. DOM CACHE ---
+const DOM = {
+  sidebarList: document.getElementById("sidebar-list"),
+  sidebarSearch: document.getElementById("sidebar-search"),
+  appSidebar: document.getElementById("app-sidebar"),
+  sidebarOverlay: document.querySelector(".sidebar-overlay"),
+  emptyState: document.getElementById("empty-state"),
+  editorPanel: document.getElementById("editor-panel"),
+  inputId: document.getElementById("field-id"),
+  inputVariant: document.getElementById("field-variant"),
+  inputLabel: document.getElementById("field-label"),
+  testsContainer: document.getElementById("tests-container"),
+  notification: document.getElementById("notification"),
+};
+
+// --- 3. INITIALIZATION ---
+function initApp() {
+  const savedDraft = localStorage.getItem("english_draft_db");
+
+  if (savedDraft) {
+    State.db = JSON.parse(savedDraft);
+    State.hasUnsavedChanges = true;
+    renderSidebar();
+    showToast('<span class="toast-icon">📝</span> Recovered unsaved draft');
+  } else {
+    fetch("data/english-profiles.json")
+      .then((res) => {
+        if (!res.ok) throw new Error("Could not find json file.");
+        return res.json();
+      })
+      .then((data) => {
+        State.db = data;
+        renderSidebar();
+      })
+      .catch((err) => {
+        console.error("Error loading JSON", err);
+        DOM.emptyState.innerHTML = `<div class="empty-icon error-icon">⚠️</div><h2>Error Loading Data</h2><p>Could not load data/english-profiles.json. Check console.</p>`;
+      });
+  }
 }
 
-function renderSidebar() {
-  const list = document.getElementById("sidebar-list");
-  list.innerHTML = "";
+document.addEventListener("DOMContentLoaded", initApp);
 
+// --- 4. RENDER LOGIC ---
+function renderSidebar() {
   const grouped = {};
-  db.forEach((p, index) => {
+
+  // Group items by variant and track original indices
+  State.db.forEach((p, index) => {
     const variant = p.variant || "tables";
     if (!grouped[variant]) grouped[variant] = [];
     grouped[variant].push({ ...p, originalIndex: index });
   });
 
-  const order = ["d", "o", "s", "m", "tables"];
+  let htmlString = "";
 
-  order.forEach((variantKey) => {
+  CONFIG.variantOrder.forEach((variantKey) => {
     if (grouped[variantKey] && grouped[variantKey].length > 0) {
-      const header = document.createElement("div");
-      header.className = "category-header";
-      header.textContent = variantCategories[variantKey] || variantKey;
-      list.appendChild(header);
+      const categoryName = CONFIG.variantCategories[variantKey] || variantKey;
+      htmlString += `<div class="category-header">${categoryName}</div>`;
 
+      // Sort items logically within their group based on numeric ID
       grouped[variantKey]
         .sort((a, b) => {
-          const numA = parseInt(a.id.match(/\d+/)) || 999;
-          const numB = parseInt(b.id.match(/\d+/)) || 999;
+          const numA = parseInt((a.id || "").match(/\d+/)) || 999;
+          const numB = parseInt((b.id || "").match(/\d+/)) || 999;
           return numA - numB;
         })
         .forEach((p) => {
-          const div = document.createElement("div");
-          div.className = `profile-item ${p.originalIndex === activeIndex ? "active" : ""}`;
-          div.innerHTML = `
-          <span class="profile-code">${(p.id || "NEW").toUpperCase()}</span>
-          <span class="profile-label">${p.label || "Unnamed Profile"}</span>
-        `;
-          div.onclick = () => {
-            loadEditor(p.originalIndex);
-            if (window.innerWidth < 992) toggleSidebar();
-          };
-          list.appendChild(div);
+          const isActive =
+            p.originalIndex === State.activeIndex ? "active" : "";
+          htmlString += `
+            <div class="profile-item ${isActive}" data-index="${p.originalIndex}">
+              <span class="profile-code">${(p.id || "NEW").toUpperCase()}</span>
+              <span class="profile-label">${p.label || "Unnamed Profile"}</span>
+            </div>
+          `;
         });
     }
   });
+
+  DOM.sidebarList.innerHTML = htmlString;
+  filterSidebar();
 }
 
 function loadEditor(index) {
-  activeIndex = index;
-  const data = db[index];
+  State.activeIndex = index;
+  const data = State.db[index];
 
-  document.getElementById("empty-state").style.display = "none";
-  document.getElementById("editor-panel").style.display = "block";
+  DOM.emptyState.classList.add("hidden");
+  DOM.editorPanel.classList.remove("hidden");
 
-  renderSidebar();
+  // Highlight active sidebar item
+  document
+    .querySelectorAll(".profile-item")
+    .forEach((el) => el.classList.remove("active"));
+  document
+    .querySelector(`.profile-item[data-index="${index}"]`)
+    ?.classList.add("active");
 
-  document.getElementById("field-id").value = data.id || "";
-  document.getElementById("field-variant").value = data.variant || "tables";
-  document.getElementById("field-label").value = data.label || "";
+  // Populate Fields
+  DOM.inputId.value = data.id || "";
+  DOM.inputVariant.value = data.variant || "tables";
+  DOM.inputLabel.value = data.label || "";
 
   renderTests();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function renderTests() {
-  const container = document.getElementById("tests-container");
-  container.innerHTML = "";
-  const data = db[activeIndex];
+  const data = State.db[State.activeIndex];
 
+  // Data safety initialization
   if (!data.tests_undergraduate) data.tests_undergraduate = [];
   if (!data.tests_postgraduate) data.tests_postgraduate = [];
   if (!data.tests_general) data.tests_general = [];
 
+  let htmlString = "";
+
   if (data.variant === "d") {
-    renderTestGroup(
+    htmlString += buildTestGroupHTML(
       "🎓 Undergraduate Requirements",
       "tests_undergraduate",
       data.tests_undergraduate,
-      container,
     );
-    renderTestGroup(
+    htmlString += buildTestGroupHTML(
       "🎓 Postgraduate Requirements",
       "tests_postgraduate",
       data.tests_postgraduate,
-      container,
     );
   } else {
-    renderTestGroup(
+    htmlString += buildTestGroupHTML(
       "📝 General Requirements",
       "tests_general",
       data.tests_general,
-      container,
     );
   }
+
+  DOM.testsContainer.innerHTML = htmlString;
 }
 
-function renderTestGroup(title, arrayName, testsArray, container) {
-  const section = document.createElement("div");
-
-  section.innerHTML = `
+function buildTestGroupHTML(title, arrayName, testsArray) {
+  let sectionHTML = `
+    <div>
       <div class="section-title">
           <span>${title}</span>
-          <button class="btn-add-sm" onclick="addTest('${arrayName}')">+ Add Test</button>
+          <button class="btn-add-sm" data-action="add" data-array="${arrayName}">+ Add Test</button>
       </div>
   `;
 
   if (testsArray.length === 0) {
-    section.innerHTML += `<p style="color:var(--text-light); font-size:0.95rem; margin-bottom:20px; font-style:italic;">No tests added to this section yet.</p>`;
+    sectionHTML += `<p class="empty-tests">No tests added to this section yet.</p></div>`;
+    return sectionHTML;
   }
 
-  testsArray.forEach((t, i) => {
-    const card = document.createElement("div");
-    card.className = "test-card";
+  const cardsHTML = testsArray
+    .map(
+      (t, i) => `
+    <div class="test-card">
+      <div class="test-title-row">
+          <div class="test-title-wrapper">
+              <input type="text" class="cms-test-title" data-array="${arrayName}" data-index="${i}" data-field="name" 
+                  value="${t.name || ""}" placeholder="Test Name (e.g. IELTS Academic)">
+          </div>
+          <button class="btn-delete-test" data-action="remove" data-array="${arrayName}" data-index="${i}">✖ Remove</button>
+      </div>
+      <div class="score-grid">
+          <div>
+              <label class="modern-label">Overall</label>
+              <input type="text" class="modern-input" data-array="${arrayName}" data-index="${i}" data-field="overall" value="${t.overall || ""}">
+          </div>
+          <div>
+              <label class="modern-label">Listening</label>
+              <input type="text" class="modern-input" data-array="${arrayName}" data-index="${i}" data-field="listening" value="${t.listening || ""}">
+          </div>
+          <div>
+              <label class="modern-label">Reading</label>
+              <input type="text" class="modern-input" data-array="${arrayName}" data-index="${i}" data-field="reading" value="${t.reading || ""}">
+          </div>
+          <div>
+              <label class="modern-label">Writing</label>
+              <input type="text" class="modern-input" data-array="${arrayName}" data-index="${i}" data-field="writing" value="${t.writing || ""}">
+          </div>
+          <div>
+              <label class="modern-label">Speaking</label>
+              <input type="text" class="modern-input" data-array="${arrayName}" data-index="${i}" data-field="speaking" value="${t.speaking || ""}">
+          </div>
+      </div>
+    </div>
+  `,
+    )
+    .join("");
 
-    card.innerHTML = `
-        <div class="test-title-row">
-            <div style="flex-grow:1; max-width: 600px;">
-                <input type="text" class="cms-test-title" 
-                    value="${t.name || ""}" placeholder="Test Name (e.g. IELTS Academic)" 
-                    onchange="updateTest('${arrayName}', ${i}, 'name', this.value)">
-            </div>
-            <button class="btn-delete-test" onclick="removeTest('${arrayName}', ${i})">✖ Remove</button>
-        </div>
-        <div class="score-grid">
-            <div>
-                <label class="modern-label">Overall</label>
-                <input type="text" class="modern-input" value="${t.overall || ""}" onchange="updateTest('${arrayName}', ${i}, 'overall', this.value)">
-            </div>
-            <div>
-                <label class="modern-label">Listening</label>
-                <input type="text" class="modern-input" value="${t.listening || ""}" onchange="updateTest('${arrayName}', ${i}, 'listening', this.value)">
-            </div>
-            <div>
-                <label class="modern-label">Reading</label>
-                <input type="text" class="modern-input" value="${t.reading || ""}" onchange="updateTest('${arrayName}', ${i}, 'reading', this.value)">
-            </div>
-            <div>
-                <label class="modern-label">Writing</label>
-                <input type="text" class="modern-input" value="${t.writing || ""}" onchange="updateTest('${arrayName}', ${i}, 'writing', this.value)">
-            </div>
-            <div>
-                <label class="modern-label">Speaking</label>
-                <input type="text" class="modern-input" value="${t.speaking || ""}" onchange="updateTest('${arrayName}', ${i}, 'speaking', this.value)">
-            </div>
-        </div>
-    `;
-    section.appendChild(card);
-  });
-
-  container.appendChild(section);
+  return sectionHTML + cardsHTML + "</div>";
 }
 
-document.getElementById("field-id").addEventListener("input", (e) => {
-  db[activeIndex].id = e.target.value;
-  renderSidebar();
+// --- 5. EVENT LISTENERS & DELEGATION ---
+
+// Unsaved changes warning
+window.addEventListener("beforeunload", (e) => {
+  if (State.hasUnsavedChanges) {
+    e.preventDefault();
+    e.returnValue = "";
+  }
 });
 
-document.getElementById("field-label").addEventListener("input", (e) => {
-  db[activeIndex].label = e.target.value;
-  renderSidebar();
+// Sidebar Click Delegation
+DOM.sidebarList.addEventListener("click", (e) => {
+  const item = e.target.closest(".profile-item");
+  if (!item) return;
+
+  loadEditor(parseInt(item.dataset.index, 10));
+  if (window.innerWidth < 992) toggleSidebar();
 });
 
-document.getElementById("field-variant").addEventListener("change", (e) => {
-  db[activeIndex].variant = e.target.value;
-  renderSidebar();
+// Sidebar Search
+DOM.sidebarSearch?.addEventListener("input", filterSidebar);
+
+// Top-level Profile Metadata Inputs
+DOM.inputId.addEventListener("input", (e) => {
+  State.db[State.activeIndex].id = e.target.value;
+  markUnsaved();
+
+  const activeCode = document.querySelector(
+    ".profile-item.active .profile-code",
+  );
+  if (activeCode)
+    activeCode.textContent = (e.target.value || "NEW").toUpperCase();
+});
+
+DOM.inputLabel.addEventListener("input", (e) => {
+  State.db[State.activeIndex].label = e.target.value;
+  markUnsaved();
+
+  const activeLabel = document.querySelector(
+    ".profile-item.active .profile-label",
+  );
+  if (activeLabel)
+    activeLabel.textContent = e.target.value || "Unnamed Profile";
+});
+
+DOM.inputVariant.addEventListener("change", (e) => {
+  State.db[State.activeIndex].variant = e.target.value;
+  markUnsaved();
+  renderSidebar(); // Variant changes category placement, requires re-render
   renderTests();
 });
 
-function updateTest(arrayName, testIndex, field, value) {
-  db[activeIndex][arrayName][testIndex][field] = value;
-}
+// Tests Array Delegation (Handles both inputs AND buttons)
+DOM.testsContainer.addEventListener("input", (e) => {
+  if (e.target.tagName === "INPUT") {
+    const arrayName = e.target.dataset.array;
+    const index = e.target.dataset.index;
+    const field = e.target.dataset.field;
 
-function addTest(arrayName) {
-  db[activeIndex][arrayName].push({
-    name: "New English Test",
-    overall: "",
-    listening: "",
-    reading: "",
-    writing: "",
-    speaking: "",
-  });
-  renderTests();
-}
+    State.db[State.activeIndex][arrayName][index][field] = e.target.value;
+    markUnsaved();
+  }
+});
 
-function removeTest(arrayName, index) {
-  if (confirm("Remove this test?")) {
-    db[activeIndex][arrayName].splice(index, 1);
+DOM.testsContainer.addEventListener("click", (e) => {
+  const action = e.target.dataset.action;
+  if (!action) return;
+
+  const arrayName = e.target.dataset.array;
+
+  if (action === "add") {
+    State.db[State.activeIndex][arrayName].push({
+      name: "New English Test",
+      overall: "",
+      listening: "",
+      reading: "",
+      writing: "",
+      speaking: "",
+    });
+    markUnsaved();
     renderTests();
+  } else if (action === "remove") {
+    const index = parseInt(e.target.dataset.index, 10);
+    if (confirm("Remove this test?")) {
+      State.db[State.activeIndex][arrayName].splice(index, 1);
+      markUnsaved();
+      renderTests();
+    }
   }
-}
+});
 
-function addProfile() {
-  db.push({
+// --- 6. ACTIONS (Exposed to global window) ---
+
+window.toggleSidebar = function () {
+  DOM.appSidebar.classList.toggle("open");
+  DOM.sidebarOverlay.classList.toggle("open");
+};
+
+window.addProfile = function () {
+  State.db.push({
     id: "NEW",
     label: "New Profile",
     variant: "d",
@@ -227,22 +323,25 @@ function addProfile() {
     tests_postgraduate: [],
     tests_general: [],
   });
-  loadEditor(db.length - 1);
-  if (window.innerWidth < 992) toggleSidebar();
-}
+  markUnsaved();
+  loadEditor(State.db.length - 1);
+  if (window.innerWidth < 992) window.toggleSidebar();
+};
 
-function deleteProfile() {
+window.deleteProfile = function () {
   if (confirm("Are you sure you want to delete this entire profile?")) {
-    db.splice(activeIndex, 1);
-    activeIndex = -1;
-    document.getElementById("editor-panel").style.display = "none";
-    document.getElementById("empty-state").style.display = "block";
+    State.db.splice(State.activeIndex, 1);
+    State.activeIndex = -1;
+    markUnsaved();
+    DOM.editorPanel.classList.add("hidden");
+    DOM.emptyState.classList.remove("hidden");
     renderSidebar();
   }
-}
+};
 
-function saveJSON() {
-  const dataToSave = db.map((p) => {
+window.saveJSON = function () {
+  // Clean empty test arrays based on variant type before exporting
+  const dataToSave = State.db.map((p) => {
     const clean = { ...p };
     if (clean.variant === "d") {
       delete clean.tests_general;
@@ -253,17 +352,10 @@ function saveJSON() {
     return clean;
   });
 
-  // Calculate dynamic timestamp: YYYY-MM-DD-HHMMSS
   const now = new Date();
-  const yyyy = now.getFullYear();
-  const mm = String(now.getMonth() + 1).padStart(2, "0");
-  const dd = String(now.getDate()).padStart(2, "0");
-  const hh = String(now.getHours()).padStart(2, "0");
-  const mins = String(now.getMinutes()).padStart(2, "0");
-  const ss = String(now.getSeconds()).padStart(2, "0");
-  const timestamp = `${yyyy}-${mm}-${dd}-${hh}${mins}${ss}`;
+  const pad = (num) => String(num).padStart(2, "0");
+  const timestamp = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}-${pad(now.getHours())}${pad(now.getMinutes())}${pad(now.getSeconds())}`;
 
-  // Generate and download file
   const blob = new Blob([JSON.stringify(dataToSave, null, 2)], {
     type: "application/json",
   });
@@ -274,8 +366,38 @@ function saveJSON() {
   a.click();
   URL.revokeObjectURL(url);
 
-  // Trigger Toast Notification
-  const note = document.getElementById("notification");
-  note.classList.add("show");
-  setTimeout(() => note.classList.remove("show"), 3000);
+  State.hasUnsavedChanges = false;
+  localStorage.removeItem("english_draft_db");
+  showToast('<span class="toast-icon">✓</span> Profiles saved successfully');
+};
+
+// --- 7. UTILITIES ---
+
+function filterSidebar() {
+  const term = DOM.sidebarSearch?.value.toLowerCase() || "";
+  const items = document.querySelectorAll(".profile-item");
+
+  items.forEach((item) => {
+    // We grab the text straight from the DOM elements for real-time filtering
+    const code = item.querySelector(".profile-code").textContent.toLowerCase();
+    const label = item
+      .querySelector(".profile-label")
+      .textContent.toLowerCase();
+
+    item.classList.toggle(
+      "hidden",
+      !(code.includes(term) || label.includes(term)),
+    );
+  });
+}
+
+function markUnsaved() {
+  State.hasUnsavedChanges = true;
+  localStorage.setItem("english_draft_db", JSON.stringify(State.db));
+}
+
+function showToast(message) {
+  DOM.notification.innerHTML = message;
+  DOM.notification.classList.add("show");
+  setTimeout(() => DOM.notification.classList.remove("show"), 3000);
 }
