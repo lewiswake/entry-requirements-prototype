@@ -1,9 +1,14 @@
 let db = [];
 let activeIndex = -1;
+let hasUnsavedChanges = false;
 
 // --- FLAG HELPER ---
 function getFlagPath(code) {
   if (!code) return "";
+
+  const baseUrl =
+    "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags";
+
   const special = {
     scot: "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f",
     wales: "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f",
@@ -13,11 +18,11 @@ function getFlagPath(code) {
   };
 
   if (special[code.toLowerCase()])
-    return `../flags/${special[code.toLowerCase()]}.svg`;
+    return `${baseUrl}/${special[code.toLowerCase()]}.svg`;
 
   const main = code.split("-")[0].toUpperCase();
   if (main.length === 2)
-    return `../flags/${main
+    return `${baseUrl}/${main
       .split("")
       .map((c) => (c.charCodeAt(0) + 127397).toString(16))
       .join("-")}.svg`;
@@ -25,21 +30,59 @@ function getFlagPath(code) {
   return null;
 }
 
+// --- NOTIFICATION HELPER ---
+function showToast(message) {
+  const note = document.getElementById("notification");
+  note.innerHTML = message;
+  note.classList.add("show");
+  setTimeout(() => note.classList.remove("show"), 3000);
+}
+
+// --- AUTOSAVE & UNSAVED CHANGES ---
+window.addEventListener("beforeunload", (e) => {
+  if (hasUnsavedChanges) {
+    e.preventDefault();
+    e.returnValue = ""; // Triggers the browser's default warning prompt
+  }
+});
+
+function markUnsaved() {
+  hasUnsavedChanges = true;
+  // Autosave to local storage so progress isn't lost if the browser crashes
+  localStorage.setItem("pg_draft_db", JSON.stringify(db));
+}
+
 // 1. Initialize
-fetch("data/pg_requirements.json")
-  .then((res) => {
-    if (!res.ok) throw new Error("Could not find json file.");
-    return res.json();
-  })
-  .then((data) => {
-    db = data;
+function initApp() {
+  const savedDraft = localStorage.getItem("pg_draft_db");
+
+  if (savedDraft) {
+    // Load from local storage if a draft exists
+    db = JSON.parse(savedDraft);
+    hasUnsavedChanges = true;
     renderSidebar();
-  })
-  .catch((err) => {
-    console.error("Error loading JSON", err);
-    document.getElementById("empty-state").innerHTML =
-      `<div class="empty-icon" style="color:var(--danger);">⚠️</div><h2>Error Loading Data</h2><p>Could not load data/pg_requirements.json.</p>`;
-  });
+    showToast('<span class="toast-icon">📝</span> Recovered unsaved draft');
+  } else {
+    // Otherwise, load fresh from the server
+    fetch("data/pg_requirements.json")
+      .then((res) => {
+        if (!res.ok) throw new Error("Could not find json file.");
+        return res.json();
+      })
+      .then((data) => {
+        db = data;
+        renderSidebar();
+      })
+      .catch((err) => {
+        console.error("Error loading JSON", err);
+        document.getElementById("empty-state").innerHTML =
+          `<div class="empty-icon error-icon">⚠️</div><h2>Error Loading Data</h2><p>Could not load data/pg_requirements.json.</p>`;
+      });
+  }
+}
+
+// Call init on load
+initApp();
 
 function toggleSidebar() {
   document.getElementById("app-sidebar").classList.toggle("open");
@@ -54,17 +97,17 @@ function renderSidebar() {
   db.forEach((item, index) => {
     const flagPath = getFlagPath(item.code);
     const imgHtml = flagPath
-      ? `<img src="${flagPath}" alt="" style="height:18px; border-radius:3px; box-shadow:0 1px 3px rgba(0,0,0,0.1); margin-right:12px;" onerror="this.style.display='none';">`
+      ? `<img src="${flagPath}" class="profile-flag" alt="" onerror="this.classList.add('hidden');">`
       : "";
 
     const div = document.createElement("div");
     div.className = `profile-item ${index === activeIndex ? "active" : ""}`;
     div.innerHTML = `
-      <div style="display:flex; align-items:center;">
+      <div class="profile-item-header">
         ${imgHtml}
-        <span style="font-size:1.05rem; font-weight:700; color:inherit;">${item.country || "Unnamed Country"}</span>
+        <span class="profile-country-name">${item.country || "Unnamed Country"}</span>
       </div>
-      <span style="font-size:0.75rem; color:var(--text-light); text-transform:uppercase; margin-left: ${flagPath ? "30px" : "0"};">${item.code || "N/A"}</span>
+      <span class="profile-country-code ${flagPath ? "has-flag" : ""}">${item.code || "N/A"}</span>
     `;
 
     div.onclick = () => {
@@ -73,6 +116,27 @@ function renderSidebar() {
     };
     list.appendChild(div);
   });
+
+  // Re-apply filter if a search term is active
+  filterSidebar();
+}
+
+// Sidebar Search Filter
+function filterSidebar() {
+  const term =
+    document.getElementById("sidebar-search")?.value.toLowerCase() || "";
+  const items = document.querySelectorAll(".profile-item");
+
+  items.forEach((item, index) => {
+    const countryName = (db[index].country || "").toLowerCase();
+    const countryCode = (db[index].code || "").toLowerCase();
+
+    if (countryName.includes(term) || countryCode.includes(term)) {
+      item.classList.remove("hidden");
+    } else {
+      item.classList.add("hidden");
+    }
+  });
 }
 
 // 3. Load Editor
@@ -80,8 +144,8 @@ function loadEditor(index) {
   activeIndex = index;
   const countryData = db[index];
 
-  document.getElementById("empty-state").style.display = "none";
-  document.getElementById("editor-panel").style.display = "block";
+  document.getElementById("empty-state").classList.add("hidden");
+  document.getElementById("editor-panel").classList.remove("hidden");
 
   renderSidebar();
 
@@ -98,14 +162,43 @@ function loadEditor(index) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-// 4. Update Country Metadata
+// 4. Update Country Metadata (Optimized - No full re-render)
 document.getElementById("field-country-name").addEventListener("input", (e) => {
   db[activeIndex].country = e.target.value;
-  renderSidebar();
+  markUnsaved(); // Triggers autosave
+
+  const activeItem = document.querySelector(
+    ".profile-item.active .profile-country-name",
+  );
+  if (activeItem) activeItem.textContent = e.target.value || "Unnamed Country";
 });
+
 document.getElementById("field-country-code").addEventListener("input", (e) => {
-  db[activeIndex].code = e.target.value.toLowerCase();
-  renderSidebar(); // Re-render to update the flag dynamically!
+  const newCode = e.target.value.toLowerCase();
+  db[activeIndex].code = newCode;
+  markUnsaved(); // Triggers autosave
+
+  const activeItem = document.querySelector(".profile-item.active");
+  if (activeItem) {
+    const codeSpan = activeItem.querySelector(".profile-country-code");
+    codeSpan.textContent = newCode || "N/A";
+
+    const flagImg = activeItem.querySelector("img");
+    const newFlagPath = getFlagPath(newCode);
+
+    if (newFlagPath) {
+      if (flagImg) {
+        flagImg.src = newFlagPath;
+        flagImg.classList.remove("hidden");
+      } else {
+        renderSidebar();
+      }
+      codeSpan.classList.add("has-flag");
+    } else {
+      if (flagImg) flagImg.classList.add("hidden");
+      codeSpan.classList.remove("has-flag");
+    }
+  }
 });
 
 // 5. Render Qualifications (Cards)
@@ -115,7 +208,7 @@ function renderQualifications() {
   const countryData = db[activeIndex];
 
   if (countryData.postgraduate.qualifications.length === 0) {
-    container.innerHTML = `<p style="color:var(--text-light); font-style:italic;">No postgraduate qualifications added for this country yet.</p>`;
+    container.innerHTML = `<p class="empty-qualifications">No postgraduate qualifications added for this country yet.</p>`;
     return;
   }
 
@@ -125,7 +218,7 @@ function renderQualifications() {
 
     card.innerHTML = `
       <div class="test-title-row">
-          <div style="flex-grow:1; max-width: 600px;">
+          <div class="qual-title-wrapper">
               <input type="text" class="cms-test-title" 
                   value="${qual.name || ""}" placeholder="Qualification Name (e.g. Master's Degree)" 
                   onchange="updateQual(${i}, 'name', this.value)">
@@ -146,6 +239,7 @@ function renderQualifications() {
 
 function updateQual(index, field, value) {
   db[activeIndex].postgraduate.qualifications[index][field] = value;
+  markUnsaved();
 }
 
 function addQualification() {
@@ -153,12 +247,14 @@ function addQualification() {
     name: "New Qualification",
     detail: "",
   });
+  markUnsaved();
   renderQualifications();
 }
 
 function removeQual(index) {
   if (confirm("Remove this qualification?")) {
     db[activeIndex].postgraduate.qualifications.splice(index, 1);
+    markUnsaved();
     renderQualifications();
   }
 }
@@ -170,7 +266,8 @@ function addCountry() {
     country: "New Country",
     postgraduate: { qualifications: [] },
   });
-  loadEditor(0); // Load the newly created country at the top
+  markUnsaved();
+  loadEditor(0);
   if (window.innerWidth < 992) toggleSidebar();
 }
 
@@ -178,8 +275,9 @@ function deleteCountry() {
   if (confirm("Are you sure you want to delete this entire country profile?")) {
     db.splice(activeIndex, 1);
     activeIndex = -1;
-    document.getElementById("editor-panel").style.display = "none";
-    document.getElementById("empty-state").style.display = "block";
+    markUnsaved();
+    document.getElementById("editor-panel").classList.add("hidden");
+    document.getElementById("empty-state").classList.remove("hidden");
     renderSidebar();
   }
 }
@@ -198,7 +296,9 @@ function saveJSON() {
   a.click();
   URL.revokeObjectURL(url);
 
-  const note = document.getElementById("notification");
-  note.classList.add("show");
-  setTimeout(() => note.classList.remove("show"), 3000);
+  // Clear the unsaved changes warning and the draft since we just saved
+  hasUnsavedChanges = false;
+  localStorage.removeItem("pg_draft_db");
+
+  showToast('<span class="toast-icon">✓</span> Database saved successfully');
 }
