@@ -31,14 +31,22 @@
 
       <aside class="sidebar" id="app-sidebar">
         <div class="sidebar-header">
-          <span
-            style="font-size: 1.1rem; font-weight: 800; color: var(--text-dark)"
-            >Countries</span
-          >
+          <span class="sidebar-title">Countries</span>
           <button class="btn-new-profile" onclick="addCountry()">
             + Add Country
           </button>
         </div>
+
+        <div class="sidebar-search-container">
+          <input
+            type="text"
+            id="sidebar-search"
+            class="modern-input sidebar-search-input"
+            placeholder="Search countries or codes..."
+            onkeyup="filterSidebar()"
+          />
+        </div>
+
         <div class="profile-list" id="sidebar-list"></div>
       </aside>
 
@@ -52,7 +60,7 @@
           </p>
         </div>
 
-        <div id="editor-panel" style="display: none">
+        <div id="editor-panel" class="hidden">
           <div class="editor-header-card">
             <input
               type="text"
@@ -66,14 +74,13 @@
                 <label>ISO Code</label>
                 <input
                   type="text"
-                  class="cms-meta-input"
+                  class="cms-meta-input code-input"
                   id="field-country-code"
                   placeholder="e.g. in"
-                  style="width: 100px"
                 />
               </div>
 
-              <div style="margin-left: auto">
+              <div class="ms-auto">
                 <button
                   class="btn-danger"
                   onclick="deleteCountry()"
@@ -98,7 +105,7 @@
     </div>
 
     <button class="fab-save" onclick="saveJSON()">
-      <span style="font-size: 1.2rem">💾</span> Save JSON
+      <span class="fab-icon">💾</span> Save JSON
     </button>
 
     <script src="js/app.js"></script>
