@@ -2,6 +2,7 @@
   {
     "code": "af",
     "country": "Afghanistan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1eb.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -14,6 +15,7 @@
   {
     "code": "al",
     "country": "Albania",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1f1.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -26,6 +28,7 @@
   {
     "code": "dz",
     "country": "Algeria",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e9-1f1ff.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -38,6 +41,7 @@
   {
     "code": "ad",
     "country": "Andorra",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1e9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -50,6 +54,7 @@
   {
     "code": "ao",
     "country": "Angola",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1f4.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -62,6 +67,7 @@
   {
     "code": "ar",
     "country": "Argentina",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -74,6 +80,7 @@
   {
     "code": "am",
     "country": "Armenia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1f2.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -86,6 +93,7 @@
   {
     "code": "au-act",
     "country": "Australia (ACT)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -106,6 +114,7 @@
   {
     "code": "au-nsw",
     "country": "Australia (NSW)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -126,6 +135,7 @@
   {
     "code": "au-nt",
     "country": "Australia (NT)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -146,6 +156,7 @@
   {
     "code": "au-qld",
     "country": "Australia (Queensland)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -166,6 +177,7 @@
   {
     "code": "au-sa",
     "country": "Australia (South Australia)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -186,6 +198,7 @@
   {
     "code": "au-tas",
     "country": "Australia (Tasmania)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -206,6 +219,7 @@
   {
     "code": "au-vic",
     "country": "Australia (Victoria)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -226,6 +240,7 @@
   {
     "code": "au-wa",
     "country": "Australia (Western Australia)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -246,6 +261,7 @@
   {
     "code": "at",
     "country": "Austria",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1f9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -258,6 +274,7 @@
   {
     "code": "az",
     "country": "Azerbaijan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1ff.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -270,6 +287,7 @@
   {
     "code": "bs",
     "country": "Bahamas",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1f8.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -282,6 +300,7 @@
   {
     "code": "bh",
     "country": "Bahrain",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1ed.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -294,6 +313,7 @@
   {
     "code": "bd",
     "country": "Bangladesh",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1e9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -310,6 +330,7 @@
   {
     "code": "by",
     "country": "Belarus",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1fe.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -326,6 +347,7 @@
   {
     "code": "be",
     "country": "Belgium",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -338,6 +360,7 @@
   {
     "code": "bz",
     "country": "Belize",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1ff.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -350,6 +373,7 @@
   {
     "code": "bm",
     "country": "Bermuda",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1f2.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -362,6 +386,7 @@
   {
     "code": "bo",
     "country": "Bolivia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1f4.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -374,6 +399,7 @@
   {
     "code": "ba",
     "country": "Bosnia and Herzegovina",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -386,6 +412,7 @@
   {
     "code": "bw",
     "country": "Botswana",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1fc.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -402,6 +429,7 @@
   {
     "code": "br",
     "country": "Brazil",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -414,6 +442,7 @@
   {
     "code": "vg",
     "country": "British Virgin Isles",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fb-1f1ec.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -426,6 +455,7 @@
   {
     "code": "bn",
     "country": "Brunei",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1f3.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -438,6 +468,7 @@
   {
     "code": "bg",
     "country": "Bulgaria",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1ec.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -450,6 +481,7 @@
   {
     "code": "bi",
     "country": "Burundi",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e7-1f1ee.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -462,6 +494,7 @@
   {
     "code": "kh",
     "country": "Cambodia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f0-1f1ed.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -474,6 +507,7 @@
   {
     "code": "cm",
     "country": "Cameroon",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1f2.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -486,6 +520,7 @@
   {
     "code": "ca-ab",
     "country": "Canada (Alberta)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -498,6 +533,7 @@
   {
     "code": "ca-bc",
     "country": "Canada (British Columbia)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -510,6 +546,7 @@
   {
     "code": "ca-mb",
     "country": "Canada (Manitoba)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -522,6 +559,7 @@
   {
     "code": "ca-nb",
     "country": "Canada (New Brunswick)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -534,6 +572,7 @@
   {
     "code": "ca-nl",
     "country": "Canada (Newfoundland and Labrador)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -546,6 +585,7 @@
   {
     "code": "ca-nt",
     "country": "Canada (Northwest Territories)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -558,6 +598,7 @@
   {
     "code": "ca-ns",
     "country": "Canada (Nova Scotia)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -570,6 +611,7 @@
   {
     "code": "ca-nu",
     "country": "Canada (Nunavut)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -582,6 +624,7 @@
   {
     "code": "ca-on",
     "country": "Canada (Ontario)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -594,6 +637,7 @@
   {
     "code": "ca-pe",
     "country": "Canada (Prince Edward Island)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -606,6 +650,7 @@
   {
     "code": "ca-qc",
     "country": "Canada (Quebec)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -618,6 +663,7 @@
   {
     "code": "ca-sk",
     "country": "Canada (Saskatchewan)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -630,6 +676,7 @@
   {
     "code": "ca-yt",
     "country": "Canada (Yukon)",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -642,6 +689,7 @@
   {
     "code": "cl",
     "country": "Chile",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1f1.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -654,6 +702,7 @@
   {
     "code": "cn",
     "country": "China",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1f3.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -666,6 +715,7 @@
   {
     "code": "co",
     "country": "Colombia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1f4.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -678,10 +728,11 @@
   {
     "code": "ci",
     "country": "Côte d'Ivoire",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1ee.svg",
     "postgraduate": {
       "qualifications": [
         {
-          "name": "Diplôme d'Études Supérieures, Diplôme d'Études Approfondies, Maîtrise, Master II",
+          "name": "Diplôme d'Études Supérieures, Diplôme d'Études Approfondies, Master II",
           "detail": "Minimum grade of 14/20, Bien"
         }
       ]
@@ -690,6 +741,7 @@
   {
     "code": "ck",
     "country": "Cook Islands",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1f0.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -702,6 +754,7 @@
   {
     "code": "cr",
     "country": "Costa Rica",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -714,6 +767,7 @@
   {
     "code": "hr",
     "country": "Croatia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ed-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -726,6 +780,7 @@
   {
     "code": "cu",
     "country": "Cuba",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -738,6 +793,7 @@
   {
     "code": "cy",
     "country": "Cyprus",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1fe.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -750,6 +806,7 @@
   {
     "code": "cz",
     "country": "Czechia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -762,6 +819,7 @@
   {
     "code": "dk",
     "country": "Denmark",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e9-1f1f0.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -774,6 +832,7 @@
   {
     "code": "do",
     "country": "Dominican Republic",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e9-1f1f4.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -786,6 +845,7 @@
   {
     "code": "cd",
     "country": "DR Congo",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1e9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -798,6 +858,7 @@
   {
     "code": "ec",
     "country": "Ecuador",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ea-1f1e8.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -810,6 +871,7 @@
   {
     "code": "eg",
     "country": "Egypt",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ea-1f1ec.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -822,6 +884,7 @@
   {
     "code": "sv",
     "country": "El Salvador",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1fb.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -834,6 +897,7 @@
   {
     "code": "eng",
     "country": "England",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -846,6 +910,7 @@
   {
     "code": "er",
     "country": "Eritrea",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ea-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -858,6 +923,7 @@
   {
     "code": "ee",
     "country": "Estonia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ea-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -870,6 +936,7 @@
   {
     "code": "et",
     "country": "Ethiopia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ea-1f1f9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -882,6 +949,7 @@
   {
     "code": "fj",
     "country": "Fiji",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1eb-1f1ef.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -894,6 +962,7 @@
   {
     "code": "fi",
     "country": "Finland",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1eb-1f1ee.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -906,6 +975,7 @@
   {
     "code": "fr",
     "country": "France",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1eb-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -918,6 +988,7 @@
   {
     "code": "gm",
     "country": "Gambia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ec-1f1f2.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -930,6 +1001,7 @@
   {
     "code": "ge",
     "country": "Georgia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ec-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -942,6 +1014,7 @@
   {
     "code": "de",
     "country": "Germany",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e9-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -954,6 +1027,7 @@
   {
     "code": "gh",
     "country": "Ghana",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ec-1f1ed.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -966,6 +1040,7 @@
   {
     "code": "gr",
     "country": "Greece",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ec-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -978,6 +1053,7 @@
   {
     "code": "gd",
     "country": "Grenada",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ec-1f1e9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -990,6 +1066,7 @@
   {
     "code": "gt",
     "country": "Guatemala",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ec-1f1f9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1002,6 +1079,7 @@
   {
     "code": "gy",
     "country": "Guyana",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ec-1f1fe.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1014,6 +1092,7 @@
   {
     "code": "hn",
     "country": "Honduras",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ed-1f1f3.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1026,6 +1105,7 @@
   {
     "code": "hk",
     "country": "Hong Kong",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ed-1f1f0.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1038,6 +1118,7 @@
   {
     "code": "hu",
     "country": "Hungary",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ed-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1050,6 +1131,7 @@
   {
     "code": "is",
     "country": "Iceland",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ee-1f1f8.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1062,6 +1144,7 @@
   {
     "code": "in",
     "country": "India",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ee-1f1f3.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1074,6 +1157,7 @@
   {
     "code": "id",
     "country": "Indonesia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ee-1f1e9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1086,6 +1170,7 @@
   {
     "code": "ir",
     "country": "Iran",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ee-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1098,6 +1183,7 @@
   {
     "code": "iq",
     "country": "Iraq",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ee-1f1f6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1114,6 +1200,7 @@
   {
     "code": "ie",
     "country": "Ireland",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ee-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1126,6 +1213,7 @@
   {
     "code": "il",
     "country": "Israel",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ee-1f1f1.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1138,6 +1226,7 @@
   {
     "code": "it",
     "country": "Italy",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ee-1f1f9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1150,6 +1239,7 @@
   {
     "code": "jm",
     "country": "Jamaica",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ef-1f1f2.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1162,6 +1252,7 @@
   {
     "code": "jp",
     "country": "Japan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ef-1f1f5.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1174,6 +1265,7 @@
   {
     "code": "jo",
     "country": "Jordan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ef-1f1f4.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1186,6 +1278,7 @@
   {
     "code": "kz",
     "country": "Kazakhstan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f0-1f1ff.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1202,6 +1295,7 @@
   {
     "code": "ke",
     "country": "Kenya",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f0-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1214,6 +1308,7 @@
   {
     "code": "ki",
     "country": "Kiribati",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f0-1f1ee.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1226,6 +1321,7 @@
   {
     "code": "xk",
     "country": "Kosovo",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fd-1f1f0.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1238,6 +1334,7 @@
   {
     "code": "kw",
     "country": "Kuwait",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f0-1f1fc.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1250,6 +1347,7 @@
   {
     "code": "kg",
     "country": "Kyrgyzstan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f0-1f1ec.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1266,6 +1364,7 @@
   {
     "code": "la",
     "country": "Lao PDR",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f1-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1278,6 +1377,7 @@
   {
     "code": "lv",
     "country": "Latvia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f1-1f1fb.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1290,6 +1390,7 @@
   {
     "code": "lb",
     "country": "Lebanon",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f1-1f1e7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1310,6 +1411,7 @@
   {
     "code": "ls",
     "country": "Lesotho",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f1-1f1f8.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1322,6 +1424,7 @@
   {
     "code": "lr",
     "country": "Liberia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f1-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1334,6 +1437,7 @@
   {
     "code": "ly",
     "country": "Libya",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f1-1f1fe.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1346,6 +1450,7 @@
   {
     "code": "li",
     "country": "Liechtenstein",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f1-1f1ee.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1358,6 +1463,7 @@
   {
     "code": "lt",
     "country": "Lithuania",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f1-1f1f9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1370,6 +1476,7 @@
   {
     "code": "lu",
     "country": "Luxembourg",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f1-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1382,6 +1489,7 @@
   {
     "code": "mo",
     "country": "Macau",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1f4.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1394,6 +1502,7 @@
   {
     "code": "mg",
     "country": "Madagascar",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1ec.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1418,6 +1527,7 @@
   {
     "code": "mw",
     "country": "Malawi",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1fc.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1430,6 +1540,7 @@
   {
     "code": "my",
     "country": "Malaysia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1fe.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1442,6 +1553,7 @@
   {
     "code": "mv",
     "country": "Maldives",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1fb.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1454,6 +1566,7 @@
   {
     "code": "mt",
     "country": "Malta",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1f9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1466,6 +1579,7 @@
   {
     "code": "mr",
     "country": "Mauritania",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1478,6 +1592,7 @@
   {
     "code": "mu",
     "country": "Mauritius",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1490,6 +1605,7 @@
   {
     "code": "mx",
     "country": "Mexico",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1fd.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1502,6 +1618,7 @@
   {
     "code": "md",
     "country": "Moldova",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1e9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1514,6 +1631,7 @@
   {
     "code": "mc",
     "country": "Monaco",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1e8.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1526,6 +1644,7 @@
   {
     "code": "mn",
     "country": "Mongolia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1f3.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1538,6 +1657,7 @@
   {
     "code": "me",
     "country": "Montenegro",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1550,6 +1670,7 @@
   {
     "code": "ma",
     "country": "Morocco",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1562,6 +1683,7 @@
   {
     "code": "mz",
     "country": "Mozambique",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1ff.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1574,6 +1696,7 @@
   {
     "code": "mm",
     "country": "Myanmar",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1f2.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1586,6 +1709,7 @@
   {
     "code": "na",
     "country": "Namibia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f3-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1598,6 +1722,7 @@
   {
     "code": "np",
     "country": "Nepal",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f3-1f1f5.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1610,6 +1735,7 @@
   {
     "code": "nl",
     "country": "Netherlands",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f3-1f1f1.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1622,6 +1748,7 @@
   {
     "code": "nc",
     "country": "New Caledonia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f3-1f1e8.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1634,6 +1761,7 @@
   {
     "code": "nz",
     "country": "New Zealand",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f3-1f1ff.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1646,6 +1774,7 @@
   {
     "code": "ni",
     "country": "Nicaragua",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f3-1f1ee.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1658,6 +1787,7 @@
   {
     "code": "ne",
     "country": "Niger",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f3-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1670,6 +1800,7 @@
   {
     "code": "ng",
     "country": "Nigeria",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f3-1f1ec.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1682,6 +1813,7 @@
   {
     "code": "mk",
     "country": "North Macedonia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f2-1f1f0.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1694,6 +1826,7 @@
   {
     "code": "ni-uk",
     "country": "Northern Ireland",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ec-1f1e7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1706,6 +1839,7 @@
   {
     "code": "no",
     "country": "Norway",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f3-1f1f4.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1718,6 +1852,7 @@
   {
     "code": "om",
     "country": "Oman",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f4-1f1f2.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1730,6 +1865,7 @@
   {
     "code": "pk",
     "country": "Pakistan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f5-1f1f0.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1742,6 +1878,7 @@
   {
     "code": "ps",
     "country": "Palestine",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f5-1f1f8.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1754,6 +1891,7 @@
   {
     "code": "pa",
     "country": "Panama",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f5-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1766,6 +1904,7 @@
   {
     "code": "pg",
     "country": "Papua New Guinea",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f5-1f1ec.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1778,6 +1917,7 @@
   {
     "code": "py",
     "country": "Paraguay",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f5-1f1fe.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1790,6 +1930,7 @@
   {
     "code": "pe",
     "country": "Peru",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f5-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1802,6 +1943,7 @@
   {
     "code": "ph",
     "country": "Philippines",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f5-1f1ed.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1818,6 +1960,7 @@
   {
     "code": "pl",
     "country": "Poland",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f5-1f1f1.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1830,6 +1973,7 @@
   {
     "code": "pt",
     "country": "Portugal",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f5-1f1f9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1842,6 +1986,7 @@
   {
     "code": "pr",
     "country": "Puerto Rico",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f5-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1854,6 +1999,7 @@
   {
     "code": "qa",
     "country": "Qatar",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f6-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1866,6 +2012,7 @@
   {
     "code": "ro",
     "country": "Romania",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f7-1f1f4.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1878,6 +2025,7 @@
   {
     "code": "ru",
     "country": "Russia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f7-1f1fa.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1890,6 +2038,7 @@
   {
     "code": "rw",
     "country": "Rwanda",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f7-1f1fc.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1902,6 +2051,7 @@
   {
     "code": "sa",
     "country": "Saudi Arabia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1914,6 +2064,7 @@
   {
     "code": "scot",
     "country": "Scotland",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f3f4-e0067-e0062-e0073-e0063-e0074-e007f.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1926,6 +2077,7 @@
   {
     "code": "sn",
     "country": "Senegal",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1f3.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1938,6 +2090,7 @@
   {
     "code": "rs",
     "country": "Serbia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1f8.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1950,6 +2103,7 @@
   {
     "code": "sl",
     "country": "Sierra Leone",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1f1.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1966,6 +2120,7 @@
   {
     "code": "sg",
     "country": "Singapore",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1ec.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1978,6 +2133,7 @@
   {
     "code": "sk",
     "country": "Slovakia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1f0.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -1990,6 +2146,7 @@
   {
     "code": "si",
     "country": "Slovenia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1ee.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2002,6 +2159,7 @@
   {
     "code": "za",
     "country": "South Africa",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ff-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2014,6 +2172,7 @@
   {
     "code": "kr",
     "country": "South Korea",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f0-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2026,6 +2185,7 @@
   {
     "code": "es",
     "country": "Spain",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ea-1f1f8.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2038,6 +2198,7 @@
   {
     "code": "lk",
     "country": "Sri Lanka",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f1-1f1f0.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2050,6 +2211,7 @@
   {
     "code": "kn",
     "country": "St Kitts and Nevis",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f0-1f1f3.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2062,6 +2224,7 @@
   {
     "code": "sd",
     "country": "Sudan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1e9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2074,6 +2237,7 @@
   {
     "code": "se",
     "country": "Sweden",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2086,6 +2250,7 @@
   {
     "code": "ch",
     "country": "Switzerland",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e8-1f1ed.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2098,6 +2263,7 @@
   {
     "code": "sy",
     "country": "Syria",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f8-1f1fe.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2110,6 +2276,7 @@
   {
     "code": "tw",
     "country": "Taiwan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f9-1f1fc.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2122,6 +2289,7 @@
   {
     "code": "tj",
     "country": "Tajikistan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f9-1f1ef.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2138,6 +2306,7 @@
   {
     "code": "tz",
     "country": "Tanzania",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f9-1f1ff.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2150,6 +2319,7 @@
   {
     "code": "th",
     "country": "Thailand",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f9-1f1ed.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2162,6 +2332,7 @@
   {
     "code": "tg",
     "country": "Togo",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f9-1f1ec.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2174,6 +2345,7 @@
   {
     "code": "to",
     "country": "Tonga",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f9-1f1f4.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2186,6 +2358,7 @@
   {
     "code": "tt",
     "country": "Trinidad and Tobago",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f9-1f1f9.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2198,6 +2371,7 @@
   {
     "code": "tn",
     "country": "Tunisia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f9-1f1f3.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2210,6 +2384,7 @@
   {
     "code": "tr",
     "country": "Turkey",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f9-1f1f7.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2222,6 +2397,7 @@
   {
     "code": "tm",
     "country": "Turkmenistan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1f9-1f1f2.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2234,6 +2410,7 @@
   {
     "code": "ug",
     "country": "Uganda",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fa-1f1ec.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2246,6 +2423,7 @@
   {
     "code": "ua",
     "country": "Ukraine",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fa-1f1e6.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2262,6 +2440,7 @@
   {
     "code": "ae",
     "country": "United Arab Emirates",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1e6-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2274,6 +2453,7 @@
   {
     "code": "us",
     "country": "United States",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fa-1f1f8.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2286,6 +2466,7 @@
   {
     "code": "uy",
     "country": "Uruguay",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fa-1f1fe.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2298,6 +2479,7 @@
   {
     "code": "uz",
     "country": "Uzbekistan",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fa-1f1ff.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2310,6 +2492,7 @@
   {
     "code": "ve",
     "country": "Venezuela",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fb-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2322,6 +2505,7 @@
   {
     "code": "vn",
     "country": "Vietnam",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fb-1f1f3.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2334,6 +2518,7 @@
   {
     "code": "wales",
     "country": "Wales",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f3f4-e0067-e0062-e0077-e006c-e0073-e007f.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2346,6 +2531,7 @@
   {
     "code": "wf",
     "country": "Wallis and Futuna",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fc-1f1eb.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2358,6 +2544,7 @@
   {
     "code": "ye",
     "country": "Yemen",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1fe-1f1ea.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2370,6 +2557,7 @@
   {
     "code": "zm",
     "country": "Zambia",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ff-1f1f2.svg",
     "postgraduate": {
       "qualifications": [
         {
@@ -2382,6 +2570,7 @@
   {
     "code": "zw",
     "country": "Zimbabwe",
+    "flag_url": "https://www.st-andrews.ac.uk/dpl/1.27.5/assets/core/images/flags/1f1ff-1f1fc.svg",
     "postgraduate": {
       "qualifications": [
         {
