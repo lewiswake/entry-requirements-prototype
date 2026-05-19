@@ -1,129 +1,226 @@
-[
-  {
-    "id": "profile_1",
-    "title": "Standard Arts Divinity (AAAB)",
-    "qualifications": [
-      {
-        "name": "SQA Highers",
-        "grades": "AAAB",
-        "countries": "af,al,dz,ad,ao,ar,am,au,at,az,bs,bh,bd,by,be,bz,bm,bo,ba,bw,br,vg,bn,bg,bi,cm,kh,ca,cl,cn,co,ck,cr,ci,hr,cu,cy,cz,dk,do,cd,ec,eg,sv,gb,er,ee,et,fj,fi,fr,gm,ge,de,gh,gr,gd,gt,gy,hn,hk,hu,is,in,id,ir,iq,ie,il,it,jm,jp,jo,kz,ke,ki,xk,kw,kg,lv,la,lb,ls,lr,ly,li,lt,lu,mo,mk,mg,mw,my,mv,mt,mr,mu,mx,md,mc,mn,me,ma,mz,mm,na,np,nl,nc,nz,ni,ne,ng,no,om,pk,ps,pa,pg,py,pe,ph,pl,pt,pr,qa,ro,ru,rw,sa,sn,rs,sl,sg,sk,si,za,kr,es,lk,kn,sd,se,ch,sy,tw,tj,tz,th,tg,to,tt,tn,tr,tm,ug,ua,ae,uy,uz,ve,vn,wf,ye,zm,zw"
-      },
-      {
-        "name": "A-levels",
-        "grades": "AAA",
-        "countries": "af,al,dz,ad,ao,ar,am,au,at,az,bs,bh,bd,by,be,bz,bm,bo,ba,bw,br,vg,bn,bg,bi,cm,kh,ca,cl,cn,co,ck,cr,ci,hr,cu,cy,cz,dk,do,cd,ec,eg,sv,gb,er,ee,et,fj,fi,fr,gm,ge,de,gh,gr,gd,gt,gy,hn,hk,hu,is,in,id,ir,iq,ie,il,it,jm,jp,jo,kz,ke,ki,xk,kw,kg,lv,la,lb,ls,lr,ly,li,lt,lu,mo,mk,mg,mw,my,mv,mt,mr,mu,mx,md,mc,mn,me,ma,mz,mm,na,np,nl,nc,nz,ni,ne,ng,no,om,pk,ps,pa,pg,py,pe,ph,pl,pt,pr,qa,ro,ru,rw,sa,sn,rs,sl,sg,sk,si,za,kr,es,lk,kn,sd,se,ch,sy,tw,tj,tz,th,tg,to,tt,tn,tr,tm,ug,ua,ae,uy,uz,ve,vn,wf,ye,zm,zw"
-      },
-      {
-        "name": "International Baccalaureate (IB)",
-        "grades": "36 (HL 6,6,5)",
-        "countries": "af,al,dz,ad,ao,ar,am,au,at,az,bs,bh,bd,by,be,bz,bm,bo,ba,bw,br,vg,bn,bg,bi,cm,kh,ca,cl,cn,co,ck,cr,ci,hr,cu,cy,cz,dk,do,cd,ec,eg,sv,gb,er,ee,et,fj,fi,fr,gm,ge,de,gh,gr,gd,gt,gy,hn,hk,hu,is,in,id,ir,iq,ie,il,it,jm,jp,jo,kz,ke,ki,xk,kw,kg,lv,la,lb,ls,lr,ly,li,lt,lu,mo,mk,mg,mw,my,mv,mt,mr,mu,mx,md,mc,mn,me,ma,mz,mm,na,np,nl,nc,nz,ni,ne,ng,no,om,pk,ps,pa,pg,py,pe,ph,pl,pt,pr,qa,ro,ru,rw,sa,sn,rs,sl,sg,sk,si,za,kr,es,lk,kn,sd,se,ch,sy,tw,tj,tz,th,tg,to,tt,tn,tr,tm,ug,ua,ae,uy,us,uz,ve,vn,wf,ye,zm,zw"
-      },
-      {
-        "name": "Foundation programme certificate",
-        "grades": "Our International Foundation programmes offer a range of programmes providing excellent preparation for undergraduate academic study at the University of St Andrews.",
-        "countries": "af,al,dz,ao,ar,am,az,bs,bh,bd,by,bz,bo,ba,bw,br,vg,bn,bi,cm,kh,cl,cn,co,cr,ci,cu,cy,do,cd,ec,eg,sv,er,et,fj,gm,ge,gh,gr,gd,gt,gy,hn,hk,id,ir,iq,jp,jo,kz,ke,xk,kw,kg,la,lb,ls,lr,ly,mo,mg,mw,my,mv,mr,mx,mn,ma,mz,mm,na,np,ni,ne,ng,om,pk,ps,pa,pg,py,pe,ph,pr,qa,ru,rw,sa,sn,sl,sd,sy,tw,tj,tz,th,tg,tn,tr,tm,ug,ua,ae,uy,uz,ve,vn,ye,zm,zw"
-      },
-      {
-        "name": "European Baccalaureate",
-        "grades": "80% overall including 8.5 or above in required subjects.",
-        "countries": "ad,at,be,bg,hr,cy,cz,dk,ee,fi,fr,de,gr,ie,it,lv,li,lt,lu,mt,mc,nl,nc,pl,pt,ro,sk,si,es,se,ch,wf"
-      },
-      {
-        "name": "US Curriculum (AP)",
-        "grades": "Three subjects with scores of 4+ and 5 in required subjects.",
-        "countries": "cn,hk,ir,jp,lb,my,pe,sa,kr,tw,ae,us"
-      },
-      {
-        "name": "US Curriculum (SAT Subject Tests)",
-        "grades": "Three subject tests with minimum scores of 650 with 700 and above in required subjects.",
-        "countries": "cn,hk,ir,jp,lb,my,pe,sa,kr,tw,ae,us"
-      },
-      {
-        "name": "US Curriculum (ACT)",
-        "grades": "Score of 28+ (writing optional).",
-        "countries": "cn,hk,ir,jp,lb,my,pe,sa,kr,tw,ae,us"
-      },
-      {
-        "name": "French Baccalaureate",
-        "grades": "Overall score of 16 with scores of 17 in required subjects. Where a degree programme has specific required subjects, you will need to study these subjects as a specialism in your premiere and terminale years.",
-        "countries": "fr,lb,mc,nc,wf"
-      }
-    ]
-  },
-  {
-    "id": "profile_2",
-    "title": "Standard Science/Languages (AAAB)",
-    "qualifications": [
-      {
-        "name": "IB Points",
-        "grades": "36 (HL 6,6,5)",
-        "countries": ""
-      },
-      {
-        "name": "SQA (Standard Entry Grades)",
-        "grades": "AAAB",
-        "countries": "uk"
-      },
-      {
-        "name": "GCE A-Levels (Standard Entry Grades)",
-        "grades": "AAB",
-        "countries": "uk,ie"
-      }
-    ]
-  },
-  {
-    "id": "profile_3",
-    "title": "High SQA/A-Level (Competitive/Arts/Sciences)",
-    "qualifications": [
-      {
-        "name": "SQA (Standard Entry Grades)",
-        "grades": "AAAAB",
-        "countries": "uk"
-      }
-    ]
-  },
-  {
-    "id": "profile_4",
-    "title": "Physics Tier",
-    "qualifications": [
-      {
-        "name": "SQA (Standard Entry Grades)",
-        "grades": "AAAA",
-        "countries": "uk"
-      }
-    ]
-  },
-  {
-    "id": "profile_5",
-    "title": "Mathematics Tier (BSc/MA)",
-    "qualifications": [
-      {
-        "name": "SQA (Standard Entry Grades)",
-        "grades": "AAAAB",
-        "countries": "uk"
-      }
-    ]
-  },
-  {
-    "id": "profile_6",
-    "title": "Mathematics Tier (MMath)",
-    "qualifications": [
-      {
-        "name": "SQA (Standard Entry Grades)",
-        "grades": "AAAAB",
-        "countries": "uk"
-      }
-    ]
-  },
-  {
-    "id": "profile_7",
-    "title": "Geography/Sustainable Development Tier",
-    "qualifications": [
-      {
-        "name": "SQA (Standard Entry Grades)",
-        "grades": "AAAB",
-        "countries": "uk"
-      }
-    ]
-  }
-]
+{
+    "General_Profiles": {
+        "GenReq_01": {
+            "name": "Standard General Requirements",
+            "sqa": "SQA National 5 (B) in English and one SQA National 5 (B) from the following: Biology Chemistry Computing science Geography Applications of Mathematics Mathematics Physics Psychology.",
+            "gcse": "GCSE (5) in English language or English literature, and one GCSE (5) from the following: Biology Chemistry Computing Science Geography Mathematics Physics Psychology."
+        },
+        "GenReq_02": {
+            "name": "Alternative Math General Requirements",
+            "sqa": "SQA National 5 (B) in English and one SQA National 5 (B) from the following: Biology Chemistry Computing science Geography Lifeskills Mathematics (A grade) Mathematics Physics Psychology.",
+            "gcse": "GCSE (5) in English language or English literature, and one GCSE (5) from the following: Biology Chemistry Computing Science Geography Mathematics Physics Psychology."
+        }
+    },
+    "Base_Profiles": {
+        "Tier_01": {
+            "name": "Standard Profile 01",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB",
+                    "gateway": "Applicants who have narrowly missed the minimum entry grades, but meet the University's contextual criteria, may be interested in one of the University’s Gateway programmes."
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "36 (HL 6,6,5)",
+                    "minimum": "36 (HL 6,5,5)"
+                }
+            ]
+        },
+        "Tier_02": {
+            "name": "Standard Profile 02",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB",
+                    "gateway": "Applicants who have narrowly missed the minimum entry grades, but meet the University's contextual criteria, may be interested in one of the University’s Gateway programmes."
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAB",
+                    "minimum": "ABB"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "36 (HL 6,6,5)",
+                    "minimum": "36 (HL 6,5,5)"
+                }
+            ]
+        },
+        "Tier_03": {
+            "name": "Standard Profile 03",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AAAB"
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "A*A*A",
+                    "minimum": "A*AB"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)"
+                }
+            ]
+        },
+        "Tier_04": {
+            "name": "Standard Profile 04",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAA",
+                    "minimum": "AAAB",
+                    "gateway": "Applicants who have narrowly missed the minimum entry grades, but meet the University's contextual criteria, may be interested in one of the University’s Gateway programmes."
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "AAB"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)"
+                }
+            ]
+        },
+        "Tier_05": {
+            "name": "Standard Profile 05",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB"
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "36 (HL,6,6,5)",
+                    "minimum": "36 (HL, 6,5,5)"
+                }
+            ]
+        },
+        "Tier_06": {
+            "name": "Standard Profile 06",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AABB",
+                    "gateway": "Applicants who have narrowly missed the minimum entry grades, but meet the University's contextual criteria, may be interested in one of the University’s Gateway programmes."
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)"
+                }
+            ]
+        },
+        "Tier_07": {
+            "name": "Direct Entry Profile 07",
+            "qualifications": [
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,)"
+                }
+            ]
+        },
+        "Tier_08": {
+            "name": "Direct Entry Profile 08",
+            "qualifications": [
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "A*A*A"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "39 (HL 6,6,6)"
+                }
+            ]
+        },
+        "Tier_09": {
+            "name": "Direct Entry Profile 09",
+            "qualifications": [
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)"
+                }
+            ]
+        },
+        "Tier_10": {
+            "name": "Direct Entry Profile 10",
+            "qualifications": [
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,5)"
+                }
+            ]
+        },
+        "Tier_11": {
+            "name": "Direct Entry Profile 11",
+            "qualifications": [
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "39 (HL 6,6,6)"
+                }
+            ]
+        },
+        "Tier_12": {
+            "name": "Standard Profile 12",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB",
+                    "gateway": "Applicants who have narrowly missed the minimum entry grades, but meet the University's contextual criteria, may be interested in one of the University’s Gateway programmes."
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB"
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)"
+                }
+            ]
+        }
+    }
+}
