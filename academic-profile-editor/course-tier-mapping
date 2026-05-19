@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Tier Mapping | Admissions CMS</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .course-list {
+        column-count: 2;
+        column-gap: 40px;
+        line-height: 1.6;
+        color: var(--text-main);
+        padding-left: 20px;
+      }
+      @media (max-width: 768px) {
+        .course-list {
+          column-count: 1;
+        }
+      }
+      .tier-subtitle {
+        color: var(--text-light);
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mobile-nav">
+      <div class="mobile-nav-title">Course Tier Mapping</div>
+    </div>
+
+    <div class="modern-hero">
+      <div class="container">
+        <h1>Course Tier Mapping</h1>
+        <p class="lead">
+          Reference list of all undergraduate courses and their assigned base
+          grade tiers.
+        </p>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top: 40px; margin-bottom: 60px">
+      <!-- Tier 01 -->
+      <div class="test-card">
+        <h2 style="margin: 0; color: var(--primary)">
+          Tier 01 (AAAB / AAA / 36)
+        </h2>
+        <div class="tier-subtitle">Arts, Divinity, and Classics</div>
+        <ul class="course-list">
+          <li>Ancient History MA (Honours)</li>
+          <li>Ancient History and Archaeology MA (Honours)</li>
+          <li>Art History MA (Honours)</li>
+          <li>Biblical Studies MA (Honours)</li>
+          <li>Classics MA (Honours)</li>
+          <li>Greek MA (Honours)</li>
+          <li>Latin MA (Honours)</li>
+          <li>Theological Studies MA (Honours)</li>
+          <li>Theology MTheol (Honours)</li>
+        </ul>
+      </div>
+
+      <!-- Tier 02 -->
+      <div class="test-card">
+        <h2 style="margin: 0; color: var(--primary)">
+          Tier 02 (AAAB / AAB / 36)
+        </h2>
+        <div class="tier-subtitle">Biology, Languages, and Earth Sciences</div>
+        <ul class="course-list">
+          <li>Animal Behaviour BSc (Honours)</li>
+          <li>Biochemistry BSc (Honours)</li>
+          <li>Biochemistry MBiochem (Honours)</li>
+          <li>Biology BSc (Honours)</li>
+          <li>Biology MBiol (Honours)</li>
+          <li>Biology and Earth Sciences BSc</li>
+          <li>Cell Biology BSc (Honours)</li>
+          <li>Comparative Literature MA</li>
+          <li>Earth Sciences MGeol (Honours)</li>
+          <li>Ecology and Conservation BSc (Honours)</li>
+          <li>Environmental Earth Sciences BSc (Honours)</li>
+          <li>Evolutionary Biology BSc (Honours)</li>
+          <li>Film Studies MA (Honours)</li>
+          <li>French MA (Honours)</li>
+          <li>Geology BSc (Honours)</li>
+          <li>German MA (Honours)</li>
+          <li>Italian MA (Honours)</li>
+          <li>Marine Biology BSc (Honours)</li>
+          <li>Marine Biology MMarBiol (Honours)</li>
+          <li>Molecular Biology Bsc (Honours)</li>
+          <li>Neuroscience BSc (Honours)</li>
+          <li>Philosophy MA (Honours)</li>
+          <li>Psychology BSc (Honours)</li>
+          <li>Psychology MA (Honours)</li>
+          <li>Russian MA (Honours)</li>
+          <li>Social Anthropology MA (Honours)</li>
+          <li>Spanish MA (Honours)</li>
+          <li>Zoology BSc (Honours)</li>
+        </ul>
+      </div>
+
+      <!-- Tier 03 -->
+      <div class="test-card">
+        <h2 style="margin: 0; color: var(--primary)">
+          Tier 03 (AAAAB / A*A*A / 38)
+        </h2>
+        <div class="tier-subtitle">Mathematics and Statistics</div>
+        <ul class="course-list">
+          <li>Applied Mathematics MMath (Honours)</li>
+          <li>Biology and Mathematics BSc (Hons)</li>
+          <li>Biology and Statistics BSc (Hons)</li>
+          <li>Chemistry and Mathematics BSc (Hons)</li>
+          <li>Chemistry with Mathematics MChem (Hons)</li>
+          <li>Mathematics BSc (Honours)</li>
+          <li>Mathematics MA (Honours)</li>
+          <li>Mathematics MMath (Honours)</li>
+          <li>Pure Mathematics MMath (Honours)</li>
+          <li>Statistics BSc (Honours)</li>
+          <li>Statistics MA (Honours)</li>
+          <li>Statistics MMath (Honours)</li>
+        </ul>
+      </div>
+
+      <!-- Tier 04 -->
+      <div class="test-card">
+        <h2 style="margin: 0; color: var(--primary)">
+          Tier 04 (AAAA / AAA / 38)
+        </h2>
+        <div class="tier-subtitle">Physics and Astronomy</div>
+        <ul class="course-list">
+          <li>Astrophysics BSc (Honours)</li>
+          <li>Astrophysics MPhys (Honours)</li>
+          <li>Physics BSc (Honours)</li>
+          <li>Physics MPhys (Honours)</li>
+          <li>Theoretical Physics MPhys (Honours)</li>
+        </ul>
+      </div>
+
+      <!-- Tier 05 -->
+      <div class="test-card">
+        <h2 style="margin: 0; color: var(--primary)">
+          Tier 05 (AAAB / AAA / 36)
+        </h2>
+        <div class="tier-subtitle">
+          Divinity "With" Degrees (Alternative General Reqs)
+        </div>
+        <ul class="course-list">
+          <li>Bible and Culture MA ('with' degree)</li>
+          <li>Religion in Society MA ('with' degree)</li>
+        </ul>
+      </div>
+
+      <!-- Tier 06 -->
+      <div class="test-card">
+        <h2 style="margin: 0; color: var(--primary)">
+          Tier 06 (AAAAB / AAA / 38)
+        </h2>
+        <div class="tier-subtitle">
+          Highly Competitive Arts, Humanities, Chemistry, and Computer Science
+        </div>
+        <ul class="course-list">
+          <li>Biology and Chemistry BSc (Hons)</li>
+          <li>Biology and Computer Science BSc (Hons)</li>
+          <li>Chemical Sciences BSc (Honours)</li>
+          <li>Chemistry BSc (Honours)</li>
+          <li>Chemistry MChem (Honours)</li>
+          <li>Chemistry and Physics MSci (Hons)</li>
+          <li>Chemistry with French BSc (Hons)</li>
+          <li>Chemistry with French MChem (Hons)</li>
+          <li>Chemistry with Medicinal Chemistry BSc (Honours)</li>
+          <li>Chemistry with Medicinal Chemistry MChem (Honours)</li>
+          <li>Classical Studies BA (International Honours)</li>
+          <li>Computer Science BSc (Honours)</li>
+          <li>Computer Science MSci (Honours)</li>
+          <li>Economics BA (International Honours)</li>
+          <li>Economics BSc (Honours)</li>
+          <li>Economics MA (Honours)</li>
+          <li>English BA (International Honours)</li>
+          <li>English MA (Honours)</li>
+          <li>Film Studies BA (International Honours)</li>
+          <li>Financial Economics BSc (Honours)</li>
+          <li>Financial Economics MA (Honours)</li>
+          <li>German and Management MA (Hons)</li>
+          <li>History BA (International Honours)</li>
+          <li>History MA (Honours)</li>
+          <li>International Relations BA (International Honours)</li>
+          <li>International Relations MA (Honours)</li>
+          <li>Management BSc (Honours)</li>
+          <li>Management MA (Honours)</li>
+          <li>Materials Chemistry BSc (Honours)</li>
+          <li>Materials Chemistry MChem (Honours)</li>
+          <li>Medieval History MA (Honours)</li>
+          <li>Medieval History and Archaeology MA (Honours)</li>
+          <li>Middle East Studies MA (joint degree)</li>
+          <li>Modern History MA (Honours)</li>
+          <li>Scottish History MA (Honours)</li>
+        </ul>
+      </div>
+
+      <!-- Tier 12 -->
+      <div class="test-card">
+        <h2 style="margin: 0; color: var(--primary)">
+          Tier 12 (AAAB / AAA / 38)
+        </h2>
+        <div class="tier-subtitle">Geography and Sustainable Development</div>
+        <ul class="course-list">
+          <li>Geography BSc (Honours)</li>
+          <li>Geography MA (Honours)</li>
+          <li>Sustainable Development BSc (Honours)</li>
+          <li>Sustainable Development MA (Honours)</li>
+        </ul>
+      </div>
+
+      <div class="section-title">Direct Entry to Second Year Profiles</div>
+
+      <!-- Tier 07-11 -->
+      <div class="test-card">
+        <h2 style="margin: 0; color: var(--primary)">Tiers 07 - 11</h2>
+        <div class="tier-subtitle">
+          Note: SQA Highers are generally excluded from Direct Entry 2nd year
+          routes
+        </div>
+        <ul class="course-list" style="column-count: 1">
+          <li>
+            <strong>Tier 07 (AAA / 38):</strong> Direct entry to second year
+            Animal Behaviour BSc.
+          </li>
+          <li>
+            <strong>Tier 08 (A*A*A / 39):</strong> Direct entry to second year
+            Applied Mathematics, Mathematics (BSc/MMath), Pure Mathematics, and
+            Statistics (BSc/MMath).
+          </li>
+          <li>
+            <strong>Tier 09 (AAA / 38):</strong> Direct entry to second year
+            Astrophysics, Biochemistry, Biology BSc, Chemical Sciences,
+            Chemistry, Chemistry with Medicinal Chemistry, Earth Sciences,
+            Environmental Earth Sciences, Geology, Materials Chemistry, Physics,
+            Theoretical Physics.
+          </li>
+          <li>
+            <strong
+              >Tier 10 (AAA / 38 -
+              <em>Slightly different IB subject reqs</em>):</strong
+            >
+            Direct entry to second year Biology MBiol, Cell Biology, Ecology and
+            Conservation, Evolutionary Biology, Marine Biology, Molecular
+            Biology, Zoology.
+          </li>
+          <li>
+            <strong>Tier 11 (AAA / 39):</strong> Direct entry to second year
+            Computer Science (BSc/MSci).
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
