@@ -3,25 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Academic Profile Editor | Admissions CMS</title>
+    <title>Undergraduate Entry Requirements | Admissions CMS</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="mobile-nav">
-      <div class="mobile-nav-title">Academic Profile Editor</div>
+      <div class="mobile-nav-title">Undergraduate Entry Requirements</div>
       <button class="menu-toggle" onclick="toggleSidebar()">☰ Menu</button>
     </div>
 
     <div id="notification" class="toast-notification">
-      <span class="toast-icon">✓</span> Profiles saved successfully
+      <span class="toast-icon">✓</span> Data saved successfully
     </div>
 
     <div class="modern-hero">
       <div class="container">
-        <h1>Undergraduate Grade Profiles</h1>
+        <h1>Undergraduate Entry Requirements</h1>
         <p class="lead">
-          Manage academic entry requirements and geographic coverage across
-          global profiles.
+          Manage undergraduate base grade tiers and general entry requirement
+          variations for Terminal 4.
         </p>
       </div>
     </div>
@@ -30,13 +30,31 @@
       <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
 
       <aside class="sidebar" id="app-sidebar">
-        <div class="sidebar-header">
+        <div class="view-tabs">
+          <button
+            class="view-tab active"
+            onclick="switchView('profiles')"
+            id="tab-profiles"
+          >
+            Base Profiles
+          </button>
+          <button
+            class="view-tab"
+            onclick="switchView('general')"
+            id="tab-general"
+          >
+            General Reqs
+          </button>
+        </div>
+
+        <div class="sidebar-header" id="sidebar-header">
           <span
             style="font-size: 1.1rem; font-weight: 800; color: var(--text-dark)"
-            >Profiles</span
+            id="sidebar-title"
+            >Base Profiles</span
           >
-          <button class="btn-new-profile" onclick="addProfile()">
-            + New Profile
+          <button class="btn-new-profile" onclick="addNewSidebarItem()">
+            + Add New
           </button>
         </div>
         <div class="profile-list" id="sidebar-list"></div>
@@ -44,55 +62,84 @@
 
       <main class="main-editor">
         <div id="empty-state" class="empty-state">
-          <div class="empty-icon">🌍</div>
-          <h2>Select a Profile</h2>
-          <p>
-            Choose an academic profile from the sidebar to view and edit its
-            qualifications.
-          </p>
+          <div class="empty-icon">📂</div>
+          <h2>Select an Item</h2>
+          <p>Choose an item from the sidebar to view and edit its details.</p>
         </div>
 
-        <div id="editor-panel" style="display: none">
+        <div id="editor-profiles" class="editor-panel" style="display: none">
           <div class="editor-header-card">
-            <input
-              type="text"
-              class="cms-title-input"
-              id="field-profile-title"
-              placeholder="Profile Title (e.g. SQA: AAAA / A-Level: AAA)"
-            />
-
-            <div class="cms-meta-row">
-              <div class="cms-meta-group">
-                <label>Profile ID</label>
+            <div class="test-title-row" style="margin-bottom: 0">
+              <div style="flex-grow: 1">
                 <input
                   type="text"
-                  class="cms-meta-input"
-                  id="field-profile-id"
-                  placeholder="e.g. profile_1"
-                  style="width: 140px"
+                  class="cms-title-input"
+                  id="profile-title"
+                  placeholder="Profile Title (e.g., Tier_01)"
                 />
               </div>
-
-              <div style="margin-left: auto">
-                <button
-                  class="btn-danger"
-                  onclick="deleteProfile()"
-                  title="Delete Profile"
-                >
-                  🗑️ Delete Profile
-                </button>
-              </div>
+              <button class="btn-danger" onclick="deleteCurrentItem()">
+                🗑️ Delete
+              </button>
             </div>
+            <p
+              class="text-muted"
+              id="profile-id-display"
+              style="margin-top: -10px"
+            >
+              ID:
+            </p>
           </div>
-
           <div class="section-title">
-            <span>🎓 Qualifications within Profile</span>
-            <button class="btn-add-sm" onclick="addQualification()">
+            <span>Qualifications in this Tier</span>
+            <button class="btn-add-sm" onclick="addNewQualification()">
               + Add Qualification
             </button>
           </div>
+          <div id="profile-grades-container"></div>
+        </div>
 
-          <div id="qualifications-container"></div>
+        <div id="editor-general" class="editor-panel" style="display: none">
+          <div class="editor-header-card">
+            <div class="test-title-row" style="margin-bottom: 0">
+              <div style="flex-grow: 1">
+                <input
+                  type="text"
+                  class="cms-title-input"
+                  id="general-title"
+                  placeholder="Profile Name (e.g., Standard Route)"
+                />
+              </div>
+              <button class="btn-danger" onclick="deleteCurrentItem()">
+                🗑️ Delete
+              </button>
+            </div>
+            <p
+              class="text-muted"
+              id="general-id-display"
+              style="margin-top: -10px"
+            >
+              ID:
+            </p>
+          </div>
+
+          <div class="section-title">Boilerplate Requirements</div>
+          <div class="test-card">
+            <label class="modern-label">SQA General Requirements text</label>
+            <textarea
+              class="modern-textarea"
+              id="general-sqa"
+              rows="4"
+            ></textarea>
+          </div>
+          <div class="test-card">
+            <label class="modern-label">GCSE General Requirements text</label>
+            <textarea
+              class="modern-textarea"
+              id="general-gcse"
+              rows="4"
+            ></textarea>
+          </div>
         </div>
       </main>
     </div>
