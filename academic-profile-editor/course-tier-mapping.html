@@ -25,6 +25,13 @@
         margin-bottom: 20px;
         font-size: 0.95rem;
       }
+      .excluded-card {
+        background: #fff5f5;
+        border-color: #ffcccc;
+      }
+      .excluded-card h2 {
+        color: var(--dpl-red-shade) !important;
+      }
     </style>
   </head>
   <body>
@@ -55,6 +62,7 @@
           <li>Art History MA (Honours)</li>
           <li>Biblical Studies MA (Honours)</li>
           <li>Classics MA (Honours)</li>
+          <li>Divinity BD (Honours)</li>
           <li>Greek MA (Honours)</li>
           <li>Latin MA (Honours)</li>
           <li>Theological Studies MA (Honours)</li>
@@ -251,6 +259,63 @@
             <strong>Tier 11 (AAA / 39):</strong> Direct entry to second year
             Computer Science (BSc/MSci).
           </li>
+        </ul>
+      </div>
+
+      <div class="section-title" style="margin-top: 50px">
+        Bespoke Courses (Excluded from CMS Mapping)
+      </div>
+
+      <!-- Excluded Courses -->
+      <div class="test-card excluded-card">
+        <h2 style="margin: 0; color: var(--primary)">
+          Manually Maintained Courses
+        </h2>
+        <div class="tier-subtitle">
+          The following 20 courses are intentionally excluded from the Global
+          Lookup JSON because their requirements are bespoke, contextual, or
+          rely on distinct interview/test parameters. These should be maintained
+          as standard text within their respective T4 page layouts.
+        </div>
+
+        <h4 style="margin-bottom: 5px">
+          Medicine Degrees (Aptitude Tests & Interviews)
+        </h4>
+        <ul class="course-list" style="margin-top: 0; margin-bottom: 20px">
+          <li>Medicine BSc (A100)</li>
+          <li>Medicine BSc (A990)</li>
+          <li>Medicine MBChB (ScotCOM)</li>
+          <li>ScotGEM MBChB</li>
+        </ul>
+
+        <h4 style="margin-bottom: 5px">
+          Gateway Programmes (Contextual Entry)
+        </h4>
+        <ul class="course-list" style="margin-top: 0; margin-bottom: 20px">
+          <li>Gateway to Arts</li>
+          <li>Gateway to Medicine</li>
+          <li>Gateway to Science</li>
+        </ul>
+
+        <h4 style="margin-bottom: 5px">
+          Integrated Year Abroad (WIYA) / Specific Languages
+        </h4>
+        <ul class="course-list" style="margin-top: 0; margin-bottom: 20px">
+          <li>Arabic MA (and WIYA)</li>
+          <li>Chinese Studies MA (and WIYA)</li>
+          <li>French MA (WIYA)</li>
+          <li>German MA (WIYA)</li>
+          <li>Italian MA (WIYA)</li>
+          <li>Russian MA (WIYA)</li>
+          <li>Spanish MA (WIYA)</li>
+          <li>Hebrew MA</li>
+          <li>New Testament MA</li>
+          <li>Persian MA</li>
+        </ul>
+
+        <h4 style="margin-bottom: 5px">Other</h4>
+        <ul class="course-list" style="margin-top: 0">
+          <li>Combined Studies MA</li>
         </ul>
       </div>
     </div>
