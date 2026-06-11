@@ -12,213 +12,705 @@
         }
     },
     "Base_Profiles": {
-        "Tier_01": {
-            "name": "Standard Profile 01",
+        "Profile_01": {
+            "name": "Profile 01 (Direct Math)",
             "qualifications": [
                 {
-                    "name": "SQA Highers",
-                    "standard": "AAAB",
-                    "minimum": "AABB",
-                    "gateway": "Applicants who have narrowly missed the minimum entry grades, but meet the University's contextual criteria, may be interested in one of the University’s Gateway programmes."
-                },
-                {
                     "name": "GCE A-Levels",
-                    "standard": "AAA",
-                    "minimum": "ABB"
+                    "standard": "A*A*A",
+                    "minimum": "",
+                    "subject_requirements": "A* & A in required subjects",
+                    "gateway": ""
                 },
                 {
                     "name": "IB points",
-                    "standard": "36 (HL 6,6,5)",
-                    "minimum": "36 (HL 6,5,5)"
+                    "standard": "39 (HL 6,6,6)",
+                    "minimum": "",
+                    "subject_requirements": "HL6 in required subject(s)",
+                    "gateway": ""
                 }
             ]
         },
-        "Tier_02": {
-            "name": "Standard Profile 02",
-            "qualifications": [
-                {
-                    "name": "SQA Highers",
-                    "standard": "AAAB",
-                    "minimum": "AABB",
-                    "gateway": "Applicants who have narrowly missed the minimum entry grades, but meet the University's contextual criteria, may be interested in one of the University’s Gateway programmes."
-                },
-                {
-                    "name": "GCE A-Levels",
-                    "standard": "AAB",
-                    "minimum": "ABB"
-                },
-                {
-                    "name": "IB points",
-                    "standard": "36 (HL 6,6,5)",
-                    "minimum": "36 (HL 6,5,5)"
-                }
-            ]
-        },
-        "Tier_03": {
-            "name": "Standard Profile 03",
+        "Profile_02a": {
+            "name": "Profile 02a (Maths/Stats)",
             "qualifications": [
                 {
                     "name": "SQA Highers",
                     "standard": "AAAAB",
-                    "minimum": "AAAB"
+                    "minimum": "AABB",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
                 },
                 {
                     "name": "GCE A-Levels",
                     "standard": "A*A*A",
-                    "minimum": "A*AB"
+                    "minimum": "A*AB",
+                    "subject_requirements": "A* in required subject(s)",
+                    "gateway": ""
                 },
                 {
                     "name": "IB points",
                     "standard": "38 (HL 6,6,6)",
-                    "minimum": "36 (HL 6,5,5)"
+                    "minimum": "38 (HL 6,5,5)",
+                    "subject_requirements": "HL6 in required subject(s)",
+                    "gateway": ""
                 }
             ]
         },
-        "Tier_04": {
-            "name": "Standard Profile 04",
-            "qualifications": [
-                {
-                    "name": "SQA Highers",
-                    "standard": "AAAA",
-                    "minimum": "AAAB",
-                    "gateway": "Applicants who have narrowly missed the minimum entry grades, but meet the University's contextual criteria, may be interested in one of the University’s Gateway programmes."
-                },
-                {
-                    "name": "GCE A-Levels",
-                    "standard": "AAA",
-                    "minimum": "AAB"
-                },
-                {
-                    "name": "IB points",
-                    "standard": "38 (HL 6,6,6)",
-                    "minimum": "36 (HL 6,5,5)"
-                }
-            ]
-        },
-        "Tier_05": {
-            "name": "Standard Profile 05",
-            "qualifications": [
-                {
-                    "name": "SQA Highers",
-                    "standard": "AAAB",
-                    "minimum": "AABB"
-                },
-                {
-                    "name": "GCE A-Levels",
-                    "standard": "AAA",
-                    "minimum": "ABB"
-                },
-                {
-                    "name": "IB points",
-                    "standard": "36 (HL,6,6,5)",
-                    "minimum": "36 (HL, 6,5,5)"
-                }
-            ]
-        },
-        "Tier_06": {
-            "name": "Standard Profile 06",
+        "Profile_02b": {
+            "name": "Profile 02b (Bio & Maths)",
             "qualifications": [
                 {
                     "name": "SQA Highers",
                     "standard": "AAAAB",
                     "minimum": "AABB",
-                    "gateway": "Applicants who have narrowly missed the minimum entry grades, but meet the University's contextual criteria, may be interested in one of the University’s Gateway programmes."
+                    "subject_requirements": "Inc Bio, A in Math",
+                    "gateway": ""
                 },
                 {
                     "name": "GCE A-Levels",
-                    "standard": "AAA",
-                    "minimum": "ABB"
+                    "standard": "A*A*A",
+                    "minimum": "A*AB",
+                    "subject_requirements": "Inc Bio & A* in Math",
+                    "gateway": ""
                 },
                 {
                     "name": "IB points",
                     "standard": "38 (HL 6,6,6)",
-                    "minimum": "36 (HL 6,5,5)"
+                    "minimum": "38 (HL 6,5,5)",
+                    "subject_requirements": "HL6 in required subject(s)",
+                    "gateway": ""
                 }
             ]
         },
-        "Tier_07": {
-            "name": "Direct Entry Profile 07",
+        "Profile_02c": {
+            "name": "Profile 02c (Chem & Maths)",
             "qualifications": [
                 {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "A in Chem, A* in Math",
+                    "gateway": ""
+                },
+                {
                     "name": "GCE A-Levels",
-                    "standard": "AAA"
+                    "standard": "A*A*A",
+                    "minimum": "A*AB",
+                    "subject_requirements": "A in Chem, A* in Math",
+                    "gateway": ""
                 },
                 {
                     "name": "IB points",
-                    "standard": "38 (HL 6,6,)"
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "38 (HL 6,5,5)",
+                    "subject_requirements": "HL6 in required subject(s)",
+                    "gateway": ""
                 }
             ]
         },
-        "Tier_08": {
-            "name": "Direct Entry Profile 08",
+        "Profile_03": {
+            "name": "Profile 03 (Direct Comp Sci)",
             "qualifications": [
                 {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "",
+                    "subject_requirements": "A in Math & B in other science",
+                    "gateway": ""
+                },
+                {
                     "name": "GCE A-Levels",
-                    "standard": "A*A*A"
+                    "standard": "AAA",
+                    "minimum": "",
+                    "subject_requirements": "A in Math & pass in other science",
+                    "gateway": ""
                 },
                 {
                     "name": "IB points",
-                    "standard": "39 (HL 6,6,6)"
+                    "standard": "39 (HL 6,6,6)",
+                    "minimum": "",
+                    "subject_requirements": "HL6 in Math & SL5 in other science",
+                    "gateway": ""
                 }
             ]
         },
-        "Tier_09": {
-            "name": "Direct Entry Profile 09",
+        "Profile_04": {
+            "name": "Profile 04 (Direct Chem)",
             "qualifications": [
                 {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB & AB",
+                    "minimum": "",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                },
+                {
                     "name": "GCE A-Levels",
-                    "standard": "AAA"
+                    "standard": "AAA",
+                    "minimum": "",
+                    "subject_requirements": "A in Chem, B in Math/Phys",
+                    "gateway": ""
                 },
                 {
                     "name": "IB points",
-                    "standard": "38 (HL 6,6,6)"
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "",
+                    "subject_requirements": "HL6 in required subject(s)",
+                    "gateway": ""
                 }
             ]
         },
-        "Tier_10": {
-            "name": "Direct Entry Profile 10",
+        "Profile_05": {
+            "name": "Profile 05 (Direct Earth/Geology)",
             "qualifications": [
                 {
                     "name": "GCE A-Levels",
-                    "standard": "AAA"
+                    "standard": "AAA",
+                    "minimum": "",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
                 },
                 {
                     "name": "IB points",
-                    "standard": "38 (HL 6,6,5)"
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "",
+                    "subject_requirements": "HL6 in required subject(s)",
+                    "gateway": ""
                 }
             ]
         },
-        "Tier_11": {
-            "name": "Direct Entry Profile 11",
+        "Profile_06": {
+            "name": "Profile 06 (Direct Astro/Physics)",
             "qualifications": [
                 {
+                    "name": "SQA Highers",
+                    "standard": "AAAA & AA",
+                    "minimum": "",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                },
+                {
                     "name": "GCE A-Levels",
-                    "standard": "AAA"
+                    "standard": "AAA",
+                    "minimum": "",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
                 },
                 {
                     "name": "IB points",
-                    "standard": "39 (HL 6,6,6)"
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "",
+                    "subject_requirements": "HL6 in required subject(s)",
+                    "gateway": ""
                 }
             ]
         },
-        "Tier_12": {
-            "name": "Standard Profile 12",
+        "Profile_07": {
+            "name": "Profile 07 (Direct Biochem/Bio)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB & AB",
+                    "minimum": "",
+                    "subject_requirements": "AB",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "",
+                    "subject_requirements": "HL6 in required subject(s)",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_08": {
+            "name": "Profile 08 (Direct Animal/Cell/etc.)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB & AB",
+                    "minimum": "",
+                    "subject_requirements": "AB",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,5)",
+                    "minimum": "",
+                    "subject_requirements": "HL6 in required subject(s)",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_09": {
+            "name": "Profile 09 (Chem+Phys/French)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AAAB",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "AAA",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL6 standard, HL6,5 min",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_10a": {
+            "name": "Profile 10a (No subject reqs)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_10b": {
+            "name": "Profile 10b (Chemistry)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL6 standard, HL6 Chem & HL5 other Sci min",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_10c": {
+            "name": "Profile 10c (Comp Sci)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "A Math, pass other sci",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB",
+                    "subject_requirements": "A Math, pass other sci",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL6 Math, HL5 other sci",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_10d": {
+            "name": "Profile 10d (English)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL6 in required subject(s)",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_10e": {
+            "name": "Profile 10e (History)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "A standard, B min",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB",
+                    "subject_requirements": "A standard, B min",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL6 standard, HL5 min",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_10f": {
+            "name": "Profile 10f (German & Mgmt)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "B in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB",
+                    "subject_requirements": "A standard, B min",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points", "standard": "38 (HL 6,6,6)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL6 standard, HL5 min",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_10g": {
+            "name": "Profile 10g (Bio & Chem)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "B & A nuance",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB",
+                    "subject_requirements": "A standard, B&A min",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points", "standard": "38 (HL 6,6,6)", "minimum": "36 (HL 6,5,5)", "subject_requirements": "HL6 in required subject(s)", "gateway": ""
+                }
+            ]
+        },
+        "Profile_10h": {
+            "name": "Profile 10h (Bio & Comp Sci)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "B & A nuance",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB",
+                    "subject_requirements": "A standard, B&A min",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points", "standard": "38 (HL 6,6,6)", "minimum": "36 (HL 6,5,5)", "subject_requirements": "HL6 in required subject(s)", "gateway": ""
+                }
+            ]
+        },
+        "Profile_10i": {
+            "name": "Profile 10i (Chem & Phys/French)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAAB",
+                    "minimum": "AAAB",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "AAA",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points", "standard": "38 (HL 6,6,6)", "minimum": "36 (HL 6,5,5)", "subject_requirements": "HL6 standard, HL6,5 min",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_11": {
+            "name": "Profile 11 (Geography/Sust Dev)",
             "qualifications": [
                 {
                     "name": "SQA Highers",
                     "standard": "AAAB",
                     "minimum": "AABB",
-                    "gateway": "Applicants who have narrowly missed the minimum entry grades, but meet the University's contextual criteria, may be interested in one of the University’s Gateway programmes."
+                    "subject_requirements": "N/A",
+                    "gateway": ""
                 },
                 {
                     "name": "GCE A-Levels",
                     "standard": "AAA",
-                    "minimum": "ABB"
+                    "minimum": "ABB",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
                 },
                 {
                     "name": "IB points",
                     "standard": "38 (HL 6,6,6)",
-                    "minimum": "36 (HL 6,5,5)"
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_12a": {
+            "name": "Profile 12a (No subject reqs)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "36 (HL 6,6,5)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_12b": {
+            "name": "Profile 12b (Classics/Latin)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "A standard, B min",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAA",
+                    "minimum": "ABB",
+                    "subject_requirements": "A standard, B min",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "36 (HL 6,6,5)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL6 standard, HL5 min",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_13a": {
+            "name": "Profile 13a (No subject reqs)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAB",
+                    "minimum": "ABB",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "36 (HL 6,6,5)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "N/A",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_13b": {
+            "name": "Profile 13b (Bio suite)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "B in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAB",
+                    "minimum": "ABB",
+                    "subject_requirements": "B in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "36 (HL 6,6,5)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL6 standard, HL6 Bio & HL5 min",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_13c": {
+            "name": "Profile 13c (French)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAB",
+                    "minimum": "ABB",
+                    "subject_requirements": "A in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "36 (HL 6,6,5)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL6 (or SL7) in required subject(s)",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_13d": {
+            "name": "Profile 13d (Earth/Geo)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "B in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAB",
+                    "minimum": "ABB",
+                    "subject_requirements": "B in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "36 (HL 6,6,5)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL6 standard, HL5 min",
+                    "gateway": ""
+                }
+            ]
+        },
+        "Profile_13e": {
+            "name": "Profile 13e (Neuroscience)",
+            "qualifications": [
+                {
+                    "name": "SQA Highers",
+                    "standard": "AAAB",
+                    "minimum": "AABB",
+                    "subject_requirements": "B in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "GCE A-Levels",
+                    "standard": "AAB",
+                    "minimum": "ABB",
+                    "subject_requirements": "B in required subject(s)",
+                    "gateway": ""
+                },
+                {
+                    "name": "IB points",
+                    "standard": "36 (HL 6,6,5)",
+                    "minimum": "36 (HL 6,5,5)",
+                    "subject_requirements": "HL5 in required subject(s)",
+                    "gateway": ""
                 }
             ]
         }
