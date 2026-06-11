@@ -152,6 +152,10 @@ function loadProfileEditor(tierKey) {
                     <input type="text" class="modern-input" value="${qual.minimum || ""}" onchange="updateQual('${tierKey}', ${index}, 'minimum', this.value)">
                 </div>
                 <div class="prereq-group">
+                    <label class="modern-label">Subject Requirements</label>
+                    <textarea class="modern-textarea" rows="2" placeholder="e.g. Must include A in Mathematics" onchange="updateQual('${tierKey}', ${index}, 'subject_requirements', this.value)">${qual.subject_requirements || ""}</textarea>
+                </div>
+                <div class="prereq-group">
                     <label class="modern-label">Gateway Entry Grades (Optional)</label>
                     <input type="text" class="modern-input" value="${qual.gateway || ""}" onchange="updateQual('${tierKey}', ${index}, 'gateway', this.value)">
                 </div>
@@ -172,6 +176,7 @@ function addNewQualification() {
     name: "New Qualification",
     standard: "",
     minimum: "",
+    subject_requirements: "",
     gateway: "",
   });
   loadProfileEditor(activeItemKey);
