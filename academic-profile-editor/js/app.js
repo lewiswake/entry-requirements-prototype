@@ -1,5 +1,5 @@
 let db = null;
-let currentView = "profiles"; // 'profiles' or 'general'
+let currentView = "profiles";
 let activeItemKey = null;
 
 // 1. Initialize
@@ -44,37 +44,77 @@ function switchView(viewName) {
   renderSidebar();
 }
 
-// 3. Render Sidebar
+// 3. Render Sidebar (WITH SCHOOL GROUPING)
 function renderSidebar() {
   const list = document.getElementById("sidebar-list");
   list.innerHTML = "";
 
-  const collection =
-    currentView === "profiles" ? db.Base_Profiles : db.General_Profiles;
+  if (currentView === "profiles") {
+    // Group profiles by School
+    const groups = {};
+    Object.keys(db.Base_Profiles).forEach((key) => {
+      const profile = db.Base_Profiles[key];
+      const school = profile.school || "Unassigned";
+      if (!groups[school]) groups[school] = [];
+      groups[school].push({ key, name: profile.name });
+    });
 
-  Object.keys(collection).forEach((key) => {
-    const div = document.createElement("div");
-    div.className = `profile-item ${key === activeItemKey ? "active" : ""}`;
-    div.innerHTML = `<span class="profile-label">${collection[key].name}</span>`;
-    div.onclick = () => {
-      if (currentView === "profiles") loadProfileEditor(key);
-      if (currentView === "general") loadGeneralEditor(key);
-      if (window.innerWidth < 992) toggleSidebar();
-    };
-    list.appendChild(div);
-  });
+    // Sort schools alphabetically, but keep "Unassigned" at the top or bottom
+    const sortedSchools = Object.keys(groups).sort();
+
+    sortedSchools.forEach((school) => {
+      // Add School Header
+      const header = document.createElement("div");
+      header.innerHTML = `<div style="padding: 15px 25px 5px; font-size:0.75rem; text-transform:uppercase; font-weight:800; color:var(--dpl-mid-grey); letter-spacing:0.5px;">${school}</div>`;
+      list.appendChild(header);
+
+      // Add Profiles under this school
+      groups[school].forEach((item) => {
+        const div = document.createElement("div");
+        div.className = `profile-item ${item.key === activeItemKey ? "active" : ""}`;
+        div.innerHTML = `<span class="profile-label">${item.name}</span>`;
+        div.onclick = () => {
+          loadProfileEditor(item.key);
+          if (window.innerWidth < 992) toggleSidebar();
+        };
+        list.appendChild(div);
+      });
+    });
+  } else {
+    // General Reqs (Flat List)
+    Object.keys(db.General_Profiles).forEach((key) => {
+      const div = document.createElement("div");
+      div.className = `profile-item ${key === activeItemKey ? "active" : ""}`;
+      div.innerHTML = `<span class="profile-label">${db.General_Profiles[key].name}</span>`;
+      div.onclick = () => {
+        loadGeneralEditor(key);
+        if (window.innerWidth < 992) toggleSidebar();
+      };
+      list.appendChild(div);
+    });
+  }
 }
 
 // 4. Global Add/Delete actions
 function addNewSidebarItem() {
   const collection =
     currentView === "profiles" ? db.Base_Profiles : db.General_Profiles;
-  const prefix = currentView === "profiles" ? "Tier_" : "GenReq_";
+  const prefix = currentView === "profiles" ? "Profile_" : "GenReq_";
   const num = Object.keys(collection).length + 1;
-  const newKey = `${prefix}${num.toString().padStart(2, "0")}`;
+
+  let i = num;
+  let newKey = `${prefix}${i.toString().padStart(2, "0")}`;
+  while (collection[newKey]) {
+    i++;
+    newKey = `${prefix}${i.toString().padStart(2, "0")}`;
+  }
 
   if (currentView === "profiles") {
-    db.Base_Profiles[newKey] = { name: "New Base Profile", qualifications: [] };
+    db.Base_Profiles[newKey] = {
+      name: "New Base Profile",
+      school: "Unassigned",
+      qualifications: [],
+    };
     loadProfileEditor(newKey);
   } else {
     db.General_Profiles[newKey] = {
@@ -84,6 +124,25 @@ function addNewSidebarItem() {
     };
     loadGeneralEditor(newKey);
   }
+}
+
+function duplicateCurrentItem() {
+  if (currentView !== "profiles") return;
+
+  const prefix = "Profile_";
+  const num = Object.keys(db.Base_Profiles).length + 1;
+  let i = num;
+  let newKey = `${prefix}${i.toString().padStart(2, "0")}`;
+  while (db.Base_Profiles[newKey]) {
+    i++;
+    newKey = `${prefix}${i.toString().padStart(2, "0")}`;
+  }
+
+  const original = db.Base_Profiles[activeItemKey];
+  db.Base_Profiles[newKey] = JSON.parse(JSON.stringify(original));
+  db.Base_Profiles[newKey].name = original.name + " (Copy)";
+
+  loadProfileEditor(newKey);
 }
 
 function deleteCurrentItem() {
@@ -104,7 +163,7 @@ function deleteCurrentItem() {
   }
 }
 
-// 5. Base Profile Editor (Dynamic Qualifications)
+// 5. Base Profile Editor
 function loadProfileEditor(tierKey) {
   activeItemKey = tierKey;
   renderSidebar();
@@ -124,13 +183,20 @@ function loadProfileEditor(tierKey) {
     renderSidebar();
   };
 
+  // Bind School Dropdown
+  const schoolSelect = document.getElementById("profile-school");
+  schoolSelect.value = profile.school || "Unassigned";
+  schoolSelect.onchange = (e) => {
+    profile.school = e.target.value;
+    renderSidebar(); // Re-render sidebar to move the profile to the correct group
+  };
+
   document.getElementById("profile-id-display").innerText =
     `T4 Mapping ID: ${tierKey}`;
 
   const container = document.getElementById("profile-grades-container");
   container.innerHTML = "";
 
-  // Loop through the dynamic array
   if (profile.qualifications) {
     profile.qualifications.forEach((qual, index) => {
       const card = document.createElement("div");
@@ -148,14 +214,18 @@ function loadProfileEditor(tierKey) {
                     <input type="text" class="modern-input" value="${qual.standard || ""}" onchange="updateQual('${tierKey}', ${index}, 'standard', this.value)">
                 </div>
                 <div class="prereq-group">
+                    <label class="modern-label">Standard Subject Requirements</label>
+                    <textarea class="modern-textarea" rows="2" placeholder="e.g. Must include A in Mathematics" onchange="updateQual('${tierKey}', ${index}, 'subject_requirements_standard', this.value)">${qual.subject_requirements_standard || qual.subject_requirements || ""}</textarea>
+                </div>
+                <div class="prereq-group" style="margin-top:20px; border-top: 1px dashed var(--border-light); padding-top:20px;">
                     <label class="modern-label">Minimum Entry Grades</label>
                     <input type="text" class="modern-input" value="${qual.minimum || ""}" onchange="updateQual('${tierKey}', ${index}, 'minimum', this.value)">
                 </div>
                 <div class="prereq-group">
-                    <label class="modern-label">Subject Requirements</label>
-                    <textarea class="modern-textarea" rows="2" placeholder="e.g. Must include A in Mathematics" onchange="updateQual('${tierKey}', ${index}, 'subject_requirements', this.value)">${qual.subject_requirements || ""}</textarea>
+                    <label class="modern-label">Minimum Subject Requirements</label>
+                    <textarea class="modern-textarea" rows="2" placeholder="e.g. Must include B in Mathematics" onchange="updateQual('${tierKey}', ${index}, 'subject_requirements_minimum', this.value)">${qual.subject_requirements_minimum || ""}</textarea>
                 </div>
-                <div class="prereq-group">
+                <div class="prereq-group" style="margin-top:20px; border-top: 1px dashed var(--border-light); padding-top:20px;">
                     <label class="modern-label">Gateway Entry Grades (Optional)</label>
                     <input type="text" class="modern-input" value="${qual.gateway || ""}" onchange="updateQual('${tierKey}', ${index}, 'gateway', this.value)">
                 </div>
@@ -176,7 +246,8 @@ function addNewQualification() {
     name: "New Qualification",
     standard: "",
     minimum: "",
-    subject_requirements: "",
+    subject_requirements_standard: "",
+    subject_requirements_minimum: "",
     gateway: "",
   });
   loadProfileEditor(activeItemKey);
