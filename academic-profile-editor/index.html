@@ -69,27 +69,87 @@
 
         <div id="editor-profiles" class="editor-panel" style="display: none">
           <div class="editor-header-card">
-            <div class="test-title-row" style="margin-bottom: 0">
+            <div class="test-title-row" style="margin-bottom: 15px">
               <div style="flex-grow: 1">
                 <input
                   type="text"
                   class="cms-title-input"
                   id="profile-title"
                   placeholder="Profile Title (e.g., Tier_01)"
+                  style="margin-bottom: 0"
                 />
               </div>
-              <button class="btn-danger" onclick="deleteCurrentItem()">
-                🗑️ Delete
-              </button>
+              <div style="display: flex; gap: 10px">
+                <button
+                  class="btn-new-profile"
+                  onclick="duplicateCurrentItem()"
+                  style="background: var(--dpl-orange); color: var(--text-dark)"
+                >
+                  📑 Clone
+                </button>
+                <button class="btn-danger" onclick="deleteCurrentItem()">
+                  🗑️ Delete
+                </button>
+              </div>
             </div>
-            <p
-              class="text-muted"
-              id="profile-id-display"
-              style="margin-top: -10px"
+
+            <div
+              class="cms-meta-row"
+              style="
+                padding-top: 15px;
+                border-top: 1px dashed var(--border-light);
+                margin-bottom: 15px;
+              "
             >
+              <div class="cms-meta-group">
+                <label>Parent School / Category</label>
+                <select
+                  id="profile-school"
+                  class="modern-input"
+                  style="padding: 6px 12px; width: auto; font-size: 0.9rem"
+                >
+                  <option value="Unassigned">Unassigned / General</option>
+                  <option value="Art History">Art History</option>
+                  <option value="Biology">Biology</option>
+                  <option value="Business School">Business School</option>
+                  <option value="Chemistry">Chemistry</option>
+                  <option value="Classics">Classics</option>
+                  <option value="Computer Science">Computer Science</option>
+                  <option value="Divinity">Divinity</option>
+                  <option value="Earth & Environmental Science">
+                    Earth & Environmental Science
+                  </option>
+                  <option value="Economics">Economics</option>
+                  <option value="English">English</option>
+                  <option value="Geography & Sustainable Development">
+                    Geography & Sustainable Development
+                  </option>
+                  <option value="History">History</option>
+                  <option value="International Relations">
+                    International Relations
+                  </option>
+                  <option value="Mathematics">Mathematics</option>
+                  <option value="Modern Languages">Modern Languages</option>
+                  <option
+                    value="Philosophical, Anthropological and Film Studies"
+                  >
+                    Philosophical, Anthropological and Film Studies
+                  </option>
+                  <option value="Physics & Astronomy">
+                    Physics & Astronomy
+                  </option>
+                  <option value="Psychology & Neuroscience">
+                    Psychology & Neuroscience
+                  </option>
+                </select>
+              </div>
+            </div>
+
+            <p class="text-muted" id="profile-id-display" style="margin-top: 0">
               ID:
             </p>
           </div>
+
           <div class="section-title">
             <span>Qualifications in this Tier</span>
             <button class="btn-add-sm" onclick="addNewQualification()">
