@@ -669,11 +669,10 @@ body {
 }
 
 .grade-subject {
-  font-size: 1rem;
-  color: var(--text-muted);
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  font-weight: 700;
   display: block;
-  margin-block-start: 6px;
-  white-space: pre-wrap;
 }
 
 /* Student Quote */
@@ -742,7 +741,9 @@ body {
   border-radius: var(--border-radius);
   background-color: #f8fafc;
   overflow: hidden;
-  transition: background-color 0.2s ease, border-color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .accordion-item[open] {
@@ -760,7 +761,9 @@ body {
   justify-content: space-between;
   align-items: center;
   user-select: none;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .accordion-summary::-webkit-details-marker,
