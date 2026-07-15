@@ -1,4 +1,4 @@
-const COURSE_PROFILE_ID = "Profile_01";
+const COURSE_PROFILE_ID = "Profile_19";
 const GEN_REQ_ID = "GenReq_01";
 
 // State Management decoupled from rendering logic
@@ -270,13 +270,8 @@ function selectQualification(qual) {
   title.textContent = qual.name;
   fragment.appendChild(title);
 
-  const createGradeBlock = (
-    titleText,
-    gradeVal,
-    subjectReq,
-    isDivider = false,
-  ) => {
-    if (!isValid(gradeVal)) return;
+  const createItemBlock = (titleText, val, valueClass, isDivider = false) => {
+    if (!isValid(val)) return;
 
     const block = document.createElement("div");
     block.className = `grade-block${isDivider ? " divider" : ""}`;
@@ -285,31 +280,25 @@ function selectQualification(qual) {
     titleSpan.className = "grade-title";
     titleSpan.textContent = titleText;
 
-    const gradeSpan = document.createElement("span");
-    gradeSpan.className = "grade-value";
-    gradeSpan.textContent = gradeVal;
+    const valueSpan = document.createElement("span");
+    valueSpan.className = valueClass;
+    valueSpan.textContent = val;
 
-    block.append(titleSpan, gradeSpan);
-
-    if (isValid(subjectReq)) {
-      const subjectSpan = document.createElement("span");
-      subjectSpan.className = "grade-subject";
-      subjectSpan.textContent = subjectReq;
-      block.appendChild(subjectSpan);
-    }
+    block.append(titleSpan, valueSpan);
     fragment.appendChild(block);
   };
 
-  createGradeBlock(
-    "Standard Entry Grades",
-    qual.standard,
+  createItemBlock("Standard Entry Grades", qual.standard, "grade-value");
+  createItemBlock(
+    "Standard Subject Requirements",
     qual.subject_requirements_standard,
+    "grade-subject",
   );
-  createGradeBlock(
-    "Minimum Entry Grades",
-    qual.minimum,
+  createItemBlock("Minimum Entry Grades", qual.minimum, "grade-value", true);
+  createItemBlock(
+    "Minimum Subject Requirements",
     qual.subject_requirements_minimum,
-    true,
+    "grade-subject",
   );
 
   if (isValid(qual.gateway)) {
