@@ -3,148 +3,178 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="English Literature (MLitt) Postgraduate Course at the University of St Andrews." />
     <title>English Literature (MLitt) | St Andrews</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap"
+      as="style"
+      onload="this.onload = null; this.rel = 'stylesheet';"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap" />
+    </noscript>
+
+    <link rel="stylesheet" href="../undergraduate-course-page/styles.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/app.js" defer></script>
   </head>
-  <body
-    class="pg-theme"
-    data-course-url="https://www.st-andrews.ac.uk/subjects/english/english-mlitt/"
-  >
-    <div class="modern-hero">
-      <div class="container">
-        <h1>English Literature (MLitt)</h1>
-        <p class="lead">1 Year Full-time | School of English</p>
+  <body class="pg-theme" data-course-url="https://www.st-andrews.ac.uk/subjects/english/english-mlitt/">
+    <header class="main-header">
+      <div class="header-container">
+        <button class="hamburger-menu" aria-expanded="false" aria-label="Open menu">&#9776;</button>
+        <a href="#" aria-label="University of St Andrews home" class="logo-link">
+          <img src="https://www.st-andrews.ac.uk/~cdn/dpl/1.27.5/images/furniture/logo-foundation.svg" alt="" class="logo" width="200" height="50" decoding="async" />
+        </a>
       </div>
+    </header>
+
+    <div class="breadcrumbs-container">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol class="breadcrumbs-list">
+          <li><a href="#">Subjects</a><span class="separator" aria-hidden="true">></span></li>
+          <li><a href="#">English</a><span class="separator" aria-hidden="true">></span></li>
+          <li><span aria-current="page">English Literature (MLitt)</span></li>
+        </ol>
+      </nav>
     </div>
 
-    <div class="container layout-grid">
-      <div class="main-column">
-        <div class="content-card">
-          <p class="lead-text">
-            The MLitt in English Literature is an intensive one-year taught
-            programme. It develops well-rounded expertise in the literature of
-            the period through a mix of core and option choice modules.
-          </p>
-
-          <div class="req-widget-card" id="entry-reqs">
-            <h2 class="widget-title">Check Entry Requirements</h2>
-            <p class="text-muted">
-              Select your region and qualification to see what grades you need.
+    <div class="hero-wrapper">
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="hero-tags">
+              <span class="tag" style="background: var(--pg-color, #7b439a);">Postgraduate</span>
+              <span class="tag">In-Person</span>
+            </div>
+            <h1>
+              English Literature (MLitt)
+              <small style="display: block; font-size: 0.6em; margin-block-start: 0.5rem; color: #333;">2026 entry</small>
+            </h1>
+            <p class="lead">
+              The MLitt in English Literature is an intensive one-year taught programme. It develops well-rounded expertise in the literature of the period through a mix of core and option choice modules.
             </p>
 
-            <div class="form-row">
-              <div class="form-col">
-                <label for="country-selector" class="step-label"
-                  >1. I studied in</label
-                >
-                <select id="country-selector" class="modern-select">
-                  <option value="" disabled selected>Select Country...</option>
-                </select>
-              </div>
+            <div class="hero-buttons">
+              <button type="button" class="btn btn-primary">Apply Now</button>
+              <button type="button" class="btn btn-secondary">Register your interest</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
-              <div class="form-col">
-                <div id="qual-wrapper" class="disabled-wrapper">
-                  <label for="qual-selector" class="step-label"
-                    >2. My Qualification is</label
-                  >
-                  <select id="qual-selector" class="modern-select" disabled>
-                    <option value="" disabled selected>
-                      Select Qualification...
-                    </option>
+    <main class="container">
+      <div class="info-panel">
+        <div class="bento-grid">
+          <div class="bento-card">
+            <h3>Start Date</h3>
+            <span class="bento-primary-value">September 2026</span>
+          </div>
+          <div class="bento-card">
+            <h3>Tuition (UK)</h3>
+            <span class="bento-primary-value">£12,630</span>
+          </div>
+          <div class="bento-card">
+            <h3>Duration</h3>
+            <span class="bento-primary-value">1 Year</span>
+            <span class="bento-secondary-value">Full-time</span>
+          </div>
+          <div class="bento-card">
+            <h3>School</h3>
+            <span class="bento-primary-value">English</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-layout">
+        <aside class="sidebar">
+          <nav class="sticky-nav" aria-label="Page contents">
+            <h3>Page contents</h3>
+            <ul>
+              <li><a href="#why-study">Course overview</a></li>
+              <li><a href="#pathways">Pathways</a></li>
+              <li><a href="#entry-requirements">Entry requirements</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <div class="main-content">
+          <section id="why-study">
+            <h2>Course overview</h2>
+            <p>
+              The MLitt in English Literature is an intensive one-year taught programme. It develops well-rounded expertise in the literature of the period through a mix of core and option choice modules.
+            </p>
+          </section>
+
+          <section id="pathways" style="margin-block-start: 3.5rem">
+            <h2>Pathways</h2>
+            <p>You can choose from specific pathways to tailor your degree:</p>
+            <ul class="list-group">
+              <li class="list-group-item"><strong>→ Medieval Literature</strong></li>
+              <li class="list-group-item"><strong>→ Shakespeare and Renaissance</strong></li>
+              <li class="list-group-item"><strong>→ Romantic and Victorian</strong></li>
+              <li class="list-group-item"><strong>→ Modern and Contemporary</strong></li>
+            </ul>
+          </section>
+
+          <section id="entry-requirements" style="margin-block-start: 3.5rem">
+            <h2>Entry requirements</h2>
+            
+            <div class="req-widget-card" id="entry-reqs">
+              <h3 class="widget-title" style="margin-block-start:0;">Check Entry Requirements</h3>
+              <p class="text-muted">
+                Select your region and qualification to see what grades you need.
+              </p>
+
+              <div class="form-row">
+                <div class="form-col">
+                  <label for="country-selector" class="step-label">1. I studied in</label>
+                  <select id="country-selector" class="modern-select">
+                    <option value="" disabled selected>Select Country...</option>
                   </select>
                 </div>
-              </div>
-            </div>
 
-            <div id="result-area"></div>
-
-            <div class="english-section">
-              <h3 class="english-title">English Language Requirements</h3>
-
-              <div class="form-group">
-                <label for="english-selector" class="step-label"
-                  >Select your English Qualification</label
-                >
-                <select id="english-selector" class="modern-select">
-                  <option value="" disabled selected>
-                    Loading English Tests...
-                  </option>
-                </select>
+                <div class="form-col">
+                  <div id="qual-wrapper" class="disabled-wrapper">
+                    <label for="qual-selector" class="step-label">2. My Qualification is</label>
+                    <select id="qual-selector" class="modern-select" disabled>
+                      <option value="" disabled selected>Select Qualification...</option>
+                    </select>
+                  </div>
+                </div>
               </div>
 
-              <div id="english-result"></div>
-            </div>
+              <div id="result-area"></div>
 
-            <div class="toggle-wrapper">
-              <label class="switch">
-                <input type="checkbox" id="remember-toggle" />
-                <span class="slider"></span>
-              </label>
-              <span>Remember my location for next time</span>
-            </div>
-          </div>
+              <div class="english-section" style="margin-block-start: 2rem; border-block-start: 1px solid #e5e7eb; padding-block-start: 1.5rem;">
+                <h3 class="english-title">English Language Requirements</h3>
 
-          <h3 style="color: var(--primary); font-weight: 800; margin-top: 40px">
-            Pathways
-          </h3>
-          <p>You can choose from specific pathways to tailor your degree:</p>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <strong style="color: var(--primary)"
-                >→ Medieval Literature</strong
-              >
-            </li>
-            <li class="list-group-item">
-              <strong style="color: var(--primary)"
-                >→ Shakespeare and Renaissance</strong
-              >
-            </li>
-            <li class="list-group-item">
-              <strong style="color: var(--primary)"
-                >→ Romantic and Victorian</strong
-              >
-            </li>
-            <li class="list-group-item">
-              <strong style="color: var(--primary)"
-                >→ Modern and Contemporary</strong
-              >
-            </li>
-          </ul>
+                <div class="form-group">
+                  <label for="english-selector" class="step-label">Select your English Qualification</label>
+                  <select id="english-selector" class="modern-select">
+                    <option value="" disabled selected>Loading English Tests...</option>
+                  </select>
+                </div>
+
+                <div id="english-result"></div>
+              </div>
+
+              <div class="toggle-wrapper" style="margin-block-start: 1.5rem;">
+                <label class="switch">
+                  <input type="checkbox" id="remember-toggle" />
+                  <span class="slider"></span>
+                </label>
+                <span>Remember my location for next time</span>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
-
-      <div class="sidebar-column">
-        <div class="sidebar-card">
-          <div class="sidebar-header">Key Information</div>
-          <div class="sidebar-body">
-            <div class="key-fact">
-              <strong>Start Date</strong> September 2026
-            </div>
-            <div class="key-fact">
-              <strong>Duration</strong> 1 Year Full-time
-            </div>
-            <div class="key-fact"><strong>Tuition (UK)</strong> £12,630</div>
-            <div class="key-fact">
-              <strong>Tuition (Overseas)</strong> £27,200
-            </div>
-            <button class="btn-primary-large">Apply Now</button>
-          </div>
-        </div>
-
-        <div class="sidebar-card" style="margin-top: 30px">
-          <div class="sidebar-body">
-            <h4 class="text-primary" style="margin-top: 0; font-weight: 800">
-              Ask a Student
-            </h4>
-            <p class="text-muted">
-              Chat with current students to learn about life at St Andrews.
-            </p>
-            <a href="#" class="btn-ghost-block">Chat Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="js/app.js"></script>
+    </main>
   </body>
 </html>
